@@ -1,0 +1,46 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiStyles = require("@material-ui/styles");
+  var _materialUiCoreTypography = require('@material-ui/core/Typography');
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _uiTheme = require("./ui/Theme");
+  var _uiThemeDefault = _parcelHelpers.interopDefault(_uiTheme);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/App.js";
+  const App = () => {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_materialUiStyles.ThemeProvider, {
+        theme: _uiThemeDefault.default,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h1",
+        color: "primary",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 9
+        }
+      }, "Hello"))
+    );
+  };
+  _c = App;
+  exports.default = App;
+  var _c;
+  $RefreshReg$(_c, "App");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

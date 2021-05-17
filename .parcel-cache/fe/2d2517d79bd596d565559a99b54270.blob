@@ -1,0 +1,4 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _materialUiCoreStyles = require('@material-ui/core/styles');
+exports.default = _materialUiCoreStyles.createMuiTheme({});
