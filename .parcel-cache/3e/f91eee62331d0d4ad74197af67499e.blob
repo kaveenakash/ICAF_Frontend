@@ -1,0 +1,27 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+const sections = [{
+  title: "Home",
+  url: "#"
+}, {
+  title: "Keynotes",
+  url: "#"
+}, {
+  title: "Authors",
+  url: "#"
+}, {
+  title: "Downloads",
+  url: "#"
+}, {
+  title: "Registrations",
+  url: "#"
+}, {
+  title: "WorkShops",
+  url: "#"
+}, {
+  title: "Contact Us",
+  url: "#"
+}];
+exports.default = {
+  sections
+};

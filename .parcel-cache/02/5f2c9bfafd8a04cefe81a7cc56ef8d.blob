@@ -1,0 +1,27 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _materialUiCoreStyles = require("@material-ui/core/styles");
+const mainBlue = "#24153A";
+const mainPurple = "#9D45B0";
+exports.default = _materialUiCoreStyles.createMuiTheme({
+  palette: {
+    common: {
+      blue: `${mainBlue}`,
+      purple: `${mainPurple}`
+    },
+    primary: {
+      main: `${mainBlue}`
+    },
+    secondary: {
+      main: `${mainPurple}`
+    }
+  },
+  typography: {
+    tab: {
+      fontFamily: "Raleway",
+      textTransform: "none",
+      fontSize: "1rem",
+      fontWeight: 700
+    }
+  }
+});

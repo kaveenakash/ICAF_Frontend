@@ -1,0 +1,259 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreAppBar = require("@material-ui/core/AppBar");
+  var _materialUiCoreAppBarDefault = _parcelHelpers.interopDefault(_materialUiCoreAppBar);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreToolbar = require("@material-ui/core/Toolbar");
+  var _materialUiCoreToolbarDefault = _parcelHelpers.interopDefault(_materialUiCoreToolbar);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreUseScrollTrigger = require("@material-ui/core/useScrollTrigger");
+  var _materialUiCoreUseScrollTriggerDefault = _parcelHelpers.interopDefault(_materialUiCoreUseScrollTrigger);
+  var _materialUiCoreTabs = require("@material-ui/core/Tabs");
+  var _materialUiCoreTabsDefault = _parcelHelpers.interopDefault(_materialUiCoreTabs);
+  var _materialUiCoreTab = require("@material-ui/core/Tab");
+  var _materialUiCoreTabDefault = _parcelHelpers.interopDefault(_materialUiCoreTab);
+  var _materialUiIconsExitToApp = require('@material-ui/icons/ExitToApp');
+  var _materialUiIconsExitToAppDefault = _parcelHelpers.interopDefault(_materialUiIconsExitToApp);
+  require("../../store/data");
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    toolbar: {
+      borderBottom: `1px solid ${theme.palette.divider}`
+    },
+    toolbarMargin: {
+      ...theme.mixins.toolbar
+    },
+    toolbarTitle: {
+      flex: 1
+    },
+    toolbarSecondary: {
+      justifyContent: "center",
+      overflowX: "auto"
+    },
+    toolbarLink: {
+      padding: theme.spacing(1),
+      flexShrink: 0
+    },
+    tabContainer: {},
+    tab: {
+      ...theme.typography.tab
+    },
+    button: {
+      fontFamily: "Raleway",
+      textTransform: "none",
+      fontWeight: 600
+    }
+  }));
+  const Header = props => {
+    _s();
+    const classes = useStyles();
+    const [value, setValue] = _react.useState(0);
+    const handleChange = (e, value) => {
+      setValue(value);
+    };
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(ElevationScroll, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAppBarDefault.default, {
+        position: "fixed",
+        color: "primary",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
+        className: classes.toolbar,
+        color: "primary",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        size: "small",
+        style: {
+          color: "#00ACC1"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 13
+        }
+      }, "Subscribe"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        component: "h2",
+        variant: "h4",
+        color: "inherit",
+        align: "center",
+        style: {
+          fontWeight: 700
+        },
+        noWrap: true,
+        className: classes.toolbarTitle,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 13
+        }
+      }, "I C A F"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        size: "small",
+        color: "secondary",
+        className: classes.button,
+        startIcon: /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsExitToAppDefault.default, {
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 76,
+            columnNumber: 110
+          }
+        }),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 13
+        }
+      }, "Sign in")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
+        component: "nav",
+        variant: "dense",
+        className: classes.toolbarSecondary,
+        disableGutters: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabsDefault.default, {
+        value: value,
+        className: classes.tabContainer,
+        onChange: handleChange,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabDefault.default, {
+        className: classes.tab,
+        label: "Home",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabDefault.default, {
+        className: classes.tab,
+        label: "Keynotes",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabDefault.default, {
+        className: classes.tab,
+        label: "Authors",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabDefault.default, {
+        className: classes.tab,
+        label: "Downloads",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabDefault.default, {
+        className: classes.tab,
+        label: "Registrations",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabDefault.default, {
+        className: classes.tab,
+        label: "WorkShops",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabDefault.default, {
+        className: classes.tab,
+        label: "Contact Us",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93,
+          columnNumber: 15
+        }
+      }))))))
+    );
+  };
+  _s(Header, "0hGeaJtkMATk6V993mcW0ToMJKc=", false, function () {
+    return [useStyles];
+  });
+  _c = Header;
+  function ElevationScroll(props) {
+    _s2();
+    const {children, window} = props;
+    const trigger = _materialUiCoreUseScrollTriggerDefault.default({
+      disableHysteresis: true,
+      threshold: 0
+    });
+    return (
+      /*#__PURE__*/_reactDefault.default.cloneElement(children, {
+        elevation: trigger ? 4 : 0
+      })
+    );
+  }
+  _s2(ElevationScroll, "EC2GbbZl9x3XKoXLVx1H89cOBi0=", false, function () {
+    return [_materialUiCoreUseScrollTriggerDefault.default];
+  });
+  _c2 = ElevationScroll;
+  exports.default = Header;
+  var _c, _c2;
+  $RefreshReg$(_c, "Header");
+  $RefreshReg$(_c2, "ElevationScroll");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

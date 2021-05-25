@@ -1,0 +1,187 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreAppBar = require('@material-ui/core/AppBar');
+  var _materialUiCoreAppBarDefault = _parcelHelpers.interopDefault(_materialUiCoreAppBar);
+  var _materialUiCoreStyles = require('@material-ui/core/styles');
+  var _materialUiCoreToolbar = require('@material-ui/core/Toolbar');
+  var _materialUiCoreToolbarDefault = _parcelHelpers.interopDefault(_materialUiCoreToolbar);
+  var _materialUiCoreButton = require('@material-ui/core/Button');
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreIconButton = require('@material-ui/core/IconButton');
+  var _materialUiCoreIconButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreIconButton);
+  var _materialUiIconsSearch = require('@material-ui/icons/Search');
+  var _materialUiIconsSearchDefault = _parcelHelpers.interopDefault(_materialUiIconsSearch);
+  var _materialUiCoreTypography = require('@material-ui/core/Typography');
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  require('@material-ui/core/Link');
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/ui/Header.js", _s = $RefreshSig$();
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    toolbar: {
+      borderBottom: `1px solid ${theme.palette.divider}`
+    },
+    toolbarTitle: {
+      flex: 1
+    },
+    toolbarSecondary: {
+      justifyContent: 'center',
+      overflowX: 'auto'
+    },
+    toolbarLink: {
+      padding: theme.spacing(1),
+      flexShrink: 0
+    }
+  }));
+  function Header(props) {
+    _s();
+    const classes = useStyles();
+    const sections = [{
+      title: 'Home',
+      url: '#'
+    }, {
+      title: 'Keynotes',
+      url: '#'
+    }, {
+      title: 'Authors',
+      url: '#'
+    }, {
+      title: 'Downloads',
+      url: '#'
+    }, {
+      title: 'Registrations',
+      url: '#'
+    }, {
+      title: 'WorkShops',
+      url: '#'
+    }, {
+      title: 'Contact Us',
+      url: '#'
+    }];
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAppBarDefault.default, {
+        position: "static",
+        color: "secondary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
+        className: classes.toolbar,
+        color: "primary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        size: "small",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 9
+        }
+      }, "Subscribe"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        component: "h2",
+        variant: "h5",
+        color: "inherit",
+        align: "center",
+        noWrap: true,
+        className: classes.toolbarTitle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 9
+        }
+      }, "ICAF"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsSearchDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 11
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "outlined",
+        size: "small",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 9
+        }
+      }, "Sign up"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAppBarDefault.default, {
+        position: "static",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
+        component: "nav",
+        variant: "dense",
+        className: classes.toolbarSecondary,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 7
+        }
+      }, sections.map(section => /*#__PURE__*/
+      // <Link
+      // color="inherit"
+      // noWrap
+      // key={section.title}
+      // variant="body2"
+      // href={section.url}
+      // className={classes.toolbarLink}
+      // >
+      // {section.title}
+      // </Link>
+      _reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79,
+          columnNumber: 9
+        }
+      }, section.title)))))
+    );
+  }
+  exports.default = Header;
+  _s(Header, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = Header;
+  var _c;
+  $RefreshReg$(_c, "Header");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
