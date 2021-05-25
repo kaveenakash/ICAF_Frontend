@@ -1,18 +1,18 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 
 const mainBlue = "#001F3D";
-const mainPurple = "#EBAC26";
+const mainYellow = "#EBAC26";
 export default createMuiTheme({
   palette: {
     common: {
       blue: `${mainBlue}`,
-      purple: `${mainPurple}`,
+      yellow: `${mainYellow}`,
     },
     primary: {
       main: `${mainBlue}`,
     },
     secondary: {
-      main: `${mainPurple}`,
+      main: `${mainYellow}`,
     },
   },
   typography: {

@@ -1,0 +1,377 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreHidden = require('@material-ui/core/Hidden');
+  var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
+  var _materialUiIconsFacebook = require('@material-ui/icons/Facebook');
+  var _materialUiIconsFacebookDefault = _parcelHelpers.interopDefault(_materialUiIconsFacebook);
+  var _materialUiIconsTwitter = require('@material-ui/icons/Twitter');
+  var _materialUiIconsTwitterDefault = _parcelHelpers.interopDefault(_materialUiIconsTwitter);
+  var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
+  var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
+  require("@material-ui/core/Icon");
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
+  const Footer = props => {
+    _s();
+    const classes = useStyles();
+    const {value, setValue} = props;
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("footer", {
+        className: classes.footer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreHiddenDefault.default, {
+        mdDown: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        justify: "center",
+        className: classes.mainContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 13
+        }
+      }, "Home"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/downloads",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 15
+        }
+      }, "Downloads"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 15
+        }
+      }, "Services"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 15
+        }
+      }, "Services"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/keynotes",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 17
+        }
+      }, "Keynotes"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/precentations",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 17
+        }
+      }, "Research Paper Precentations"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 3,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/contact-us",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 17
+        }
+      }, "Contact Us"))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        component: _reactRouterDom.Link,
+        to: "/",
+        disableRipple: true,
+        className: classes.footerLogoContainer,
+        onClick: () => setValue(0),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        alt: "I C A F",
+        className: classes.adornment,
+        src: "https://i.ibb.co/7N51p43/logo.png",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 7
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        className: classes.socialContainer,
+        justify: "flex-end",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        component: "a",
+        href: "http://www.facebook.com",
+        rel: "noopener noreferrer",
+        target: "_blank",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsFacebookDefault.default, {
+        className: classes.icon,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        component: "a",
+        href: "http://www.twitter.com",
+        rel: "noopener noreferrer",
+        target: "_blank",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsTwitterDefault.default, {
+        className: classes.icon,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        component: "a",
+        href: "http://www.linkedin.com",
+        rel: "noopener noreferrer",
+        target: "_blank",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsLinkedInDefault.default, {
+        className: classes.icon,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84,
+          columnNumber: 15
+        }
+      }))))
+    );
+  };
+  _s(Footer, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = Footer;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    footer: {
+      backgroundColor: theme.palette.common.blue,
+      width: "100%",
+      // Can Remove Only Effect drawer
+      zIndex: 1302,
+      position: "relative"
+    },
+    adornment: {
+      width: "22em",
+      verticalAlign: "bottom",
+      [theme.breakpoints.down("md")]: {
+        width: "18em"
+      },
+      [theme.breakpoints.down("xs")]: {
+        width: "10em"
+      }
+    },
+    mainContainer: {
+      position: "absolute"
+    },
+    link: {
+      color: "white",
+      fontFamily: "raleway",
+      fontSize: "0.75rem",
+      fontWeight: "bold",
+      textDecoration: "none",
+      "&:hover": {
+        color: theme.palette.common.yellow
+      }
+    },
+    gridItem: {
+      margin: "1.5em"
+    },
+    footerLogoContainer: {
+      "&:hover": {
+        backgroundColor: theme.palette.common.yellow
+      }
+    },
+    icon: {
+      height: "1.5em",
+      width: "1.5em",
+      color: "white",
+      "&:hover": {
+        color: theme.palette.common.yellow
+      }
+    },
+    socialContainer: {
+      position: "absolute",
+      marginTop: "-5em",
+      right: "1.5em"
+    }
+  }));
+  exports.default = Footer;
+  var _c;
+  $RefreshReg$(_c, "Footer");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

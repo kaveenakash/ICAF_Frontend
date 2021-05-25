@@ -1,0 +1,41 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/LandingPage.js", _s = $RefreshSig$();
+  const LandingPage = props => {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: "https://i.ibb.co/KNGHgqL/intro-bg.jpg",
+        height: "80%",
+        width: "100%",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 9
+        }
+      })
+    );
+  };
+  _s(LandingPage, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = LandingPage;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({}));
+  exports.default = LandingPage;
+  var _c;
+  $RefreshReg$(_c, "LandingPage");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

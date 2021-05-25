@@ -1,0 +1,283 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
+  const Footer = props => {
+    _s();
+    const classes = useStyles();
+    const {value, setValue} = props;
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("footer", {
+        className: classes.footer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        justify: "center",
+        className: classes.mainContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 13
+        }
+      }, "Home"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/downloads",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 15
+        }
+      }, "Downloads"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 15
+        }
+      }, "Services"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 15
+        }
+      }, "Services"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/keynotes",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 17
+        }
+      }, "Keynotes"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/precentations",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 17
+        }
+      }, "Research Paper Precentations"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 3,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/contact-us",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 17
+        }
+      }, "Contact Us")))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        component: _reactRouterDom.Link,
+        to: "/",
+        disableRipple: true,
+        className: classes.footerLogoContainer,
+        onClick: () => setValue(0),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        alt: "I C A F",
+        className: classes.adornment,
+        src: "https://i.ibb.co/7N51p43/logo.png",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 7
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 7
+        }
+      }, "Copyright")))
+    );
+  };
+  _s(Footer, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = Footer;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    footer: {
+      backgroundColor: theme.palette.common.blue,
+      width: "100%",
+      // Can Remove Only Effect drawer
+      zIndex: 1302,
+      position: "relative"
+    },
+    adornment: {
+      width: "22em",
+      verticalAlign: "bottom",
+      [theme.breakpoints.down("md")]: {
+        width: "18em"
+      },
+      [theme.breakpoints.down("xs")]: {
+        width: "10em"
+      }
+    },
+    mainContainer: {
+      position: "absolute"
+    },
+    link: {
+      color: "white",
+      fontFamily: "raleway",
+      fontSize: "0.75rem",
+      fontWeight: "bold",
+      textDecoration: "none",
+      "&:hover": {
+        color: theme.palette.common.yellow
+      }
+    },
+    gridItem: {
+      margin: "1.5em"
+    },
+    footerLogoContainer: {
+      "&:hover": {
+        backgroundColor: theme.palette.common.yellow
+      }
+    }
+  }));
+  exports.default = Footer;
+  var _c;
+  $RefreshReg$(_c, "Footer");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

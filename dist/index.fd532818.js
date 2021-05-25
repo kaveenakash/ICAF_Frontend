@@ -26477,53 +26477,54 @@ try {
   var _uiThemeDefault = _parcelHelpers.interopDefault(_uiTheme);
   var _uiHeader = require('./ui/Header');
   var _uiHeaderDefault = _parcelHelpers.interopDefault(_uiHeader);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/App.js";
+  var _uiFooter = require('./ui/Footer');
+  var _uiFooterDefault = _parcelHelpers.interopDefault(_uiFooter);
+  var _LandingPage = require('./LandingPage');
+  var _LandingPageDefault = _parcelHelpers.interopDefault(_LandingPage);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/App.js", _s = $RefreshSig$();
   const App = () => {
+    _s();
+    const [value, setValue] = _react.useState(0);
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_materialUiStyles.ThemeProvider, {
         theme: _uiThemeDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
+          lineNumber: 14,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 15,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
+        value: value,
+        setValue: setValue,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 17,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 18,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 16,
-            columnNumber: 50
-          }
-        }, "Home"),
+        component: _LandingPageDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 19,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26533,14 +26534,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 17,
+            lineNumber: 20,
             columnNumber: 58
           }
         }, "keynotes"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17,
+          lineNumber: 20,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26550,14 +26551,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 18,
+            lineNumber: 21,
             columnNumber: 63
           }
         }, "precentations"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 21,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26567,14 +26568,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 22,
             columnNumber: 59
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 22,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26584,14 +26585,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20,
+            lineNumber: 23,
             columnNumber: 62
           }
         }, "registration"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 23,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26601,14 +26602,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 21,
+            lineNumber: 24,
             columnNumber: 59
           }
         }, "workshops"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 24,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26618,19 +26619,29 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22,
+            lineNumber: 25,
             columnNumber: 60
           }
         }, "Contact us"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 25,
           columnNumber: 11
         }
-      }))))
+      })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
+        value: value,
+        setValue: setValue,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 9
+        }
+      })))
     );
   };
+  _s(App, "qPBOvRc2Co1iWTsdTL0g7j/rpjU=");
   _c = App;
   exports.default = App;
   var _c;
@@ -26641,7 +26652,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/styles":"2EAua","./ui/Theme":"5FjkA","@material-ui/core/Typography":"3wcF9","./ui/Header":"4SLtI","react-router-dom":"1PMSK"}],"2EAua":[function(require,module,exports) {
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/styles":"2EAua","./ui/Theme":"5FjkA","@material-ui/core/Typography":"3wcF9","./ui/Header":"4SLtI","react-router-dom":"1PMSK","./ui/Footer":"31W7N","./LandingPage":"3dV4y"}],"2EAua":[function(require,module,exports) {
 /** @license Material-UI v4.11.4
 *
 * This source code is licensed under the MIT license found in the
@@ -33318,18 +33329,18 @@ var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 var _materialUiCoreStyles = require("@material-ui/core/styles");
 const mainBlue = "#001F3D";
-const mainPurple = "#EBAC26";
+const mainYellow = "#EBAC26";
 exports.default = _materialUiCoreStyles.createMuiTheme({
   palette: {
     common: {
       blue: `${mainBlue}`,
-      purple: `${mainPurple}`
+      yellow: `${mainYellow}`
     },
     primary: {
       main: `${mainBlue}`
     },
     secondary: {
-      main: `${mainPurple}`
+      main: `${mainYellow}`
     }
   },
   typography: {
@@ -36128,10 +36139,10 @@ try {
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
     _s();
+    const {value, setValue} = props;
     const classes = useStyles();
     const theme = _materialUiCoreStyles.useTheme();
     const matches = _materialUiCoreUseMediaQueryDefault.default(theme.breakpoints.down("md"));
-    const [value, setValue] = _react.useState(0);
     const [openDrawer, setOpenDrawer] = _react.useState(false);
     const handleChange = (e, value) => {
       setValue(value);
@@ -36203,12 +36214,20 @@ try {
         lineNumber: 73,
         columnNumber: 7
       }
-    }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
+    }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+      className: classes.toolbarMargin,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 80,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
       disablePadding: true,
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79,
+        lineNumber: 81,
         columnNumber: 9
       }
     }, _storeData.routes.map(item => /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
@@ -36227,7 +36246,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81,
+        lineNumber: 83,
         columnNumber: 13
       }
     }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
@@ -36236,7 +36255,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 93,
+        lineNumber: 95,
         columnNumber: 15
       }
     }, item.name))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
@@ -36246,7 +36265,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 104,
+        lineNumber: 106,
         columnNumber: 7
       }
     }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsMenuDefault.default, {
@@ -36254,7 +36273,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 109,
+        lineNumber: 111,
         columnNumber: 9
       }
     })));
@@ -36263,23 +36282,24 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115,
+          lineNumber: 117,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(ElevationScroll, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116,
+          lineNumber: 118,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAppBarDefault.default, {
         position: "fixed",
         color: "primary",
+        className: classes.appbar,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117,
+          lineNumber: 119,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
@@ -36288,7 +36308,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118,
+          lineNumber: 120,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -36299,7 +36319,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119,
+          lineNumber: 121,
           columnNumber: 13
         }
       }, "Subscribe"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -36315,7 +36335,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122,
+          lineNumber: 124,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -36327,7 +36347,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 133,
           columnNumber: 15
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("img", {
@@ -36337,7 +36357,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138,
+          lineNumber: 140,
           columnNumber: 17
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -36349,14 +36369,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 151,
+            lineNumber: 153,
             columnNumber: 26
           }
         }),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146,
+          lineNumber: 148,
           columnNumber: 13
         }
       }, "Sign in")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
@@ -36367,7 +36387,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156,
+          lineNumber: 158,
           columnNumber: 11
         }
       }, matches ? drawer : tabs))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -36375,13 +36395,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166,
+          lineNumber: 168,
           columnNumber: 7
         }
       }))
     );
   };
-  _s(Header, "wSX6867FFmqu2B8YxjcnpxtWzpM=", false, function () {
+  _s(Header, "XOQEtYXGPmYt1VbKD2Kyl+vElI4=", false, function () {
     return [useStyles, _materialUiCoreStyles.useTheme, _materialUiCoreUseMediaQueryDefault.default];
   });
   _c = Header;
@@ -36470,6 +36490,10 @@ try {
       "& .MuiListItemText-root": {
         opacity: 1
       }
+    },
+    appbar: {
+      // remove below line only effect drawer
+      zIndex: theme.zIndex.modal + 1
     }
   }));
   exports.default = Header;
@@ -48239,6 +48263,1457 @@ exports.default = _stylesWithStylesDefault.default(styles, {
   name: 'MuiListItemText'
 })(ListItemText);
 
-},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","../Typography":"3wcF9","../List/ListContext":"6Omnh","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","../Typography":"3wcF9","../List/ListContext":"6Omnh","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"31W7N":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreHidden = require('@material-ui/core/Hidden');
+  var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
+  var _materialUiIconsFacebook = require('@material-ui/icons/Facebook');
+  var _materialUiIconsFacebookDefault = _parcelHelpers.interopDefault(_materialUiIconsFacebook);
+  var _materialUiIconsTwitter = require('@material-ui/icons/Twitter');
+  var _materialUiIconsTwitterDefault = _parcelHelpers.interopDefault(_materialUiIconsTwitter);
+  var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
+  var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
+  require("@material-ui/core/Icon");
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
+  const Footer = props => {
+    _s();
+    const classes = useStyles();
+    const {value, setValue} = props;
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("footer", {
+        className: classes.footer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreHiddenDefault.default, {
+        mdDown: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        justify: "center",
+        className: classes.mainContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 13
+        }
+      }, "Home"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/downloads",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 15
+        }
+      }, "Downloads"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 15
+        }
+      }, "Services"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 15
+        }
+      }, "Services"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/keynotes",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 17
+        }
+      }, "Keynotes"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/precentations",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 17
+        }
+      }, "Research Paper Precentations"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 3,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/contact-us",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 17
+        }
+      }, "Contact Us"))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        component: _reactRouterDom.Link,
+        to: "/",
+        disableRipple: true,
+        className: classes.footerLogoContainer,
+        onClick: () => setValue(0),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        alt: "I C A F",
+        className: classes.adornment,
+        src: "https://i.ibb.co/7N51p43/logo.png",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 7
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        className: classes.socialContainer,
+        justify: "flex-end",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        component: "a",
+        href: "http://www.facebook.com",
+        rel: "noopener noreferrer",
+        target: "_blank",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsFacebookDefault.default, {
+        className: classes.icon,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        component: "a",
+        href: "http://www.twitter.com",
+        rel: "noopener noreferrer",
+        target: "_blank",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsTwitterDefault.default, {
+        className: classes.icon,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        component: "a",
+        href: "http://www.linkedin.com",
+        rel: "noopener noreferrer",
+        target: "_blank",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsLinkedInDefault.default, {
+        className: classes.icon,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84,
+          columnNumber: 15
+        }
+      }))))
+    );
+  };
+  _s(Footer, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = Footer;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    footer: {
+      backgroundColor: theme.palette.common.blue,
+      width: "100%",
+      // Can Remove Only Effect drawer
+      zIndex: 1302,
+      position: "relative"
+    },
+    adornment: {
+      width: "22em",
+      verticalAlign: "bottom",
+      [theme.breakpoints.down("md")]: {
+        width: "18em"
+      },
+      [theme.breakpoints.down("xs")]: {
+        width: "10em"
+      }
+    },
+    mainContainer: {
+      position: "absolute"
+    },
+    link: {
+      color: "white",
+      fontFamily: "raleway",
+      fontSize: "0.75rem",
+      fontWeight: "bold",
+      textDecoration: "none",
+      "&:hover": {
+        color: theme.palette.common.yellow
+      }
+    },
+    gridItem: {
+      margin: "1.5em"
+    },
+    footerLogoContainer: {
+      "&:hover": {
+        backgroundColor: theme.palette.common.yellow
+      }
+    },
+    icon: {
+      height: "1.5em",
+      width: "1.5em",
+      color: "white",
+      "&:hover": {
+        color: theme.palette.common.yellow
+      }
+    },
+    socialContainer: {
+      position: "absolute",
+      marginTop: "-4em",
+      right: "1.5em"
+    }
+  }));
+  exports.default = Footer;
+  var _c;
+  $RefreshReg$(_c, "Footer");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Grid":"5T6Yd","react-router-dom":"1PMSK","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/icons/Facebook":"3nVzn","@material-ui/icons/Twitter":"3cGCZ","@material-ui/icons/LinkedIn":"3NvF5","@material-ui/core/Icon":"4x5VY"}],"5T6Yd":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _GridDefault.default;
+});
+var _Grid = require('./Grid');
+var _GridDefault = _parcelHelpers.interopDefault(_Grid);
+
+},{"./Grid":"4cqlt","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"4cqlt":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _utilsRequirePropFactory = require('../utils/requirePropFactory');
+var _utilsRequirePropFactoryDefault = _parcelHelpers.interopDefault(_utilsRequirePropFactory);
+var SPACINGS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var GRID_SIZES = ['auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+function generateGrid(globalStyles, theme, breakpoint) {
+  var styles = {};
+  GRID_SIZES.forEach(function (size) {
+    var key = ("grid-").concat(breakpoint, "-").concat(size);
+    if (size === true) {
+      // For the auto layouting
+      styles[key] = {
+        flexBasis: 0,
+        flexGrow: 1,
+        maxWidth: '100%'
+      };
+      return;
+    }
+    if (size === 'auto') {
+      styles[key] = {
+        flexBasis: 'auto',
+        flexGrow: 0,
+        maxWidth: 'none'
+      };
+      return;
+    }
+    // Keep 7 significant numbers.
+    var width = ("").concat(Math.round(size / 12 * 10e7) / 10e5, "%");
+    // Close to the bootstrap implementation:
+    // https://github.com/twbs/bootstrap/blob/8fccaa2439e97ec72a4b7dc42ccc1f649790adb0/scss/mixins/_grid.scss#L41
+    styles[key] = {
+      flexBasis: width,
+      flexGrow: 0,
+      maxWidth: width
+    };
+  });
+  // No need for a media query for the first size.
+  if (breakpoint === 'xs') {
+    _babelRuntimeHelpersEsmExtendsDefault.default(globalStyles, styles);
+  } else {
+    globalStyles[theme.breakpoints.up(breakpoint)] = styles;
+  }
+}
+function getOffset(val) {
+  var div = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+  var parse = parseFloat(val);
+  return ("").concat(parse / div).concat(String(val).replace(String(parse), '') || 'px');
+}
+function generateGutter(theme, breakpoint) {
+  var styles = {};
+  SPACINGS.forEach(function (spacing) {
+    var themeSpacing = theme.spacing(spacing);
+    if (themeSpacing === 0) {
+      return;
+    }
+    styles[("spacing-").concat(breakpoint, "-").concat(spacing)] = {
+      margin: ("-").concat(getOffset(themeSpacing, 2)),
+      width: ("calc(100% + ").concat(getOffset(themeSpacing), ")"),
+      '& > $item': {
+        padding: getOffset(themeSpacing, 2)
+      }
+    };
+  });
+  return styles;
+}
+var styles = function styles(theme) {
+  return _babelRuntimeHelpersEsmExtendsDefault.default({
+    /*Styles applied to the root element.*/
+    root: {},
+    /*Styles applied to the root element if `container={true}`.*/
+    container: {
+      boxSizing: 'border-box',
+      display: 'flex',
+      flexWrap: 'wrap',
+      width: '100%'
+    },
+    /*Styles applied to the root element if `item={true}`.*/
+    item: {
+      boxSizing: 'border-box',
+      margin: '0'
+    },
+    /*Styles applied to the root element if `zeroMinWidth={true}`.*/
+    zeroMinWidth: {
+      minWidth: 0
+    },
+    /*Styles applied to the root element if `direction="column"`.*/
+    'direction-xs-column': {
+      flexDirection: 'column'
+    },
+    /*Styles applied to the root element if `direction="column-reverse"`.*/
+    'direction-xs-column-reverse': {
+      flexDirection: 'column-reverse'
+    },
+    /*Styles applied to the root element if `direction="row-reverse"`.*/
+    'direction-xs-row-reverse': {
+      flexDirection: 'row-reverse'
+    },
+    /*Styles applied to the root element if `wrap="nowrap"`.*/
+    'wrap-xs-nowrap': {
+      flexWrap: 'nowrap'
+    },
+    /*Styles applied to the root element if `wrap="reverse"`.*/
+    'wrap-xs-wrap-reverse': {
+      flexWrap: 'wrap-reverse'
+    },
+    /*Styles applied to the root element if `alignItems="center"`.*/
+    'align-items-xs-center': {
+      alignItems: 'center'
+    },
+    /*Styles applied to the root element if `alignItems="flex-start"`.*/
+    'align-items-xs-flex-start': {
+      alignItems: 'flex-start'
+    },
+    /*Styles applied to the root element if `alignItems="flex-end"`.*/
+    'align-items-xs-flex-end': {
+      alignItems: 'flex-end'
+    },
+    /*Styles applied to the root element if `alignItems="baseline"`.*/
+    'align-items-xs-baseline': {
+      alignItems: 'baseline'
+    },
+    /*Styles applied to the root element if `alignContent="center"`.*/
+    'align-content-xs-center': {
+      alignContent: 'center'
+    },
+    /*Styles applied to the root element if `alignContent="flex-start"`.*/
+    'align-content-xs-flex-start': {
+      alignContent: 'flex-start'
+    },
+    /*Styles applied to the root element if `alignContent="flex-end"`.*/
+    'align-content-xs-flex-end': {
+      alignContent: 'flex-end'
+    },
+    /*Styles applied to the root element if `alignContent="space-between"`.*/
+    'align-content-xs-space-between': {
+      alignContent: 'space-between'
+    },
+    /*Styles applied to the root element if `alignContent="space-around"`.*/
+    'align-content-xs-space-around': {
+      alignContent: 'space-around'
+    },
+    /*Styles applied to the root element if `justify="center"`.*/
+    'justify-xs-center': {
+      justifyContent: 'center'
+    },
+    /*Styles applied to the root element if `justify="flex-end"`.*/
+    'justify-xs-flex-end': {
+      justifyContent: 'flex-end'
+    },
+    /*Styles applied to the root element if `justify="space-between"`.*/
+    'justify-xs-space-between': {
+      justifyContent: 'space-between'
+    },
+    /*Styles applied to the root element if `justify="space-around"`.*/
+    'justify-xs-space-around': {
+      justifyContent: 'space-around'
+    },
+    /*Styles applied to the root element if `justify="space-evenly"`.*/
+    'justify-xs-space-evenly': {
+      justifyContent: 'space-evenly'
+    }
+  }, generateGutter(theme, 'xs'), theme.breakpoints.keys.reduce(function (accumulator, key) {
+    // Use side effect over immutability for better performance.
+    generateGrid(accumulator, theme, key);
+    return accumulator;
+  }, {}));
+};
+var Grid = /*#__PURE__*/_react.forwardRef(function Grid(props, ref) {
+  var _props$alignContent = props.alignContent, alignContent = _props$alignContent === void 0 ? 'stretch' : _props$alignContent, _props$alignItems = props.alignItems, alignItems = _props$alignItems === void 0 ? 'stretch' : _props$alignItems, classes = props.classes, classNameProp = props.className, _props$component = props.component, Component = _props$component === void 0 ? 'div' : _props$component, _props$container = props.container, container = _props$container === void 0 ? false : _props$container, _props$direction = props.direction, direction = _props$direction === void 0 ? 'row' : _props$direction, _props$item = props.item, item = _props$item === void 0 ? false : _props$item, _props$justify = props.justify, justify = _props$justify === void 0 ? 'flex-start' : _props$justify, _props$lg = props.lg, lg = _props$lg === void 0 ? false : _props$lg, _props$md = props.md, md = _props$md === void 0 ? false : _props$md, _props$sm = props.sm, sm = _props$sm === void 0 ? false : _props$sm, _props$spacing = props.spacing, spacing = _props$spacing === void 0 ? 0 : _props$spacing, _props$wrap = props.wrap, wrap = _props$wrap === void 0 ? 'wrap' : _props$wrap, _props$xl = props.xl, xl = _props$xl === void 0 ? false : _props$xl, _props$xs = props.xs, xs = _props$xs === void 0 ? false : _props$xs, _props$zeroMinWidth = props.zeroMinWidth, zeroMinWidth = _props$zeroMinWidth === void 0 ? false : _props$zeroMinWidth, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["alignContent", "alignItems", "classes", "className", "component", "container", "direction", "item", "justify", "lg", "md", "sm", "spacing", "wrap", "xl", "xs", "zeroMinWidth"]);
+  var className = _clsxDefault.default(classes.root, classNameProp, container && [classes.container, spacing !== 0 && classes[("spacing-xs-").concat(String(spacing))]], item && classes.item, zeroMinWidth && classes.zeroMinWidth, direction !== 'row' && classes[("direction-xs-").concat(String(direction))], wrap !== 'wrap' && classes[("wrap-xs-").concat(String(wrap))], alignItems !== 'stretch' && classes[("align-items-xs-").concat(String(alignItems))], alignContent !== 'stretch' && classes[("align-content-xs-").concat(String(alignContent))], justify !== 'flex-start' && classes[("justify-xs-").concat(String(justify))], xs !== false && classes[("grid-xs-").concat(String(xs))], sm !== false && classes[("grid-sm-").concat(String(sm))], md !== false && classes[("grid-md-").concat(String(md))], lg !== false && classes[("grid-lg-").concat(String(lg))], xl !== false && classes[("grid-xl-").concat(String(xl))]);
+  return (
+    /*#__PURE__*/_react.createElement(Component, _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: className,
+      ref: ref
+    }, other))
+  );
+});
+"development" !== "production" ? Grid.propTypes = {
+  /**
+  * Defines the `align-content` style property.
+  * It's applied for all screen sizes.
+  */
+  alignContent: _propTypesDefault.default.oneOf(['stretch', 'center', 'flex-start', 'flex-end', 'space-between', 'space-around']),
+  /**
+  * Defines the `align-items` style property.
+  * It's applied for all screen sizes.
+  */
+  alignItems: _propTypesDefault.default.oneOf(['flex-start', 'center', 'flex-end', 'stretch', 'baseline']),
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object.isRequired,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The component used for the root node.
+  * Either a string to use a HTML element or a component.
+  */
+  component: _propTypesDefault.default./*@typescript-to-proptypes-ignore*/
+  elementType,
+  /**
+  * If `true`, the component will have the flex *container* behavior.
+  * You should be wrapping *items* with a *container*.
+  */
+  container: _propTypesDefault.default.bool,
+  /**
+  * Defines the `flex-direction` style property.
+  * It is applied for all screen sizes.
+  */
+  direction: _propTypesDefault.default.oneOf(['row', 'row-reverse', 'column', 'column-reverse']),
+  /**
+  * If `true`, the component will have the flex *item* behavior.
+  * You should be wrapping *items* with a *container*.
+  */
+  item: _propTypesDefault.default.bool,
+  /**
+  * Defines the `justify-content` style property.
+  * It is applied for all screen sizes.
+  */
+  justify: _propTypesDefault.default.oneOf(['flex-start', 'center', 'flex-end', 'space-between', 'space-around', 'space-evenly']),
+  /**
+  * Defines the number of grids the component is going to use.
+  * It's applied for the `lg` breakpoint and wider screens if not overridden.
+  */
+  lg: _propTypesDefault.default.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+  /**
+  * Defines the number of grids the component is going to use.
+  * It's applied for the `md` breakpoint and wider screens if not overridden.
+  */
+  md: _propTypesDefault.default.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+  /**
+  * Defines the number of grids the component is going to use.
+  * It's applied for the `sm` breakpoint and wider screens if not overridden.
+  */
+  sm: _propTypesDefault.default.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+  /**
+  * Defines the space between the type `item` component.
+  * It can only be used on a type `container` component.
+  */
+  spacing: _propTypesDefault.default.oneOf(SPACINGS),
+  /**
+  * Defines the `flex-wrap` style property.
+  * It's applied for all screen sizes.
+  */
+  wrap: _propTypesDefault.default.oneOf(['nowrap', 'wrap', 'wrap-reverse']),
+  /**
+  * Defines the number of grids the component is going to use.
+  * It's applied for the `xl` breakpoint and wider screens.
+  */
+  xl: _propTypesDefault.default.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+  /**
+  * Defines the number of grids the component is going to use.
+  * It's applied for all the screen sizes with the lowest priority.
+  */
+  xs: _propTypesDefault.default.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+  /**
+  * If `true`, it sets `min-width: 0` on the item.
+  * Refer to the limitations section of the documentation to better understand the use case.
+  */
+  zeroMinWidth: _propTypesDefault.default.bool
+} : void 0;
+var StyledGrid = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiGrid'
+})(Grid);
+if ("development" !== 'production') {
+  var requireProp = _utilsRequirePropFactoryDefault.default('Grid');
+  StyledGrid.propTypes = _babelRuntimeHelpersEsmExtendsDefault.default({}, StyledGrid.propTypes, {
+    alignContent: requireProp('container'),
+    alignItems: requireProp('container'),
+    direction: requireProp('container'),
+    justify: requireProp('container'),
+    lg: requireProp('item'),
+    md: requireProp('item'),
+    sm: requireProp('item'),
+    spacing: requireProp('container'),
+    wrap: requireProp('container'),
+    xs: requireProp('item'),
+    zeroMinWidth: requireProp('item')
+  });
+}
+exports.default = StyledGrid;
+
+},{"@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","@babel/runtime/helpers/esm/extends":"5qnVv","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","../utils/requirePropFactory":"6tOZJ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"7CMK2":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _HiddenDefault.default;
+});
+var _Hidden = require('./Hidden');
+var _HiddenDefault = _parcelHelpers.interopDefault(_Hidden);
+
+},{"./Hidden":"2Djbb","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"2Djbb":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _HiddenJs = require('./HiddenJs');
+var _HiddenJsDefault = _parcelHelpers.interopDefault(_HiddenJs);
+var _HiddenCss = require('./HiddenCss');
+var _HiddenCssDefault = _parcelHelpers.interopDefault(_HiddenCss);
+/**
+* Responsively hides children based on the selected implementation.
+*/
+function Hidden(props) {
+  var _props$implementation = props.implementation, implementation = _props$implementation === void 0 ? 'js' : _props$implementation, _props$lgDown = props.lgDown, lgDown = _props$lgDown === void 0 ? false : _props$lgDown, _props$lgUp = props.lgUp, lgUp = _props$lgUp === void 0 ? false : _props$lgUp, _props$mdDown = props.mdDown, mdDown = _props$mdDown === void 0 ? false : _props$mdDown, _props$mdUp = props.mdUp, mdUp = _props$mdUp === void 0 ? false : _props$mdUp, _props$smDown = props.smDown, smDown = _props$smDown === void 0 ? false : _props$smDown, _props$smUp = props.smUp, smUp = _props$smUp === void 0 ? false : _props$smUp, _props$xlDown = props.xlDown, xlDown = _props$xlDown === void 0 ? false : _props$xlDown, _props$xlUp = props.xlUp, xlUp = _props$xlUp === void 0 ? false : _props$xlUp, _props$xsDown = props.xsDown, xsDown = _props$xsDown === void 0 ? false : _props$xsDown, _props$xsUp = props.xsUp, xsUp = _props$xsUp === void 0 ? false : _props$xsUp, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["implementation", "lgDown", "lgUp", "mdDown", "mdUp", "smDown", "smUp", "xlDown", "xlUp", "xsDown", "xsUp"]);
+  if (implementation === 'js') {
+    return (
+      /*#__PURE__*/_react.createElement(_HiddenJsDefault.default, _babelRuntimeHelpersEsmExtendsDefault.default({
+        lgDown: lgDown,
+        lgUp: lgUp,
+        mdDown: mdDown,
+        mdUp: mdUp,
+        smDown: smDown,
+        smUp: smUp,
+        xlDown: xlDown,
+        xlUp: xlUp,
+        xsDown: xsDown,
+        xsUp: xsUp
+      }, other))
+    );
+  }
+  return (
+    /*#__PURE__*/_react.createElement(_HiddenCssDefault.default, _babelRuntimeHelpersEsmExtendsDefault.default({
+      lgDown: lgDown,
+      lgUp: lgUp,
+      mdDown: mdDown,
+      mdUp: mdUp,
+      smDown: smDown,
+      smUp: smUp,
+      xlDown: xlDown,
+      xlUp: xlUp,
+      xsDown: xsDown,
+      xsUp: xsUp
+    }, other))
+  );
+}
+"development" !== "production" ? Hidden.propTypes = {
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * Specify which implementation to use.  'js' is the default, 'css' works better for
+  * server-side rendering.
+  */
+  implementation: _propTypesDefault.default.oneOf(['js', 'css']),
+  /**
+  * You can use this prop when choosing the `js` implementation with server-side rendering.
+  *
+  * As `window.innerWidth` is unavailable on the server,
+  * we default to rendering an empty component during the first mount.
+  * You might want to use an heuristic to approximate
+  * the screen width of the client browser screen width.
+  *
+  * For instance, you could be using the user-agent or the client-hints.
+  * https://caniuse.com/#search=client%20hint
+  */
+  initialWidth: _propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  lgDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  lgUp: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  mdDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  mdUp: _propTypesDefault.default.bool,
+  /**
+  * Hide the given breakpoint(s).
+  */
+  only: _propTypesDefault.default.oneOfType([_propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']), _propTypesDefault.default.arrayOf(_propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']))]),
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  smDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  smUp: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  xlDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  xlUp: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  xsDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  xsUp: _propTypesDefault.default.bool
+} : void 0;
+exports.default = Hidden;
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","./HiddenJs":"6FvQf","./HiddenCss":"2QxO2","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6FvQf":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _materialUiUtils = require('@material-ui/utils');
+var _withWidth = require('../withWidth');
+var _withWidthDefault = _parcelHelpers.interopDefault(_withWidth);
+var _stylesUseTheme = require('../styles/useTheme');
+var _stylesUseThemeDefault = _parcelHelpers.interopDefault(_stylesUseTheme);
+/**
+* @ignore - internal component.
+*/
+function HiddenJs(props) {
+  var children = props.children, only = props.only, width = props.width;
+  var theme = _stylesUseThemeDefault.default();
+  var visible = true;
+  // `only` check is faster to get out sooner if used.
+  if (only) {
+    if (Array.isArray(only)) {
+      for (var i = 0; i < only.length; i += 1) {
+        var breakpoint = only[i];
+        if (width === breakpoint) {
+          visible = false;
+          break;
+        }
+      }
+    } else if (only && width === only) {
+      visible = false;
+    }
+  }
+  // Allow `only` to be combined with other props. If already hidden, no need to check others.
+  if (visible) {
+    // determine visibility based on the smallest size up
+    for (var _i = 0; _i < theme.breakpoints.keys.length; _i += 1) {
+      var _breakpoint = theme.breakpoints.keys[_i];
+      var breakpointUp = props[("").concat(_breakpoint, "Up")];
+      var breakpointDown = props[("").concat(_breakpoint, "Down")];
+      if (breakpointUp && _withWidth.isWidthUp(_breakpoint, width) || breakpointDown && _withWidth.isWidthDown(_breakpoint, width)) {
+        visible = false;
+        break;
+      }
+    }
+  }
+  if (!visible) {
+    return null;
+  }
+  return children;
+}
+HiddenJs.propTypes = {
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * Specify which implementation to use.  'js' is the default, 'css' works better for
+  * server-side rendering.
+  */
+  implementation: _propTypesDefault.default.oneOf(['js', 'css']),
+  /**
+  * You can use this prop when choosing the `js` implementation with server-side rendering.
+  *
+  * As `window.innerWidth` is unavailable on the server,
+  * we default to rendering an empty component during the first mount.
+  * You might want to use an heuristic to approximate
+  * the screen width of the client browser screen width.
+  *
+  * For instance, you could be using the user-agent or the client-hints.
+  * https://caniuse.com/#search=client%20hint
+  */
+  initialWidth: _propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  lgDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  lgUp: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  mdDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  mdUp: _propTypesDefault.default.bool,
+  /**
+  * Hide the given breakpoint(s).
+  */
+  only: _propTypesDefault.default.oneOfType([_propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']), _propTypesDefault.default.arrayOf(_propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']))]),
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  smDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  smUp: _propTypesDefault.default.bool,
+  /**
+  * @ignore
+  * width prop provided by withWidth decorator.
+  */
+  width: _propTypesDefault.default.string.isRequired,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  xlDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  xlUp: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  xsDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  xsUp: _propTypesDefault.default.bool
+};
+if ("development" !== 'production') {
+  HiddenJs.propTypes = _materialUiUtils.exactProp(HiddenJs.propTypes);
+}
+exports.default = _withWidthDefault.default()(HiddenJs);
+
+},{"prop-types":"4dfy5","@material-ui/utils":"11kc7","../withWidth":"3M87t","../styles/useTheme":"WDbNZ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3M87t":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _withWidthDefault.default;
+});
+var _withWidth = require('./withWidth');
+var _withWidthDefault = _parcelHelpers.interopDefault(_withWidth);
+_parcelHelpers.exportAll(_withWidth, exports);
+var _withWidthDefault = _parcelHelpers.interopDefault(_withWidth);
+
+},{"./withWidth":"7flv7","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"7flv7":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "isWidthUp", function () {
+  return isWidthUp;
+});
+_parcelHelpers.export(exports, "isWidthDown", function () {
+  return isWidthDown;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _materialUiUtils = require('@material-ui/utils');
+var _materialUiStyles = require('@material-ui/styles');
+var _hoistNonReactStatics = require('hoist-non-react-statics');
+var _hoistNonReactStaticsDefault = _parcelHelpers.interopDefault(_hoistNonReactStatics);
+var _stylesUseTheme = require('../styles/useTheme');
+var _stylesUseThemeDefault = _parcelHelpers.interopDefault(_stylesUseTheme);
+var _stylesCreateBreakpoints = require('../styles/createBreakpoints');
+var _useMediaQuery = require('../useMediaQuery');
+var _useMediaQueryDefault = _parcelHelpers.interopDefault(_useMediaQuery);
+var isWidthUp = function isWidthUp(breakpoint, width) {
+  var inclusive = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+  if (inclusive) {
+    return _stylesCreateBreakpoints.keys.indexOf(breakpoint) <= _stylesCreateBreakpoints.keys.indexOf(width);
+  }
+  return _stylesCreateBreakpoints.keys.indexOf(breakpoint) < _stylesCreateBreakpoints.keys.indexOf(width);
+};
+var isWidthDown = function isWidthDown(breakpoint, width) {
+  var inclusive = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+  if (inclusive) {
+    return _stylesCreateBreakpoints.keys.indexOf(width) <= _stylesCreateBreakpoints.keys.indexOf(breakpoint);
+  }
+  return _stylesCreateBreakpoints.keys.indexOf(width) < _stylesCreateBreakpoints.keys.indexOf(breakpoint);
+};
+var useEnhancedEffect = typeof window === 'undefined' ? _react.useEffect : _react.useLayoutEffect;
+var withWidth = function withWidth() {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return function (Component) {
+    var _options$withTheme = options.withTheme, withThemeOption = _options$withTheme === void 0 ? false : _options$withTheme, _options$noSSR = options.noSSR, noSSR = _options$noSSR === void 0 ? false : _options$noSSR, initialWidthOption = options.initialWidth;
+    function WithWidth(props) {
+      var contextTheme = _stylesUseThemeDefault.default();
+      var theme = props.theme || contextTheme;
+      var _getThemeProps = _materialUiStyles.getThemeProps({
+        theme: theme,
+        name: 'MuiWithWidth',
+        props: _babelRuntimeHelpersEsmExtendsDefault.default({}, props)
+      }), initialWidth = _getThemeProps.initialWidth, width = _getThemeProps.width, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(_getThemeProps, ["initialWidth", "width"]);
+      var _React$useState = _react.useState(false), mountedState = _React$useState[0], setMountedState = _React$useState[1];
+      useEnhancedEffect(function () {
+        setMountedState(true);
+      }, []);
+      /**
+      * innerWidth |xs      sm      md      lg      xl
+      *            |-------|-------|-------|-------|------>
+      * width      |  xs   |  sm   |  md   |  lg   |  xl
+      */
+      var keys = theme.breakpoints.keys.slice().reverse();
+      var widthComputed = keys.reduce(function (output, key) {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        var matches = _useMediaQueryDefault.default(theme.breakpoints.up(key));
+        return !output && matches ? key : output;
+      }, null);
+      var more = _babelRuntimeHelpersEsmExtendsDefault.default({
+        width: width || (mountedState || noSSR ? widthComputed : undefined) || initialWidth || initialWidthOption
+      }, withThemeOption ? {
+        theme: theme
+      } : {}, other);
+      // When rendering the component on the server,
+      // we have no idea about the client browser screen width.
+      // In order to prevent blinks and help the reconciliation of the React tree
+      // we are not rendering the child component.
+      // 
+      // An alternative is to use the `initialWidth` property.
+      if (more.width === undefined) {
+        return null;
+      }
+      return (
+        /*#__PURE__*/_react.createElement(Component, more)
+      );
+    }
+    "development" !== "production" ? WithWidth.propTypes = {
+      /**
+      * As `window.innerWidth` is unavailable on the server,
+      * we default to rendering an empty component during the first mount.
+      * You might want to use an heuristic to approximate
+      * the screen width of the client browser screen width.
+      *
+      * For instance, you could be using the user-agent or the client-hints.
+      * https://caniuse.com/#search=client%20hint
+      */
+      initialWidth: _propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
+      /**
+      * @ignore
+      */
+      theme: _propTypesDefault.default.object,
+      /**
+      * Bypass the width calculation logic.
+      */
+      width: _propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl'])
+    } : void 0;
+    if ("development" !== 'production') {
+      WithWidth.displayName = ("WithWidth(").concat(_materialUiUtils.getDisplayName(Component), ")");
+    }
+    _hoistNonReactStaticsDefault.default(WithWidth, Component);
+    return WithWidth;
+  };
+};
+exports.default = withWidth;
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","@material-ui/utils":"11kc7","@material-ui/styles":"2EAua","hoist-non-react-statics":"3nUHV","../styles/useTheme":"WDbNZ","../styles/createBreakpoints":"669wA","../useMediaQuery":"19LLa","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"2QxO2":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _babelRuntimeHelpersEsmDefineProperty = require("@babel/runtime/helpers/esm/defineProperty");
+var _babelRuntimeHelpersEsmDefinePropertyDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmDefineProperty);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _utilsCapitalize = require('../utils/capitalize');
+var _utilsCapitalizeDefault = _parcelHelpers.interopDefault(_utilsCapitalize);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _stylesUseTheme = require('../styles/useTheme');
+var _stylesUseThemeDefault = _parcelHelpers.interopDefault(_stylesUseTheme);
+var styles = function styles(theme) {
+  var hidden = {
+    display: 'none'
+  };
+  return theme.breakpoints.keys.reduce(function (acc, key) {
+    acc[("only").concat(_utilsCapitalizeDefault.default(key))] = _babelRuntimeHelpersEsmDefinePropertyDefault.default({}, theme.breakpoints.only(key), hidden);
+    acc[("").concat(key, "Up")] = _babelRuntimeHelpersEsmDefinePropertyDefault.default({}, theme.breakpoints.up(key), hidden);
+    acc[("").concat(key, "Down")] = _babelRuntimeHelpersEsmDefinePropertyDefault.default({}, theme.breakpoints.down(key), hidden);
+    return acc;
+  }, {});
+};
+/**
+* @ignore - internal component.
+*/
+function HiddenCss(props) {
+  var children = props.children, classes = props.classes, className = props.className, only = props.only, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["children", "classes", "className", "only"]);
+  var theme = _stylesUseThemeDefault.default();
+  if ("development" !== 'production') {
+    var unknownProps = Object.keys(other).filter(function (propName) {
+      var isUndeclaredBreakpoint = !theme.breakpoints.keys.some(function (breakpoint) {
+        return ("").concat(breakpoint, "Up") === propName || ("").concat(breakpoint, "Down") === propName;
+      });
+      return isUndeclaredBreakpoint;
+    });
+    if (unknownProps.length > 0) {
+      console.error(("Material-UI: Unsupported props received by `<Hidden implementation=\"css\" />`: ").concat(unknownProps.join(', '), ". Did you forget to wrap this component in a ThemeProvider declaring these breakpoints?"));
+    }
+  }
+  var clsx = [];
+  if (className) {
+    clsx.push(className);
+  }
+  for (var i = 0; i < theme.breakpoints.keys.length; i += 1) {
+    var breakpoint = theme.breakpoints.keys[i];
+    var breakpointUp = props[("").concat(breakpoint, "Up")];
+    var breakpointDown = props[("").concat(breakpoint, "Down")];
+    if (breakpointUp) {
+      clsx.push(classes[("").concat(breakpoint, "Up")]);
+    }
+    if (breakpointDown) {
+      clsx.push(classes[("").concat(breakpoint, "Down")]);
+    }
+  }
+  if (only) {
+    var onlyBreakpoints = Array.isArray(only) ? only : [only];
+    onlyBreakpoints.forEach(function (breakpoint) {
+      clsx.push(classes[("only").concat(_utilsCapitalizeDefault.default(breakpoint))]);
+    });
+  }
+  return (
+    /*#__PURE__*/_react.createElement("div", {
+      className: clsx.join(' ')
+    }, children)
+  );
+}
+"development" !== "production" ? HiddenCss.propTypes = {
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object.isRequired,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * Specify which implementation to use.  'js' is the default, 'css' works better for
+  * server-side rendering.
+  */
+  implementation: _propTypesDefault.default.oneOf(['js', 'css']),
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  lgDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  lgUp: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  mdDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  mdUp: _propTypesDefault.default.bool,
+  /**
+  * Hide the given breakpoint(s).
+  */
+  only: _propTypesDefault.default.oneOfType([_propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']), _propTypesDefault.default.arrayOf(_propTypesDefault.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']))]),
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  smDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  smUp: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  xlDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  xlUp: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and down will be hidden.
+  */
+  xsDown: _propTypesDefault.default.bool,
+  /**
+  * If `true`, screens this size and up will be hidden.
+  */
+  xsUp: _propTypesDefault.default.bool
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'PrivateHiddenCss'
+})(HiddenCss);
+
+},{"@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","@babel/runtime/helpers/esm/defineProperty":"1MbJ7","react":"3b2NM","prop-types":"4dfy5","../utils/capitalize":"59pJw","../styles/withStyles":"4q1Sj","../styles/useTheme":"WDbNZ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3nVzn":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+}), 'Facebook');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3cGCZ":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+}), 'Twitter');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3NvF5":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+}), 'LinkedIn');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"4x5VY":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _IconDefault.default;
+});
+var _Icon = require('./Icon');
+var _IconDefault = _parcelHelpers.interopDefault(_Icon);
+
+},{"./Icon":"76JGi","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"76JGi":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _utilsCapitalize = require('../utils/capitalize');
+var _utilsCapitalizeDefault = _parcelHelpers.interopDefault(_utilsCapitalize);
+var styles = function styles(theme) {
+  return {
+    /*Styles applied to the root element.*/
+    root: {
+      userSelect: 'none',
+      fontSize: theme.typography.pxToRem(24),
+      width: '1em',
+      height: '1em',
+      // Chrome fix for https://bugs.chromium.org/p/chromium/issues/detail?id=820541
+      // To remove at some point.
+      overflow: 'hidden',
+      flexShrink: 0
+    },
+    /*Styles applied to the root element if `color="primary"`.*/
+    colorPrimary: {
+      color: theme.palette.primary.main
+    },
+    /*Styles applied to the root element if `color="secondary"`.*/
+    colorSecondary: {
+      color: theme.palette.secondary.main
+    },
+    /*Styles applied to the root element if `color="action"`.*/
+    colorAction: {
+      color: theme.palette.action.active
+    },
+    /*Styles applied to the root element if `color="error"`.*/
+    colorError: {
+      color: theme.palette.error.main
+    },
+    /*Styles applied to the root element if `color="disabled"`.*/
+    colorDisabled: {
+      color: theme.palette.action.disabled
+    },
+    /*Styles applied to the root element if `fontSize="inherit"`.*/
+    fontSizeInherit: {
+      fontSize: 'inherit'
+    },
+    /*Styles applied to the root element if `fontSize="small"`.*/
+    fontSizeSmall: {
+      fontSize: theme.typography.pxToRem(20)
+    },
+    /*Styles applied to the root element if `fontSize="large"`.*/
+    fontSizeLarge: {
+      fontSize: theme.typography.pxToRem(36)
+    }
+  };
+};
+var Icon = /*#__PURE__*/_react.forwardRef(function Icon(props, ref) {
+  var classes = props.classes, className = props.className, _props$color = props.color, color = _props$color === void 0 ? 'inherit' : _props$color, _props$component = props.component, Component = _props$component === void 0 ? 'span' : _props$component, _props$fontSize = props.fontSize, fontSize = _props$fontSize === void 0 ? 'default' : _props$fontSize, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["classes", "className", "color", "component", "fontSize"]);
+  return (
+    /*#__PURE__*/_react.createElement(Component, _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default('material-icons', classes.root, className, color !== 'inherit' && classes[("color").concat(_utilsCapitalizeDefault.default(color))], fontSize !== 'default' && classes[("fontSize").concat(_utilsCapitalizeDefault.default(fontSize))]),
+      "aria-hidden": true,
+      ref: ref
+    }, other))
+  );
+});
+"development" !== "production" ? Icon.propTypes = {
+  /**
+  * The name of the icon font ligature.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object.isRequired,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The color of the component. It supports those theme colors that make sense for this component.
+  */
+  color: _propTypesDefault.default.oneOf(['inherit', 'primary', 'secondary', 'action', 'error', 'disabled']),
+  /**
+  * The component used for the root node.
+  * Either a string to use a HTML element or a component.
+  */
+  component: _propTypesDefault.default./*@typescript-to-proptypes-ignore*/
+  elementType,
+  /**
+  * The fontSize applied to the icon. Defaults to 24px, but can be configure to inherit font size.
+  */
+  fontSize: _propTypesDefault.default.oneOf(['inherit', 'default', 'small', 'large'])
+} : void 0;
+Icon.muiName = 'Icon';
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiIcon'
+})(Icon);
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","../utils/capitalize":"59pJw","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3dV4y":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require('@material-ui/core/Grid');
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/LandingPage.js", _s = $RefreshSig$();
+  const LandingPage = props => {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 12
+        }
+      }))
+    );
+  };
+  _s(LandingPage, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = LandingPage;
+  {}
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({}));
+  exports.default = LandingPage;
+  var _c;
+  $RefreshReg$(_c, "LandingPage");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Grid":"5T6Yd"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map

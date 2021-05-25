@@ -22,11 +22,11 @@ import ListItemText from "@material-ui/core/ListItemText";
 import { routes } from "../../store/data";
 
 const Header = (props) => {
+  const {value,setValue} = props
   const classes = useStyles();
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
-
-  const [value, setValue] = useState(0);
+ 
   const [openDrawer, setOpenDrawer] = useState(false);
 
   const handleChange = (e, value) => {
@@ -76,6 +76,8 @@ const Header = (props) => {
         onOpen={() => setOpenDrawer(true)}
         classes={{ paper: classes.drawer }}
       >
+        {/* remove below line */}
+        <div className={classes.toolbarMargin}></div>
         <List disablePadding>
           {routes.map((item) => (
             <ListItem
@@ -114,7 +116,7 @@ const Header = (props) => {
   return (
     <React.Fragment>
       <ElevationScroll>
-        <AppBar position="fixed" color="primary">
+        <AppBar position="fixed" color="primary" className={classes.appbar}>
           <Toolbar className={classes.toolbar} color="primary">
             <Button size="small" style={{ color: "#00ACC1" }}>
               Subscribe
@@ -250,6 +252,10 @@ const useStyles = makeStyles((theme) => ({
       opacity:1
     }
   },
+  appbar:{
+    //remove below line only effect drawer
+    zIndex:theme.zIndex.modal + 1
+  }
 }));
 
 export default Header;

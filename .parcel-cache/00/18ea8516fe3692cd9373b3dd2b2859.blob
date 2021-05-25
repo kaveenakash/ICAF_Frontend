@@ -1,0 +1,54 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreStyles = require('@material-ui/core/styles');
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
+  const Footer = () => {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("footer", {
+        className: classes.footer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        alt: "I C A F",
+        className: classes.logo,
+        src: "https://i.ibb.co/7N51p43/logo.png",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 44
+        }
+      }))
+    );
+  };
+  _s(Footer, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = Footer;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    footer: {
+      backgroundColor: theme.palette.common.blue,
+      width: "100%"
+    }
+  }));
+  exports.default = Footer;
+  var _c;
+  $RefreshReg$(_c, "Footer");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
