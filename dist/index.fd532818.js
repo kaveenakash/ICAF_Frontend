@@ -26479,8 +26479,9 @@ try {
   var _uiHeaderDefault = _parcelHelpers.interopDefault(_uiHeader);
   var _uiFooter = require('./ui/Footer');
   var _uiFooterDefault = _parcelHelpers.interopDefault(_uiFooter);
-  var _LandingPage = require('./LandingPage');
-  var _LandingPageDefault = _parcelHelpers.interopDefault(_LandingPage);
+  require('./LandingPage');
+  var _Precentation = require('./Precentation');
+  var _PrecentationDefault = _parcelHelpers.interopDefault(_Precentation);
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/App.js", _s = $RefreshSig$();
   const App = () => {
     _s();
@@ -26520,7 +26521,14 @@ try {
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/",
-        component: _LandingPageDefault.default,
+        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 50
+          }
+        }, "Home"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
@@ -26547,14 +26555,7 @@ try {
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/precentations",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 21,
-            columnNumber: 63
-          }
-        }, "precentations"),
+        component: _PrecentationDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
@@ -26652,7 +26653,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/styles":"2EAua","./ui/Theme":"5FjkA","@material-ui/core/Typography":"3wcF9","./ui/Header":"4SLtI","react-router-dom":"1PMSK","./ui/Footer":"31W7N","./LandingPage":"3dV4y"}],"2EAua":[function(require,module,exports) {
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/styles":"2EAua","./ui/Theme":"5FjkA","@material-ui/core/Typography":"3wcF9","./ui/Header":"4SLtI","react-router-dom":"1PMSK","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Precentation":"PPRqZ"}],"2EAua":[function(require,module,exports) {
 /** @license Material-UI v4.11.4
 *
 * This source code is licensed under the MIT license found in the
@@ -49714,6 +49715,84 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Grid":"5T6Yd"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Grid":"5T6Yd"}],"PPRqZ":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreTypography = require('@material-ui/core/Typography');
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreButton = require('@material-ui/core/Button');
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/Precentation.js";
+  const Precentation = props => {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "subtitle1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7,
+          columnNumber: 12
+        }
+      }, "I am Precentation"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "subtitle1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 12
+        }
+      }, "I am Precentation"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "subtitle1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 12
+        }
+      }, "I am Precentation"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "subtitle1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 12
+        }
+      }, "I am Precentation"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        color: "secondary",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 13
+        }
+      }, "Click here"))
+    );
+  };
+  _c = Precentation;
+  exports.default = Precentation;
+  var _c;
+  $RefreshReg$(_c, "Precentation");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Typography":"3wcF9","@material-ui/core/Button":"1Xm5M"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
