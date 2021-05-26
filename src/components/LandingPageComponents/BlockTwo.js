@@ -75,6 +75,7 @@ const useStyles = makeStyles((theme) => ({
   },
   aboutContent: {
     width: "60%",
+    color:theme.palette.common.darkGray
   },
   divider: {
     backgroundColor: theme.palette.common.yellow,

@@ -6,7 +6,6 @@ import theme from "./ui/Theme";
 import Header from './ui/Header'
 import Footer from './ui/Footer'
 import LandingPage from './LandingPage'
-
 const App = () => {
   const [value, setValue] = useState(0);
   return (
@@ -16,7 +15,7 @@ const App = () => {
         <Header value={value} setValue={setValue}/>
         <Switch>
           <Route exact path="/" component={LandingPage}/>
-          <Route exact path="/keynotes" component={() => <div>keynotes</div>}/>
+          <Route exact path="/keynotes" component={() => <div>downloads</div>}/>
           <Route exact path="/presentations" component={() => <div>presentation</div>}/>
           <Route exact path="/downloads" component={() => <div>downloads</div>}/>
           <Route exact path="/registration" component={() => <div>registration</div>}/>

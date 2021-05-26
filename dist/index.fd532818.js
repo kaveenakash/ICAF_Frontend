@@ -26491,14 +26491,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 12,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 13,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
@@ -26507,14 +26507,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 15,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17,
+          lineNumber: 16,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26524,7 +26524,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 17,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26534,14 +26534,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 18,
             columnNumber: 58
           }
-        }, "keynotes"),
+        }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 18,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26551,14 +26551,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20,
+            lineNumber: 19,
             columnNumber: 63
           }
         }, "presentation"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 19,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26568,14 +26568,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 21,
+            lineNumber: 20,
             columnNumber: 59
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 20,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26585,14 +26585,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22,
+            lineNumber: 21,
             columnNumber: 62
           }
         }, "registration"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 21,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26602,14 +26602,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 23,
+            lineNumber: 22,
             columnNumber: 59
           }
         }, "workshops"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 22,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26619,14 +26619,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 24,
+            lineNumber: 23,
             columnNumber: 60
           }
         }, "Contact us"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 23,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26635,7 +26635,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 25,
           columnNumber: 9
         }
       })))
@@ -33331,12 +33331,14 @@ var _materialUiCoreStyles = require("@material-ui/core/styles");
 const mainBlue = "#001F3D";
 const mainYellow = "#EBAC26";
 const mainDarkBlue = "#060B2D";
+const mainGray = "#9195B3";
 exports.default = _materialUiCoreStyles.createMuiTheme({
   palette: {
     common: {
       blue: `${mainBlue}`,
       yellow: `${mainYellow}`,
-      darkBlue: `${mainDarkBlue}`
+      darkBlue: `${mainDarkBlue}`,
+      darkGray: `${mainGray}`
     },
     primary: {
       main: `${mainBlue}`
@@ -41769,6 +41771,9 @@ _parcelHelpers.export(exports, "aboutDetailsOne", function () {
 _parcelHelpers.export(exports, "aboutDetailsTwo", function () {
   return aboutDetailsTwo;
 });
+_parcelHelpers.export(exports, "news", function () {
+  return news;
+});
 const routes = [{
   name: "Home",
   link: "/",
@@ -41797,6 +41802,31 @@ const routes = [{
   name: "Contact Us",
   link: "/contact-us",
   activeIndex: 6
+}];
+const news = [{
+  id: "1",
+  date: "April 03, 2021",
+  content: "Registrations are now open for the workshops. Register here"
+}, {
+  id: "2",
+  date: "April 03, 2021",
+  content: "Extended abstract submission deadline for ERU Symposium has been extended to 3rd May 2021. Submit "
+}, {
+  id: "3",
+  date: "April 03, 2021",
+  content: "Registrations are now open for the workshops. Register here"
+}, {
+  id: "4",
+  date: "April 03, 2021",
+  content: "Registrations are now open for the workshops. Register here"
+}, {
+  id: "5",
+  date: "April 03, 2021",
+  content: "Registrations are now open for the workshops. Register here"
+}, {
+  id: "5",
+  date: "April 03, 2021",
+  content: "Registrations are now open for the workshops. Register here"
 }];
 const aboutDetailsOne = "The 3rd International conference on advancements in computing -2021 (ICAC2021) is organized by the Faculty of Computing of the Sri Lanka Institute of Information Technology (SLIIT) as an open forum for academics along with industry professionals to present the latest findings and research output and practical deployments in the Computer Science and Information Technology domains. Primary objective of the ICAC is to uplift the research culture and the quality of research done by Sri Lankan researchers. This conference will create a platform for national and international researchers to showcase their research output, networking opportunities to discuss innovative ideas, and initiate collaborative work. ICAC 2019 and ICAC 2020 were successfully conducted with a technical co-sponsorship by IEEE Sri Lanka Section and all publications are available in IEEE Xplore digital library";
 const aboutDetailsTwo = "July 24 - 27 in Sri Lanka Institute of Information Technology";
@@ -49698,6 +49728,8 @@ try {
   var _LandingPageComponentsBlockTwoDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockTwo);
   var _LandingPageComponentsBlockThree = require("./LandingPageComponents/BlockThree");
   var _LandingPageComponentsBlockThreeDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockThree);
+  var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
+  var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/LandingPage.js";
   const LandingPage = props => {
     return (
@@ -49705,7 +49737,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 17,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -49714,28 +49746,35 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17,
+          lineNumber: 18,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockOneDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 20,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockTwoDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 22,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockThreeDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 24,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockFourDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
           columnNumber: 11
         }
       })))
@@ -49751,7 +49790,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","./LandingPageComponents/BlockOne":"GTXmc","./LandingPageComponents/BlockTwo":"7pMA2","./LandingPageComponents/BlockThree":"1hKpH"}],"2wLtl":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","./LandingPageComponents/BlockOne":"GTXmc","./LandingPageComponents/BlockTwo":"7pMA2","./LandingPageComponents/BlockThree":"1hKpH","./LandingPageComponents/BlockFour":"5Ss6p"}],"2wLtl":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "default", function () {
@@ -50521,7 +50560,8 @@ try {
       color: theme.palette.common.blue
     },
     aboutContent: {
-      width: "60%"
+      width: "60%",
+      color: theme.palette.common.darkGray
     },
     divider: {
       backgroundColor: theme.palette.common.yellow,
@@ -73975,24 +74015,28 @@ try {
   require("@material-ui/core/Button");
   require("@material-ui/core/Hidden");
   require("@material-ui/core");
-  require("../../store/data");
+  var _storeData = require("../../store/data");
   require("@material-ui/core");
+  var _materialUiCoreSlide = require("@material-ui/core/Slide");
+  var _materialUiCoreSlideDefault = _parcelHelpers.interopDefault(_materialUiCoreSlide);
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/LandingPageComponents/BlockThree.js", _s = $RefreshSig$();
   const BlockThree = props => {
     _s();
     const classes = useStyles();
     return (
-      /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
-        item: true,
-        direction: "column",
+      /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreSlideDefault.default, {
+        direction: "up",
+        in: true,
+        mountOnEnter: true,
+        unmountOnExit: true,
+        timeout: 5500,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 23,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
-        item: true,
         container: true,
         direction: "column",
         className: classes.newsContainer,
@@ -74000,23 +74044,23 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
-          columnNumber: 5
+          lineNumber: 24,
+          columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 7
+          lineNumber: 30,
+          columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("center", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 9
+          lineNumber: 31,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         variant: "h4",
@@ -74024,8 +74068,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
-          columnNumber: 11
+          lineNumber: 32,
+          columnNumber: 13
         }
       }, "Latest News")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
         variant: "middle",
@@ -74034,19 +74078,75 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
-          columnNumber: 9
+          lineNumber: 36,
+          columnNumber: 11
         }
-      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
         container: true,
+        direction: "column",
+        className: classes.newsContentContainer,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
-          columnNumber: 5
+          lineNumber: 39,
+          columnNumber: 9
         }
-      }))
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        direction: "row",
+        justify: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 11
+        }
+      }, _storeData.news.map(item => {
+        return (
+          /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+            key: item.id,
+            item: true,
+            xs: 12,
+            md: 6,
+            lg: 4,
+            className: classes.newsRow,
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 48,
+              columnNumber: 17
+            }
+          }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+            variant: "h4",
+            align: "center",
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 56,
+              columnNumber: 19
+            }
+          }, item.date), /*#__PURE__*/_reactDefault.default.createElement("br", {
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 59,
+              columnNumber: 19
+            }
+          }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+            className: classes.newsContent,
+            variant: "subtitle1",
+            align: "center",
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 60,
+              columnNumber: 19
+            }
+          }, item.content))
+        );
+      })))))
     );
   };
   _s(BlockThree, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
@@ -74058,6 +74158,9 @@ try {
       marginTop: "2rem",
       marginBottom: "2rem"
     },
+    newsContentContainer: {
+      marginTop: "1rem"
+    },
     newsHeader: {
       fontFamily: "Raleway",
       fontWeight: 800,
@@ -74066,6 +74169,14 @@ try {
     divider: {
       backgroundColor: theme.palette.common.yellow,
       height: "0.125rem"
+    },
+    newsContent: {
+      marginRight: "3rem",
+      marginLeft: "3rem",
+      color: theme.palette.common.darkGray
+    },
+    newsRow: {
+      marginTop: "2rem"
     }
   }));
   exports.default = BlockThree;
@@ -74077,6 +74188,320 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","../../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","../../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Slide":"2GQOF"}],"5Ss6p":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  require("@material-ui/core/Paper");
+  require("@material-ui/core/Divider");
+  require("@material-ui/core/Grow");
+  require("@material-ui/core/Button");
+  var _materialUiCoreHidden = require("@material-ui/core/Hidden");
+  var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
+  require("@material-ui/core");
+  require("../../store/data");
+  require("@material-ui/core");
+  var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
+  var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/frontend/src/components/LandingPageComponents/BlockFour.js", _s = $RefreshSig$();
+  const BlockFour = () => {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreHiddenDefault.default, {
+        smDown: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        className: classes.keynoteContainer,
+        direction: "column",
+        alignItems: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.keynoteHeaderItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h4",
+        className: classes.keynoteHeader,
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 11
+        }
+      }, "Keynote Speakers")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        direction: "row",
+        justify: "space-evenly",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
+        alt: "Remy Sharp",
+        src: "https://media-exp1.licdn.com/dms/image/C4D03AQHtfNv_gn6PRw/profile-displayphoto-shrink_200_200/0/1608202942039?e=1627516800&v=beta&t=QtcONe8ywhm4DN-mSdg0ySngcqiQxT3f__ntg2SVrUU",
+        className: classes.avatarLarge,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.speakersHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 13
+        }
+      }, "Kaveen Akash"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "subtitle2",
+        align: "center",
+        className: classes.speakersSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 13
+        }
+      }, "Department of System Engineering, Faculty of Science ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 68
+        }
+      }), "and Technology, Keio University")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
+        alt: "Remy Sharp",
+        src: "https://i.ibb.co/s5yFRjX/Whats-App-Image-2021-05-26-at-19-04-57.jpg",
+        className: classes.avatarSmall,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.speakersHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 13
+        }
+      }, "Lumini Nanayakkara"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "subtitle2",
+        align: "center",
+        className: classes.speakersSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 13
+        }
+      }, "Department of System Engineering, Faculty of Science ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 68
+        }
+      }), "and Technology, Keio University")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
+        alt: "Remy Sharp",
+        src: "https://scontent.fcmb3-1.fna.fbcdn.net/v/t1.6435-9/183277945_1664926977033001_3016184110824371581_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=l6Y7PjUXowsAX_2DlK0&_nc_ht=scontent.fcmb3-1.fna&oh=a4cf2efbe05d3f60ebaf169297a51d92&oe=60D52E77",
+        className: classes.avatarLarge,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.speakersHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88,
+          columnNumber: 13
+        }
+      }, "Thushan Walimuni"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "subtitle2",
+        align: "center",
+        className: classes.speakersSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96,
+          columnNumber: 13
+        }
+      }, "Department of System Engineering, Faculty of Science ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101,
+          columnNumber: 68
+        }
+      }), "and Technology, Keio University"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
+        alt: "Remy Sharp",
+        src: "",
+        className: classes.avatarSmall,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.speakersHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108,
+          columnNumber: 11
+        }
+      }, "Hariscumar"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "subtitle2",
+        align: "center",
+        className: classes.speakersSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 11
+        }
+      }, "Department of System Engineering, Faculty of Science ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121,
+          columnNumber: 66
+        }
+      }), "and Technology, Keio University"))))
+    );
+  };
+  _s(BlockFour, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = BlockFour;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    keynoteContainer: {
+      backgroundColor: theme.palette.common.yellow,
+      opacity: 1,
+      marginTop: "2rem"
+    },
+    keynoteHeader: {
+      fontFamily: "Raleway",
+      fontWeight: 800,
+      color: theme.palette.common.blue
+    },
+    keynoteHeaderItem: {
+      marginTop: "2rem",
+      marginBottom: "2rem"
+    },
+    divider: {
+      backgroundColor: theme.palette.common.blue,
+      height: "0.175rem"
+    },
+    avatarLarge: {
+      width: "15em",
+      height: "15em"
+    },
+    avatarSmall: {
+      width: "10em",
+      height: "10em"
+    },
+    speakersHeader: {
+      marginTop: "0.3rem",
+      fontSize: "1.1em",
+      fontWeight: 900,
+      color: theme.palette.common.blue
+    },
+    speakersSubHeader: {
+      fontSize: "0.6em"
+    }
+  }));
+  exports.default = BlockFour;
+  var _c;
+  $RefreshReg$(_c, "BlockFour");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Grid":"5T6Yd","@material-ui/core/styles":"1Rdvd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","../../store/data":"5tk3l","@material-ui/core/Avatar":"OJ7h6"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map

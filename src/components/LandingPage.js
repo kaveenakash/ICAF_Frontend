@@ -9,6 +9,7 @@ import Hidden from "@material-ui/core/Hidden";
 import BlockOne from "./LandingPageComponents/BlockOne";
 import BlockTwo from "./LandingPageComponents/BlockTwo";
 import BlockThree from "./LandingPageComponents/BlockThree";
+import BlockFour from './LandingPageComponents/BlockFour'
 const LandingPage = (props) => {
   
 
@@ -21,6 +22,9 @@ const LandingPage = (props) => {
           <BlockTwo/>
           {/* Lates News Block */}
           <BlockThree/>
+          {/* Keynote Speakers */}
+          <BlockFour/>
+          {/* Organize Block */}
       </Grid>
     </div>
   );
