@@ -1,29 +1,31 @@
-import React from 'react' 
-import {makeStyles} from "@material-ui/core/styles"
-import Grid from '@material-ui/core/Grid'
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
+import Paper from "@material-ui/core/Paper";
+import Grow from "@material-ui/core/Grow";
+import Button from "@material-ui/core/Button";
+import Hidden from "@material-ui/core/Hidden";
+import BlockOne from "./LandingPageComponents/BlockOne";
+import BlockTwo from "./LandingPageComponents/BlockTwo";
+import BlockThree from "./LandingPageComponents/BlockThree";
+const LandingPage = (props) => {
+  
 
-
-const LandingPage = props =>{
-    const classes = useStyles();
-
-    
-    return(
-        <div>
-           <Grid>
-               
-           </Grid>
-        </div>
-    )
-    
-}
-{/* <img src="https://i.ibb.co/KNGHgqL/intro-bg.jpg" height="100%" width="100%"/> */}
-
-
-const useStyles = makeStyles(theme => ({
-
-}))
+  return (
+    <div>
+      <Grid container direction="column">
+        {/* first Block */}
+        <BlockOne/>
+        {/* About Block */}
+          <BlockTwo/>
+          {/* Lates News Block */}
+          <BlockThree/>
+      </Grid>
+    </div>
+  );
+};
 
 
 
 export default LandingPage;
-
