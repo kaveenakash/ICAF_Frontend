@@ -1053,7 +1053,7 @@ try {
   var _reactDom = require('react-dom');
   var _srcComponentsApp = require('./src/components/App');
   var _srcComponentsAppDefault = _parcelHelpers.interopDefault(_srcComponentsApp);
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\index.js";
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/index.js";
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_srcComponentsAppDefault.default, {
     __self: undefined,
     __source: {
@@ -26282,7 +26282,7 @@ try {
   var _uiFooterDefault = _parcelHelpers.interopDefault(_uiFooter);
   var _LandingPage = require('./LandingPage');
   var _LandingPageDefault = _parcelHelpers.interopDefault(_LandingPage);
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\src\\components\\App.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/App.js", _s = $RefreshSig$();
   const App = () => {
     _s();
     const [value, setValue] = _react.useState(0);
@@ -39135,7 +39135,7 @@ try {
   var _materialUiCoreListItemText = require("@material-ui/core/ListItemText");
   var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
   var _storeData = require("../../store/data");
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\src\\components\\ui\\Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
     _s();
     const {value, setValue} = props;
@@ -48089,6 +48089,9 @@ _parcelHelpers.export(exports, "aboutDetailsTwo", function () {
 _parcelHelpers.export(exports, "news", function () {
   return news;
 });
+_parcelHelpers.export(exports, "venueImages", function () {
+  return venueImages;
+});
 const routes = [{
   name: "Home",
   link: "/",
@@ -48117,6 +48120,34 @@ const routes = [{
   name: "Contact Us",
   link: "/contact-us",
   activeIndex: 6
+}];
+const venueImages = [{
+  id: "1",
+  src: "https://i.ibb.co/bdny1yB/sliitone.jpg"
+}, {
+  id: "2",
+  src: "https://i.ibb.co/yWHFyR6/sliittwo.jpg"
+}, {
+  id: "3",
+  src: "https://i.ibb.co/L1S7z9v/sliitfour.png"
+}, {
+  id: "4",
+  src: "https://i.ibb.co/VQVZLkn/sliitfive.jpg"
+}, {
+  id: "5",
+  src: "https://i.ibb.co/4pz6BL4/sliitsix.png"
+}, {
+  id: "6",
+  src: "https://i.ibb.co/r7tJS8f/sliitseven.jpg"
+}, {
+  id: "7",
+  src: "https://i.ibb.co/XJsv2gs/sliiteight.jpg"
+}, {
+  id: "8",
+  src: "https://i.ibb.co/XpbP8BG/sliitnine.jpg"
+}, {
+  id: "9",
+  src: "https://i.ibb.co/Gxp74qM/sliitten.jpg"
 }];
 const news = [{
   id: "1",
@@ -48328,7 +48359,7 @@ try {
   var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
   var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
   require("@material-ui/core/Icon");
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\src\\components\\ui\\Footer.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
   const Footer = props => {
     _s();
     const classes = useStyles();
@@ -49730,14 +49761,16 @@ try {
   var _LandingPageComponentsBlockThreeDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockThree);
   var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\src\\components\\LandingPage.js";
+  var _LandingPageComponentsBlockFive = require("./LandingPageComponents/BlockFive");
+  var _LandingPageComponentsBlockFiveDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFive);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPage.js";
   const LandingPage = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17,
+          lineNumber: 18,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -49746,35 +49779,42 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 19,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockOneDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 21,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockTwoDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 23,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockThreeDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 25,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockFourDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 27,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockFiveDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
           columnNumber: 11
         }
       })))
@@ -49790,7 +49830,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","./LandingPageComponents/BlockOne":"GTXmc","./LandingPageComponents/BlockTwo":"7pMA2","./LandingPageComponents/BlockThree":"1hKpH","./LandingPageComponents/BlockFour":"5Ss6p","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"2wLtl":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","./LandingPageComponents/BlockOne":"GTXmc","./LandingPageComponents/BlockTwo":"7pMA2","./LandingPageComponents/BlockThree":"1hKpH","./LandingPageComponents/BlockFour":"5Ss6p","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./LandingPageComponents/BlockFive":"34RP9"}],"2wLtl":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "default", function () {
@@ -50038,7 +50078,7 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreHidden = require("@material-ui/core/Hidden");
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockOne.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockOne.js", _s = $RefreshSig$();
   const BlockOne = props => {
     _s();
     const classes = useStyles();
@@ -50401,7 +50441,7 @@ try {
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
   var _materialUiCore = require("@material-ui/core");
   var _storeData = require("../../store/data");
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockTwo.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockTwo.js", _s = $RefreshSig$();
   function _extends() {
     _extends = Object.assign || (function (target) {
       for (var i = 1; i < arguments.length; i++) {
@@ -74022,7 +74062,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreSlide = require("@material-ui/core/Slide");
   var _materialUiCoreSlideDefault = _parcelHelpers.interopDefault(_materialUiCoreSlide);
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockThree.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockThree.js", _s = $RefreshSig$();
   const BlockThree = props => {
     _s();
     const classes = useStyles();
@@ -74217,7 +74257,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
-  var _jsxFileName = "C:\\Users\\pc\\Desktop\\AF_project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFour.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockFour.js", _s = $RefreshSig$();
   const BlockFour = () => {
     _s();
     const classes = useStyles();
@@ -74505,6 +74545,163 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","../../store/data":"5tk3l","@material-ui/core/Avatar":"OJ7h6","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","../../store/data":"5tk3l","@material-ui/core/Avatar":"OJ7h6","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"34RP9":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  require("@material-ui/core/Paper");
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
+  var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  require("@material-ui/core/Grow");
+  require("@material-ui/core/Button");
+  require("@material-ui/core/Hidden");
+  require("@material-ui/core");
+  var _storeData = require("../../store/data");
+  require("@material-ui/core");
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockFive.js", _s = $RefreshSig$();
+  const BlockFive = props => {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        item: true,
+        alignItems: "center",
+        direction: "column",
+        className: classes.venueContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h4",
+        className: classes.venueHeader,
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 9
+        }
+      }, "Venue"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
+        variant: "middle",
+        className: classes.divider,
+        light: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 9
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        direction: "column",
+        alignItems: "center",
+        container: true,
+        className: classes.imageContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        direction: "row",
+        justify: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 9
+        }
+      }, _storeData.venueImages.filter(item => item.id <= 8).map(image => {
+        return (
+          /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+            key: image.id,
+            item: true,
+            className: classes.imageItem,
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 46,
+              columnNumber: 17
+            }
+          }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+            className: classes.image,
+            src: image.src,
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 47,
+              columnNumber: 19
+            }
+          }))
+        );
+      }))))
+    );
+  };
+  _s(BlockFive, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = BlockFive;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    venueContainer: {
+      marginTop: "2rem",
+      marginBottom: "2rem"
+    },
+    venueHeader: {
+      fontFamily: "Raleway",
+      fontWeight: 800,
+      color: theme.palette.common.blue
+    },
+    divider: {
+      backgroundColor: theme.palette.common.yellow,
+      height: "0.1rem"
+    },
+    imageContainer: {
+      marginTop: "2rem"
+    },
+    image: {
+      width: "22em",
+      height: "15em"
+    },
+    imageItem: {
+      marginRight: "3px",
+      marginTop: "3px"
+    }
+  }));
+  exports.default = BlockFive;
+  var _c;
+  $RefreshReg$(_c, "BlockFive");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","../../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map

@@ -10,6 +10,7 @@ import BlockOne from "./LandingPageComponents/BlockOne";
 import BlockTwo from "./LandingPageComponents/BlockTwo";
 import BlockThree from "./LandingPageComponents/BlockThree";
 import BlockFour from './LandingPageComponents/BlockFour'
+import BlockFive from "./LandingPageComponents/BlockFive";
 const LandingPage = (props) => {
   
 
@@ -25,6 +26,7 @@ const LandingPage = (props) => {
           {/* Keynote Speakers */}
           <BlockFour/>
           {/* Organize Block */}
+          <BlockFive/>
       </Grid>
     </div>
   );
