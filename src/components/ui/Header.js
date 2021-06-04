@@ -150,6 +150,9 @@ const Header = (props) => {
               size="small"
               color="secondary"
               className={classes.button}
+              component={Link}
+              to="/signIn"
+              onClick={() => setValue(7)}
               startIcon={<ExitToAppIcon />}
             >
               Sign in

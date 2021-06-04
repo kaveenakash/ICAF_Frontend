@@ -8,6 +8,7 @@ import Footer from './ui/Footer'
 import LandingPage from './LandingPage'
 import Keynote from "./Keynote";
 import ContactUs from "./ContactUs";
+import SignIn from "./SignIn";
 const App = () => {
   const [value, setValue] = useState(0);
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route exact path="/registration" component={() => <div>registration</div>}/>
           <Route exact path="/workshops" component={() => <div>workshops</div>}/>
           <Route exact path="/contact-us" component={ContactUs}/>
+          <Route exact path="/signIn" component={SignIn}/>
         </Switch>
         <Footer value={value} setValue={setValue}/>
       </BrowserRouter>

@@ -8,6 +8,7 @@ const routes = [
   { name: "Registrations", link: "/registration",activeIndex:4 },
   { name: "Workshops", link: "/workshops",activeIndex:5 },
   { name: "Contact Us", link: "/contact-us",activeIndex:6 },
+ 
 ];
 
 
