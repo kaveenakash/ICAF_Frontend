@@ -11,6 +11,8 @@ import ContactUs from "./ContactUs";
 import SignIn from "./SignIn";
 import Registration from './Registration'
 import WorkshopConductorRegistration from "./signUp/WorkshopConductorRegistration";
+import ResearchPresenterRegistration from "./signUp/ResearchPresenterRegistration";
+import UserRegistration from "./signUp/UserRegistration";
 const App = () => {
   const [value, setValue] = useState(0);
   return (
@@ -28,6 +30,8 @@ const App = () => {
           <Route exact path="/contact-us" component={ContactUs}/>
           <Route exact path="/signIn" component={SignIn}/>
           <Route exact path="/registration/workshop-conductor" component={WorkshopConductorRegistration}/>
+          <Route exact path="/registration/research-presenter" component={ResearchPresenterRegistration}/>
+          <Route exact path="/registration/user" component={UserRegistration}/>
         </Switch>
         <Footer value={value} setValue={setValue}/>
       </BrowserRouter>

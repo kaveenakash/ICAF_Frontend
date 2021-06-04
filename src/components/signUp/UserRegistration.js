@@ -14,7 +14,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
 
-const WorkshopConductorRegistration = () => {
+const UserRegistration = () => {
   const [selectedFile, setSelectedFile] = useState();
   const [selectedFileName, setSelectedFileName] = useState();
   const [isFilePicked, setIsFilePicked] = useState(false);
@@ -33,7 +33,7 @@ const WorkshopConductorRegistration = () => {
           <AssignmentIndIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Workshop Conductor Sign Up
+          User Sign Up
         </Typography>
         <form className={classes.form} noValidate>
           <Grid container spacing={2}>
@@ -75,31 +75,6 @@ const WorkshopConductorRegistration = () => {
             <Grid item xs={12}>
               <TextField
                 variant="outlined"
-                multiline="true"
-                rows="5"
-                required
-                fullWidth
-                id="workshop"
-                label="Workshop Details"
-              />
-            </Grid>
-            <Grid item>
-              <center>
-                <Button
-                  variant="contained"
-                  component="label"
-                  color="secondary"
-                  size="small"
-                >
-                  Flyer Upload
-                  <input type="file" hidden onChange={fileHandler} />
-                </Button>
-                {isFilePicked && selectedFileName}
-              </center>
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                variant="outlined"
                 required
                 fullWidth
                 name="password"
@@ -128,6 +103,7 @@ const WorkshopConductorRegistration = () => {
 const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: theme.spacing(12),
+    marginBottom: theme.spacing(13),
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -145,4 +121,4 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default WorkshopConductorRegistration;
+export default UserRegistration;

@@ -14,7 +14,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
 
-const WorkshopConductorRegistration = () => {
+const ResearchPresenterRegistration = () => {
   const [selectedFile, setSelectedFile] = useState();
   const [selectedFileName, setSelectedFileName] = useState();
   const [isFilePicked, setIsFilePicked] = useState(false);
@@ -33,7 +33,7 @@ const WorkshopConductorRegistration = () => {
           <AssignmentIndIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Workshop Conductor Sign Up
+          Research Presenter Sign Up
         </Typography>
         <form className={classes.form} noValidate>
           <Grid container spacing={2}>
@@ -80,7 +80,7 @@ const WorkshopConductorRegistration = () => {
                 required
                 fullWidth
                 id="workshop"
-                label="Workshop Details"
+                label="Research Presentation content"
               />
             </Grid>
             <Grid item>
@@ -91,7 +91,7 @@ const WorkshopConductorRegistration = () => {
                   color="secondary"
                   size="small"
                 >
-                  Flyer Upload
+                  Upload Presentation
                   <input type="file" hidden onChange={fileHandler} />
                 </Button>
                 {isFilePicked && selectedFileName}
@@ -145,4 +145,4 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default WorkshopConductorRegistration;
+export default ResearchPresenterRegistration;

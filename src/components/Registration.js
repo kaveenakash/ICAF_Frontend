@@ -62,7 +62,7 @@ const Registration = (props) => {
         <Grid item container direction="row" justify="center" >
           <Grid item>
 
-        <Button variant="contained" color="secondary" className={classes.registerButton}>
+        <Button variant="contained" color="secondary" className={classes.registerButton} component={Link} to="/registration/research-presenter">
           Researcher Registration
         </Button>
           </Grid>
@@ -74,7 +74,7 @@ const Registration = (props) => {
           </Grid>
           <Grid item>
 
-        <Button variant="contained" color="secondary" className={classes.registerButton}>
+        <Button variant="contained" color="secondary" className={classes.registerButton} component={Link} to="registration/user">
           User Registration   
         </Button>
           </Grid>
