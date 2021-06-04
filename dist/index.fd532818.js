@@ -1053,7 +1053,7 @@ try {
   var _reactDom = require('react-dom');
   var _srcComponentsApp = require('./src/components/App');
   var _srcComponentsAppDefault = _parcelHelpers.interopDefault(_srcComponentsApp);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/index.js";
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/index.js";
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_srcComponentsAppDefault.default, {
     __self: undefined,
     __source: {
@@ -26282,7 +26282,11 @@ try {
   var _uiFooterDefault = _parcelHelpers.interopDefault(_uiFooter);
   var _LandingPage = require('./LandingPage');
   var _LandingPageDefault = _parcelHelpers.interopDefault(_LandingPage);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/App.js", _s = $RefreshSig$();
+  var _Keynote = require("./Keynote");
+  var _KeynoteDefault = _parcelHelpers.interopDefault(_Keynote);
+  var _ContactUs = require("./ContactUs");
+  var _ContactUsDefault = _parcelHelpers.interopDefault(_ContactUs);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/App.js", _s = $RefreshSig$();
   const App = () => {
     _s();
     const [value, setValue] = _react.useState(0);
@@ -26292,14 +26296,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 14,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 15,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
@@ -26308,14 +26312,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 17,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 18,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26325,24 +26329,17 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17,
+          lineNumber: 19,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/keynotes",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 18,
-            columnNumber: 58
-          }
-        }, "downloads"),
+        component: _KeynoteDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 20,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26352,14 +26349,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 21,
             columnNumber: 63
           }
         }, "presentation"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 21,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26369,14 +26366,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20,
+            lineNumber: 22,
             columnNumber: 59
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 22,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26386,14 +26383,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 21,
+            lineNumber: 23,
             columnNumber: 62
           }
         }, "registration"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 23,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26403,31 +26400,24 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22,
+            lineNumber: 24,
             columnNumber: 59
           }
         }, "workshops"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 24,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/contact-us",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 23,
-            columnNumber: 60
-          }
-        }, "Contact us"),
+        component: _ContactUsDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 25,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26436,7 +26426,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 27,
           columnNumber: 9
         }
       })))
@@ -26453,7 +26443,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1PMSK":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1PMSK":[function(require,module,exports) {
 "use strict";
 if ("development" === "production") {
   module.exports = require("./cjs/react-router-dom.min.js");
@@ -39135,7 +39125,7 @@ try {
   var _materialUiCoreListItemText = require("@material-ui/core/ListItemText");
   var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
   var _storeData = require("../../store/data");
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
     _s();
     const {value, setValue} = props;
@@ -48359,7 +48349,7 @@ try {
   var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
   var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
   require("@material-ui/core/Icon");
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
   const Footer = props => {
     _s();
     const classes = useStyles();
@@ -49763,7 +49753,7 @@ try {
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
   var _LandingPageComponentsBlockFive = require("./LandingPageComponents/BlockFive");
   var _LandingPageComponentsBlockFiveDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFive);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPage.js";
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPage.js";
   const LandingPage = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -49830,7 +49820,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","./LandingPageComponents/BlockOne":"GTXmc","./LandingPageComponents/BlockTwo":"7pMA2","./LandingPageComponents/BlockThree":"1hKpH","./LandingPageComponents/BlockFour":"5Ss6p","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./LandingPageComponents/BlockFive":"34RP9"}],"2wLtl":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","./LandingPageComponents/BlockOne":"GTXmc","./LandingPageComponents/BlockTwo":"7pMA2","./LandingPageComponents/BlockThree":"1hKpH","./LandingPageComponents/BlockFour":"5Ss6p","./LandingPageComponents/BlockFive":"34RP9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"2wLtl":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "default", function () {
@@ -50078,7 +50068,7 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreHidden = require("@material-ui/core/Hidden");
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockOne.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockOne.js", _s = $RefreshSig$();
   const BlockOne = props => {
     _s();
     const classes = useStyles();
@@ -50441,7 +50431,7 @@ try {
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
   var _materialUiCore = require("@material-ui/core");
   var _storeData = require("../../store/data");
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockTwo.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockTwo.js", _s = $RefreshSig$();
   function _extends() {
     _extends = Object.assign || (function (target) {
       for (var i = 1; i < arguments.length; i++) {
@@ -74062,7 +74052,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreSlide = require("@material-ui/core/Slide");
   var _materialUiCoreSlideDefault = _parcelHelpers.interopDefault(_materialUiCoreSlide);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockThree.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockThree.js", _s = $RefreshSig$();
   const BlockThree = props => {
     _s();
     const classes = useStyles();
@@ -74257,7 +74247,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockFour.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockFour.js", _s = $RefreshSig$();
   const BlockFour = () => {
     _s();
     const classes = useStyles();
@@ -74569,7 +74559,7 @@ try {
   require("@material-ui/core");
   var _storeData = require("../../store/data");
   require("@material-ui/core");
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockFive.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockFive.js", _s = $RefreshSig$();
   const BlockFive = props => {
     _s();
     const classes = useStyles();
@@ -74702,6 +74692,468 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","../../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","../../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"cBkAd":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
+  var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/Keynote.js";
+  const Keynote = props => {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockFourDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 13
+        }
+      }))
+    );
+  };
+  _c = Keynote;
+  exports.default = Keynote;
+  var _c;
+  $RefreshReg$(_c, "Keynote");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","./LandingPageComponents/BlockFour":"5Ss6p","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"2HRFF":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  require("@material-ui/core/Paper");
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
+  var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  require("@material-ui/core/Grow");
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  require("@material-ui/core/Hidden");
+  require("@material-ui/core");
+  require("@material-ui/core");
+  require("@material-ui/core/Avatar");
+  var _materialUiCoreTextField = require('@material-ui/core/TextField');
+  var _materialUiCoreTextFieldDefault = _parcelHelpers.interopDefault(_materialUiCoreTextField);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/ContactUs.js", _s = $RefreshSig$();
+  const ContactUs = props => {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        className: classes.contactContainer,
+        direction: "column",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        alignItems: "center",
+        direction: "column",
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h4",
+        className: classes.contactHeader,
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 11
+        }
+      }, "Contact Us"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
+        variant: "middle",
+        className: classes.divider,
+        light: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 11
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        justify: "space-evenly",
+        className: classes.contactDetailsContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        sm: 4,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.contactSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 10
+        }
+      }, "ADDRESS"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        className: classes.contactContent,
+        variant: "subtitle1",
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 10
+        }
+      }, "SLIIT Malabe Campus, ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 113
+        }
+      }), "New Kandy Rd, Malabe 10115")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        sm: 4,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.contactSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 8
+        }
+      }, "PHONE NUMBER"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        className: classes.contactContent,
+        variant: "subtitle1",
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 8
+        }
+      }, "+94 11 754 4801")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        sm: 4,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.contactSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 9
+        }
+      }, "EMAIL"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        className: classes.contactContent,
+        variant: "subtitle1",
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 9
+        }
+      }, "info@sliit.lk"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        className: classes.messageContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        direction: "row",
+        justify: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 4,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        fullWidth: "true",
+        id: "standard-basic",
+        label: "Name",
+        variant: "outlined",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 10
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 4,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        fullWidth: "true",
+        id: "standard-basic",
+        label: "Email",
+        variant: "outlined",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64,
+          columnNumber: 11
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        justify: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 8,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        fullWidth: "true",
+        id: "standard-basic",
+        label: "Subject",
+        variant: "outlined",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71,
+          columnNumber: 11
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        justify: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 8,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        multiline: "true",
+        rows: "5",
+        fullWidth: "true",
+        id: "standard-basic",
+        label: "Message",
+        variant: "outlined",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79,
+          columnNumber: 11
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        justify: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83,
+          columnNumber: 8
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        color: "secondary",
+        size: "large",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 11
+        }
+      }, "Send Message"))))))
+    );
+  };
+  _s(ContactUs, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = ContactUs;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    contactContainer: {
+      marginTop: "5rem",
+      marginBottom: "2rem"
+    },
+    contactHeader: {
+      fontFamily: "Raleway",
+      fontWeight: 800,
+      color: theme.palette.common.blue
+    },
+    divider: {
+      backgroundColor: theme.palette.common.yellow,
+      height: "0.2rem"
+    },
+    contactDetailsContainer: {
+      marginTop: "4rem"
+    },
+    contactSubHeader: {
+      fontFamily: "Raleway",
+      fontWeight: 700,
+      color: theme.palette.common.blue
+    },
+    contactContent: {
+      color: theme.palette.common.blue
+    },
+    messageContainer: {
+      marginTop: "3rem"
+    }
+  }));
+  exports.default = ContactUs;
+  var _c;
+  $RefreshReg$(_c, "ContactUs");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/TextField":"2Ywrl"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
