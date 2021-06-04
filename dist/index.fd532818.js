@@ -1053,7 +1053,7 @@ try {
   var _reactDom = require('react-dom');
   var _srcComponentsApp = require('./src/components/App');
   var _srcComponentsAppDefault = _parcelHelpers.interopDefault(_srcComponentsApp);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/index.js";
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/index.js";
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_srcComponentsAppDefault.default, {
     __self: undefined,
     __source: {
@@ -26288,7 +26288,11 @@ try {
   var _ContactUsDefault = _parcelHelpers.interopDefault(_ContactUs);
   var _SignIn = require("./SignIn");
   var _SignInDefault = _parcelHelpers.interopDefault(_SignIn);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/App.js", _s = $RefreshSig$();
+  var _Registration = require('./Registration');
+  var _RegistrationDefault = _parcelHelpers.interopDefault(_Registration);
+  var _signUpWorkshopConductorRegistration = require("./signUp/WorkshopConductorRegistration");
+  var _signUpWorkshopConductorRegistrationDefault = _parcelHelpers.interopDefault(_signUpWorkshopConductorRegistration);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/App.js", _s = $RefreshSig$();
   const App = () => {
     _s();
     const [value, setValue] = _react.useState(0);
@@ -26298,14 +26302,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 17,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 18,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
@@ -26314,14 +26318,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 20,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 21,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26331,7 +26335,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 22,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26341,7 +26345,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 23,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26351,14 +26355,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22,
+            lineNumber: 24,
             columnNumber: 63
           }
         }, "presentation"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 24,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26368,31 +26372,24 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 23,
+            lineNumber: 25,
             columnNumber: 59
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 25,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/registration",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 24,
-            columnNumber: 62
-          }
-        }, "registration"),
+        component: _RegistrationDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 26,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26402,14 +26399,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 25,
+            lineNumber: 27,
             columnNumber: 59
           }
         }, "workshops"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 27,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26419,7 +26416,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 28,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26429,7 +26426,17 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 29,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/registration/workshop-conductor",
+        component: _signUpWorkshopConductorRegistrationDefault.default,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26438,7 +26445,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 32,
           columnNumber: 9
         }
       })))
@@ -26455,7 +26462,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./SignIn":"4zZDB"}],"1PMSK":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r"}],"1PMSK":[function(require,module,exports) {
 "use strict";
 if ("development" === "production") {
   module.exports = require("./cjs/react-router-dom.min.js");
@@ -39137,7 +39144,7 @@ try {
   var _materialUiCoreListItemText = require("@material-ui/core/ListItemText");
   var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
   var _storeData = require("../../store/data");
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
     _s();
     const {value, setValue} = props;
@@ -48097,6 +48104,9 @@ _parcelHelpers.export(exports, "news", function () {
 _parcelHelpers.export(exports, "venueImages", function () {
   return venueImages;
 });
+_parcelHelpers.export(exports, "registrationRules", function () {
+  return registrationRules;
+});
 const routes = [{
   name: "Home",
   link: "/",
@@ -48178,6 +48188,28 @@ const news = [{
   id: "5",
   date: "April 03, 2021",
   content: "Registrations are now open for the workshops. Register here"
+}];
+const registrationRules = [{
+  id: "1",
+  content: "Registration and payment deadline: 10th June 2021"
+}, {
+  id: "2",
+  content: "When the researcher registered to the system, the research paper should be uploaded alongside the contact information"
+}, {
+  id: "3",
+  content: "When the workshop conductor is registered to the system, a proposal containing all the necessary details about the workshop should be uploaded alongside the contact information"
+}, {
+  id: "4",
+  content: "When the user is registered to the system all the necessary contact information should be uploaded"
+}, {
+  id: "5",
+  content: "Attendees must pay upfront to register for the conference"
+}, {
+  id: "5",
+  content: "Research paper presenters must pay if their papers got approved to present them at the conference"
+}, {
+  id: "7",
+  content: "Workshop conductors don’t have to pay"
 }];
 const aboutDetailsOne = "The 3rd International conference on advancements in computing -2021 (ICAC2021) is organized by the Faculty of Computing of the Sri Lanka Institute of Information Technology (SLIIT) as an open forum for academics along with industry professionals to present the latest findings and research output and practical deployments in the Computer Science and Information Technology domains. Primary objective of the ICAC is to uplift the research culture and the quality of research done by Sri Lankan researchers. This conference will create a platform for national and international researchers to showcase their research output, networking opportunities to discuss innovative ideas, and initiate collaborative work. ICAC 2019 and ICAC 2020 were successfully conducted with a technical co-sponsorship by IEEE Sri Lanka Section and all publications are available in IEEE Xplore digital library";
 const aboutDetailsTwo = "July 24 - 27 in Sri Lanka Institute of Information Technology";
@@ -48364,7 +48396,7 @@ try {
   var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
   var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
   require("@material-ui/core/Icon");
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
   const Footer = props => {
     _s();
     const classes = useStyles();
@@ -49768,7 +49800,7 @@ try {
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
   var _LandingPageComponentsBlockFive = require("./LandingPageComponents/BlockFive");
   var _LandingPageComponentsBlockFiveDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFive);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPage.js";
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPage.js";
   const LandingPage = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -50083,7 +50115,7 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreHidden = require("@material-ui/core/Hidden");
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockOne.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockOne.js", _s = $RefreshSig$();
   const BlockOne = props => {
     _s();
     const classes = useStyles();
@@ -50446,7 +50478,7 @@ try {
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
   var _materialUiCore = require("@material-ui/core");
   var _storeData = require("../../store/data");
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockTwo.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockTwo.js", _s = $RefreshSig$();
   function _extends() {
     _extends = Object.assign || (function (target) {
       for (var i = 1; i < arguments.length; i++) {
@@ -74067,7 +74099,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreSlide = require("@material-ui/core/Slide");
   var _materialUiCoreSlideDefault = _parcelHelpers.interopDefault(_materialUiCoreSlide);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockThree.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockThree.js", _s = $RefreshSig$();
   const BlockThree = props => {
     _s();
     const classes = useStyles();
@@ -74262,7 +74294,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockFour.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockFour.js", _s = $RefreshSig$();
   const BlockFour = () => {
     _s();
     const classes = useStyles();
@@ -74574,7 +74606,7 @@ try {
   require("@material-ui/core");
   var _storeData = require("../../store/data");
   require("@material-ui/core");
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/LandingPageComponents/BlockFive.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockFive.js", _s = $RefreshSig$();
   const BlockFive = props => {
     _s();
     const classes = useStyles();
@@ -74719,7 +74751,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/Keynote.js";
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/Keynote.js";
   const Keynote = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
@@ -74774,9 +74806,9 @@ try {
   require("@material-ui/core");
   require("@material-ui/core");
   require("@material-ui/core/Avatar");
-  var _materialUiCoreTextField = require('@material-ui/core/TextField');
+  var _materialUiCoreTextField = require("@material-ui/core/TextField");
   var _materialUiCoreTextFieldDefault = _parcelHelpers.interopDefault(_materialUiCoreTextField);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/ContactUs.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/ContactUs.js", _s = $RefreshSig$();
   const ContactUs = props => {
     _s();
     const classes = useStyles();
@@ -74806,16 +74838,16 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 7
+          lineNumber: 20,
+          columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
-          columnNumber: 9
+          lineNumber: 21,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         variant: "h4",
@@ -74824,18 +74856,18 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
-          columnNumber: 11
+          lineNumber: 22,
+          columnNumber: 13
         }
-      }, "Contact Us"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
+      }, "CONTACT US"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
         variant: "middle",
         className: classes.divider,
         light: true,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
-          columnNumber: 11
+          lineNumber: 29,
+          columnNumber: 13
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -74845,8 +74877,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
-          columnNumber: 7
+          lineNumber: 32,
+          columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -74855,8 +74887,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 9
+          lineNumber: 38,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         variant: "h6",
@@ -74865,8 +74897,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
-          columnNumber: 10
+          lineNumber: 39,
+          columnNumber: 13
         }
       }, "ADDRESS"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         className: classes.contactContent,
@@ -74875,15 +74907,15 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
-          columnNumber: 10
+          lineNumber: 46,
+          columnNumber: 13
         }
       }, "SLIIT Malabe Campus, ", /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
-          columnNumber: 113
+          lineNumber: 51,
+          columnNumber: 36
         }
       }), "New Kandy Rd, Malabe 10115")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -74892,8 +74924,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
-          columnNumber: 9
+          lineNumber: 55,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         variant: "h6",
@@ -74902,8 +74934,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
-          columnNumber: 8
+          lineNumber: 56,
+          columnNumber: 13
         }
       }, "PHONE NUMBER"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         className: classes.contactContent,
@@ -74912,8 +74944,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
-          columnNumber: 8
+          lineNumber: 63,
+          columnNumber: 13
         }
       }, "+94 11 754 4801")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -74922,8 +74954,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
-          columnNumber: 9
+          lineNumber: 71,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         variant: "h6",
@@ -74932,8 +74964,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
-          columnNumber: 9
+          lineNumber: 72,
+          columnNumber: 13
         }
       }, "EMAIL"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         className: classes.contactContent,
@@ -74942,8 +74974,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
-          columnNumber: 9
+          lineNumber: 79,
+          columnNumber: 13
         }
       }, "info@sliit.lk"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -74952,8 +74984,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
-          columnNumber: 7
+          lineNumber: 89,
+          columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -74963,8 +74995,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
-          columnNumber: 9
+          lineNumber: 90,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -74972,8 +75004,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
-          columnNumber: 11
+          lineNumber: 91,
+          columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
         fullWidth: "true",
@@ -74983,8 +75015,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
-          columnNumber: 10
+          lineNumber: 92,
+          columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -74992,8 +75024,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
-          columnNumber: 11
+          lineNumber: 99,
+          columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
         fullWidth: "true",
@@ -75003,8 +75035,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
-          columnNumber: 11
+          lineNumber: 100,
+          columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -75013,8 +75045,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68,
-          columnNumber: 9
+          lineNumber: 109,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -75022,15 +75054,15 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
-          columnNumber: 11
+          lineNumber: 110,
+          columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
-          columnNumber: 13
+          lineNumber: 111,
+          columnNumber: 15
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
         fullWidth: "true",
@@ -75040,8 +75072,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71,
-          columnNumber: 11
+          lineNumber: 112,
+          columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -75050,8 +75082,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
-          columnNumber: 9
+          lineNumber: 120,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -75059,15 +75091,15 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
-          columnNumber: 11
+          lineNumber: 121,
+          columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
-          columnNumber: 11
+          lineNumber: 122,
+          columnNumber: 15
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
         multiline: "true",
@@ -75079,15 +75111,15 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
-          columnNumber: 11
+          lineNumber: 123,
+          columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
-          columnNumber: 9
+          lineNumber: 133,
+          columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
@@ -75096,23 +75128,23 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83,
-          columnNumber: 8
+          lineNumber: 134,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
-          columnNumber: 9
+          lineNumber: 135,
+          columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85,
-          columnNumber: 11
+          lineNumber: 136,
+          columnNumber: 15
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
         variant: "contained",
@@ -75121,8 +75153,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
-          columnNumber: 11
+          lineNumber: 137,
+          columnNumber: 15
         }
       }, "Send Message"))))))
     );
@@ -75133,7 +75165,7 @@ try {
   _c = ContactUs;
   const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
     contactContainer: {
-      marginTop: "5rem",
+      marginTop: "6rem",
       marginBottom: "2rem"
     },
     contactHeader: {
@@ -75169,7 +75201,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/TextField":"2Ywrl"}],"4zZDB":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"4zZDB":[function(require,module,exports) {
 var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -75198,7 +75230,7 @@ try {
   var _materialUiCoreStyles = require('@material-ui/core/styles');
   var _materialUiCoreContainer = require('@material-ui/core/Container');
   var _materialUiCoreContainerDefault = _parcelHelpers.interopDefault(_materialUiCoreContainer);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_frontend/ICAF_Frontend/src/components/SignIn.js", _s = $RefreshSig$();
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/SignIn.js", _s = $RefreshSig$();
   const SignIn = () => {
     _s();
     const classes = useStyles();
@@ -75403,6 +75435,636 @@ var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
   d: "M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
 }), 'LockOutlined');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"1JS3X":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
+  var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  require("@material-ui/core/Grow");
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  require("@material-ui/core/Hidden");
+  require("@material-ui/core");
+  var _materialUiCoreListItem = require("@material-ui/core/ListItem");
+  var _materialUiCoreListItemDefault = _parcelHelpers.interopDefault(_materialUiCoreListItem);
+  var _materialUiCoreList = require("@material-ui/core/List");
+  var _materialUiCoreListDefault = _parcelHelpers.interopDefault(_materialUiCoreList);
+  var _materialUiIconsLabel = require("@material-ui/icons/Label");
+  var _materialUiIconsLabelDefault = _parcelHelpers.interopDefault(_materialUiIconsLabel);
+  var _materialUiCoreListItemIcon = require("@material-ui/core/ListItemIcon");
+  var _materialUiCoreListItemIconDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemIcon);
+  var _materialUiCoreListItemText = require("@material-ui/core/ListItemText");
+  var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
+  var _reactRouterDom = require("react-router-dom");
+  var _storeData = require("../store/data");
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/Registration.js", _s = $RefreshSig$();
+  const Registration = props => {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        className: classes.registrationContainer,
+        direction: "column",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        alignItems: "center",
+        direction: "column",
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h4",
+        className: classes.registrationHeader,
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 13
+        }
+      }, "REGISTRATION"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
+        variant: "middle",
+        className: classes.divider,
+        light: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 13
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        direction: "column",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.registrationDetails,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
+        disablePadding: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 13
+        }
+      }, _storeData.registrationRules.filter(item => item.id <= 7).map(rule => {
+        return (
+          /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
+            key: rule.id,
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 50,
+              columnNumber: 21
+            }
+          }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
+            disablePadding: true,
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 51,
+              columnNumber: 23
+            }
+          }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsLabelDefault.default, {
+            color: "primary",
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 52,
+              columnNumber: 25
+            }
+          })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
+            disablePadding: true,
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 54,
+              columnNumber: 23
+            }
+          }, rule.content))
+        );
+      })))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        direction: "row",
+        justify: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        color: "secondary",
+        className: classes.registerButton,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 9
+        }
+      }, "Researcher Registration")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        color: "secondary",
+        className: classes.registerButton,
+        component: _reactRouterDom.Link,
+        to: "registration/workshop-conductor",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71,
+          columnNumber: 9
+        }
+      }, "Workshop Conductor Registration")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        color: "secondary",
+        className: classes.registerButton,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 9
+        }
+      }, "User Registration")))))
+    );
+  };
+  _s(Registration, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = Registration;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    registrationContainer: {
+      marginTop: "6rem",
+      marginBottom: "2rem"
+    },
+    registrationHeader: {
+      fontFamily: "Raleway",
+      fontWeight: 800,
+      color: theme.palette.common.blue
+    },
+    divider: {
+      backgroundColor: theme.palette.common.yellow,
+      height: "0.2rem"
+    },
+    registrationDetails: {
+      [theme.breakpoints.down("xl")]: {
+        marginLeft: theme.spacing(19)
+      },
+      [theme.breakpoints.down("lg")]: {
+        marginLeft: theme.spacing(18)
+      },
+      [theme.breakpoints.down("md")]: {
+        marginLeft: theme.spacing(12)
+      },
+      [theme.breakpoints.down("sm")]: {
+        marginLeft: theme.spacing(5)
+      },
+      [theme.breakpoints.down("xs")]: {
+        marginLeft: theme.spacing(0)
+      },
+      marginBottom: theme.spacing(2)
+    },
+    registerButton: {
+      marginLeft: theme.spacing(2),
+      fontWeight: 600
+    }
+  }));
+  exports.default = Registration;
+  var _c;
+  $RefreshReg$(_c, "Registration");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/ListItem":"2DNb3","@material-ui/core/List":"5yMsX","@material-ui/icons/Label":"42tqw","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","../store/data":"5tk3l","react-router-dom":"1PMSK"}],"42tqw":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"
+}), 'Label');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"2fx8r":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
+  var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  require("@material-ui/core/CssBaseline");
+  var _materialUiCoreTextField = require("@material-ui/core/TextField");
+  var _materialUiCoreTextFieldDefault = _parcelHelpers.interopDefault(_materialUiCoreTextField);
+  require("@material-ui/core/FormControlLabel");
+  require("@material-ui/core/Checkbox");
+  require("@material-ui/core/Link");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  require("@material-ui/core/Box");
+  require("@material-ui/icons/LockOutlined");
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreContainer = require("@material-ui/core/Container");
+  var _materialUiCoreContainerDefault = _parcelHelpers.interopDefault(_materialUiCoreContainer);
+  var _materialUiIconsAssignmentInd = require("@material-ui/icons/AssignmentInd");
+  var _materialUiIconsAssignmentIndDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignmentInd);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/signUp/WorkshopConductorRegistration.js", _s = $RefreshSig$();
+  const WorkshopConductorRegistration = () => {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreContainerDefault.default, {
+        component: "main",
+        maxWidth: "md",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: classes.paper,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
+        className: classes.avatar,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentIndDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 11
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        component: "h1",
+        variant: "h5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 9
+        }
+      }, "Workshop Conductor Sign up"), /*#__PURE__*/_reactDefault.default.createElement("form", {
+        className: classes.form,
+        noValidate: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        sm: 6,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        autoComplete: "fname",
+        name: "firstName",
+        variant: "outlined",
+        required: true,
+        fullWidth: true,
+        id: "firstName",
+        label: "First Name",
+        autoFocus: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        sm: 6,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        variant: "outlined",
+        required: true,
+        fullWidth: true,
+        id: "lastName",
+        label: "Last Name",
+        name: "lastName",
+        autoComplete: "lname",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        variant: "outlined",
+        required: true,
+        fullWidth: true,
+        id: "email",
+        label: "Email Address",
+        name: "email",
+        autoComplete: "email",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        variant: "outlined",
+        multiline: "true",
+        rows: "5",
+        required: true,
+        fullWidth: true,
+        id: "workshop",
+        label: "Workshop Details",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("center", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        size: "small",
+        color: "secondary",
+        component: "label",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79,
+          columnNumber: 17
+        }
+      }, "Flyer Upload", /*#__PURE__*/_reactDefault.default.createElement("input", {
+        type: "file",
+        hidden: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 19
+        }
+      })))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        variant: "outlined",
+        required: true,
+        fullWidth: true,
+        name: "password",
+        label: "Password",
+        type: "password",
+        id: "password",
+        autoComplete: "current-password",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 15
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        fullWidth: true,
+        variant: "contained",
+        color: "primary",
+        className: classes.submit,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104,
+          columnNumber: 11
+        }
+      }, "Sign Up"))))
+    );
+  };
+  _s(WorkshopConductorRegistration, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = WorkshopConductorRegistration;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    paper: {
+      marginTop: theme.spacing(12),
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center"
+    },
+    avatar: {
+      margin: theme.spacing(1),
+      backgroundColor: theme.palette.secondary.main
+    },
+    form: {
+      width: "100%",
+      // Fix IE 11 issue.
+      marginTop: theme.spacing(3)
+    },
+    submit: {
+      margin: theme.spacing(3, 0, 2)
+    }
+  }));
+  exports.default = WorkshopConductorRegistration;
+  var _c;
+  $RefreshReg$(_c, "WorkshopConductorRegistration");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/icons/AssignmentInd":"2GTuz"}],"2GTuz":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm0 4c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H6v-1.4c0-2 4-3.1 6-3.1s6 1.1 6 3.1V19z"
+}), 'AssignmentInd');
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")

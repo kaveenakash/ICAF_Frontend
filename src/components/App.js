@@ -9,6 +9,8 @@ import LandingPage from './LandingPage'
 import Keynote from "./Keynote";
 import ContactUs from "./ContactUs";
 import SignIn from "./SignIn";
+import Registration from './Registration'
+import WorkshopConductorRegistration from "./signUp/WorkshopConductorRegistration";
 const App = () => {
   const [value, setValue] = useState(0);
   return (
@@ -21,10 +23,11 @@ const App = () => {
           <Route exact path="/keynotes" component={Keynote}/>
           <Route exact path="/presentations" component={() => <div>presentation</div>}/>
           <Route exact path="/downloads" component={() => <div>downloads</div>}/>
-          <Route exact path="/registration" component={() => <div>registration</div>}/>
+          <Route exact path="/registration" component={Registration}/>
           <Route exact path="/workshops" component={() => <div>workshops</div>}/>
           <Route exact path="/contact-us" component={ContactUs}/>
           <Route exact path="/signIn" component={SignIn}/>
+          <Route exact path="/registration/workshop-conductor" component={WorkshopConductorRegistration}/>
         </Switch>
         <Footer value={value} setValue={setValue}/>
       </BrowserRouter>

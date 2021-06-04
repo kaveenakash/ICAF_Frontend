@@ -33,7 +33,20 @@ const news = [
   {id:"5",date:"April 03, 2021",content:"Registrations are now open for the workshops. Register here"},
 ]
 
+const registrationRules = [
+  {id:"1",content:"Registration and payment deadline: 10th June 2021"},
+  {id:"2",content:"When the researcher registered to the system, the research paper should be uploaded alongside the contact information"},
+  {id:"3",content:"When the workshop conductor is registered to the system, a proposal containing all the necessary details about the workshop should be uploaded alongside the contact information"},
+  {id:"4",content:"When the user is registered to the system all the necessary contact information should be uploaded"},
+  {id:"5",content:"Attendees must pay upfront to register for the conference"},
+  {id:"5",content:"Research paper presenters must pay if their papers got approved to present them at the conference"},
+  {id:"7",content:"Workshop conductors don’t have to pay"},
+]
+
+
 
 const aboutDetailsOne = "The 3rd International conference on advancements in computing -2021 (ICAC2021) is organized by the Faculty of Computing of the Sri Lanka Institute of Information Technology (SLIIT) as an open forum for academics along with industry professionals to present the latest findings and research output and practical deployments in the Computer Science and Information Technology domains. Primary objective of the ICAC is to uplift the research culture and the quality of research done by Sri Lankan researchers. This conference will create a platform for national and international researchers to showcase their research output, networking opportunities to discuss innovative ideas, and initiate collaborative work. ICAC 2019 and ICAC 2020 were successfully conducted with a technical co-sponsorship by IEEE Sri Lanka Section and all publications are available in IEEE Xplore digital library"
 const aboutDetailsTwo = "July 24 - 27 in Sri Lanka Institute of Information Technology"
-export {routes,aboutDetailsOne,aboutDetailsTwo,news,venueImages}
+
+
+export {routes,aboutDetailsOne,aboutDetailsTwo,news,venueImages,registrationRules}
