@@ -91,7 +91,7 @@ const WorkshopConductorRegistration = () => {
                   color="secondary"
                   size="small"
                 >
-                  Flyer Upload
+                  Proposal Upload
                   <input type="file" hidden onChange={fileHandler} />
                 </Button>
                 {isFilePicked && selectedFileName}

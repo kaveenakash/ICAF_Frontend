@@ -35,6 +35,22 @@ const ContactUs = (props) => {
           justify="space-evenly"
           className={classes.contactDetailsContainer}
         >
+            <Grid item xs={12} sm={4}>
+            <Typography
+              variant="h6"
+              align="center"
+              className={classes.contactSubHeader}
+            >
+              PHONE NUMBER
+            </Typography>
+            <Typography
+              className={classes.contactContent}
+              variant="subtitle1"
+              align="center"
+            >
+              +94 11 754 4801
+            </Typography>
+          </Grid>
           <Grid item xs={12} sm={4}>
             <Typography
               variant="h6"
@@ -52,22 +68,7 @@ const ContactUs = (props) => {
               New Kandy Rd, Malabe 10115
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={4}>
-            <Typography
-              variant="h6"
-              align="center"
-              className={classes.contactSubHeader}
-            >
-              PHONE NUMBER
-            </Typography>
-            <Typography
-              className={classes.contactContent}
-              variant="subtitle1"
-              align="center"
-            >
-              +94 11 754 4801
-            </Typography>
-          </Grid>
+        
           <Grid item xs={12} sm={4}>
             <Typography
               variant="h6"

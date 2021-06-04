@@ -13,6 +13,7 @@ import Registration from './Registration'
 import WorkshopConductorRegistration from "./signUp/WorkshopConductorRegistration";
 import ResearchPresenterRegistration from "./signUp/ResearchPresenterRegistration";
 import UserRegistration from "./signUp/UserRegistration";
+import Workshop from "./Workshop";
 const App = () => {
   const [value, setValue] = useState(0);
   return (
@@ -26,7 +27,7 @@ const App = () => {
           <Route exact path="/presentations" component={() => <div>presentation</div>}/>
           <Route exact path="/downloads" component={() => <div>downloads</div>}/>
           <Route exact path="/registration" component={Registration}/>
-          <Route exact path="/workshops" component={() => <div>workshops</div>}/>
+          <Route exact path="/workshops" component={Workshop}/>
           <Route exact path="/contact-us" component={ContactUs}/>
           <Route exact path="/signIn" component={SignIn}/>
           <Route exact path="/registration/workshop-conductor" component={WorkshopConductorRegistration}/>

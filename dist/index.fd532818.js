@@ -26296,6 +26296,8 @@ try {
   var _signUpResearchPresenterRegistrationDefault = _parcelHelpers.interopDefault(_signUpResearchPresenterRegistration);
   var _signUpUserRegistration = require("./signUp/UserRegistration");
   var _signUpUserRegistrationDefault = _parcelHelpers.interopDefault(_signUpUserRegistration);
+  var _Workshop = require("./Workshop");
+  var _WorkshopDefault = _parcelHelpers.interopDefault(_Workshop);
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/App.js", _s = $RefreshSig$();
   const App = () => {
     _s();
@@ -26306,14 +26308,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 20,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 21,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
@@ -26322,14 +26324,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 23,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 24,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26339,7 +26341,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 25,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26349,7 +26351,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 26,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26359,14 +26361,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 26,
+            lineNumber: 27,
             columnNumber: 63
           }
         }, "presentation"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 27,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26376,14 +26378,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 59
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 28,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26393,24 +26395,17 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 29,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/workshops",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 29,
-            columnNumber: 59
-          }
-        }, "workshops"),
+        component: _WorkshopDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 30,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26420,7 +26415,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 31,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26430,7 +26425,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 32,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26440,7 +26435,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 33,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26450,7 +26445,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 34,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26460,7 +26455,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 35,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26469,7 +26464,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 37,
           columnNumber: 9
         }
       })))
@@ -26486,7 +26481,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r","./signUp/ResearchPresenterRegistration":"5ashA","./signUp/UserRegistration":"4cPF6","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1PMSK":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r","./signUp/ResearchPresenterRegistration":"5ashA","./signUp/UserRegistration":"4cPF6","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./Workshop":"7cLhj"}],"1PMSK":[function(require,module,exports) {
 "use strict";
 if ("development" === "production") {
   module.exports = require("./cjs/react-router-dom.min.js");
@@ -48131,6 +48126,9 @@ _parcelHelpers.export(exports, "venueImages", function () {
 _parcelHelpers.export(exports, "registrationRules", function () {
   return registrationRules;
 });
+_parcelHelpers.export(exports, "workshops", function () {
+  return workshops;
+});
 const routes = [{
   name: "Home",
   link: "/",
@@ -48234,6 +48232,37 @@ const registrationRules = [{
 }, {
   id: "7",
   content: "Workshop conductors don’t have to pay"
+}];
+const workshops = [{
+  id: "1",
+  header: "Advanced Instrumental Techniques and Future of Advanced Materials",
+  resourcePerson: "Dr. Galhenage A. Sewvandi",
+  content: "This workshop focuses on advance instrumental techniques and future advance materials. Advanced instrumental techniques, namely; scanning electron microscopy (SEM), transmission electron microscopy (TEM) based instrumental techniques are widely used in experimental research in various streams of science and engineering. The knowledge on the advanced instrumental techniques is crucial for experimental research, failure analysis, and quality assurance. Future advance materials open an avenue for design and development of new devices. The scope of this workshop is firstly to acquaint participants with a fundamental understanding of the theoretical basis as well as the practical applications of these instrumental techniques along with lectures and demonstrations on the techniques. Secondly to rise awareness on future advance materials for cutting-edge research and new developments along with lectures, research guidance, international collaboration, fundraising, and project investigations.",
+  link: "#"
+}, {
+  id: "2",
+  header: "A Hands-on Introduction for Computational Fluid Dynamics (CFD) Promoting Multidisciplinary Research",
+  resourcePerson: "Dr. R.A.C.P. Ranasinghe",
+  content: "Computational Fluid Dynamics (CFD) has now become a common tool for modelling heat and fluid flow applications in many engineering disciplines. Obtaining accurate results through proper use of CFD requires a solid understanding of underling modelling principles with technical know-how gained through experience. The proposed workshop aims to disseminate the required basic theoretical understanding and technical know-how among researches of various disciplines. The workshop is designed to be largely with hands on sessions solving several real-life engineering problems",
+  link: "#"
+}, {
+  id: "3",
+  header: "Digital Technology Deployment in Apparel Product Development",
+  resourcePerson: "Dr. R.K. Jayamali De Silva",
+  content: "Digital technology is demanded in various business models, that is from mass production to mass personalization. With the rapid development and adoption of digital technologies, clothing manufacturers tend to provide digital customization of clothing (Yan & Chiou, 2020). Therefore, this workshop aims to demonstrate how modern technologies can be utilized in future apparel development process centering on the human body in the process.",
+  link: "#"
+}, {
+  id: "4",
+  header: "Work-Study for Productivity Improvement in Manufacturing Organizations",
+  resourcePerson: "Dr. Himan Punchihewa",
+  content: "Most manufacturing organisations have line balancing issue, manning issues and man-machine interaction issues. All these are directly causing lower productivity of the organisation. Work-study (method and time studies) scientifically analyses and helps to resolve the above issues.",
+  link: "#"
+}, {
+  id: "5",
+  header: "Biomedical Product Development - A Sri-Lankan Perspective",
+  resourcePerson: "Dr. Pujitha Silva",
+  content: "This workshop focuses on creating awareness on the multidisciplinary nature of combining engineering, medicine and commerce, and the essential stepwise process that needs to be followed for successful biomedical device development within Sri Lanka. This will be illustrated using Sri Lankan success stories, by the speakers, who are part of the growing CeBI community of practitioners. The workshop also highlights the challenges faced within Sri Lanka in the current context, and discusses some strategies to overcome them.",
+  link: "#"
 }];
 const aboutDetailsOne = "The 3rd International conference on advancements in computing -2021 (ICAC2021) is organized by the Faculty of Computing of the Sri Lanka Institute of Information Technology (SLIIT) as an open forum for academics along with industry professionals to present the latest findings and research output and practical deployments in the Computer Science and Information Technology domains. Primary objective of the ICAC is to uplift the research culture and the quality of research done by Sri Lankan researchers. This conference will create a platform for national and international researchers to showcase their research output, networking opportunities to discuss innovative ideas, and initiate collaborative work. ICAC 2019 and ICAC 2020 were successfully conducted with a technical co-sponsorship by IEEE Sri Lanka Section and all publications are available in IEEE Xplore digital library";
 const aboutDetailsTwo = "July 24 - 27 in Sri Lanka Institute of Information Technology";
@@ -74912,7 +74941,7 @@ try {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38,
-          columnNumber: 11
+          columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         variant: "h6",
@@ -74924,7 +74953,7 @@ try {
           lineNumber: 39,
           columnNumber: 13
         }
-      }, "ADDRESS"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+      }, "PHONE NUMBER"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         className: classes.contactContent,
         variant: "subtitle1",
         align: "center",
@@ -74934,11 +74963,41 @@ try {
           lineNumber: 46,
           columnNumber: 13
         }
+      }, "+94 11 754 4801")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        sm: 4,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.contactSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 13
+        }
+      }, "ADDRESS"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        className: classes.contactContent,
+        variant: "subtitle1",
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 13
+        }
       }, "SLIIT Malabe Campus, ", /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 67,
           columnNumber: 36
         }
       }), "New Kandy Rd, Malabe 10115")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -74948,47 +75007,17 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
-          columnNumber: 11
-        }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
-        variant: "h6",
-        align: "center",
-        className: classes.contactSubHeader,
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56,
-          columnNumber: 13
-        }
-      }, "PHONE NUMBER"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
-        className: classes.contactContent,
-        variant: "subtitle1",
-        align: "center",
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63,
-          columnNumber: 13
-        }
-      }, "+94 11 754 4801")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
-        item: true,
-        xs: 12,
-        sm: 4,
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71,
-          columnNumber: 11
-        }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
-        variant: "h6",
-        align: "center",
-        className: classes.contactSubHeader,
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 72,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h6",
+        align: "center",
+        className: classes.contactSubHeader,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
           columnNumber: 13
         }
       }, "EMAIL"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -74998,7 +75027,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 80,
           columnNumber: 13
         }
       }, "info@sliit.lk"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75008,7 +75037,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 90,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75019,7 +75048,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 91,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75028,7 +75057,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 92,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75039,7 +75068,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 93,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75048,7 +75077,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99,
+          lineNumber: 100,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75059,7 +75088,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100,
+          lineNumber: 101,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75069,7 +75098,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109,
+          lineNumber: 110,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75078,14 +75107,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110,
+          lineNumber: 111,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111,
+          lineNumber: 112,
           columnNumber: 15
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75096,7 +75125,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112,
+          lineNumber: 113,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75106,7 +75135,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120,
+          lineNumber: 121,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75115,14 +75144,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121,
+          lineNumber: 122,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122,
+          lineNumber: 123,
           columnNumber: 15
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75135,14 +75164,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123,
+          lineNumber: 124,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 134,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75152,7 +75181,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 135,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75160,14 +75189,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 136,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136,
+          lineNumber: 137,
           columnNumber: 15
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -75177,7 +75206,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137,
+          lineNumber: 138,
           columnNumber: 15
         }
       }, "Send Message"))))))
@@ -76002,7 +76031,7 @@ try {
           lineNumber: 88,
           columnNumber: 17
         }
-      }, "Flyer Upload", /*#__PURE__*/_reactDefault.default.createElement("input", {
+      }, "Proposal Upload", /*#__PURE__*/_reactDefault.default.createElement("input", {
         type: "file",
         hidden: true,
         onChange: fileHandler,
@@ -76656,6 +76685,8 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7cLhj":[function(require,module,exports) {
+
+},{}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
