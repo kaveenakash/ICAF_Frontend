@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -15,7 +15,18 @@ import Container from "@material-ui/core/Container";
 import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
 
 const WorkshopConductorRegistration = () => {
+    const [selectedFile, setSelectedFile] = useState();
+    const [selectedFileName,setSelectedFileName] = useState();
+	const [isFilePicked, setIsFilePicked] = useState(false);
   const classes = useStyles();
+
+
+
+  const fileHandler = (event) => {
+    setSelectedFile(event.target.files[0]);
+    setSelectedFileName(event.target.files[0].name);
+    setIsFilePicked(true);
+};
 
   return (
     <Container component="main" maxWidth="md">
@@ -62,7 +73,7 @@ const WorkshopConductorRegistration = () => {
                 autoComplete="email"
               />
             </Grid>
-        
+
             <Grid item xs={12}>
               <TextField
                 variant="outlined"
@@ -78,13 +89,14 @@ const WorkshopConductorRegistration = () => {
               <center>
                 <Button
                   variant="contained"
-                  size="small"
-                  color="secondary"
                   component="label"
+                  color="secondary"
+                  size="small"
                 >
                   Flyer Upload
-                  <input type="file" hidden />
+                  <input type="file" hidden  onChange={fileHandler}/>
                 </Button>
+                {isFilePicked && selectedFileName}
               </center>
             </Grid>
             <Grid item xs={12}>
@@ -102,7 +114,6 @@ const WorkshopConductorRegistration = () => {
           </Grid>
 
           <Button
-          
             fullWidth
             variant="contained"
             color="primary"

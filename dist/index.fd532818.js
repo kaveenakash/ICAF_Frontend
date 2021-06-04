@@ -75237,7 +75237,7 @@ try {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreContainerDefault.default, {
         component: "main",
-        maxWidth: "xs",
+        maxWidth: "sm",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
@@ -75784,7 +75784,15 @@ try {
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/signUp/WorkshopConductorRegistration.js", _s = $RefreshSig$();
   const WorkshopConductorRegistration = () => {
     _s();
+    const [selectedFile, setSelectedFile] = _react.useState();
+    const [selectedFileName, setSelectedFileName] = _react.useState();
+    const [isFilePicked, setIsFilePicked] = _react.useState(false);
     const classes = useStyles();
+    const fileHandler = event => {
+      setSelectedFile(event.target.files[0]);
+      setSelectedFileName(event.target.files[0].name);
+      setIsFilePicked(true);
+    };
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreContainerDefault.default, {
         component: "main",
@@ -75792,7 +75800,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 32,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -75800,7 +75808,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 33,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
@@ -75808,14 +75816,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 34,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentIndDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 35,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -75824,7 +75832,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 37,
           columnNumber: 9
         }
       }, "Workshop Conductor Sign up"), /*#__PURE__*/_reactDefault.default.createElement("form", {
@@ -75833,7 +75841,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 40,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75842,7 +75850,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 41,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75852,7 +75860,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 42,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75867,7 +75875,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 43,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75877,7 +75885,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 54,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75891,7 +75899,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 55,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75900,7 +75908,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 65,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75914,7 +75922,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 66,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75923,7 +75931,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66,
+          lineNumber: 77,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75937,7 +75945,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 78,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -75945,43 +75953,44 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 88,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("center", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 89,
           columnNumber: 15
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
         variant: "contained",
-        size: "small",
-        color: "secondary",
         component: "label",
+        color: "secondary",
+        size: "small",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 90,
           columnNumber: 17
         }
       }, "Flyer Upload", /*#__PURE__*/_reactDefault.default.createElement("input", {
         type: "file",
         hidden: true,
+        onChange: fileHandler,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
+          lineNumber: 97,
           columnNumber: 19
         }
-      })))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+      })), isFilePicked && selectedFileName)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
         xs: 12,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 102,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -75996,7 +76005,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 103,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -76007,13 +76016,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104,
+          lineNumber: 116,
           columnNumber: 11
         }
       }, "Sign Up"))))
     );
   };
-  _s(WorkshopConductorRegistration, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+  _s(WorkshopConductorRegistration, "AZMvqlATHWgsp7zGlpaMX2/T/I0=", false, function () {
     return [useStyles];
   });
   _c = WorkshopConductorRegistration;
