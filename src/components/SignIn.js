@@ -1,20 +1,42 @@
-import React from 'react';
-import Avatar from '@material-ui/core/Avatar';
-import Button from '@material-ui/core/Button';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import TextField from '@material-ui/core/TextField';
-import Link from '@material-ui/core/Link';
-import Grid from '@material-ui/core/Grid';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-
-
-
+import React, { useState, useContext } from "react";
+import { useHistory } from "react-router-dom";
+import Avatar from "@material-ui/core/Avatar";
+import Button from "@material-ui/core/Button";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import TextField from "@material-ui/core/TextField";
+import Link from "@material-ui/core/Link";
+import Grid from "@material-ui/core/Grid";
+import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
+import Typography from "@material-ui/core/Typography";
+import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import axios from "axios";
+import AuthContext from "../store/auth-context";
 
 const SignIn = () => {
   const classes = useStyles();
+  const history = useHistory();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const authCtx = useContext(AuthContext);
+
+  const submitHandler = async (event) => {
+    event.preventDefault();
+
+    const data = { email, password };
+    try {
+      const response = await axios.post(
+        "http://localhost:9090/api/auth/login",
+        data
+      );
+      authCtx.login(response.data.token);
+      history.replace("/");
+    } catch (err) {
+      let errorMessage = "Authentication failed!";
+      alert(errorMessage);
+    }
+  };
 
   return (
     <Container component="main" maxWidth="sm">
@@ -37,6 +59,8 @@ const SignIn = () => {
             name="email"
             autoComplete="email"
             autoFocus
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
           />
           <TextField
             variant="outlined"
@@ -48,14 +72,17 @@ const SignIn = () => {
             type="password"
             id="password"
             autoComplete="current-password"
+            value={password}
+            onChange={(event) => setPassword(event.target.value)}
           />
-          
+
           <Button
             type="submit"
             fullWidth
             variant="contained"
             color="primary"
             className={classes.submit}
+            onClick={(event) => submitHandler(event)}
           >
             Sign In
           </Button>
@@ -73,34 +100,29 @@ const SignIn = () => {
           </Grid>
         </form>
       </div>
-     
-    
-      
     </Container>
   );
-}
-
-
+};
 
 const useStyles = makeStyles((theme) => ({
-    paper: {
-      marginTop: theme.spacing(12),
-      marginBottom:theme.spacing(16),
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-    },
-    avatar: {
-      margin: theme.spacing(1),
-      backgroundColor: theme.palette.secondary.main,
-    },
-    form: {
-      width: '100%', // Fix IE 11 issue.
-      marginTop: theme.spacing(1),
-    },
-    submit: {
-      margin: theme.spacing(3, 0, 2),
-    },
-  }));
+  paper: {
+    marginTop: theme.spacing(12),
+    marginBottom: theme.spacing(16),
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  avatar: {
+    margin: theme.spacing(1),
+    backgroundColor: theme.palette.secondary.main,
+  },
+  form: {
+    width: "100%", // Fix IE 11 issue.
+    marginTop: theme.spacing(1),
+  },
+  submit: {
+    margin: theme.spacing(3, 0, 2),
+  },
+}));
 
 export default SignIn;

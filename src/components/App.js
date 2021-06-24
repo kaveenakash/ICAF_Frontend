@@ -1,41 +1,82 @@
-import React,{useState} from "react";
-import {BrowserRouter,Route,Switch} from 'react-router-dom'
+import React, { useState, useContext } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "@material-ui/styles";
-import Typography from '@material-ui/core/Typography'
+import Typography from "@material-ui/core/Typography";
 import theme from "./ui/Theme";
-import Header from './ui/Header'
-import Footer from './ui/Footer'
-import LandingPage from './LandingPage'
+import Header from "./ui/Header";
+import Footer from "./ui/Footer";
+import LandingPage from "./LandingPage";
 import Keynote from "./Keynote";
 import ContactUs from "./ContactUs";
 import SignIn from "./SignIn";
-import Registration from './Registration'
+import Registration from "./Registration";
 import WorkshopConductorRegistration from "./signUp/WorkshopConductorRegistration";
 import ResearchPresenterRegistration from "./signUp/ResearchPresenterRegistration";
 import UserRegistration from "./signUp/UserRegistration";
 import Workshop from "./Workshop";
+import AuthContext from "../store/auth-context";
+import Button from '@material-ui/core/Button/Button'
+import AdminDashboard from './admin/ui/AdminDashboard'
+
+
 const App = () => {
   const [value, setValue] = useState(0);
+
+  const authCtx = useContext(AuthContext);
+
+  const isLoggedIn = authCtx.isLoggedIn;
+
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
-      
-        <Header value={value} setValue={setValue}/>
-        <Switch>
-          <Route exact path="/" component={LandingPage}/>
-          <Route exact path="/keynotes" component={Keynote}/>
-          <Route exact path="/presentations" component={() => <div>presentation</div>}/>
-          <Route exact path="/downloads" component={() => <div>downloads</div>}/>
-          <Route exact path="/registration" component={Registration}/>
-          <Route exact path="/workshops" component={Workshop}/>
-          <Route exact path="/contact-us" component={ContactUs}/>
-          <Route exact path="/signIn" component={SignIn}/>
-          <Route exact path="/registration/workshop-conductor" component={WorkshopConductorRegistration}/>
-          <Route exact path="/registration/research-presenter" component={ResearchPresenterRegistration}/>
-          <Route exact path="/registration/user" component={UserRegistration}/>
-        </Switch>
-        <Footer value={value} setValue={setValue}/>
-      </BrowserRouter>
+      {!isLoggedIn ? (
+        <BrowserRouter>
+          <Header value={value} setValue={setValue} />
+          <Switch>
+            <Route exact path="/" component={LandingPage} />
+            <Route exact path="/keynotes" component={Keynote} />
+            <Route
+              exact
+              path="/presentations"
+              component={() => <div>presentation</div>}
+            />
+            <Route
+              exact
+              path="/downloads"
+              component={() => <div>downloads</div>}
+            />
+            <Route exact path="/registration" component={Registration} />
+            <Route exact path="/workshops" component={Workshop} />
+            <Route exact path="/contact-us" component={ContactUs} />
+
+            <Route exact path="/signIn" component={SignIn} />
+            <Route
+              exact
+              path="/registration/workshop-conductor"
+              component={WorkshopConductorRegistration}
+            />
+            <Route
+              exact
+              path="/registration/research-presenter"
+              component={ResearchPresenterRegistration}
+            />
+            <Route
+              exact
+              path="/registration/user"
+              component={UserRegistration}
+            />
+          </Switch>
+          <Footer value={value} setValue={setValue} />
+        </BrowserRouter>
+      ) : (
+        <React.Fragment>
+          <BrowserRouter>
+            <Switch>
+              <Route  path="/" component={AdminDashboard}/>
+              
+            </Switch>
+          </BrowserRouter>
+        </React.Fragment>
+      )}
     </ThemeProvider>
   );
 };

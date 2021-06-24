@@ -1,5 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
 import App from './src/components/App'
+import {AuthContextProvider} from './src/store/auth-context'
 
-render(<App/>,document.getElementById("app"))
+
+render(<AuthContextProvider><App/></AuthContextProvider>,document.getElementById("app"))
