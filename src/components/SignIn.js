@@ -30,7 +30,8 @@ const SignIn = () => {
         "http://localhost:9090/api/auth/login",
         data
       );
-      authCtx.login(response.data.token);
+      console.log(response.data)
+      authCtx.login(response.data.token,response.data.role);
       history.replace("/");
     } catch (err) {
       let errorMessage = "Authentication failed!";

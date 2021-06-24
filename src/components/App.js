@@ -15,9 +15,8 @@ import ResearchPresenterRegistration from "./signUp/ResearchPresenterRegistratio
 import UserRegistration from "./signUp/UserRegistration";
 import Workshop from "./Workshop";
 import AuthContext from "../store/auth-context";
-import Button from '@material-ui/core/Button/Button'
-import AdminDashboard from './admin/ui/AdminDashboard'
-
+import Button from "@material-ui/core/Button/Button";
+import AdminDashboard from "./admin/ui/AdminDashboard";
 
 const App = () => {
   const [value, setValue] = useState(0);
@@ -71,8 +70,7 @@ const App = () => {
         <React.Fragment>
           <BrowserRouter>
             <Switch>
-              <Route  path="/" component={AdminDashboard}/>
-              
+              <Route path="/" component={AdminDashboard} />
             </Switch>
           </BrowserRouter>
         </React.Fragment>

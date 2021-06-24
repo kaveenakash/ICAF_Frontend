@@ -26308,8 +26308,8 @@ try {
   var _WorkshopDefault = _parcelHelpers.interopDefault(_Workshop);
   var _storeAuthContext = require("../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  require('@material-ui/core/Button/Button');
-  var _adminUiAdminDashboard = require('./admin/ui/AdminDashboard');
+  require("@material-ui/core/Button/Button");
+  var _adminUiAdminDashboard = require("./admin/ui/AdminDashboard");
   var _adminUiAdminDashboardDefault = _parcelHelpers.interopDefault(_adminUiAdminDashboard);
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/App.js", _s = $RefreshSig$();
   const App = () => {
@@ -26323,14 +26323,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 29,
           columnNumber: 5
         }
       }, !isLoggedIn ? /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 31,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
@@ -26339,14 +26339,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 32,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 33,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26356,7 +26356,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 34,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26366,7 +26366,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 35,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26376,14 +26376,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 40,
+            lineNumber: 39,
             columnNumber: 32
           }
         }, "presentation"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 36,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26393,14 +26393,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 45,
+            lineNumber: 44,
             columnNumber: 32
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 41,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26410,7 +26410,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 46,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26420,7 +26420,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 47,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26430,7 +26430,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 48,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26440,7 +26440,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 50,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26450,7 +26450,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 51,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26460,7 +26460,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 56,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26470,7 +26470,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 61,
           columnNumber: 13
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26479,28 +26479,28 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68,
+          lineNumber: 67,
           columnNumber: 11
         }
       })) : /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71,
+          lineNumber: 70,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 71,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 72,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26509,7 +26509,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 73,
           columnNumber: 15
         }
       })))))
@@ -74435,7 +74435,8 @@ try {
       };
       try {
         const response = await _axiosDefault.default.post("http://localhost:9090/api/auth/login", data);
-        authCtx.login(response.data.token);
+        console.log(response.data);
+        authCtx.login(response.data.token, response.data.role);
         history.replace("/");
       } catch (err) {
         let errorMessage = "Authentication failed!";
@@ -74449,14 +74450,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCssBaselineDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 44,
           columnNumber: 7
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -74464,7 +74465,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
@@ -74472,14 +74473,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 46,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsLockOutlinedDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 47,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -74488,7 +74489,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 49,
           columnNumber: 9
         }
       }, "Sign in"), /*#__PURE__*/_reactDefault.default.createElement("form", {
@@ -74497,7 +74498,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 52,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -74515,7 +74516,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 53,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -74533,7 +74534,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 66,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -74546,7 +74547,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 80,
           columnNumber: 11
         }
       }, "Sign In"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -74554,7 +74555,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 90,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -74563,7 +74564,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 91,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreLinkDefault.default, {
@@ -74572,7 +74573,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 92,
           columnNumber: 15
         }
       }, "Forgot password?")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -74580,7 +74581,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 96,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreLinkDefault.default, {
@@ -74589,7 +74590,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96,
+          lineNumber: 97,
           columnNumber: 15
         }
       }, "Don't have an account? Sign Up"))))))
@@ -76425,6 +76426,7 @@ try {
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/store/auth-context.js", _s = $RefreshSig$();
   const AuthContext = /*#__PURE__*/_reactDefault.default.createContext({
     token: "",
+    role: "",
     isLoggedIn: false,
     login: token => {},
     logout: () => {}
@@ -76432,18 +76434,25 @@ try {
   const AuthContextProvider = props => {
     _s();
     const initialToken = localStorage.getItem('token');
+    const initialRole = localStorage.getItem('role');
     const [token, setToken] = _react.useState(initialToken);
+    const [role, setRole] = _react.useState(initialRole);
     const userIsLoggedIn = !!token;
-    const loginHandler = token => {
+    const loginHandler = (token, role) => {
       setToken(token);
+      setRole(role);
       localStorage.setItem('token', token);
+      localStorage.setItem('role', role);
     };
     const logoutHandler = () => {
       setToken(null);
+      setRole(null);
       localStorage.removeItem('token');
+      localStorage.removeItem('role');
     };
     const contextValue = {
       token: token,
+      role,
       isLoggedIn: userIsLoggedIn,
       login: loginHandler,
       logout: logoutHandler
@@ -76454,13 +76463,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 42,
           columnNumber: 12
         }
       }, props.children)
     );
   };
-  _s(AuthContextProvider, "ZD9LjdYxVZrVB5iMyTOvmeLl2Yc=");
+  _s(AuthContextProvider, "yQr16QmgNRq6HiwtItyaiRmW2sc=");
   _c = AuthContextProvider;
   exports.default = AuthContext;
   var _c;
@@ -80515,43 +80524,39 @@ helpers.prelude(module);
 try {
   var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
   _parcelHelpers.defineInteropFlag(exports);
-  var _react = require('react');
+  var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _clsx = require('clsx');
+  var _clsx = require("clsx");
   var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
-  var _materialUiCoreStyles = require('@material-ui/core/styles');
-  var _materialUiCoreCssBaseline = require('@material-ui/core/CssBaseline');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreCssBaseline = require("@material-ui/core/CssBaseline");
   var _materialUiCoreCssBaselineDefault = _parcelHelpers.interopDefault(_materialUiCoreCssBaseline);
-  var _materialUiCoreDrawer = require('@material-ui/core/Drawer');
+  var _materialUiCoreDrawer = require("@material-ui/core/Drawer");
   var _materialUiCoreDrawerDefault = _parcelHelpers.interopDefault(_materialUiCoreDrawer);
-  require('@material-ui/core/Box');
-  var _materialUiCoreAppBar = require('@material-ui/core/AppBar');
+  var _materialUiCoreAppBar = require("@material-ui/core/AppBar");
   var _materialUiCoreAppBarDefault = _parcelHelpers.interopDefault(_materialUiCoreAppBar);
-  var _materialUiCoreToolbar = require('@material-ui/core/Toolbar');
+  var _materialUiCoreToolbar = require("@material-ui/core/Toolbar");
   var _materialUiCoreToolbarDefault = _parcelHelpers.interopDefault(_materialUiCoreToolbar);
-  var _materialUiCoreList = require('@material-ui/core/List');
+  var _materialUiCoreList = require("@material-ui/core/List");
   var _materialUiCoreListDefault = _parcelHelpers.interopDefault(_materialUiCoreList);
-  var _materialUiCoreTypography = require('@material-ui/core/Typography');
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
   var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
-  var _materialUiCoreDivider = require('@material-ui/core/Divider');
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
   var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
-  var _materialUiCoreIconButton = require('@material-ui/core/IconButton');
+  var _materialUiCoreIconButton = require("@material-ui/core/IconButton");
   var _materialUiCoreIconButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreIconButton);
-  var _materialUiCoreBadge = require('@material-ui/core/Badge');
+  var _materialUiCoreBadge = require("@material-ui/core/Badge");
   var _materialUiCoreBadgeDefault = _parcelHelpers.interopDefault(_materialUiCoreBadge);
-  require('@material-ui/core/Container');
-  require('@material-ui/core/Grid');
-  require('@material-ui/core/Paper');
-  require('@material-ui/core/Link');
-  var _materialUiIconsMenu = require('@material-ui/icons/Menu');
+  var _materialUiIconsMenu = require("@material-ui/icons/Menu");
   var _materialUiIconsMenuDefault = _parcelHelpers.interopDefault(_materialUiIconsMenu);
-  var _materialUiIconsChevronLeft = require('@material-ui/icons/ChevronLeft');
+  var _materialUiIconsChevronLeft = require("@material-ui/icons/ChevronLeft");
   var _materialUiIconsChevronLeftDefault = _parcelHelpers.interopDefault(_materialUiIconsChevronLeft);
-  var _materialUiIconsNotifications = require('@material-ui/icons/Notifications');
-  var _materialUiIconsNotificationsDefault = _parcelHelpers.interopDefault(_materialUiIconsNotifications);
-  var _ListItems = require('./ListItems');
+  var _ListItems = require("./ListItems");
+  var _materialUiIconsExitToApp = require("@material-ui/icons/ExitToApp");
+  var _materialUiIconsExitToAppDefault = _parcelHelpers.interopDefault(_materialUiIconsExitToApp);
   var _storeAuthContext = require("../../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
+  var _materialUiCore = require("@material-ui/core");
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/admin/ui/AdminDashboard.js", _s = $RefreshSig$();
   const AdminDashboard = () => {
     _s();
@@ -80565,20 +80570,31 @@ try {
       setOpen(false);
     };
     const fixedHeightPaper = _clsxDefault.default(classes.paper, classes.fixedHeight);
+    let extraFunctions = null;
+    if (authCtx.role === "admin") {
+      extraFunctions = /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 22
+        }
+      }, _ListItems.secondaryListItems);
+    }
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
         className: classes.root,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 41,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCssBaselineDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 42,
           columnNumber: 7
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAppBarDefault.default, {
@@ -80587,7 +80603,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 43,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
@@ -80595,7 +80611,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 47,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
@@ -80607,14 +80623,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 48,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsMenuDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 58,
           columnNumber: 13
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -80626,35 +80642,46 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 60,
           columnNumber: 11
         }
-      }, "Dashboard"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
+      }, "ICAF Dashboard"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
         color: "inherit",
         onClick: () => authCtx.logout(),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 69,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreBadgeDefault.default, {
-        badgeContent: 4,
+        badgeContent: authCtx.role,
+        color: "error",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCore.Button, {
+        variant: "contained",
+        size: "small",
+        startIcon: /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsExitToAppDefault.default, {
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 74,
+            columnNumber: 28
+          }
+        }),
         color: "secondary",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsNotificationsDefault.default, {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 71,
           columnNumber: 15
         }
-      }))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDrawerDefault.default, {
+      }, "SignOut"))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDrawerDefault.default, {
         variant: "permanent",
         classes: {
           paper: _clsxDefault.default(classes.drawerPaper, !open && classes.drawerPaperClose)
@@ -80663,7 +80690,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 83,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -80671,7 +80698,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 90,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
@@ -80679,50 +80706,43 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 91,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsChevronLeftDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 92,
           columnNumber: 13
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 95,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 96,
           columnNumber: 9
         }
       }, _ListItems.mainListItems), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 97,
           columnNumber: 9
         }
-      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80,
-          columnNumber: 9
-        }
-      }, _ListItems.secondaryListItems)), /*#__PURE__*/_reactDefault.default.createElement("main", {
+      }), extraFunctions), /*#__PURE__*/_reactDefault.default.createElement("main", {
         className: classes.content,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
+          lineNumber: 100,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -80730,7 +80750,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83,
+          lineNumber: 101,
           columnNumber: 9
         }
       })))
@@ -80743,21 +80763,21 @@ try {
   const drawerWidth = 240;
   const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
     root: {
-      display: 'flex'
+      display: "flex"
     },
     toolbar: {
       paddingRight: 24
     },
     toolbarIcon: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'flex-end',
-      padding: '0 8px',
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "flex-end",
+      padding: "0 8px",
       ...theme.mixins.toolbar
     },
     appBar: {
       zIndex: theme.zIndex.drawer + 1,
-      transition: theme.transitions.create(['width', 'margin'], {
+      transition: theme.transitions.create(["width", "margin"], {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen
       })
@@ -80765,7 +80785,7 @@ try {
     appBarShift: {
       marginLeft: drawerWidth,
       width: `calc(100% - ${drawerWidth}px)`,
-      transition: theme.transitions.create(['width', 'margin'], {
+      transition: theme.transitions.create(["width", "margin"], {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.enteringScreen
       })
@@ -80774,36 +80794,36 @@ try {
       marginRight: 36
     },
     menuButtonHidden: {
-      display: 'none'
+      display: "none"
     },
     title: {
       flexGrow: 1
     },
     drawerPaper: {
-      position: 'relative',
-      whiteSpace: 'nowrap',
+      position: "relative",
+      whiteSpace: "nowrap",
       width: drawerWidth,
-      transition: theme.transitions.create('width', {
+      transition: theme.transitions.create("width", {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.enteringScreen
       })
     },
     drawerPaperClose: {
-      overflowX: 'hidden',
-      transition: theme.transitions.create('width', {
+      overflowX: "hidden",
+      transition: theme.transitions.create("width", {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen
       }),
       width: theme.spacing(7),
-      [theme.breakpoints.up('sm')]: {
+      [theme.breakpoints.up("sm")]: {
         width: theme.spacing(9)
       }
     },
     appBarSpacer: theme.mixins.toolbar,
     content: {
       flexGrow: 1,
-      height: '100vh',
-      overflow: 'auto'
+      height: "100vh",
+      overflow: "auto"
     },
     container: {
       paddingTop: theme.spacing(4),
@@ -80811,9 +80831,9 @@ try {
     },
     paper: {
       padding: theme.spacing(2),
-      display: 'flex',
-      overflow: 'auto',
-      flexDirection: 'column'
+      display: "flex",
+      overflow: "auto",
+      flexDirection: "column"
     },
     fixedHeight: {
       height: 240
@@ -80828,7 +80848,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/Box":"5C19c","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/core/Container":"3NY2X","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Paper":"5Fj22","@material-ui/core/Link":"7iRxz","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","@material-ui/icons/Notifications":"5TyxM","./ListItems":"64DEK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../../../store/auth-context":"8Jk2N"}],"1IYYX":[function(require,module,exports) {
+},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../../../store/auth-context":"8Jk2N","@material-ui/icons/ExitToApp":"3MuXQ","@material-ui/core":"6DoV9"}],"1IYYX":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -80847,27 +80867,6 @@ var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
   d: "M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
 }), 'ChevronLeft');
-
-exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"5TyxM":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(require("react"));
-
-var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"
-}), 'Notifications');
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"64DEK":[function(require,module,exports) {
@@ -80896,44 +80895,38 @@ try {
   var _materialUiCoreListSubheaderDefault = _parcelHelpers.interopDefault(_materialUiCoreListSubheader);
   var _materialUiIconsDashboard = require('@material-ui/icons/Dashboard');
   var _materialUiIconsDashboardDefault = _parcelHelpers.interopDefault(_materialUiIconsDashboard);
-  var _materialUiIconsShoppingCart = require('@material-ui/icons/ShoppingCart');
-  var _materialUiIconsShoppingCartDefault = _parcelHelpers.interopDefault(_materialUiIconsShoppingCart);
-  var _materialUiIconsPeople = require('@material-ui/icons/People');
-  var _materialUiIconsPeopleDefault = _parcelHelpers.interopDefault(_materialUiIconsPeople);
-  var _materialUiIconsBarChart = require('@material-ui/icons/BarChart');
-  var _materialUiIconsBarChartDefault = _parcelHelpers.interopDefault(_materialUiIconsBarChart);
-  var _materialUiIconsLayers = require('@material-ui/icons/Layers');
-  var _materialUiIconsLayersDefault = _parcelHelpers.interopDefault(_materialUiIconsLayers);
-  var _materialUiIconsAssignment = require('@material-ui/icons/Assignment');
-  var _materialUiIconsAssignmentDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignment);
+  var _materialUiIconsEdit = require('@material-ui/icons/Edit');
+  var _materialUiIconsEditDefault = _parcelHelpers.interopDefault(_materialUiIconsEdit);
+  require('@material-ui/icons/Assignment');
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/admin/ui/ListItems.js";
   const mainListItems = /*#__PURE__*/_reactDefault.default.createElement("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 11,
       columnNumber: 3
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
     button: true,
+    selected: true,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 12,
       columnNumber: 5
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 13,
       columnNumber: 7
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsDashboardDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 14,
       columnNumber: 9
     }
   })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
@@ -80941,127 +80934,7 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 7
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
-    button: true,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 5
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsShoppingCartDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 9
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
-    primary: "Orders",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 7
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
-    button: true,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 5
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsPeopleDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 9
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
-    primary: "Customers",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 7
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
-    button: true,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 5
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsBarChartDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 9
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
-    primary: "Reports",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 7
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
-    button: true,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 5
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsLayersDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 9
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
-    primary: "Integrations",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 16,
       columnNumber: 7
     }
   })));
@@ -81069,7 +80942,7 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 24,
       columnNumber: 3
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListSubheaderDefault.default, {
@@ -81077,97 +80950,37 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 25,
       columnNumber: 5
     }
-  }, "Saved reports"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
+  }, "Extra Settings"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
     button: true,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 26,
       columnNumber: 5
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 27,
       columnNumber: 7
     }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentDefault.default, {
+  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsEditDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 28,
       columnNumber: 9
     }
   })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
-    primary: "Current month",
+    primary: "Add Editor",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 7
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
-    button: true,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 5
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 9
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
-    primary: "Last quarter",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 7
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
-    button: true,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 5
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentDefault.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 9
-    }
-  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
-    primary: "Year-end sale",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 30,
       columnNumber: 7
     }
   })));
@@ -81177,7 +80990,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/ShoppingCart":"6WIpv","@material-ui/icons/People":"4QwVK","@material-ui/icons/BarChart":"1075F","@material-ui/icons/Layers":"5vTqU","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"5Q3Fn":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/icons/Edit":"6vamI"}],"5Q3Fn":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81196,90 +81009,6 @@ var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
   d: "M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
 }), 'Dashboard');
-
-exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"6WIpv":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(require("react"));
-
-var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
-}), 'ShoppingCart');
-
-exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"4QwVK":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(require("react"));
-
-var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
-}), 'People');
-
-exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"1075F":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(require("react"));
-
-var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z"
-}), 'BarChart');
-
-exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"5vTqU":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(require("react"));
-
-var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M11.99 18.54l-7.37-5.73L3 14.07l9 7 9-7-1.63-1.27-7.38 5.74zM12 16l7.36-5.73L21 9l-9-7-9 7 1.63 1.27L12 16z"
-}), 'Layers');
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3UO7R":[function(require,module,exports) {
@@ -81301,6 +81030,27 @@ var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
   d: "M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
 }), 'Assignment');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"6vamI":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+}), 'Edit');
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
