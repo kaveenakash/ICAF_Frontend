@@ -20,16 +20,27 @@ import AdminDashboard from "./admin/ui/AdminDashboard";
 
 const App = () => {
   const [value, setValue] = useState(0);
-
   const authCtx = useContext(AuthContext);
 
   const isLoggedIn = authCtx.isLoggedIn;
 
+  let selectDashboard;
+  if(isLoggedIn){
+    if(authCtx.role == 'admin' || authCtx.role == 'editor'){
+      selectDashboard = true;
+    }
+  }
+
+
+  const logoutHandler = () =>{
+    authCtx.logout()
+  }
+
   return (
     <ThemeProvider theme={theme}>
-      {!isLoggedIn ? (
+      {!selectDashboard  ? (
         <BrowserRouter>
-          <Header value={value} setValue={setValue} />
+          <Header value={value} setValue={setValue} isLoggedIn={isLoggedIn} logout={logoutHandler}/>
           <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route exact path="/keynotes" component={Keynote} />
@@ -44,7 +55,7 @@ const App = () => {
               component={() => <div>downloads</div>}
             />
             <Route exact path="/registration" component={Registration} />
-            <Route exact path="/workshops" component={Workshop} />
+            {authCtx.role && <Route exact path="/workshops" component={Workshop} />}
             <Route exact path="/contact-us" component={ContactUs} />
 
             <Route exact path="/signIn" component={SignIn} />
@@ -63,6 +74,9 @@ const App = () => {
               path="/registration/user"
               component={UserRegistration}
             />
+            <Route 
+              path="/"
+              component={SignIn}/>
           </Switch>
           <Footer value={value} setValue={setValue} />
         </BrowserRouter>

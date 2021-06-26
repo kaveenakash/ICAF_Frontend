@@ -26317,36 +26317,47 @@ try {
     const [value, setValue] = _react.useState(0);
     const authCtx = _react.useContext(_storeAuthContextDefault.default);
     const isLoggedIn = authCtx.isLoggedIn;
+    let selectDashboard;
+    if (isLoggedIn) {
+      if (authCtx.role == 'admin' || authCtx.role == 'editor') {
+        selectDashboard = true;
+      }
+    }
+    const logoutHandler = () => {
+      authCtx.logout();
+    };
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_materialUiStyles.ThemeProvider, {
         theme: _uiThemeDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 40,
           columnNumber: 5
         }
-      }, !isLoggedIn ? /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
+      }, !selectDashboard ? /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 42,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
         value: value,
         setValue: setValue,
+        isLoggedIn: isLoggedIn,
+        logout: logoutHandler,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 43,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 44,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26356,7 +26367,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 45,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26366,7 +26377,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 46,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26376,14 +26387,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39,
+            lineNumber: 50,
             columnNumber: 32
           }
         }, "presentation"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 47,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26393,14 +26404,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 44,
+            lineNumber: 55,
             columnNumber: 32
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 52,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26410,18 +26421,18 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 57,
           columnNumber: 13
         }
-      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+      }), authCtx.role && /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/workshops",
         component: _WorkshopDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
-          columnNumber: 13
+          lineNumber: 58,
+          columnNumber: 30
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
@@ -26430,7 +26441,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 59,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26440,7 +26451,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
+          lineNumber: 61,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26450,7 +26461,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 62,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26460,7 +26471,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 67,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26470,7 +26481,16 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 72,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/",
+        component: _SignInDefault.default,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
           columnNumber: 13
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26479,28 +26499,28 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 81,
           columnNumber: 11
         }
       })) : /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 84,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71,
+          lineNumber: 85,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 86,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26509,7 +26529,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 87,
           columnNumber: 15
         }
       })))))
@@ -74436,7 +74456,7 @@ try {
       try {
         const response = await _axiosDefault.default.post("http://localhost:9090/api/auth/login", data);
         console.log(response.data);
-        authCtx.login(response.data.token, response.data.role);
+        await authCtx.login(response.data.token, response.data.role);
         history.replace("/");
       } catch (err) {
         let errorMessage = "Authentication failed!";
@@ -74567,30 +74587,21 @@ try {
           lineNumber: 91,
           columnNumber: 13
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreLinkDefault.default, {
-        href: "#",
-        variant: "body2",
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92,
-          columnNumber: 15
-        }
-      }, "Forgot password?")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96,
+          lineNumber: 93,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreLinkDefault.default, {
-        href: "#",
+        onClick: () => history.replace('/registration'),
         variant: "body2",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97,
+          lineNumber: 94,
           columnNumber: 15
         }
       }, "Don't have an account? Sign Up"))))))
@@ -77160,11 +77171,27 @@ try {
     const [selectedFile, setSelectedFile] = _react.useState();
     const [selectedFileName, setSelectedFileName] = _react.useState();
     const [isFilePicked, setIsFilePicked] = _react.useState(false);
+    const [fname, setFname] = _react.useState("");
+    const [lname, setLname] = _react.useState("");
+    const [email, setEmail] = _react.useState("");
+    const [content, setContent] = _react.useState("");
+    const [password, setPassword] = _react.useState("");
     const classes = useStyles();
     const fileHandler = event => {
       setSelectedFile(event.target.files[0]);
       setSelectedFileName(event.target.files[0].name);
       setIsFilePicked(true);
+    };
+    const formHandler = event => {
+      event.preventDefault();
+      const data = {
+        fname,
+        lname,
+        content,
+        password,
+        role: "Researcher"
+      };
+      console.log(data);
     };
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreContainerDefault.default, {
@@ -77173,7 +77200,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 49,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -77181,7 +77208,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 50,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
@@ -77189,14 +77216,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 51,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentIndDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 52,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77205,7 +77232,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 54,
           columnNumber: 9
         }
       }, "Research Presenter Sign Up"), /*#__PURE__*/_reactDefault.default.createElement("form", {
@@ -77214,7 +77241,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 57,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77223,7 +77250,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 58,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77233,7 +77260,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 59,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77245,10 +77272,12 @@ try {
         id: "firstName",
         label: "First Name",
         autoFocus: true,
+        value: fname,
+        onChange: event => setFname(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 60,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77258,7 +77287,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 73,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77269,10 +77298,12 @@ try {
         label: "Last Name",
         name: "lastName",
         autoComplete: "lname",
+        value: lname,
+        onChange: event => setLname(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 74,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77281,7 +77312,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 86,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77292,10 +77323,12 @@ try {
         label: "Email Address",
         name: "email",
         autoComplete: "email",
+        value: email,
+        onChange: event => setEmail(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 87,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77304,7 +77337,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 100,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77315,10 +77348,12 @@ try {
         fullWidth: true,
         id: "workshop",
         label: "Research Presentation content",
+        value: content,
+        onChange: event => setContent(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 101,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77326,14 +77361,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
+          lineNumber: 113,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("center", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 114,
           columnNumber: 15
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -77344,7 +77379,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 115,
           columnNumber: 17
         }
       }, "Upload Presentation", /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -77354,7 +77389,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 122,
           columnNumber: 19
         }
       })), isFilePicked && selectedFileName)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77363,7 +77398,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100,
+          lineNumber: 127,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77375,27 +77410,30 @@ try {
         type: "password",
         id: "password",
         autoComplete: "current-password",
+        value: password,
+        onChange: event => setPassword(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 128,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
         fullWidth: true,
         variant: "contained",
         color: "primary",
+        onClick: event => formHandler(event),
         className: classes.submit,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114,
+          lineNumber: 143,
           columnNumber: 11
         }
       }, "Sign Up"))))
     );
   };
-  _s(ResearchPresenterRegistration, "4o/RUWCh6tkc7LhSJPDqdEe/AJM=", false, function () {
+  _s(ResearchPresenterRegistration, "0DVIrb1rLGSrSFFJ1kkeJFiFslo=", false, function () {
     return [useStyles];
   });
   _c = ResearchPresenterRegistration;
@@ -77438,6 +77476,7 @@ try {
   _parcelHelpers.defineInteropFlag(exports);
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
   var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
   var _materialUiCoreButton = require("@material-ui/core/Button");
@@ -77459,17 +77498,42 @@ try {
   var _materialUiCoreContainerDefault = _parcelHelpers.interopDefault(_materialUiCoreContainer);
   var _materialUiIconsAssignmentInd = require("@material-ui/icons/AssignmentInd");
   var _materialUiIconsAssignmentIndDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignmentInd);
-  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/signUp/UserRegistration.js", _s = $RefreshSig$();
+  var _axios = require('axios');
+  var _axiosDefault = _parcelHelpers.interopDefault(_axios);
+  var _storeAuthContext = require("../../store/auth-context");
+  var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
+  var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/signUp/UserRegistration.js", _s2 = $RefreshSig$();
   const UserRegistration = () => {
-    _s();
-    const [selectedFile, setSelectedFile] = _react.useState();
-    const [selectedFileName, setSelectedFileName] = _react.useState();
-    const [isFilePicked, setIsFilePicked] = _react.useState(false);
+    _s2();
+    var _s = $RefreshSig$();
+    const history = _reactRouterDom.useHistory();
+    const authCtx = _react.useContext(_storeAuthContextDefault.default);
     const classes = useStyles();
-    const fileHandler = event => {
-      setSelectedFile(event.target.files[0]);
-      setSelectedFileName(event.target.files[0].name);
-      setIsFilePicked(true);
+    const [fname, setFname] = _react.useState('');
+    const [lname, setLname] = _react.useState('');
+    const [email, setEmail] = _react.useState('');
+    const [password, setPassword] = _react.useState('');
+    const useRegistrationHandler = async event => {
+      event.preventDefault();
+      const data = {
+        fname,
+        lname,
+        email,
+        password,
+        role: "user",
+        content: ""
+      };
+      console.log(data);
+      try {
+        const response = await _axiosDefault.default.post('http://localhost:9090/api/auth/signUp', data);
+        console.log(response.data);
+        authCtx.login(response.data.token, response.data.role);
+        alert('User Registration Complete');
+        history.replace('/');
+      } catch (error) {
+        alert('Your Already Registered Please Login');
+        history.replace('/signIn');
+      }
     };
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreContainerDefault.default, {
@@ -77478,7 +77542,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 60,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -77486,7 +77550,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 61,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
@@ -77494,14 +77558,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 62,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentIndDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 63,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77510,7 +77574,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 65,
           columnNumber: 9
         }
       }, "User Sign Up"), /*#__PURE__*/_reactDefault.default.createElement("form", {
@@ -77519,7 +77583,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 68,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77528,7 +77592,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 69,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77538,7 +77602,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 70,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77550,10 +77614,12 @@ try {
         id: "firstName",
         label: "First Name",
         autoFocus: true,
+        value: fname,
+        onChange: event => setFname(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 71,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77563,7 +77629,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 84,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77574,10 +77640,12 @@ try {
         label: "Last Name",
         name: "lastName",
         autoComplete: "lname",
+        value: lname,
+        onChange: event => setLname(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 85,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77586,7 +77654,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 97,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77597,10 +77665,12 @@ try {
         label: "Email Address",
         name: "email",
         autoComplete: "email",
+        value: email,
+        onChange: event => setEmail(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 98,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77609,7 +77679,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 111,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77621,10 +77691,12 @@ try {
         type: "password",
         id: "password",
         autoComplete: "current-password",
+        value: password,
+        onChange: event => setPassword(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 112,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -77632,17 +77704,23 @@ try {
         variant: "contained",
         color: "primary",
         className: classes.submit,
+        onClick: _s(event => {
+          _s();
+          return useRegistrationHandler(event);
+        }, "kD4FTLKYmN+SlJWkUR4xKaI7e3k=", false, function () {
+          return [useRegistrationHandler];
+        }),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 127,
           columnNumber: 11
         }
       }, "Sign Up"))))
     );
   };
-  _s(UserRegistration, "4o/RUWCh6tkc7LhSJPDqdEe/AJM=", false, function () {
-    return [useStyles];
+  _s2(UserRegistration, "SeoOdYeZz+KZJKoEIxn4ZLP30qE=", false, function () {
+    return [_reactRouterDom.useHistory, useStyles];
   });
   _c = UserRegistration;
   const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
@@ -77675,7 +77753,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7cLhj":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","axios":"7rA65","react-router-dom":"1PMSK","../../store/auth-context":"8Jk2N"}],"7cLhj":[function(require,module,exports) {
 var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -77685,6 +77763,7 @@ try {
   _parcelHelpers.defineInteropFlag(exports);
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
   var _materialUiCoreStyles = require("@material-ui/core/styles");
   var _materialUiCoreGrid = require("@material-ui/core/Grid");
   var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
@@ -77701,20 +77780,28 @@ try {
   require("@material-ui/core");
   require("@material-ui/core/Avatar");
   require("@material-ui/core/TextField");
-  var _reactRouterDom = require("react-router-dom");
   var _materialUiCoreChip = require("@material-ui/core/Chip");
   var _materialUiCoreChipDefault = _parcelHelpers.interopDefault(_materialUiCoreChip);
   var _storeData = require("../store/data");
+  var _storeAuthContext = require("../store/auth-context");
+  var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/Workshop.js", _s = $RefreshSig$();
   const Workshop = props => {
     _s();
     const classes = useStyles();
+    const history = _reactRouterDom.useHistory();
+    const authCtx = _react.useContext(_storeAuthContextDefault.default);
+    // useEffect(() =>{
+    // if(authCtx.role){
+    // history.replace('')
+    // }
+    // },[])
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 31,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77724,7 +77811,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 32,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77735,7 +77822,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 33,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77743,7 +77830,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 34,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77753,7 +77840,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 35,
           columnNumber: 13
         }
       }, "WORKSHOPS"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
@@ -77763,7 +77850,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 42,
           columnNumber: 13
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77774,7 +77861,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 45,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77784,7 +77871,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 51,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77792,7 +77879,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 52,
           columnNumber: 13
         }
       }, "Following is the list of workshops, which will be organized as a part of ICAF 2021.")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77801,7 +77888,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 57,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77809,14 +77896,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 58,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("b", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
+          lineNumber: 59,
           columnNumber: 15
         }
       }, "Regsiter"), " via following link :", " ", /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Link, {
@@ -77824,7 +77911,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 60,
           columnNumber: 15
         }
       }, "Click here"))), _storeData.workshops.map(workshop => {
@@ -77840,7 +77927,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 56,
+              lineNumber: 65,
               columnNumber: 15
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77848,7 +77935,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 65,
+              lineNumber: 74,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
@@ -77858,7 +77945,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 66,
+              lineNumber: 75,
               columnNumber: 19
             }
           })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77866,7 +77953,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 73,
+              lineNumber: 82,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreChipDefault.default, {
@@ -77875,7 +77962,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 74,
+              lineNumber: 83,
               columnNumber: 19
             }
           })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77883,7 +77970,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 77,
+              lineNumber: 86,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77894,7 +77981,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 78,
+              lineNumber: 87,
               columnNumber: 19
             }
           }, workshop.header)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77902,7 +77989,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 87,
+              lineNumber: 96,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77913,7 +78000,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 88,
+              lineNumber: 97,
               columnNumber: 19
             }
           }, "Workshop Conductor : ", workshop.resourcePerson)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77921,7 +78008,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 97,
+              lineNumber: 106,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77932,7 +78019,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 98,
+              lineNumber: 107,
               columnNumber: 19
             }
           }, workshop.content)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77940,14 +78027,14 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 107,
+              lineNumber: 116,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement("center", {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 108,
+              lineNumber: 117,
               columnNumber: 19
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -77957,7 +78044,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 109,
+              lineNumber: 118,
               columnNumber: 21
             }
           }, "Download Proposal"))))
@@ -77965,8 +78052,8 @@ try {
       }))))
     );
   };
-  _s(Workshop, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
-    return [useStyles];
+  _s(Workshop, "Vfy+fnhT99jxJY9IjQ+c6ySrsjM=", false, function () {
+    return [useStyles, _reactRouterDom.useHistory];
   });
   _c = Workshop;
   const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
@@ -78013,7 +78100,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","react-router-dom":"1PMSK","@material-ui/core/Chip":"5xHma","../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"4SLtI":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","react-router-dom":"1PMSK","@material-ui/core/Chip":"5xHma","../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../store/auth-context":"8Jk2N"}],"4SLtI":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -78055,6 +78142,8 @@ try {
   var _materialUiCoreListItemDefault = _parcelHelpers.interopDefault(_materialUiCoreListItem);
   var _materialUiCoreListItemText = require("@material-ui/core/ListItemText");
   var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
+  var _materialUiIconsVpnKey = require('@material-ui/icons/VpnKey');
+  var _materialUiIconsVpnKeyDefault = _parcelHelpers.interopDefault(_materialUiIconsVpnKey);
   var _storeData = require("../../store/data");
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
@@ -78080,11 +78169,61 @@ try {
         }
       });
     }, [value, _storeData.routes]);
+    let loginFunctionButton;
+    if (!props.isLoggedIn) {
+      loginFunctionButton = /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        size: "small",
+        color: "secondary",
+        className: classes.button,
+        component: _reactRouterDom.Link,
+        to: "/signIn",
+        onClick: () => setValue(7),
+        startIcon: /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsVpnKeyDefault.default, {
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 62,
+            columnNumber: 26
+          }
+        }),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 7
+        }
+      }, "Sign in");
+    } else {
+      loginFunctionButton = /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        size: "small",
+        color: "error",
+        className: classes.button,
+        component: _reactRouterDom.Link,
+        to: "/signIn",
+        onClick: () => props.logout(),
+        endIcon: /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsExitToAppDefault.default, {
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 77,
+            columnNumber: 16
+          }
+        }),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 7
+        }
+      }, "Sign Out");
+    }
     const tabs = /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 85,
         columnNumber: 5
       }
     }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabsDefault.default, {
@@ -78094,7 +78233,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 86,
         columnNumber: 7
       }
     }, _storeData.routes.map(item => {
@@ -78108,7 +78247,7 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 59,
+            lineNumber: 93,
             columnNumber: 13
           }
         })
@@ -78118,7 +78257,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72,
+        lineNumber: 106,
         columnNumber: 5
       }
     }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreSwipeableDrawerDefault.default, {
@@ -78131,7 +78270,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73,
+        lineNumber: 107,
         columnNumber: 7
       }
     }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -78139,7 +78278,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 80,
+        lineNumber: 114,
         columnNumber: 9
       }
     }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
@@ -78147,7 +78286,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81,
+        lineNumber: 115,
         columnNumber: 9
       }
     }, _storeData.routes.map(item => /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
@@ -78166,7 +78305,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83,
+        lineNumber: 117,
         columnNumber: 13
       }
     }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
@@ -78175,7 +78314,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95,
+        lineNumber: 129,
         columnNumber: 15
       }
     }, item.name))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
@@ -78185,7 +78324,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 106,
+        lineNumber: 140,
         columnNumber: 7
       }
     }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsMenuDefault.default, {
@@ -78193,7 +78332,7 @@ try {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 111,
+        lineNumber: 145,
         columnNumber: 9
       }
     })));
@@ -78202,14 +78341,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117,
+          lineNumber: 151,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(ElevationScroll, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118,
+          lineNumber: 152,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAppBarDefault.default, {
@@ -78219,7 +78358,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119,
+          lineNumber: 153,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
@@ -78228,7 +78367,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120,
+          lineNumber: 154,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -78239,7 +78378,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121,
+          lineNumber: 155,
           columnNumber: 13
         }
       }, "Subscribe"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -78255,7 +78394,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124,
+          lineNumber: 158,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -78267,7 +78406,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 167,
           columnNumber: 15
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("img", {
@@ -78277,32 +78416,10 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140,
+          lineNumber: 174,
           columnNumber: 17
         }
-      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
-        variant: "contained",
-        size: "small",
-        color: "secondary",
-        className: classes.button,
-        component: _reactRouterDom.Link,
-        to: "/signIn",
-        onClick: () => setValue(7),
-        startIcon: /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsExitToAppDefault.default, {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 156,
-            columnNumber: 26
-          }
-        }),
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 148,
-          columnNumber: 13
-        }
-      }, "Sign in")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
+      }))), loginFunctionButton), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
         component: "nav",
         variant: "dense",
         className: classes.toolbarSecondary,
@@ -78310,7 +78427,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161,
+          lineNumber: 184,
           columnNumber: 11
         }
       }, matches ? drawer : tabs))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -78318,7 +78435,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171,
+          lineNumber: 194,
           columnNumber: 7
         }
       }))
@@ -78429,7 +78546,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/AppBar":"3NZOv","@material-ui/core/styles":"1Rdvd","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/Button":"1Xm5M","@material-ui/core/Typography":"3wcF9","@material-ui/core/useScrollTrigger":"680yH","@material-ui/core/Tabs":"DcRvB","@material-ui/core/Tab":"2OA3N","@material-ui/icons/ExitToApp":"3MuXQ","react-router-dom":"1PMSK","@material-ui/core/useMediaQuery":"19LLa","@material-ui/icons/Menu":"5IEDk","@material-ui/core/SwipeableDrawer":"4SlPx","@material-ui/core/IconButton":"2ndRy","@material-ui/core/List":"5yMsX","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemText":"7t7nz","../../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3MuXQ":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/AppBar":"3NZOv","@material-ui/core/styles":"1Rdvd","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/Button":"1Xm5M","@material-ui/core/Typography":"3wcF9","@material-ui/core/useScrollTrigger":"680yH","@material-ui/core/Tabs":"DcRvB","@material-ui/core/Tab":"2OA3N","@material-ui/icons/ExitToApp":"3MuXQ","react-router-dom":"1PMSK","@material-ui/core/useMediaQuery":"19LLa","@material-ui/icons/Menu":"5IEDk","@material-ui/core/SwipeableDrawer":"4SlPx","@material-ui/core/IconButton":"2ndRy","@material-ui/core/List":"5yMsX","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemText":"7t7nz","../../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/icons/VpnKey":"6RmUM"}],"3MuXQ":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -78469,6 +78586,27 @@ var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
   d: "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
 }), 'Menu');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"6RmUM":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+}), 'VpnKey');
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"31W7N":[function(require,module,exports) {

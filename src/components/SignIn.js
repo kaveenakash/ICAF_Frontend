@@ -31,7 +31,7 @@ const SignIn = () => {
         data
       );
       console.log(response.data)
-      authCtx.login(response.data.token,response.data.role);
+      await authCtx.login(response.data.token,response.data.role);
       history.replace("/");
     } catch (err) {
       let errorMessage = "Authentication failed!";
@@ -89,12 +89,9 @@ const SignIn = () => {
           </Button>
           <Grid container>
             <Grid item xs>
-              <Link href="#" variant="body2">
-                Forgot password?
-              </Link>
             </Grid>
             <Grid item>
-              <Link href="#" variant="body2">
+              <Link onClick={() => history.replace('/registration') } variant="body2">
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>

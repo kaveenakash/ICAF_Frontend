@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import {useHistory} from 'react-router-dom'
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -13,18 +14,47 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
+import axios from 'axios'
+import AuthContext from "../../store/auth-context";
 
 const UserRegistration = () => {
-  const [selectedFile, setSelectedFile] = useState();
-  const [selectedFileName, setSelectedFileName] = useState();
-  const [isFilePicked, setIsFilePicked] = useState(false);
+
+  const history = useHistory();
+  const authCtx = useContext(AuthContext);
   const classes = useStyles();
 
-  const fileHandler = (event) => {
-    setSelectedFile(event.target.files[0]);
-    setSelectedFileName(event.target.files[0].name);
-    setIsFilePicked(true);
-  };
+  const[fname,setFname] = useState('')
+  const[lname,setLname] = useState('')
+  const[email,setEmail] = useState('')
+  const[password,setPassword] = useState('')
+
+  
+  const useRegistrationHandler = async(event) =>{
+    event.preventDefault();
+    const data = {
+      fname,
+      lname,
+      email,
+      password,
+      role:"user",
+      content:""
+    }
+    console.log(data)
+    try {
+      const response = await axios.post('http://localhost:9090/api/auth/signUp',data)
+
+      console.log(response.data)
+      authCtx.login(response.data.token,response.data.role);
+      alert('User Registration Complete');
+      history.replace('/')
+
+    } catch (error) {
+      
+      alert('Your Already Registered Please Login')
+      history.replace('/signIn')
+    }
+
+  } 
 
   return (
     <Container component="main" maxWidth="md">
@@ -47,6 +77,8 @@ const UserRegistration = () => {
                 id="firstName"
                 label="First Name"
                 autoFocus
+                value={fname}
+                onChange={(event) => setFname(event.target.value)}
               />
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -58,6 +90,8 @@ const UserRegistration = () => {
                 label="Last Name"
                 name="lastName"
                 autoComplete="lname"
+                value={lname}
+                onChange={(event) => setLname(event.target.value)}
               />
             </Grid>
             <Grid item xs={12}>
@@ -69,6 +103,8 @@ const UserRegistration = () => {
                 label="Email Address"
                 name="email"
                 autoComplete="email"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
               />
             </Grid>
 
@@ -82,6 +118,8 @@ const UserRegistration = () => {
                 type="password"
                 id="password"
                 autoComplete="current-password"
+                value={password}
+                onChange={(event) => setPassword(event.target.value)}
               />
             </Grid>
           </Grid>
@@ -91,6 +129,7 @@ const UserRegistration = () => {
             variant="contained"
             color="primary"
             className={classes.submit}
+            onClick={(event) => useRegistrationHandler(event)}
           >
             Sign Up
           </Button>

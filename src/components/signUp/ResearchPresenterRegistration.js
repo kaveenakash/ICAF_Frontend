@@ -18,12 +18,31 @@ const ResearchPresenterRegistration = () => {
   const [selectedFile, setSelectedFile] = useState();
   const [selectedFileName, setSelectedFileName] = useState();
   const [isFilePicked, setIsFilePicked] = useState(false);
+
+  const [fname, setFname] = useState("");
+  const [lname, setLname] = useState("");
+  const [email, setEmail] = useState("");
+  const [content, setContent] = useState("");
+  const [password, setPassword] = useState("");
+
   const classes = useStyles();
 
   const fileHandler = (event) => {
     setSelectedFile(event.target.files[0]);
     setSelectedFileName(event.target.files[0].name);
     setIsFilePicked(true);
+  };
+
+  const formHandler = (event) => {
+    event.preventDefault();
+    const data = {
+      fname,
+      lname,
+      content,
+      password,
+      role: "Researcher",
+    };
+    console.log(data)
   };
 
   return (
@@ -47,6 +66,8 @@ const ResearchPresenterRegistration = () => {
                 id="firstName"
                 label="First Name"
                 autoFocus
+                value={fname}
+                onChange={(event) => setFname(event.target.value)}
               />
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -58,6 +79,8 @@ const ResearchPresenterRegistration = () => {
                 label="Last Name"
                 name="lastName"
                 autoComplete="lname"
+                value={lname}
+                onChange={(event) => setLname(event.target.value)}
               />
             </Grid>
             <Grid item xs={12}>
@@ -69,6 +92,8 @@ const ResearchPresenterRegistration = () => {
                 label="Email Address"
                 name="email"
                 autoComplete="email"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
               />
             </Grid>
 
@@ -81,6 +106,8 @@ const ResearchPresenterRegistration = () => {
                 fullWidth
                 id="workshop"
                 label="Research Presentation content"
+                value={content}
+                onChange={(event) => setContent(event.target.value)}
               />
             </Grid>
             <Grid item>
@@ -107,6 +134,8 @@ const ResearchPresenterRegistration = () => {
                 type="password"
                 id="password"
                 autoComplete="current-password"
+                value={password}
+                onChange={(event) => setPassword(event.target.value)}
               />
             </Grid>
           </Grid>
@@ -115,6 +144,7 @@ const ResearchPresenterRegistration = () => {
             fullWidth
             variant="contained"
             color="primary"
+            onClick={(event) => formHandler(event)}
             className={classes.submit}
           >
             Sign Up

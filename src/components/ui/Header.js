@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useContext } from "react";
 import AppBar from "@material-ui/core/AppBar";
 import { makeStyles } from "@material-ui/core/styles";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -17,7 +17,7 @@ import IconButton from "@material-ui/core/IconButton";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-
+import VpnKeyIcon from '@material-ui/icons/VpnKey';
 //Data
 import { routes } from "../../store/data";
 
@@ -46,6 +46,40 @@ const Header = (props) => {
       }
     });
   }, [value, routes]);
+
+  let loginFunctionButton;
+
+  if(!props.isLoggedIn){
+    loginFunctionButton = (
+      <Button
+              variant="contained"
+              size="small"
+              color="secondary"
+              className={classes.button}
+              component={Link}
+              to="/signIn"
+              onClick={() => setValue(7)}
+              startIcon={<VpnKeyIcon/>}
+            >
+              Sign in
+            </Button>
+    )
+  }else{
+    loginFunctionButton = (
+      <Button
+      variant="contained"
+      size="small"
+      color="error"
+      className={classes.button}
+      component={Link}
+      to="/signIn"
+      onClick={() => props.logout()}
+      endIcon={<ExitToAppIcon />}
+    >
+      Sign Out
+    </Button>
+    )
+  }
 
   const tabs = (
     <React.Fragment>
@@ -145,18 +179,7 @@ const Header = (props) => {
               </Button>
             </Typography>
 
-            <Button
-              variant="contained"
-              size="small"
-              color="secondary"
-              className={classes.button}
-              component={Link}
-              to="/signIn"
-              onClick={() => setValue(7)}
-              startIcon={<ExitToAppIcon />}
-            >
-              Sign in
-            </Button>
+            {loginFunctionButton}
           </Toolbar>
           <Toolbar
             component="nav"

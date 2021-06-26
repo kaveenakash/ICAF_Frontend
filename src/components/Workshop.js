@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useEffect,useContext} from "react";
+import {useHistory} from 'react-router-dom'
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
@@ -14,9 +15,17 @@ import TextField from "@material-ui/core/TextField";
 import { Link } from "react-router-dom";
 import Chip from "@material-ui/core/Chip";
 import { workshops } from "../store/data";
-
+import AuthContext from "../store/auth-context";
 const Workshop = (props) => {
   const classes = useStyles();
+  const history = useHistory();
+
+  const authCtx = useContext(AuthContext);
+  // useEffect(() =>{
+  //   if(authCtx.role){
+  //       history.replace('')
+  //   }
+  // },[])
 
   return (
     <React.Fragment>
