@@ -77176,11 +77176,16 @@ try {
     const [email, setEmail] = _react.useState("");
     const [content, setContent] = _react.useState("");
     const [password, setPassword] = _react.useState("");
+    const [previewUrl, setPreviewUrl] = _react.useState();
     const classes = useStyles();
     const fileHandler = event => {
-      setSelectedFile(event.target.files[0]);
-      setSelectedFileName(event.target.files[0].name);
-      setIsFilePicked(true);
+      if (event.target.files && event.target.files.length === 1) {
+        setSelectedFile(event.target.files[0]);
+        setSelectedFileName(event.target.files[0].name);
+        setIsFilePicked(true);
+      } else {
+        setIsFilePicked(false);
+      }
     };
     const formHandler = event => {
       event.preventDefault();
@@ -77189,6 +77194,7 @@ try {
         lname,
         content,
         password,
+        selectedFile,
         role: "Researcher"
       };
       console.log(data);
@@ -77200,7 +77206,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 61,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -77208,7 +77214,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
+          lineNumber: 62,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
@@ -77216,14 +77222,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 63,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentIndDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 64,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77232,7 +77238,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 66,
           columnNumber: 9
         }
       }, "Research Presenter Sign Up"), /*#__PURE__*/_reactDefault.default.createElement("form", {
@@ -77241,7 +77247,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 69,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77250,7 +77256,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 70,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77260,7 +77266,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 71,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77277,7 +77283,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 72,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77287,7 +77293,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 85,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77303,7 +77309,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 86,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77312,7 +77318,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
+          lineNumber: 98,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77328,7 +77334,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 99,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77337,7 +77343,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100,
+          lineNumber: 112,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77353,7 +77359,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 113,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77361,14 +77367,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113,
+          lineNumber: 125,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("center", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114,
+          lineNumber: 126,
           columnNumber: 15
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -77379,17 +77385,18 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115,
+          lineNumber: 127,
           columnNumber: 17
         }
       }, "Upload Presentation", /*#__PURE__*/_reactDefault.default.createElement("input", {
         type: "file",
         hidden: true,
         onChange: fileHandler,
+        accept: ".jpg,.png,.jpeg",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122,
+          lineNumber: 134,
           columnNumber: 19
         }
       })), isFilePicked && selectedFileName)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77398,7 +77405,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127,
+          lineNumber: 139,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77415,7 +77422,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128,
+          lineNumber: 140,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -77427,13 +77434,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143,
+          lineNumber: 155,
           columnNumber: 11
         }
       }, "Sign Up"))))
     );
   };
-  _s(ResearchPresenterRegistration, "0DVIrb1rLGSrSFFJ1kkeJFiFslo=", false, function () {
+  _s(ResearchPresenterRegistration, "D/ogVvBzo/GI9a3NLnnMVTm/I+Y=", false, function () {
     return [useStyles];
   });
   _c = ResearchPresenterRegistration;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect } from "react";
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -24,22 +24,34 @@ const ResearchPresenterRegistration = () => {
   const [email, setEmail] = useState("");
   const [content, setContent] = useState("");
   const [password, setPassword] = useState("");
-
+  const [previewUrl,setPreviewUrl] = useState();
   const classes = useStyles();
 
+ 
+
   const fileHandler = (event) => {
-    setSelectedFile(event.target.files[0]);
-    setSelectedFileName(event.target.files[0].name);
-    setIsFilePicked(true);
+   
+    if(event.target.files && event.target.files.length === 1){
+
+      setSelectedFile(event.target.files[0]);
+      setSelectedFileName(event.target.files[0].name);
+      setIsFilePicked(true);
+      
+    }else {
+
+      setIsFilePicked(false)
+    }
   };
 
   const formHandler = (event) => {
     event.preventDefault();
+  
     const data = {
       fname,
       lname,
       content,
       password,
+      selectedFile,
       role: "Researcher",
     };
     console.log(data)
@@ -119,7 +131,7 @@ const ResearchPresenterRegistration = () => {
                   size="small"
                 >
                   Upload Presentation
-                  <input type="file" hidden onChange={fileHandler} />
+                  <input type="file" hidden onChange={fileHandler} accept=".jpg,.png,.jpeg"/>
                 </Button>
                 {isFilePicked && selectedFileName}
               </center>
