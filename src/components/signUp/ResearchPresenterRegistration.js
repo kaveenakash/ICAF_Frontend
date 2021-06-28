@@ -1,4 +1,5 @@
 import React, { useState ,useEffect } from "react";
+import {useHistory} from 'react-router-dom'
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -13,11 +14,13 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
+import axios from 'axios'
 
 const ResearchPresenterRegistration = () => {
   const [selectedFile, setSelectedFile] = useState();
   const [selectedFileName, setSelectedFileName] = useState();
   const [isFilePicked, setIsFilePicked] = useState(false);
+  const history = useHistory()
 
   const [fname, setFname] = useState("");
   const [lname, setLname] = useState("");
@@ -43,18 +46,35 @@ const ResearchPresenterRegistration = () => {
     }
   };
 
-  const formHandler = (event) => {
+  const formHandler = async(event) => {
     event.preventDefault();
-  
-    const data = {
-      fname,
-      lname,
-      content,
-      password,
-      selectedFile,
-      role: "Researcher",
-    };
-    console.log(data)
+    
+   
+    const role = 'researcher'
+    try {
+      const formData = new FormData();
+      formData.append('fname',fname);
+      formData.append('lname',lname);
+      formData.append('content',content);
+      formData.append('email',email);
+      formData.append('password',password);
+      formData.append('document',selectedFile);
+      formData.append('role',role);
+      
+     console.log(selectedFile)
+      const responseData = await axios.post('http://localhost:9090/api/auth/signUp',formData)
+      console.log(responseData)
+      alert('Registration Complete Your Research Paper Still in pending process if it approved we sent email to provided email thank you')
+      history.replace('/presentations')
+
+
+
+
+    } catch (error) {
+      
+    }
+
+
   };
 
   return (
@@ -131,7 +151,7 @@ const ResearchPresenterRegistration = () => {
                   size="small"
                 >
                   Upload Presentation
-                  <input type="file" hidden onChange={fileHandler} accept=".jpg,.png,.jpeg"/>
+                  <input type="file" hidden onChange={fileHandler} accept=".pdf"/>
                 </Button>
                 {isFilePicked && selectedFileName}
               </center>
