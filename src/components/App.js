@@ -83,8 +83,12 @@ const App = () => {
       ) : (
         <React.Fragment>
           <BrowserRouter>
+         
             <Switch>
-              <Route path="/" component={AdminDashboard} />
+              <AdminDashboard>
+
+              <Route path="/" component={() => <h1>Hello</h1>} />
+              </AdminDashboard>
             </Switch>
           </BrowserRouter>
         </React.Fragment>

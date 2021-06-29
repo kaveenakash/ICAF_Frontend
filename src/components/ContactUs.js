@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
@@ -11,9 +11,36 @@ import { colors } from "@material-ui/core";
 import { useMediaQuery } from "@material-ui/core";
 import Avatar from "@material-ui/core/Avatar";
 import TextField from "@material-ui/core/TextField";
+import axios from 'axios'
+import { useHistory } from "react-router-dom";
 
 const ContactUs = (props) => {
   const classes = useStyles();
+
+  const [name,setName] = useState('')
+  const [email,setEmail] = useState('')
+  const [subject,setSubject] = useState('')
+  const [message,setMessage] = useState('')
+  const history = useHistory()
+  const messageHandler = async(event) =>{
+    event.preventDefault()
+    const data = {
+      name,
+      email,
+      subject,
+      message
+    }
+    console.log(data)
+    try {
+     const response = await axios.post('http://localhost:9090/api/message/message-save',data)
+      console.log(response)
+      alert('Message Sent we will reply to your email')
+      history.replace('/')
+    } catch (error) {
+      alert('Message sent failed')     
+    }
+  }
+
   return (
     <React.Fragment>
       <Grid container className={classes.contactContainer} direction="column">
@@ -95,6 +122,8 @@ const ContactUs = (props) => {
                 id="standard-basic"
                 label="Name"
                 variant="outlined"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
               />
             </Grid>
             <Grid item xs={4}>
@@ -103,6 +132,8 @@ const ContactUs = (props) => {
                 id="standard-basic"
                 label="Email"
                 variant="outlined"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
               />
             </Grid>
           </Grid>
@@ -115,6 +146,8 @@ const ContactUs = (props) => {
                 id="standard-basic"
                 label="Subject"
                 variant="outlined"
+                value={subject}
+                onChange={(event) => setSubject(event.target.value)}
               />
             </Grid>
           </Grid>
@@ -128,6 +161,8 @@ const ContactUs = (props) => {
                 id="standard-basic"
                 label="Message"
                 variant="outlined"
+                value={message}
+                onChange={(event) => setMessage(event.target.value)}
               />
             </Grid>
           </Grid>
@@ -135,7 +170,7 @@ const ContactUs = (props) => {
           <Grid item container justify="center">
             <Grid item>
               <br />
-              <Button variant="contained" color="secondary" size="large">
+              <Button variant="contained" color="secondary" size="large" onClick={(event) => messageHandler(event)}>
                 Send Message
               </Button>
             </Grid>

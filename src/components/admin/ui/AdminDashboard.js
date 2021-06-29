@@ -16,6 +16,7 @@ import { mainListItems, secondaryListItems } from "./ListItems";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import AuthContext from "../../../store/auth-context";
 import { Button } from "@material-ui/core";
+import { Children } from "react";
 
 const AdminDashboard = () => {
   const classes = useStyles();
@@ -99,6 +100,7 @@ const AdminDashboard = () => {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
+        {Children}
       </main>
     </div>
   );
