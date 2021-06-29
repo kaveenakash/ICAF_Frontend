@@ -55,7 +55,7 @@ const App = () => {
               component={() => <div>downloads</div>}
             />
             <Route exact path="/registration" component={Registration} />
-            {authCtx.role && <Route exact path="/workshops" component={Workshop} />}
+            {authCtx.token && <Route exact path="/workshops" component={Workshop} />}
             <Route exact path="/contact-us" component={ContactUs} />
 
             <Route exact path="/signIn" component={SignIn} />

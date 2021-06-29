@@ -41,7 +41,7 @@ const UserRegistration = () => {
     }
     console.log(data)
     try {
-      const response = await axios.post('http://localhost:9090/api/auth/signUp',data)
+      const response = await axios.post('http://localhost:9090/api/user/signUp',data)
 
       console.log(response.data)
       authCtx.login(response.data.token,response.data.role);

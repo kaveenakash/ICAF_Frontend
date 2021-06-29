@@ -26424,7 +26424,7 @@ try {
           lineNumber: 57,
           columnNumber: 13
         }
-      }), authCtx.role && /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+      }), authCtx.token && /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/workshops",
         component: _WorkshopDefault.default,
@@ -26432,7 +26432,7 @@ try {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 58,
-          columnNumber: 30
+          columnNumber: 31
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
@@ -77790,6 +77790,11 @@ try {
   var _materialUiCoreContainerDefault = _parcelHelpers.interopDefault(_materialUiCoreContainer);
   var _materialUiIconsAssignmentInd = require("@material-ui/icons/AssignmentInd");
   var _materialUiIconsAssignmentIndDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignmentInd);
+  var _axios = require('axios');
+  var _axiosDefault = _parcelHelpers.interopDefault(_axios);
+  var _storeAuthContext = require("../../store/auth-context");
+  var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
+  var _reactRouterDom = require("react-router-dom");
   var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\WorkshopConductorRegistration.js", _s = $RefreshSig$();
   const WorkshopConductorRegistration = () => {
     _s();
@@ -77797,10 +77802,37 @@ try {
     const [selectedFileName, setSelectedFileName] = _react.useState();
     const [isFilePicked, setIsFilePicked] = _react.useState(false);
     const classes = useStyles();
+    const history = _reactRouterDom.useHistory();
+    const [name, setName] = _react.useState('');
+    const [email, setEmail] = _react.useState('');
+    const [title, setTitle] = _react.useState('');
+    const [content, setContent] = _react.useState('');
+    const [password, setPassword] = _react.useState('');
+    const authCtx = _react.useContext(_storeAuthContextDefault.default);
     const fileHandler = event => {
       setSelectedFile(event.target.files[0]);
       setSelectedFileName(event.target.files[0].name);
       setIsFilePicked(true);
+    };
+    const workshopFormHandler = async event => {
+      event.preventDefault();
+      let role = "Workshop-Conductor";
+      const formData = new FormData();
+      formData.append('name', name);
+      formData.append('email', email);
+      formData.append('title', title);
+      formData.append('content', content);
+      formData.append('password', password);
+      formData.append('document', selectedFile);
+      try {
+        const response = await _axiosDefault.default.post('http://localhost:9090/api/workshop/workshop-signUp', formData);
+        console.log(response);
+        authCtx.login(response.data.token, response.data.role);
+        alert('Your Proposal Still pendiing If it approved we sent email to the your provided email');
+        history.replace('/workshops');
+      } catch (error) {
+        alert('Error Registration Unsuccessful');
+      }
     };
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreContainerDefault.default, {
@@ -77809,7 +77841,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 70,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -77817,7 +77849,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 71,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
@@ -77825,14 +77857,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 72,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsAssignmentIndDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 73,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -77841,7 +77873,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 75,
           columnNumber: 9
         }
       }, "Workshop Conductor Sign Up"), /*#__PURE__*/_reactDefault.default.createElement("form", {
@@ -77850,7 +77882,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 78,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77859,17 +77891,16 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 79,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
         xs: 12,
-        sm: 6,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 80,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77878,37 +77909,14 @@ try {
         variant: "outlined",
         required: true,
         fullWidth: true,
-        id: "firstName",
-        label: "First Name",
+        label: "Full Name",
         autoFocus: true,
+        value: name,
+        onChange: event => setName(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
-          columnNumber: 15
-        }
-      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
-        item: true,
-        xs: 12,
-        sm: 6,
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
-        variant: "outlined",
-        required: true,
-        fullWidth: true,
-        id: "lastName",
-        label: "Last Name",
-        name: "lastName",
-        autoComplete: "lname",
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 81,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77917,7 +77925,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 94,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77928,10 +77936,12 @@ try {
         label: "Email Address",
         name: "email",
         autoComplete: "email",
+        value: email,
+        onChange: event => setEmail(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 95,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77940,7 +77950,29 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 107,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
+        variant: "outlined",
+        required: true,
+        fullWidth: true,
+        label: "Workshop Title",
+        value: title,
+        onChange: event => setTitle(event.target.value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108,
+          columnNumber: 15
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        xs: 12,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -77951,10 +77983,12 @@ try {
         fullWidth: true,
         id: "workshop",
         label: "Workshop Details",
+        value: content,
+        onChange: event => setContent(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 120,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77962,14 +77996,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
+          lineNumber: 132,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("center", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 133,
           columnNumber: 15
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -77980,17 +78014,18 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 134,
           columnNumber: 17
         }
       }, "Proposal Upload", /*#__PURE__*/_reactDefault.default.createElement("input", {
         type: "file",
         hidden: true,
         onChange: fileHandler,
+        accept: ".pdf",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 141,
           columnNumber: 19
         }
       })), isFilePicked && selectedFileName)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -77999,7 +78034,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100,
+          lineNumber: 146,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTextFieldDefault.default, {
@@ -78011,10 +78046,12 @@ try {
         type: "password",
         id: "password",
         autoComplete: "current-password",
+        value: password,
+        onChange: event => setPassword(event.target.value),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 147,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -78022,17 +78059,18 @@ try {
         variant: "contained",
         color: "primary",
         className: classes.submit,
+        onClick: event => workshopFormHandler(event),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114,
+          lineNumber: 162,
           columnNumber: 11
         }
       }, "Sign Up"))))
     );
   };
-  _s(WorkshopConductorRegistration, "4o/RUWCh6tkc7LhSJPDqdEe/AJM=", false, function () {
-    return [useStyles];
+  _s(WorkshopConductorRegistration, "ttKDTIwPimiOH3Wc9BQpW6cMfjw=", false, function () {
+    return [useStyles, _reactRouterDom.useHistory];
   });
   _c = WorkshopConductorRegistration;
   const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
@@ -78064,7 +78102,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"2GTuz":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","axios":"7rA65","react-router-dom":"1PMSK","../../store/auth-context":"8Jk2N"}],"2GTuz":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -78494,7 +78532,7 @@ try {
       };
       console.log(data);
       try {
-        const response = await _axiosDefault.default.post('http://localhost:9090/api/auth/signUp', data);
+        const response = await _axiosDefault.default.post('http://localhost:9090/api/user/signUp', data);
         console.log(response.data);
         authCtx.login(response.data.token, response.data.role);
         alert('User Registration Complete');
