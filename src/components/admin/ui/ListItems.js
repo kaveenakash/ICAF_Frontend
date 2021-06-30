@@ -31,7 +31,7 @@ export const mainListItems = (
 export const secondaryListItems = (
   <div>
     <ListSubheader inset>Extra Settings</ListSubheader>
-    <ListItem button>
+    <ListItem button component={Link} to="/admin-editor">
       <ListItemIcon>
         <EditIcon />
       </ListItemIcon>
