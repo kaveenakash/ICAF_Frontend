@@ -740,9 +740,9 @@ if ("development" !== "production") {
   })();
 }
 
-},{}],"7z73o":[function(require,module,exports) {
+},{}],"4WSGi":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 60152;
+var HMR_PORT = 59823;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "62d5dab885897b04655082d4fd532818";
@@ -81374,6 +81374,6 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/styles":"1Rdvd","@material-ui/core/Button":"1Xm5M","react-router-dom":"1PMSK","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/Card":"37gLn","@material-ui/core/CardActions":"1bjjB","@material-ui/core/CardContent":"VtMKY"}]},["1j6wU","7z73o","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/styles":"1Rdvd","@material-ui/core/Button":"1Xm5M","react-router-dom":"1PMSK","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/Card":"37gLn","@material-ui/core/CardActions":"1bjjB","@material-ui/core/CardContent":"VtMKY"}]},["1j6wU","4WSGi","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
