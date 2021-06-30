@@ -18,6 +18,7 @@ import AuthContext from "../../../store/auth-context";
 import { Button } from "@material-ui/core";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import WorkshopTable from "./WorkshopTable";
+import EditorUI from "./EditorUI";
 
 const AdminDashboard = () => {
   const classes = useStyles();
@@ -106,6 +107,11 @@ const AdminDashboard = () => {
           exact
           path="/admin-workshop"
           component={WorkshopTable}
+        />
+        <Route
+          exact
+          path="/admin-editor"
+          component={EditorUI}
         />
       </main>
     </div>
