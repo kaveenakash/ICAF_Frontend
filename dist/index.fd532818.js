@@ -1054,7 +1054,11 @@ try {
   var _srcComponentsApp = require('./src/components/App');
   var _srcComponentsAppDefault = _parcelHelpers.interopDefault(_srcComponentsApp);
   var _srcStoreAuthContext = require('./src/store/auth-context');
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\index.js";
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/index.js";
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_srcStoreAuthContext.AuthContextProvider, {
     __self: undefined,
     __source: {
@@ -26311,7 +26315,13 @@ try {
   require("@material-ui/core/Button/Button");
   var _adminUiAdminDashboard = require("./admin/ui/AdminDashboard");
   var _adminUiAdminDashboardDefault = _parcelHelpers.interopDefault(_adminUiAdminDashboard);
+<<<<<<< HEAD
+  var _presentationPresentation = require("./presentation/Presentation");
+  var _presentationPresentationDefault = _parcelHelpers.interopDefault(_presentationPresentation);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\App.js", _s = $RefreshSig$();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/App.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const App = () => {
     _s();
     const [value, setValue] = _react.useState(0);
@@ -26332,14 +26342,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 41,
           columnNumber: 5
         }
       }, !selectDashboard ? /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
@@ -26350,14 +26360,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 44,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26367,7 +26377,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 46,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26377,24 +26387,17 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 47,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/presentations",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 50,
-            columnNumber: 32
-          }
-        }, "presentation"),
+        component: _presentationPresentationDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 48,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26404,14 +26407,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 55,
+            lineNumber: 56,
             columnNumber: 32
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 53,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26421,7 +26424,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 58,
           columnNumber: 13
         }
       }), authCtx.token && /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26431,7 +26434,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 59,
           columnNumber: 31
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26441,7 +26444,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 60,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26451,7 +26454,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 62,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26461,7 +26464,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 63,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26471,7 +26474,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 68,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26481,7 +26484,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 73,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26490,7 +26493,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 78,
           columnNumber: 13
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26499,35 +26502,35 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 82,
           columnNumber: 11
         }
       })) : /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 85,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85,
+          lineNumber: 86,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 88,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_adminUiAdminDashboardDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 89,
           columnNumber: 15
         }
       })))))
@@ -26544,12 +26547,16 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
+<<<<<<< HEAD
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r","./signUp/ResearchPresenterRegistration":"5ashA","./signUp/UserRegistration":"4cPF6","./Workshop":"7cLhj","../store/auth-context":"8Jk2N","@material-ui/core/Button/Button":"6bBoQ","./admin/ui/AdminDashboard":"4oa7d","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./presentation/Presentation":"3VDRg"}],"1PMSK":[function(require,module,exports) {
+=======
 },{"react":"3b2NM","@material-ui/styles":"2EAua","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./ui/Theme":"5FjkA","react-router-dom":"1PMSK","@material-ui/core/Typography":"3wcF9","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r","./signUp/ResearchPresenterRegistration":"5ashA","./signUp/UserRegistration":"4cPF6","./Workshop":"7cLhj","./ui/Header":"4SLtI","./ui/Footer":"31W7N","../store/auth-context":"8Jk2N","@material-ui/core/Button/Button":"6bBoQ","./admin/ui/AdminDashboard":"4oa7d"}],"2EAua":[function(require,module,exports) {
 /** @license Material-UI v4.11.4
 *
 * This source code is licensed under the MIT license found in the
 * LICENSE file in the root directory of this source tree.
 */
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 "use strict";
 var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
 Object.defineProperty(exports, "__esModule", {
@@ -37394,12 +37401,5042 @@ function locationsAreEqual(a, b) {
 function createTransitionManager() {
   var prompt = null;
 
+<<<<<<< HEAD
+},{"@material-ui/styles":"2EAua","./defaultTheme":"4x9ob","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"4SLtI":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreAppBar = require("@material-ui/core/AppBar");
+  var _materialUiCoreAppBarDefault = _parcelHelpers.interopDefault(_materialUiCoreAppBar);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreToolbar = require("@material-ui/core/Toolbar");
+  var _materialUiCoreToolbarDefault = _parcelHelpers.interopDefault(_materialUiCoreToolbar);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreUseScrollTrigger = require("@material-ui/core/useScrollTrigger");
+  var _materialUiCoreUseScrollTriggerDefault = _parcelHelpers.interopDefault(_materialUiCoreUseScrollTrigger);
+  var _materialUiCoreTabs = require("@material-ui/core/Tabs");
+  var _materialUiCoreTabsDefault = _parcelHelpers.interopDefault(_materialUiCoreTabs);
+  var _materialUiCoreTab = require("@material-ui/core/Tab");
+  var _materialUiCoreTabDefault = _parcelHelpers.interopDefault(_materialUiCoreTab);
+  var _materialUiIconsExitToApp = require("@material-ui/icons/ExitToApp");
+  var _materialUiIconsExitToAppDefault = _parcelHelpers.interopDefault(_materialUiIconsExitToApp);
+  var _reactRouterDom = require("react-router-dom");
+  var _materialUiCoreUseMediaQuery = require("@material-ui/core/useMediaQuery");
+  var _materialUiCoreUseMediaQueryDefault = _parcelHelpers.interopDefault(_materialUiCoreUseMediaQuery);
+  var _materialUiIconsMenu = require("@material-ui/icons/Menu");
+  var _materialUiIconsMenuDefault = _parcelHelpers.interopDefault(_materialUiIconsMenu);
+  var _materialUiCoreSwipeableDrawer = require("@material-ui/core/SwipeableDrawer");
+  var _materialUiCoreSwipeableDrawerDefault = _parcelHelpers.interopDefault(_materialUiCoreSwipeableDrawer);
+  var _materialUiCoreIconButton = require("@material-ui/core/IconButton");
+  var _materialUiCoreIconButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreIconButton);
+  var _materialUiCoreList = require("@material-ui/core/List");
+  var _materialUiCoreListDefault = _parcelHelpers.interopDefault(_materialUiCoreList);
+  var _materialUiCoreListItem = require("@material-ui/core/ListItem");
+  var _materialUiCoreListItemDefault = _parcelHelpers.interopDefault(_materialUiCoreListItem);
+  var _materialUiCoreListItemText = require("@material-ui/core/ListItemText");
+  var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
+  var _materialUiIconsVpnKey = require('@material-ui/icons/VpnKey');
+  var _materialUiIconsVpnKeyDefault = _parcelHelpers.interopDefault(_materialUiIconsVpnKey);
+  var _storeData = require("../../store/data");
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ui\\Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
+  const Header = props => {
+    _s();
+    const {value, setValue} = props;
+    const classes = useStyles();
+    const theme = _materialUiCoreStyles.useTheme();
+    const matches = _materialUiCoreUseMediaQueryDefault.default(theme.breakpoints.down("md"));
+    const [openDrawer, setOpenDrawer] = _react.useState(false);
+    const handleChange = (e, value) => {
+      setValue(value);
+    };
+    _react.useEffect(() => {
+      _storeData.routes.forEach(route => {
+        switch (window.location.pathname) {
+          case `${route.link}`:
+            if (value !== route.activeIndex) {
+              setValue(route.activeIndex);
+            }
+            break;
+          default:
+            break;
+        }
+      });
+    }, [value, _storeData.routes]);
+    let loginFunctionButton;
+    if (!props.isLoggedIn) {
+      loginFunctionButton = /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        size: "small",
+        color: "secondary",
+        className: classes.button,
+        component: _reactRouterDom.Link,
+        to: "/signIn",
+        onClick: () => setValue(7),
+        startIcon: /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsVpnKeyDefault.default, {
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 62,
+            columnNumber: 26
+          }
+        }),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 7
+        }
+      }, "Sign in");
+    } else {
+      loginFunctionButton = /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        size: "small",
+        color: "error",
+        className: classes.button,
+        component: _reactRouterDom.Link,
+        to: "/signIn",
+        onClick: () => props.logout(),
+        endIcon: /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsExitToAppDefault.default, {
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 77,
+            columnNumber: 16
+          }
+        }),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 7
+        }
+      }, "Sign Out");
+    }
+    const tabs = /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 85,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabsDefault.default, {
+      value: value,
+      className: classes.tabContainer,
+      onChange: handleChange,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 86,
+        columnNumber: 7
+      }
+    }, _storeData.routes.map(item => {
+      return (
+        /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTabDefault.default, {
+          key: `${item}${item.activeIndex}`,
+          className: classes.tab,
+          component: _reactRouterDom.Link,
+          to: item.link,
+          label: item.name,
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 93,
+            columnNumber: 13
+          }
+        })
+      );
+    })));
+    const drawer = /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreSwipeableDrawerDefault.default, {
+      open: openDrawer,
+      onClose: () => setOpenDrawer(false),
+      onOpen: () => setOpenDrawer(true),
+      classes: {
+        paper: classes.drawer
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 107,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+      className: classes.toolbarMargin,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
+      disablePadding: true,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 115,
+        columnNumber: 9
+      }
+    }, _storeData.routes.map(item => /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
+      onClick: () => {
+        setOpenDrawer(false);
+        setValue(item.activeIndex);
+      },
+      divider: true,
+      button: true,
+      component: _reactRouterDom.Link,
+      to: item.link,
+      selected: value === item.activeIndex,
+      classes: {
+        selected: classes.drawerItemSelected
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
+      className: classes.drawerItem,
+      disableTypography: true,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 129,
+        columnNumber: 15
+      }
+    }, item.name))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
+      className: classes.drawerIconContainer,
+      onClick: () => setOpenDrawer(!openDrawer),
+      disableRipple: true,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 140,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsMenuDefault.default, {
+      color: "secondary",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 145,
+        columnNumber: 9
+      }
+    })));
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 151,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(ElevationScroll, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 152,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAppBarDefault.default, {
+        position: "fixed",
+        color: "primary",
+        className: classes.appbar,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 153,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
+        className: classes.toolbar,
+        color: "primary",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 154,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        size: "small",
+        style: {
+          color: "#00ACC1"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155,
+          columnNumber: 13
+        }
+      }, "Subscribe"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        component: "h2",
+        variant: "h4",
+        color: "inherit",
+        align: "center",
+        style: {
+          fontWeight: 700
+        },
+        noWrap: true,
+        className: classes.toolbarTitle,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 158,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        component: _reactRouterDom.Link,
+        to: "/",
+        className: classes.logoContainer,
+        onClick: () => setValue(0),
+        disableRipple: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 167,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        alt: "I C A F",
+        className: classes.logo,
+        src: "https://i.ibb.co/7N51p43/logo.png",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 174,
+          columnNumber: 17
+        }
+      }))), loginFunctionButton), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
+        component: "nav",
+        variant: "dense",
+        className: classes.toolbarSecondary,
+        disableGutters: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 184,
+          columnNumber: 11
+        }
+      }, matches ? drawer : tabs))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: classes.toolbarMargin,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 194,
+          columnNumber: 7
+        }
+      }))
+    );
+  };
+  _s(Header, "XOQEtYXGPmYt1VbKD2Kyl+vElI4=", false, function () {
+    return [useStyles, _materialUiCoreStyles.useTheme, _materialUiCoreUseMediaQueryDefault.default];
+  });
+  _c = Header;
+  function ElevationScroll(props) {
+    _s2();
+    const {children, window} = props;
+    const trigger = _materialUiCoreUseScrollTriggerDefault.default({
+      disableHysteresis: true,
+      threshold: 0
+    });
+    return (
+      /*#__PURE__*/_reactDefault.default.cloneElement(children, {
+        elevation: trigger ? 4 : 0
+      })
+    );
+  }
+  _s2(ElevationScroll, "EC2GbbZl9x3XKoXLVx1H89cOBi0=", false, function () {
+    return [_materialUiCoreUseScrollTriggerDefault.default];
+  });
+  _c2 = ElevationScroll;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    toolbar: {
+      borderBottom: `1px solid ${theme.palette.divider}`
+    },
+    toolbarMargin: {
+      ...theme.mixins.toolbar,
+      marginBottom: "4em",
+      [theme.breakpoints.down("md")]: {
+        marginBottom: "3em"
+      },
+      [theme.breakpoints.down("xs")]: {
+        marginBottom: "2.6em"
+      }
+    },
+    toolbarTitle: {
+      flex: 1
+    },
+    toolbarSecondary: {
+      justifyContent: "center",
+      overflowX: "auto"
+    },
+    toolbarLink: {
+      padding: theme.spacing(1),
+      flexShrink: 0
+    },
+    tabContainer: {},
+    tab: {
+      ...theme.typography.tab
+    },
+    button: {
+      fontFamily: "Raleway",
+      textTransform: "none",
+      fontWeight: 600
+    },
+    logo: {
+      height: "6em",
+      [theme.breakpoints.down("md")]: {
+        height: "5em"
+      },
+      [theme.breakpoints.down("xs")]: {
+        height: "3em"
+      }
+    },
+    logoContainer: {
+      padding: 0,
+      "&:hover": {
+        backgroundColor: "transparent"
+      }
+    },
+    drawerIconContainer: {
+      marginLeft: "auto",
+      "&:hover": {
+        backgroundColor: "transparent"
+      }
+    },
+    drawer: {
+      backgroundColor: theme.palette.common.blue
+    },
+    drawerItem: {
+      ...theme.typography.tab,
+      color: "white",
+      opacity: 0.7
+    },
+    drawerItemSelected: {
+      opacity: 1,
+      "& .MuiListItemText-root": {
+        opacity: 1
+      }
+    },
+    appbar: {
+      // remove below line only effect drawer
+      zIndex: theme.zIndex.modal + 1
+    }
+  }));
+  exports.default = Header;
+  var _c, _c2;
+  $RefreshReg$(_c, "Header");
+  $RefreshReg$(_c2, "ElevationScroll");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/AppBar":"3NZOv","@material-ui/core/styles":"1Rdvd","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/Button":"1Xm5M","@material-ui/core/Typography":"3wcF9","@material-ui/core/useScrollTrigger":"680yH","@material-ui/core/Tabs":"DcRvB","@material-ui/core/Tab":"2OA3N","@material-ui/icons/ExitToApp":"3MuXQ","react-router-dom":"1PMSK","@material-ui/core/useMediaQuery":"19LLa","@material-ui/icons/Menu":"5IEDk","@material-ui/core/SwipeableDrawer":"4SlPx","@material-ui/core/IconButton":"2ndRy","@material-ui/core/List":"5yMsX","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemText":"7t7nz","@material-ui/icons/VpnKey":"6RmUM","../../store/data":"5tk3l","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3NZOv":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _AppBarDefault.default;
+});
+var _AppBar = require('./AppBar');
+var _AppBarDefault = _parcelHelpers.interopDefault(_AppBar);
+
+},{"./AppBar":"4roAo","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"4roAo":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _utilsCapitalize = require('../utils/capitalize');
+var _utilsCapitalizeDefault = _parcelHelpers.interopDefault(_utilsCapitalize);
+var _Paper = require('../Paper');
+var _PaperDefault = _parcelHelpers.interopDefault(_Paper);
+var styles = function styles(theme) {
+  var backgroundColorDefault = theme.palette.type === 'light' ? theme.palette.grey[100] : theme.palette.grey[900];
+  return {
+    /*Styles applied to the root element.*/
+    root: {
+      display: 'flex',
+      flexDirection: 'column',
+      width: '100%',
+      boxSizing: 'border-box',
+      // Prevent padding issue with the Modal and fixed positioned AppBar.
+      zIndex: theme.zIndex.appBar,
+      flexShrink: 0
+    },
+    /*Styles applied to the root element if `position="fixed"`.*/
+    positionFixed: {
+      position: 'fixed',
+      top: 0,
+      left: 'auto',
+      right: 0,
+      '@media print': {
+        // Prevent the app bar to be visible on each printed page.
+        position: 'absolute'
+      }
+    },
+    /*Styles applied to the root element if `position="absolute"`.*/
+    positionAbsolute: {
+      position: 'absolute',
+      top: 0,
+      left: 'auto',
+      right: 0
+    },
+    /*Styles applied to the root element if `position="sticky"`.*/
+    positionSticky: {
+      // ⚠️ sticky is not supported by IE 11.
+      position: 'sticky',
+      top: 0,
+      left: 'auto',
+      right: 0
+    },
+    /*Styles applied to the root element if `position="static"`.*/
+    positionStatic: {
+      position: 'static'
+    },
+    /*Styles applied to the root element if `position="relative"`.*/
+    positionRelative: {
+      position: 'relative'
+    },
+    /*Styles applied to the root element if `color="default"`.*/
+    colorDefault: {
+      backgroundColor: backgroundColorDefault,
+      color: theme.palette.getContrastText(backgroundColorDefault)
+    },
+    /*Styles applied to the root element if `color="primary"`.*/
+    colorPrimary: {
+      backgroundColor: theme.palette.primary.main,
+      color: theme.palette.primary.contrastText
+    },
+    /*Styles applied to the root element if `color="secondary"`.*/
+    colorSecondary: {
+      backgroundColor: theme.palette.secondary.main,
+      color: theme.palette.secondary.contrastText
+    },
+    /*Styles applied to the root element if `color="inherit"`.*/
+    colorInherit: {
+      color: 'inherit'
+    },
+    /*Styles applied to the root element if `color="transparent"`.*/
+    colorTransparent: {
+      backgroundColor: 'transparent',
+      color: 'inherit'
+    }
+  };
+};
+var AppBar = /*#__PURE__*/_react.forwardRef(function AppBar(props, ref) {
+  var classes = props.classes, className = props.className, _props$color = props.color, color = _props$color === void 0 ? 'primary' : _props$color, _props$position = props.position, position = _props$position === void 0 ? 'fixed' : _props$position, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["classes", "className", "color", "position"]);
+  return (
+    /*#__PURE__*/_react.createElement(_PaperDefault.default, _babelRuntimeHelpersEsmExtendsDefault.default({
+      square: true,
+      component: "header",
+      elevation: 4,
+      className: _clsxDefault.default(classes.root, classes[("position").concat(_utilsCapitalizeDefault.default(position))], classes[("color").concat(_utilsCapitalizeDefault.default(color))], className, position === 'fixed' && 'mui-fixed'),
+      ref: ref
+    }, other))
+  );
+});
+"development" !== "production" ? AppBar.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The color of the component. It supports those theme colors that make sense for this component.
+  */
+  color: _propTypesDefault.default.oneOf(['default', 'inherit', 'primary', 'secondary', 'transparent']),
+  /**
+  * The positioning type. The behavior of the different options is described
+  * [in the MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning).
+  * Note: `sticky` is not universally supported and will fall back to `static` when unavailable.
+  */
+  position: _propTypesDefault.default.oneOf(['absolute', 'fixed', 'relative', 'static', 'sticky'])
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiAppBar'
+})(AppBar);
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","../utils/capitalize":"59pJw","../Paper":"5Fj22","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5Fj22":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _PaperDefault.default;
+});
+var _Paper = require('./Paper');
+var _PaperDefault = _parcelHelpers.interopDefault(_Paper);
+
+},{"./Paper":"73HmR","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"73HmR":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _materialUiUtils = require('@material-ui/utils');
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var styles = function styles(theme) {
+  var elevations = {};
+  theme.shadows.forEach(function (shadow, index) {
+    elevations[("elevation").concat(index)] = {
+      boxShadow: shadow
+    };
+  });
+  return _babelRuntimeHelpersEsmExtendsDefault.default({
+    /*Styles applied to the root element.*/
+    root: {
+      backgroundColor: theme.palette.background.paper,
+      color: theme.palette.text.primary,
+      transition: theme.transitions.create('box-shadow')
+    },
+    /*Styles applied to the root element if `square={false}`.*/
+    rounded: {
+      borderRadius: theme.shape.borderRadius
+    },
+    /*Styles applied to the root element if `variant="outlined"`.*/
+    outlined: {
+      border: ("1px solid ").concat(theme.palette.divider)
+    }
+  }, elevations);
+};
+var Paper = /*#__PURE__*/_react.forwardRef(function Paper(props, ref) {
+  var classes = props.classes, className = props.className, _props$component = props.component, Component = _props$component === void 0 ? 'div' : _props$component, _props$square = props.square, square = _props$square === void 0 ? false : _props$square, _props$elevation = props.elevation, elevation = _props$elevation === void 0 ? 1 : _props$elevation, _props$variant = props.variant, variant = _props$variant === void 0 ? 'elevation' : _props$variant, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["classes", "className", "component", "square", "elevation", "variant"]);
+  return (
+    /*#__PURE__*/_react.createElement(Component, _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default(classes.root, className, variant === 'outlined' ? classes.outlined : classes[("elevation").concat(elevation)], !square && classes.rounded),
+      ref: ref
+    }, other))
+  );
+});
+"development" !== "production" ? Paper.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The component used for the root node.
+  * Either a string to use a HTML element or a component.
+  */
+  component: _propTypesDefault.default./*@typescript-to-proptypes-ignore*/
+  elementType,
+  /**
+  * Shadow depth, corresponds to `dp` in the spec.
+  * It accepts values between 0 and 24 inclusive.
+  */
+  elevation: _materialUiUtils.chainPropTypes(_propTypesDefault.default.number, function (props) {
+    var classes = props.classes, elevation = props.elevation;
+    // in case `withStyles` fails to inject we don't need this warning
+    if (classes === undefined) {
+      return null;
+    }
+    if (elevation != null && classes[("elevation").concat(elevation)] === undefined) {
+      return new Error(("Material-UI: This elevation `").concat(elevation, "` is not implemented."));
+    }
+    return null;
+  }),
+  /**
+  * If `true`, rounded corners are disabled.
+  */
+  square: _propTypesDefault.default.bool,
+  /**
+  * The variant to use.
+  */
+  variant: _propTypesDefault.default.oneOf(['elevation', 'outlined'])
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiPaper'
+})(Paper);
+
+},{"@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","@babel/runtime/helpers/esm/extends":"5qnVv","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","@material-ui/utils":"11kc7","../styles/withStyles":"4q1Sj","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3jiG5":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _ToolbarDefault.default;
+});
+var _Toolbar = require('./Toolbar');
+var _ToolbarDefault = _parcelHelpers.interopDefault(_Toolbar);
+
+},{"./Toolbar":"5N5Y9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5N5Y9":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _babelRuntimeHelpersEsmDefineProperty = require("@babel/runtime/helpers/esm/defineProperty");
+var _babelRuntimeHelpersEsmDefinePropertyDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmDefineProperty);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var styles = function styles(theme) {
+  return {
+    /*Styles applied to the root element.*/
+    root: {
+      position: 'relative',
+      display: 'flex',
+      alignItems: 'center'
+    },
+    /*Styles applied to the root element if `disableGutters={false}`.*/
+    gutters: _babelRuntimeHelpersEsmDefinePropertyDefault.default({
+      paddingLeft: theme.spacing(2),
+      paddingRight: theme.spacing(2)
+    }, theme.breakpoints.up('sm'), {
+      paddingLeft: theme.spacing(3),
+      paddingRight: theme.spacing(3)
+    }),
+    /*Styles applied to the root element if `variant="regular"`.*/
+    regular: theme.mixins.toolbar,
+    /*Styles applied to the root element if `variant="dense"`.*/
+    dense: {
+      minHeight: 48
+    }
+  };
+};
+var Toolbar = /*#__PURE__*/_react.forwardRef(function Toolbar(props, ref) {
+  var classes = props.classes, className = props.className, _props$component = props.component, Component = _props$component === void 0 ? 'div' : _props$component, _props$disableGutters = props.disableGutters, disableGutters = _props$disableGutters === void 0 ? false : _props$disableGutters, _props$variant = props.variant, variant = _props$variant === void 0 ? 'regular' : _props$variant, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["classes", "className", "component", "disableGutters", "variant"]);
+  return (
+    /*#__PURE__*/_react.createElement(Component, _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default(classes.root, classes[variant], className, !disableGutters && classes.gutters),
+      ref: ref
+    }, other))
+  );
+});
+"development" !== "production" ? Toolbar.propTypes = {
+  /**
+  * Toolbar children, usually a mixture of `IconButton`, `Button` and `Typography`.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object.isRequired,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The component used for the root node.
+  * Either a string to use a HTML element or a component.
+  */
+  component: _propTypesDefault.default./*@typescript-to-proptypes-ignore*/
+  elementType,
+  /**
+  * If `true`, disables gutter padding.
+  */
+  disableGutters: _propTypesDefault.default.bool,
+  /**
+  * The variant to use.
+  */
+  variant: _propTypesDefault.default.oneOf(['regular', 'dense'])
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiToolbar'
+})(Toolbar);
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","@babel/runtime/helpers/esm/defineProperty":"1MbJ7","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1Xm5M":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _ButtonDefault.default;
+});
+var _Button = require('./Button');
+var _ButtonDefault = _parcelHelpers.interopDefault(_Button);
+
+},{"./Button":"p0nUm","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"p0nUm":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _stylesColorManipulator = require('../styles/colorManipulator');
+var _ButtonBase = require('../ButtonBase');
+var _ButtonBaseDefault = _parcelHelpers.interopDefault(_ButtonBase);
+var _utilsCapitalize = require('../utils/capitalize');
+var _utilsCapitalizeDefault = _parcelHelpers.interopDefault(_utilsCapitalize);
+var styles = function styles(theme) {
+  return {
+    /*Styles applied to the root element.*/
+    root: _babelRuntimeHelpersEsmExtendsDefault.default({}, theme.typography.button, {
+      boxSizing: 'border-box',
+      minWidth: 64,
+      padding: '6px 16px',
+      borderRadius: theme.shape.borderRadius,
+      color: theme.palette.text.primary,
+      transition: theme.transitions.create(['background-color', 'box-shadow', 'border'], {
+        duration: theme.transitions.duration.short
+      }),
+      '&:hover': {
+        textDecoration: 'none',
+        backgroundColor: _stylesColorManipulator.fade(theme.palette.text.primary, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        },
+        '&$disabled': {
+          backgroundColor: 'transparent'
+        }
+      },
+      '&$disabled': {
+        color: theme.palette.action.disabled
+      }
+    }),
+    /*Styles applied to the span element that wraps the children.*/
+    label: {
+      width: '100%',
+      // Ensure the correct width for iOS Safari
+      display: 'inherit',
+      alignItems: 'inherit',
+      justifyContent: 'inherit'
+    },
+    /*Styles applied to the root element if `variant="text"`.*/
+    text: {
+      padding: '6px 8px'
+    },
+    /*Styles applied to the root element if `variant="text"` and `color="primary"`.*/
+    textPrimary: {
+      color: theme.palette.primary.main,
+      '&:hover': {
+        backgroundColor: _stylesColorManipulator.fade(theme.palette.primary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+    /*Styles applied to the root element if `variant="text"` and `color="secondary"`.*/
+    textSecondary: {
+      color: theme.palette.secondary.main,
+      '&:hover': {
+        backgroundColor: _stylesColorManipulator.fade(theme.palette.secondary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+    /*Styles applied to the root element if `variant="outlined"`.*/
+    outlined: {
+      padding: '5px 15px',
+      border: ("1px solid ").concat(theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.23)' : 'rgba(255, 255, 255, 0.23)'),
+      '&$disabled': {
+        border: ("1px solid ").concat(theme.palette.action.disabledBackground)
+      }
+    },
+    /*Styles applied to the root element if `variant="outlined"` and `color="primary"`.*/
+    outlinedPrimary: {
+      color: theme.palette.primary.main,
+      border: ("1px solid ").concat(_stylesColorManipulator.fade(theme.palette.primary.main, 0.5)),
+      '&:hover': {
+        border: ("1px solid ").concat(theme.palette.primary.main),
+        backgroundColor: _stylesColorManipulator.fade(theme.palette.primary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+    /*Styles applied to the root element if `variant="outlined"` and `color="secondary"`.*/
+    outlinedSecondary: {
+      color: theme.palette.secondary.main,
+      border: ("1px solid ").concat(_stylesColorManipulator.fade(theme.palette.secondary.main, 0.5)),
+      '&:hover': {
+        border: ("1px solid ").concat(theme.palette.secondary.main),
+        backgroundColor: _stylesColorManipulator.fade(theme.palette.secondary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      },
+      '&$disabled': {
+        border: ("1px solid ").concat(theme.palette.action.disabled)
+      }
+    },
+    /*Styles applied to the root element if `variant="contained"`.*/
+    contained: {
+      color: theme.palette.getContrastText(theme.palette.grey[300]),
+      backgroundColor: theme.palette.grey[300],
+      boxShadow: theme.shadows[2],
+      '&:hover': {
+        backgroundColor: theme.palette.grey.A100,
+        boxShadow: theme.shadows[4],
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          boxShadow: theme.shadows[2],
+          backgroundColor: theme.palette.grey[300]
+        },
+        '&$disabled': {
+          backgroundColor: theme.palette.action.disabledBackground
+        }
+      },
+      '&$focusVisible': {
+        boxShadow: theme.shadows[6]
+      },
+      '&:active': {
+        boxShadow: theme.shadows[8]
+      },
+      '&$disabled': {
+        color: theme.palette.action.disabled,
+        boxShadow: theme.shadows[0],
+        backgroundColor: theme.palette.action.disabledBackground
+      }
+    },
+    /*Styles applied to the root element if `variant="contained"` and `color="primary"`.*/
+    containedPrimary: {
+      color: theme.palette.primary.contrastText,
+      backgroundColor: theme.palette.primary.main,
+      '&:hover': {
+        backgroundColor: theme.palette.primary.dark,
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: theme.palette.primary.main
+        }
+      }
+    },
+    /*Styles applied to the root element if `variant="contained"` and `color="secondary"`.*/
+    containedSecondary: {
+      color: theme.palette.secondary.contrastText,
+      backgroundColor: theme.palette.secondary.main,
+      '&:hover': {
+        backgroundColor: theme.palette.secondary.dark,
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: theme.palette.secondary.main
+        }
+      }
+    },
+    /*Styles applied to the root element if `disableElevation={true}`.*/
+    disableElevation: {
+      boxShadow: 'none',
+      '&:hover': {
+        boxShadow: 'none'
+      },
+      '&$focusVisible': {
+        boxShadow: 'none'
+      },
+      '&:active': {
+        boxShadow: 'none'
+      },
+      '&$disabled': {
+        boxShadow: 'none'
+      }
+    },
+    /*Pseudo-class applied to the ButtonBase root element if the button is keyboard focused.*/
+    focusVisible: {},
+    /*Pseudo-class applied to the root element if `disabled={true}`.*/
+    disabled: {},
+    /*Styles applied to the root element if `color="inherit"`.*/
+    colorInherit: {
+      color: 'inherit',
+      borderColor: 'currentColor'
+    },
+    /*Styles applied to the root element if `size="small"` and `variant="text"`.*/
+    textSizeSmall: {
+      padding: '4px 5px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+    /*Styles applied to the root element if `size="large"` and `variant="text"`.*/
+    textSizeLarge: {
+      padding: '8px 11px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+    /*Styles applied to the root element if `size="small"` and `variant="outlined"`.*/
+    outlinedSizeSmall: {
+      padding: '3px 9px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+    /*Styles applied to the root element if `size="large"` and `variant="outlined"`.*/
+    outlinedSizeLarge: {
+      padding: '7px 21px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+    /*Styles applied to the root element if `size="small"` and `variant="contained"`.*/
+    containedSizeSmall: {
+      padding: '4px 10px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+    /*Styles applied to the root element if `size="large"` and `variant="contained"`.*/
+    containedSizeLarge: {
+      padding: '8px 22px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+    /*Styles applied to the root element if `size="small"`.*/
+    sizeSmall: {},
+    /*Styles applied to the root element if `size="large"`.*/
+    sizeLarge: {},
+    /*Styles applied to the root element if `fullWidth={true}`.*/
+    fullWidth: {
+      width: '100%'
+    },
+    /*Styles applied to the startIcon element if supplied.*/
+    startIcon: {
+      display: 'inherit',
+      marginRight: 8,
+      marginLeft: -4,
+      '&$iconSizeSmall': {
+        marginLeft: -2
+      }
+    },
+    /*Styles applied to the endIcon element if supplied.*/
+    endIcon: {
+      display: 'inherit',
+      marginRight: -4,
+      marginLeft: 8,
+      '&$iconSizeSmall': {
+        marginRight: -2
+      }
+    },
+    /*Styles applied to the icon element if supplied and `size="small"`.*/
+    iconSizeSmall: {
+      '& > *:first-child': {
+        fontSize: 18
+      }
+    },
+    /*Styles applied to the icon element if supplied and `size="medium"`.*/
+    iconSizeMedium: {
+      '& > *:first-child': {
+        fontSize: 20
+      }
+    },
+    /*Styles applied to the icon element if supplied and `size="large"`.*/
+    iconSizeLarge: {
+      '& > *:first-child': {
+        fontSize: 22
+      }
+    }
+  };
+};
+var Button = /*#__PURE__*/_react.forwardRef(function Button(props, ref) {
+  var children = props.children, classes = props.classes, className = props.className, _props$color = props.color, color = _props$color === void 0 ? 'default' : _props$color, _props$component = props.component, component = _props$component === void 0 ? 'button' : _props$component, _props$disabled = props.disabled, disabled = _props$disabled === void 0 ? false : _props$disabled, _props$disableElevati = props.disableElevation, disableElevation = _props$disableElevati === void 0 ? false : _props$disableElevati, _props$disableFocusRi = props.disableFocusRipple, disableFocusRipple = _props$disableFocusRi === void 0 ? false : _props$disableFocusRi, endIconProp = props.endIcon, focusVisibleClassName = props.focusVisibleClassName, _props$fullWidth = props.fullWidth, fullWidth = _props$fullWidth === void 0 ? false : _props$fullWidth, _props$size = props.size, size = _props$size === void 0 ? 'medium' : _props$size, startIconProp = props.startIcon, _props$type = props.type, type = _props$type === void 0 ? 'button' : _props$type, _props$variant = props.variant, variant = _props$variant === void 0 ? 'text' : _props$variant, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["children", "classes", "className", "color", "component", "disabled", "disableElevation", "disableFocusRipple", "endIcon", "focusVisibleClassName", "fullWidth", "size", "startIcon", "type", "variant"]);
+  var startIcon = startIconProp && /*#__PURE__*/_react.createElement("span", {
+    className: _clsxDefault.default(classes.startIcon, classes[("iconSize").concat(_utilsCapitalizeDefault.default(size))])
+  }, startIconProp);
+  var endIcon = endIconProp && /*#__PURE__*/_react.createElement("span", {
+    className: _clsxDefault.default(classes.endIcon, classes[("iconSize").concat(_utilsCapitalizeDefault.default(size))])
+  }, endIconProp);
+  return (
+    /*#__PURE__*/_react.createElement(_ButtonBaseDefault.default, _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default(classes.root, classes[variant], className, color === 'inherit' ? classes.colorInherit : color !== 'default' && classes[("").concat(variant).concat(_utilsCapitalizeDefault.default(color))], size !== 'medium' && [classes[("").concat(variant, "Size").concat(_utilsCapitalizeDefault.default(size))], classes[("size").concat(_utilsCapitalizeDefault.default(size))]], disableElevation && classes.disableElevation, disabled && classes.disabled, fullWidth && classes.fullWidth),
+      component: component,
+      disabled: disabled,
+      focusRipple: !disableFocusRipple,
+      focusVisibleClassName: _clsxDefault.default(classes.focusVisible, focusVisibleClassName),
+      ref: ref,
+      type: type
+    }, other), /*#__PURE__*/_react.createElement("span", {
+      className: classes.label
+    }, startIcon, children, endIcon))
+  );
+});
+"development" !== "production" ? Button.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+  /**
+  * The content of the button.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The color of the component. It supports those theme colors that make sense for this component.
+  */
+  color: _propTypesDefault.default.oneOf(['default', 'inherit', 'primary', 'secondary']),
+  /**
+  * The component used for the root node.
+  * Either a string to use a HTML element or a component.
+  */
+  component: _propTypesDefault.default./*@typescript-to-proptypes-ignore*/
+  elementType,
+  /**
+  * If `true`, the button will be disabled.
+  */
+  disabled: _propTypesDefault.default.bool,
+  /**
+  * If `true`, no elevation is used.
+  */
+  disableElevation: _propTypesDefault.default.bool,
+  /**
+  * If `true`, the  keyboard focus ripple will be disabled.
+  */
+  disableFocusRipple: _propTypesDefault.default.bool,
+  /**
+  * If `true`, the ripple effect will be disabled.
+  *
+  * ⚠️ Without a ripple there is no styling for :focus-visible by default. Be sure
+  * to highlight the element by applying separate styles with the `focusVisibleClassName`.
+  */
+  disableRipple: _propTypesDefault.default.bool,
+  /**
+  * Element placed after the children.
+  */
+  endIcon: _propTypesDefault.default.node,
+  /**
+  * @ignore
+  */
+  focusVisibleClassName: _propTypesDefault.default.string,
+  /**
+  * If `true`, the button will take up the full width of its container.
+  */
+  fullWidth: _propTypesDefault.default.bool,
+  /**
+  * The URL to link to when the button is clicked.
+  * If defined, an `a` element will be used as the root node.
+  */
+  href: _propTypesDefault.default.string,
+  /**
+  * The size of the button.
+  * `small` is equivalent to the dense button styling.
+  */
+  size: _propTypesDefault.default.oneOf(['large', 'medium', 'small']),
+  /**
+  * Element placed before the children.
+  */
+  startIcon: _propTypesDefault.default.node,
+  /**
+  * @ignore
+  */
+  type: _propTypesDefault.default.oneOfType([_propTypesDefault.default.oneOf(['button', 'reset', 'submit']), _propTypesDefault.default.string]),
+  /**
+  * The variant to use.
+  */
+  variant: _propTypesDefault.default.oneOf(['contained', 'outlined', 'text'])
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiButton'
+})(Button);
+
+},{"@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","@babel/runtime/helpers/esm/extends":"5qnVv","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","../styles/colorManipulator":"3kz3i","../ButtonBase":"6tm0a","../utils/capitalize":"59pJw","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6tm0a":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _ButtonBaseDefault.default;
+});
+var _ButtonBase = require('./ButtonBase');
+var _ButtonBaseDefault = _parcelHelpers.interopDefault(_ButtonBase);
+
+},{"./ButtonBase":"5gwmT","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5gwmT":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _reactDom = require('react-dom');
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _materialUiUtils = require('@material-ui/utils');
+var _utilsUseForkRef = require('../utils/useForkRef');
+var _utilsUseForkRefDefault = _parcelHelpers.interopDefault(_utilsUseForkRef);
+var _utilsUseEventCallback = require('../utils/useEventCallback');
+var _utilsUseEventCallbackDefault = _parcelHelpers.interopDefault(_utilsUseEventCallback);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _utilsUseIsFocusVisible = require('../utils/useIsFocusVisible');
+var _utilsUseIsFocusVisibleDefault = _parcelHelpers.interopDefault(_utilsUseIsFocusVisible);
+var _TouchRipple = require('./TouchRipple');
+var _TouchRippleDefault = _parcelHelpers.interopDefault(_TouchRipple);
+var styles = {
+  /*Styles applied to the root element.*/
+  root: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'relative',
+    WebkitTapHighlightColor: 'transparent',
+    backgroundColor: 'transparent',
+    // Reset default value
+    // We disable the focus ring for mouse, touch and keyboard users.
+    outline: 0,
+    border: 0,
+    margin: 0,
+    // Remove the margin in Safari
+    borderRadius: 0,
+    padding: 0,
+    // Remove the padding in Firefox
+    cursor: 'pointer',
+    userSelect: 'none',
+    verticalAlign: 'middle',
+    '-moz-appearance': 'none',
+    // Reset
+    '-webkit-appearance': 'none',
+    // Reset
+    textDecoration: 'none',
+    // So we take precedent over the style of a native <a /> element.
+    color: 'inherit',
+    '&::-moz-focus-inner': {
+      borderStyle: 'none'
+    },
+    '&$disabled': {
+      pointerEvents: 'none',
+      // Disable link interactions
+      cursor: 'default'
+    },
+    '@media print': {
+      colorAdjust: 'exact'
+    }
+  },
+  /*Pseudo-class applied to the root element if `disabled={true}`.*/
+  disabled: {},
+  /*Pseudo-class applied to the root element if keyboard focused.*/
+  focusVisible: {}
+};
+/**
+* `ButtonBase` contains as few styles as possible.
+* It aims to be a simple building block for creating a button.
+* It contains a load of style reset and some focus/ripple logic.
+*/
+var ButtonBase = /*#__PURE__*/_react.forwardRef(function ButtonBase(props, ref) {
+  var action = props.action, buttonRefProp = props.buttonRef, _props$centerRipple = props.centerRipple, centerRipple = _props$centerRipple === void 0 ? false : _props$centerRipple, children = props.children, classes = props.classes, className = props.className, _props$component = props.component, component = _props$component === void 0 ? 'button' : _props$component, _props$disabled = props.disabled, disabled = _props$disabled === void 0 ? false : _props$disabled, _props$disableRipple = props.disableRipple, disableRipple = _props$disableRipple === void 0 ? false : _props$disableRipple, _props$disableTouchRi = props.disableTouchRipple, disableTouchRipple = _props$disableTouchRi === void 0 ? false : _props$disableTouchRi, _props$focusRipple = props.focusRipple, focusRipple = _props$focusRipple === void 0 ? false : _props$focusRipple, focusVisibleClassName = props.focusVisibleClassName, onBlur = props.onBlur, onClick = props.onClick, onFocus = props.onFocus, onFocusVisible = props.onFocusVisible, onKeyDown = props.onKeyDown, onKeyUp = props.onKeyUp, onMouseDown = props.onMouseDown, onMouseLeave = props.onMouseLeave, onMouseUp = props.onMouseUp, onTouchEnd = props.onTouchEnd, onTouchMove = props.onTouchMove, onTouchStart = props.onTouchStart, onDragLeave = props.onDragLeave, _props$tabIndex = props.tabIndex, tabIndex = _props$tabIndex === void 0 ? 0 : _props$tabIndex, TouchRippleProps = props.TouchRippleProps, _props$type = props.type, type = _props$type === void 0 ? 'button' : _props$type, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["action", "buttonRef", "centerRipple", "children", "classes", "className", "component", "disabled", "disableRipple", "disableTouchRipple", "focusRipple", "focusVisibleClassName", "onBlur", "onClick", "onFocus", "onFocusVisible", "onKeyDown", "onKeyUp", "onMouseDown", "onMouseLeave", "onMouseUp", "onTouchEnd", "onTouchMove", "onTouchStart", "onDragLeave", "tabIndex", "TouchRippleProps", "type"]);
+  var buttonRef = _react.useRef(null);
+  function getButtonNode() {
+    // #StrictMode ready
+    return _reactDom.findDOMNode(buttonRef.current);
+  }
+  var rippleRef = _react.useRef(null);
+  var _React$useState = _react.useState(false), focusVisible = _React$useState[0], setFocusVisible = _React$useState[1];
+  if (disabled && focusVisible) {
+    setFocusVisible(false);
+  }
+  var _useIsFocusVisible = _utilsUseIsFocusVisibleDefault.default(), isFocusVisible = _useIsFocusVisible.isFocusVisible, onBlurVisible = _useIsFocusVisible.onBlurVisible, focusVisibleRef = _useIsFocusVisible.ref;
+  _react.useImperativeHandle(action, function () {
+    return {
+      focusVisible: function focusVisible() {
+        setFocusVisible(true);
+        buttonRef.current.focus();
+      }
+    };
+  }, []);
+  _react.useEffect(function () {
+    if (focusVisible && focusRipple && !disableRipple) {
+      rippleRef.current.pulsate();
+    }
+  }, [disableRipple, focusRipple, focusVisible]);
+  function useRippleHandler(rippleAction, eventCallback) {
+    var skipRippleAction = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : disableTouchRipple;
+    return _utilsUseEventCallbackDefault.default(function (event) {
+      if (eventCallback) {
+        eventCallback(event);
+      }
+      var ignore = skipRippleAction;
+      if (!ignore && rippleRef.current) {
+        rippleRef.current[rippleAction](event);
+      }
+      return true;
+    });
+  }
+  var handleMouseDown = useRippleHandler('start', onMouseDown);
+  var handleDragLeave = useRippleHandler('stop', onDragLeave);
+  var handleMouseUp = useRippleHandler('stop', onMouseUp);
+  var handleMouseLeave = useRippleHandler('stop', function (event) {
+    if (focusVisible) {
+      event.preventDefault();
+    }
+    if (onMouseLeave) {
+      onMouseLeave(event);
+    }
+  });
+  var handleTouchStart = useRippleHandler('start', onTouchStart);
+  var handleTouchEnd = useRippleHandler('stop', onTouchEnd);
+  var handleTouchMove = useRippleHandler('stop', onTouchMove);
+  var handleBlur = useRippleHandler('stop', function (event) {
+    if (focusVisible) {
+      onBlurVisible(event);
+      setFocusVisible(false);
+    }
+    if (onBlur) {
+      onBlur(event);
+    }
+  }, false);
+  var handleFocus = _utilsUseEventCallbackDefault.default(function (event) {
+    // Fix for https://github.com/facebook/react/issues/7769
+    if (!buttonRef.current) {
+      buttonRef.current = event.currentTarget;
+    }
+    if (isFocusVisible(event)) {
+      setFocusVisible(true);
+      if (onFocusVisible) {
+        onFocusVisible(event);
+      }
+    }
+    if (onFocus) {
+      onFocus(event);
+    }
+  });
+  var isNonNativeButton = function isNonNativeButton() {
+    var button = getButtonNode();
+    return component && component !== 'button' && !(button.tagName === 'A' && button.href);
+  };
+  /**
+  * IE 11 shim for https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/repeat
+  */
+  var keydownRef = _react.useRef(false);
+  var handleKeyDown = _utilsUseEventCallbackDefault.default(function (event) {
+    // Check if key is already down to avoid repeats being counted as multiple activations
+    if (focusRipple && !keydownRef.current && focusVisible && rippleRef.current && event.key === ' ') {
+      keydownRef.current = true;
+      event.persist();
+      rippleRef.current.stop(event, function () {
+        rippleRef.current.start(event);
+      });
+    }
+    if (event.target === event.currentTarget && isNonNativeButton() && event.key === ' ') {
+      event.preventDefault();
+    }
+    if (onKeyDown) {
+      onKeyDown(event);
+    }
+    // Keyboard accessibility for non interactive elements
+    if (event.target === event.currentTarget && isNonNativeButton() && event.key === 'Enter' && !disabled) {
+      event.preventDefault();
+      if (onClick) {
+        onClick(event);
+      }
+    }
+  });
+  var handleKeyUp = _utilsUseEventCallbackDefault.default(function (event) {
+    // calling preventDefault in keyUp on a <button> will not dispatch a click event if Space is pressed
+    // https://codesandbox.io/s/button-keyup-preventdefault-dn7f0
+    if (focusRipple && event.key === ' ' && rippleRef.current && focusVisible && !event.defaultPrevented) {
+      keydownRef.current = false;
+      event.persist();
+      rippleRef.current.stop(event, function () {
+        rippleRef.current.pulsate(event);
+      });
+    }
+    if (onKeyUp) {
+      onKeyUp(event);
+    }
+    // Keyboard accessibility for non interactive elements
+    if (onClick && event.target === event.currentTarget && isNonNativeButton() && event.key === ' ' && !event.defaultPrevented) {
+      onClick(event);
+    }
+  });
+  var ComponentProp = component;
+  if (ComponentProp === 'button' && other.href) {
+    ComponentProp = 'a';
+  }
+  var buttonProps = {};
+  if (ComponentProp === 'button') {
+    buttonProps.type = type;
+    buttonProps.disabled = disabled;
+  } else {
+    if (ComponentProp !== 'a' || !other.href) {
+      buttonProps.role = 'button';
+    }
+    buttonProps['aria-disabled'] = disabled;
+  }
+  var handleUserRef = _utilsUseForkRefDefault.default(buttonRefProp, ref);
+  var handleOwnRef = _utilsUseForkRefDefault.default(focusVisibleRef, buttonRef);
+  var handleRef = _utilsUseForkRefDefault.default(handleUserRef, handleOwnRef);
+  var _React$useState2 = _react.useState(false), mountedState = _React$useState2[0], setMountedState = _React$useState2[1];
+  _react.useEffect(function () {
+    setMountedState(true);
+  }, []);
+  var enableTouchRipple = mountedState && !disableRipple && !disabled;
+  if ("development" !== 'production') {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    _react.useEffect(function () {
+      if (enableTouchRipple && !rippleRef.current) {
+        console.error(['Material-UI: The `component` prop provided to ButtonBase is invalid.', 'Please make sure the children prop is rendered in this custom component.'].join('\n'));
+      }
+    }, [enableTouchRipple]);
+  }
+  return (
+    /*#__PURE__*/_react.createElement(ComponentProp, _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default(classes.root, className, focusVisible && [classes.focusVisible, focusVisibleClassName], disabled && classes.disabled),
+      onBlur: handleBlur,
+      onClick: onClick,
+      onFocus: handleFocus,
+      onKeyDown: handleKeyDown,
+      onKeyUp: handleKeyUp,
+      onMouseDown: handleMouseDown,
+      onMouseLeave: handleMouseLeave,
+      onMouseUp: handleMouseUp,
+      onDragLeave: handleDragLeave,
+      onTouchEnd: handleTouchEnd,
+      onTouchMove: handleTouchMove,
+      onTouchStart: handleTouchStart,
+      ref: handleRef,
+      tabIndex: disabled ? -1 : tabIndex
+    }, buttonProps, other), children, enableTouchRipple ? /*#__PURE__*/
+    /*TouchRipple is only needed client-side, x2 boost on the server.*/
+    _react.createElement(_TouchRippleDefault.default, _babelRuntimeHelpersEsmExtendsDefault.default({
+      ref: rippleRef,
+      center: centerRipple
+    }, TouchRippleProps)) : null)
+  );
+});
+"development" !== "production" ? ButtonBase.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+  /**
+  * A ref for imperative actions.
+  * It currently only supports `focusVisible()` action.
+  */
+  action: _materialUiUtils.refType,
+  /**
+  * @ignore
+  *
+  * Use that prop to pass a ref to the native button component.
+  * @deprecated Use `ref` instead.
+  */
+  buttonRef: _materialUiUtils.refType,
+  /**
+  * If `true`, the ripples will be centered.
+  * They won't start at the cursor interaction position.
+  */
+  centerRipple: _propTypesDefault.default.bool,
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The component used for the root node.
+  * Either a string to use a HTML element or a component.
+  */
+  component: _materialUiUtils.elementTypeAcceptingRef,
+  /**
+  * If `true`, the base button will be disabled.
+  */
+  disabled: _propTypesDefault.default.bool,
+  /**
+  * If `true`, the ripple effect will be disabled.
+  *
+  * ⚠️ Without a ripple there is no styling for :focus-visible by default. Be sure
+  * to highlight the element by applying separate styles with the `focusVisibleClassName`.
+  */
+  disableRipple: _propTypesDefault.default.bool,
+  /**
+  * If `true`, the touch ripple effect will be disabled.
+  */
+  disableTouchRipple: _propTypesDefault.default.bool,
+  /**
+  * If `true`, the base button will have a keyboard focus ripple.
+  */
+  focusRipple: _propTypesDefault.default.bool,
+  /**
+  * This prop can help a person know which element has the keyboard focus.
+  * The class name will be applied when the element gain the focus through a keyboard interaction.
+  * It's a polyfill for the [CSS :focus-visible selector](https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo).
+  * The rationale for using this feature [is explained here](https://github.com/WICG/focus-visible/blob/master/explainer.md).
+  * A [polyfill can be used](https://github.com/WICG/focus-visible) to apply a `focus-visible` class to other components
+  * if needed.
+  */
+  focusVisibleClassName: _propTypesDefault.default.string,
+  /**
+  * @ignore
+  */
+  href: _propTypesDefault.default.string,
+  /**
+  * @ignore
+  */
+  onBlur: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onClick: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onDragLeave: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onFocus: _propTypesDefault.default.func,
+  /**
+  * Callback fired when the component is focused with a keyboard.
+  * We trigger a `onFocus` callback too.
+  */
+  onFocusVisible: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onKeyDown: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onKeyUp: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onMouseDown: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onMouseLeave: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onMouseUp: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onTouchEnd: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onTouchMove: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onTouchStart: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  tabIndex: _propTypesDefault.default.oneOfType([_propTypesDefault.default.number, _propTypesDefault.default.string]),
+  /**
+  * Props applied to the `TouchRipple` element.
+  */
+  TouchRippleProps: _propTypesDefault.default.object,
+  /**
+  * @ignore
+  */
+  type: _propTypesDefault.default.oneOfType([_propTypesDefault.default.oneOf(['button', 'reset', 'submit']), _propTypesDefault.default.string])
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiButtonBase'
+})(ButtonBase);
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","react-dom":"2sg1U","clsx":"29lTl","@material-ui/utils":"11kc7","../utils/useForkRef":"5XQwt","../utils/useEventCallback":"33awX","../styles/withStyles":"4q1Sj","../utils/useIsFocusVisible":"5FO8g","./TouchRipple":"rJjK3","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5XQwt":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _react = require('react');
+var _setRef = require('./setRef');
+var _setRefDefault = _parcelHelpers.interopDefault(_setRef);
+function useForkRef(refA, refB) {
+  /**
+  * This will create a new function if the ref props change and are defined.
+  * This means react will call the old forkRef with `null` and the new forkRef
+  * with the ref. Cleanup naturally emerges from this behavior
+  */
+  return _react.useMemo(function () {
+    if (refA == null && refB == null) {
+      return null;
+    }
+    return function (refValue) {
+      _setRefDefault.default(refA, refValue);
+      _setRefDefault.default(refB, refValue);
+    };
+  }, [refA, refB]);
+}
+exports.default = useForkRef;
+
+},{"react":"3b2NM","./setRef":"fLJTB","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"fLJTB":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+function setRef(ref, value) {
+  if (typeof ref === 'function') {
+    ref(value);
+  } else if (ref) {
+    ref.current = value;
+  }
+}
+exports.default = setRef;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"33awX":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _react = require('react');
+var useEnhancedEffect = typeof window !== 'undefined' ? _react.useLayoutEffect : _react.useEffect;
+function useEventCallback(fn) {
+  var ref = _react.useRef(fn);
+  useEnhancedEffect(function () {
+    ref.current = fn;
+  });
+  return _react.useCallback(function () {
+    return (0, ref.current).apply(void 0, arguments);
+  }, []);
+}
+exports.default = useEventCallback;
+
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5FO8g":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "teardown", function () {
+  return teardown;
+});
+var _react = require('react');
+var _reactDom = require('react-dom');
+var hadKeyboardEvent = true;
+var hadFocusVisibleRecently = false;
+var hadFocusVisibleRecentlyTimeout = null;
+var inputTypesWhitelist = {
+  text: true,
+  search: true,
+  url: true,
+  tel: true,
+  email: true,
+  password: true,
+  number: true,
+  date: true,
+  month: true,
+  week: true,
+  time: true,
+  datetime: true,
+  'datetime-local': true
+};
+/**
+* Computes whether the given element should automatically trigger the
+* `focus-visible` class being added, i.e. whether it should always match
+* `:focus-visible` when focused.
+* @param {Element} node
+* @return {boolean}
+*/
+function focusTriggersKeyboardModality(node) {
+  var type = node.type, tagName = node.tagName;
+  if (tagName === 'INPUT' && inputTypesWhitelist[type] && !node.readOnly) {
+    return true;
+  }
+  if (tagName === 'TEXTAREA' && !node.readOnly) {
+    return true;
+  }
+  if (node.isContentEditable) {
+    return true;
+  }
+  return false;
+}
+/**
+* Keep track of our keyboard modality state with `hadKeyboardEvent`.
+* If the most recent user interaction was via the keyboard;
+* and the key press did not include a meta, alt/option, or control key;
+* then the modality is keyboard. Otherwise, the modality is not keyboard.
+* @param {KeyboardEvent} event
+*/
+function handleKeyDown(event) {
+  if (event.metaKey || event.altKey || event.ctrlKey) {
+    return;
+  }
+  hadKeyboardEvent = true;
+}
+/**
+* If at any point a user clicks with a pointing device, ensure that we change
+* the modality away from keyboard.
+* This avoids the situation where a user presses a key on an already focused
+* element, and then clicks on a different element, focusing it with a
+* pointing device, while we still think we're in keyboard modality.
+*/
+function handlePointerDown() {
+  hadKeyboardEvent = false;
+}
+function handleVisibilityChange() {
+  if (this.visibilityState === 'hidden') {
+    // If the tab becomes active again, the browser will handle calling focus
+    // on the element (Safari actually calls it twice).
+    // If this tab change caused a blur on an element with focus-visible,
+    // re-apply the class when the user switches back to the tab.
+    if (hadFocusVisibleRecently) {
+      hadKeyboardEvent = true;
+    }
+  }
+}
+function prepare(doc) {
+  doc.addEventListener('keydown', handleKeyDown, true);
+  doc.addEventListener('mousedown', handlePointerDown, true);
+  doc.addEventListener('pointerdown', handlePointerDown, true);
+  doc.addEventListener('touchstart', handlePointerDown, true);
+  doc.addEventListener('visibilitychange', handleVisibilityChange, true);
+}
+function teardown(doc) {
+  doc.removeEventListener('keydown', handleKeyDown, true);
+  doc.removeEventListener('mousedown', handlePointerDown, true);
+  doc.removeEventListener('pointerdown', handlePointerDown, true);
+  doc.removeEventListener('touchstart', handlePointerDown, true);
+  doc.removeEventListener('visibilitychange', handleVisibilityChange, true);
+}
+function isFocusVisible(event) {
+  var target = event.target;
+  try {
+    return target.matches(':focus-visible');
+  } catch (error) {}
+  // browsers not implementing :focus-visible will throw a SyntaxError
+  // we use our own heuristic for those browsers
+  // rethrow might be better if it's not the expected error but do we really
+  // want to crash if focus-visible malfunctioned?
+  // no need for validFocusTarget check. the user does that by attaching it to
+  // focusable events only
+  return hadKeyboardEvent || focusTriggersKeyboardModality(target);
+}
+/**
+* Should be called if a blur event is fired on a focus-visible element
+*/
+function handleBlurVisible() {
+  // To detect a tab/window switch, we look for a blur event followed
+  // rapidly by a visibility change.
+  // If we don't see a visibility change within 100ms, it's probably a
+  // regular focus change.
+  hadFocusVisibleRecently = true;
+  window.clearTimeout(hadFocusVisibleRecentlyTimeout);
+  hadFocusVisibleRecentlyTimeout = window.setTimeout(function () {
+    hadFocusVisibleRecently = false;
+  }, 100);
+}
+function useIsFocusVisible() {
+  var ref = _react.useCallback(function (instance) {
+    var node = _reactDom.findDOMNode(instance);
+    if (node != null) {
+      prepare(node.ownerDocument);
+    }
+  }, []);
+  if ("development" !== 'production') {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    _react.useDebugValue(isFocusVisible);
+  }
+  return {
+    isFocusVisible: isFocusVisible,
+    onBlurVisible: handleBlurVisible,
+    ref: ref
+  };
+}
+exports.default = useIsFocusVisible;
+
+},{"react":"3b2NM","react-dom":"2sg1U","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"rJjK3":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "DELAY_RIPPLE", function () {
+  return DELAY_RIPPLE;
+});
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmToConsumableArray = require("@babel/runtime/helpers/esm/toConsumableArray");
+var _babelRuntimeHelpersEsmToConsumableArrayDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmToConsumableArray);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _reactTransitionGroup = require('react-transition-group');
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _Ripple = require('./Ripple');
+var _RippleDefault = _parcelHelpers.interopDefault(_Ripple);
+var DURATION = 550;
+var DELAY_RIPPLE = 80;
+var styles = function styles(theme) {
+  return {
+    /*Styles applied to the root element.*/
+    root: {
+      overflow: 'hidden',
+      pointerEvents: 'none',
+      position: 'absolute',
+      zIndex: 0,
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0,
+      borderRadius: 'inherit'
+    },
+    /*Styles applied to the internal `Ripple` components `ripple` class.*/
+    ripple: {
+      opacity: 0,
+      position: 'absolute'
+    },
+    /*Styles applied to the internal `Ripple` components `rippleVisible` class.*/
+    rippleVisible: {
+      opacity: 0.3,
+      transform: 'scale(1)',
+      animation: ("$enter ").concat(DURATION, "ms ").concat(theme.transitions.easing.easeInOut)
+    },
+    /*Styles applied to the internal `Ripple` components `ripplePulsate` class.*/
+    ripplePulsate: {
+      animationDuration: ("").concat(theme.transitions.duration.shorter, "ms")
+    },
+    /*Styles applied to the internal `Ripple` components `child` class.*/
+    child: {
+      opacity: 1,
+      display: 'block',
+      width: '100%',
+      height: '100%',
+      borderRadius: '50%',
+      backgroundColor: 'currentColor'
+    },
+    /*Styles applied to the internal `Ripple` components `childLeaving` class.*/
+    childLeaving: {
+      opacity: 0,
+      animation: ("$exit ").concat(DURATION, "ms ").concat(theme.transitions.easing.easeInOut)
+    },
+    /*Styles applied to the internal `Ripple` components `childPulsate` class.*/
+    childPulsate: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      animation: ("$pulsate 2500ms ").concat(theme.transitions.easing.easeInOut, " 200ms infinite")
+    },
+    '@keyframes enter': {
+      '0%': {
+        transform: 'scale(0)',
+        opacity: 0.1
+      },
+      '100%': {
+        transform: 'scale(1)',
+        opacity: 0.3
+      }
+    },
+    '@keyframes exit': {
+      '0%': {
+        opacity: 1
+      },
+      '100%': {
+        opacity: 0
+      }
+    },
+    '@keyframes pulsate': {
+      '0%': {
+        transform: 'scale(1)'
+      },
+      '50%': {
+        transform: 'scale(0.92)'
+      },
+      '100%': {
+        transform: 'scale(1)'
+      }
+    }
+  };
+};
+/**
+* @ignore - internal component.
+*
+* TODO v5: Make private
+*/
+var TouchRipple = /*#__PURE__*/_react.forwardRef(function TouchRipple(props, ref) {
+  var _props$center = props.center, centerProp = _props$center === void 0 ? false : _props$center, classes = props.classes, className = props.className, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["center", "classes", "className"]);
+  var _React$useState = _react.useState([]), ripples = _React$useState[0], setRipples = _React$useState[1];
+  var nextKey = _react.useRef(0);
+  var rippleCallback = _react.useRef(null);
+  _react.useEffect(function () {
+    if (rippleCallback.current) {
+      rippleCallback.current();
+      rippleCallback.current = null;
+    }
+  }, [ripples]);
+  // Used to filter out mouse emulated events on mobile.
+  var ignoringMouseDown = _react.useRef(false);
+  // We use a timer in order to only show the ripples for touch "click" like events.
+  // We don't want to display the ripple for touch scroll events.
+  var startTimer = _react.useRef(null);
+  // This is the hook called once the previous timeout is ready.
+  var startTimerCommit = _react.useRef(null);
+  var container = _react.useRef(null);
+  _react.useEffect(function () {
+    return function () {
+      clearTimeout(startTimer.current);
+    };
+  }, []);
+  var startCommit = _react.useCallback(function (params) {
+    var pulsate = params.pulsate, rippleX = params.rippleX, rippleY = params.rippleY, rippleSize = params.rippleSize, cb = params.cb;
+    setRipples(function (oldRipples) {
+      return [].concat(_babelRuntimeHelpersEsmToConsumableArrayDefault.default(oldRipples), [/*#__PURE__*/_react.createElement(_RippleDefault.default, {
+        key: nextKey.current,
+        classes: classes,
+        timeout: DURATION,
+        pulsate: pulsate,
+        rippleX: rippleX,
+        rippleY: rippleY,
+        rippleSize: rippleSize
+      })]);
+    });
+    nextKey.current += 1;
+    rippleCallback.current = cb;
+  }, [classes]);
+  var start = _react.useCallback(function () {
+    var event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    var cb = arguments.length > 2 ? arguments[2] : undefined;
+    var _options$pulsate = options.pulsate, pulsate = _options$pulsate === void 0 ? false : _options$pulsate, _options$center = options.center, center = _options$center === void 0 ? centerProp || options.pulsate : _options$center, _options$fakeElement = options.fakeElement, fakeElement = _options$fakeElement === void 0 ? false : _options$fakeElement;
+    if (event.type === 'mousedown' && ignoringMouseDown.current) {
+      ignoringMouseDown.current = false;
+      return;
+    }
+    if (event.type === 'touchstart') {
+      ignoringMouseDown.current = true;
+    }
+    var element = fakeElement ? null : container.current;
+    var rect = element ? element.getBoundingClientRect() : {
+      width: 0,
+      height: 0,
+      left: 0,
+      top: 0
+    };
+    // Get the size of the ripple
+    var rippleX;
+    var rippleY;
+    var rippleSize;
+    if (center || event.clientX === 0 && event.clientY === 0 || !event.clientX && !event.touches) {
+      rippleX = Math.round(rect.width / 2);
+      rippleY = Math.round(rect.height / 2);
+    } else {
+      var _ref = event.touches ? event.touches[0] : event, clientX = _ref.clientX, clientY = _ref.clientY;
+      rippleX = Math.round(clientX - rect.left);
+      rippleY = Math.round(clientY - rect.top);
+    }
+    if (center) {
+      rippleSize = Math.sqrt((2 * Math.pow(rect.width, 2) + Math.pow(rect.height, 2)) / 3);
+      // For some reason the animation is broken on Mobile Chrome if the size if even.
+      if (rippleSize % 2 === 0) {
+        rippleSize += 1;
+      }
+    } else {
+      var sizeX = Math.max(Math.abs((element ? element.clientWidth : 0) - rippleX), rippleX) * 2 + 2;
+      var sizeY = Math.max(Math.abs((element ? element.clientHeight : 0) - rippleY), rippleY) * 2 + 2;
+      rippleSize = Math.sqrt(Math.pow(sizeX, 2) + Math.pow(sizeY, 2));
+    }
+    // Touche devices
+    if (event.touches) {
+      // check that this isn't another touchstart due to multitouch
+      // otherwise we will only clear a single timer when unmounting while two
+      // are running
+      if (startTimerCommit.current === null) {
+        // Prepare the ripple effect.
+        startTimerCommit.current = function () {
+          startCommit({
+            pulsate: pulsate,
+            rippleX: rippleX,
+            rippleY: rippleY,
+            rippleSize: rippleSize,
+            cb: cb
+          });
+        };
+        // Delay the execution of the ripple effect.
+        startTimer.current = setTimeout(function () {
+          if (startTimerCommit.current) {
+            startTimerCommit.current();
+            startTimerCommit.current = null;
+          }
+        }, DELAY_RIPPLE);
+      }
+    } else {
+      startCommit({
+        pulsate: pulsate,
+        rippleX: rippleX,
+        rippleY: rippleY,
+        rippleSize: rippleSize,
+        cb: cb
+      });
+    }
+  }, [centerProp, startCommit]);
+  var pulsate = _react.useCallback(function () {
+    start({}, {
+      pulsate: true
+    });
+  }, [start]);
+  var stop = _react.useCallback(function (event, cb) {
+    clearTimeout(startTimer.current);
+    // The touch interaction occurs too quickly.
+    // We still want to show ripple effect.
+    if (event.type === 'touchend' && startTimerCommit.current) {
+      event.persist();
+      startTimerCommit.current();
+      startTimerCommit.current = null;
+      startTimer.current = setTimeout(function () {
+        stop(event, cb);
+      });
+      return;
+    }
+    startTimerCommit.current = null;
+    setRipples(function (oldRipples) {
+      if (oldRipples.length > 0) {
+        return oldRipples.slice(1);
+      }
+      return oldRipples;
+    });
+    rippleCallback.current = cb;
+  }, []);
+  _react.useImperativeHandle(ref, function () {
+    return {
+      pulsate: pulsate,
+      start: start,
+      stop: stop
+    };
+  }, [pulsate, start, stop]);
+  return (
+    /*#__PURE__*/_react.createElement("span", _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default(classes.root, className),
+      ref: container
+    }, other), /*#__PURE__*/_react.createElement(_reactTransitionGroup.TransitionGroup, {
+      component: null,
+      exit: true
+    }, ripples))
+  );
+});
+"development" !== "production" ? TouchRipple.propTypes = {
+  /**
+  * If `true`, the ripple starts at the center of the component
+  * rather than at the point of interaction.
+  */
+  center: _propTypesDefault.default.bool,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object.isRequired,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  flip: false,
+  name: 'MuiTouchRipple'
+})(/*#__PURE__*/_react.memo(TouchRipple));
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/toConsumableArray":"3nUlx","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","react-transition-group":"7Iywh","clsx":"29lTl","../styles/withStyles":"4q1Sj","./Ripple":"Skig9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3nUlx":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _arrayWithoutHolesJs = require("./arrayWithoutHoles.js");
+var _arrayWithoutHolesJsDefault = _parcelHelpers.interopDefault(_arrayWithoutHolesJs);
+var _iterableToArrayJs = require("./iterableToArray.js");
+var _iterableToArrayJsDefault = _parcelHelpers.interopDefault(_iterableToArrayJs);
+var _unsupportedIterableToArrayJs = require("./unsupportedIterableToArray.js");
+var _unsupportedIterableToArrayJsDefault = _parcelHelpers.interopDefault(_unsupportedIterableToArrayJs);
+var _nonIterableSpreadJs = require("./nonIterableSpread.js");
+var _nonIterableSpreadJsDefault = _parcelHelpers.interopDefault(_nonIterableSpreadJs);
+function _toConsumableArray(arr) {
+  return _arrayWithoutHolesJsDefault.default(arr) || _iterableToArrayJsDefault.default(arr) || _unsupportedIterableToArrayJsDefault.default(arr) || _nonIterableSpreadJsDefault.default();
+}
+exports.default = _toConsumableArray;
+
+},{"./arrayWithoutHoles.js":"1DlDP","./iterableToArray.js":"6ZAcl","./unsupportedIterableToArray.js":"Ay2hG","./nonIterableSpread.js":"t20TB","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1DlDP":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _arrayLikeToArrayJs = require("./arrayLikeToArray.js");
+var _arrayLikeToArrayJsDefault = _parcelHelpers.interopDefault(_arrayLikeToArrayJs);
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) return _arrayLikeToArrayJsDefault.default(arr);
+}
+exports.default = _arrayWithoutHoles;
+
+},{"./arrayLikeToArray.js":"6CYSh","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6CYSh":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+  return arr2;
+}
+exports.default = _arrayLikeToArray;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6ZAcl":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+function _iterableToArray(iter) {
+  if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
+}
+exports.default = _iterableToArray;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"Ay2hG":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _arrayLikeToArrayJs = require("./arrayLikeToArray.js");
+var _arrayLikeToArrayJsDefault = _parcelHelpers.interopDefault(_arrayLikeToArrayJs);
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return _arrayLikeToArrayJsDefault.default(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || (/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/).test(n)) return _arrayLikeToArrayJsDefault.default(o, minLen);
+}
+exports.default = _unsupportedIterableToArray;
+
+},{"./arrayLikeToArray.js":"6CYSh","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"t20TB":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+exports.default = _nonIterableSpread;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"7Iywh":[function(require,module,exports) {
+"use strict";
+
+exports.__esModule = true;
+exports.config = exports.Transition = exports.TransitionGroup = exports.SwitchTransition = exports.ReplaceTransition = exports.CSSTransition = void 0;
+
+var _CSSTransition = _interopRequireDefault(require("./CSSTransition"));
+
+exports.CSSTransition = _CSSTransition.default;
+
+var _ReplaceTransition = _interopRequireDefault(require("./ReplaceTransition"));
+
+exports.ReplaceTransition = _ReplaceTransition.default;
+
+var _SwitchTransition = _interopRequireDefault(require("./SwitchTransition"));
+
+exports.SwitchTransition = _SwitchTransition.default;
+
+var _TransitionGroup = _interopRequireDefault(require("./TransitionGroup"));
+
+exports.TransitionGroup = _TransitionGroup.default;
+
+var _Transition = _interopRequireDefault(require("./Transition"));
+
+exports.Transition = _Transition.default;
+
+var _config = _interopRequireDefault(require("./config"));
+
+exports.config = _config.default;
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+},{"./CSSTransition":"4pSNP","./ReplaceTransition":"1VnDG","./SwitchTransition":"7FEbi","./TransitionGroup":"2IFe5","./Transition":"Z6Vyq","./config":"5jPow"}],"4pSNP":[function(require,module,exports) {
+"use strict";
+exports.__esModule = true;
+exports.default = void 0;
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _addClass2 = _interopRequireDefault(require("dom-helpers/addClass"));
+var _removeClass = _interopRequireDefault(require("dom-helpers/removeClass"));
+var _react = _interopRequireDefault(require("react"));
+var _Transition = _interopRequireDefault(require("./Transition"));
+var _PropTypes = require("./utils/PropTypes");
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+function _extends() {
+  _extends = Object.assign || (function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+    return target;
+  });
+  return _extends.apply(this, arguments);
+}
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+  return target;
+}
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+var _addClass = function addClass(node, classes) {
+  return node && classes && classes.split(' ').forEach(function (c) {
+    return (0, _addClass2.default)(node, c);
+  });
+};
+var removeClass = function removeClass(node, classes) {
+  return node && classes && classes.split(' ').forEach(function (c) {
+    return (0, _removeClass.default)(node, c);
+  });
+};
+/**
+* A transition component inspired by the excellent
+* [ng-animate](https://docs.angularjs.org/api/ngAnimate) library, you should
+* use it if you're using CSS transitions or animations. It's built upon the
+* [`Transition`](https://reactcommunity.org/react-transition-group/transition)
+* component, so it inherits all of its props.
+*
+* `CSSTransition` applies a pair of class names during the `appear`, `enter`,
+* and `exit` states of the transition. The first class is applied and then a
+* second `*-active` class in order to activate the CSS transition. After the
+* transition, matching `*-done` class names are applied to persist the
+* transition state.
+*
+* ```jsx
+* function App() {
+*   const [inProp, setInProp] = useState(false);
+*   return (
+*     <div>
+*       <CSSTransition in={inProp} timeout={200} classNames="my-node">
+*         <div>
+*           {"I'll receive my-node-* classes"}
+*         </div>
+*       </CSSTransition>
+*       <button type="button" onClick={() => setInProp(true)}>
+*         Click to Enter
+*       </button>
+*     </div>
+*   );
+* }
+* ```
+*
+* When the `in` prop is set to `true`, the child component will first receive
+* the class `example-enter`, then the `example-enter-active` will be added in
+* the next tick. `CSSTransition` [forces a
+* reflow](https://github.com/reactjs/react-transition-group/blob/5007303e729a74be66a21c3e2205e4916821524b/src/CSSTransition.js#L208-L215)
+* between before adding the `example-enter-active`. This is an important trick
+* because it allows us to transition between `example-enter` and
+* `example-enter-active` even though they were added immediately one after
+* another. Most notably, this is what makes it possible for us to animate
+* _appearance_.
+*
+* ```css
+* .my-node-enter {
+*   opacity: 0;
+* }
+* .my-node-enter-active {
+*   opacity: 1;
+*   transition: opacity 200ms;
+* }
+* .my-node-exit {
+*   opacity: 1;
+* }
+* .my-node-exit-active {
+*   opacity: 0;
+*   transition: opacity 200ms;
+* }
+* ```
+*
+* `*-active` classes represent which styles you want to animate **to**, so it's
+* important to add `transition` declaration only to them, otherwise transitions
+* might not behave as intended! This might not be obvious when the transitions
+* are symmetrical, i.e. when `*-enter-active` is the same as `*-exit`, like in
+* the example above (minus `transition`), but it becomes apparent in more
+* complex transitions.
+*
+* **Note**: If you're using the
+* [`appear`](http://reactcommunity.org/react-transition-group/transition#Transition-prop-appear)
+* prop, make sure to define styles for `.appear-*` classes as well.
+*/
+var CSSTransition = /*#__PURE__*/(function (_React$Component) {
+  _inheritsLoose(CSSTransition, _React$Component);
+  function CSSTransition() {
+    var _this;
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
+    _this.appliedClasses = {
+      appear: {},
+      enter: {},
+      exit: {}
+    };
+    _this.onEnter = function (maybeNode, maybeAppearing) {
+      var _this$resolveArgument = _this.resolveArguments(maybeNode, maybeAppearing), node = _this$resolveArgument[0], appearing = _this$resolveArgument[1];
+      _this.removeClasses(node, 'exit');
+      _this.addClass(node, appearing ? 'appear' : 'enter', 'base');
+      if (_this.props.onEnter) {
+        _this.props.onEnter(maybeNode, maybeAppearing);
+      }
+    };
+    _this.onEntering = function (maybeNode, maybeAppearing) {
+      var _this$resolveArgument2 = _this.resolveArguments(maybeNode, maybeAppearing), node = _this$resolveArgument2[0], appearing = _this$resolveArgument2[1];
+      var type = appearing ? 'appear' : 'enter';
+      _this.addClass(node, type, 'active');
+      if (_this.props.onEntering) {
+        _this.props.onEntering(maybeNode, maybeAppearing);
+      }
+    };
+    _this.onEntered = function (maybeNode, maybeAppearing) {
+      var _this$resolveArgument3 = _this.resolveArguments(maybeNode, maybeAppearing), node = _this$resolveArgument3[0], appearing = _this$resolveArgument3[1];
+      var type = appearing ? 'appear' : 'enter';
+      _this.removeClasses(node, type);
+      _this.addClass(node, type, 'done');
+      if (_this.props.onEntered) {
+        _this.props.onEntered(maybeNode, maybeAppearing);
+      }
+    };
+    _this.onExit = function (maybeNode) {
+      var _this$resolveArgument4 = _this.resolveArguments(maybeNode), node = _this$resolveArgument4[0];
+      _this.removeClasses(node, 'appear');
+      _this.removeClasses(node, 'enter');
+      _this.addClass(node, 'exit', 'base');
+      if (_this.props.onExit) {
+        _this.props.onExit(maybeNode);
+      }
+    };
+    _this.onExiting = function (maybeNode) {
+      var _this$resolveArgument5 = _this.resolveArguments(maybeNode), node = _this$resolveArgument5[0];
+      _this.addClass(node, 'exit', 'active');
+      if (_this.props.onExiting) {
+        _this.props.onExiting(maybeNode);
+      }
+    };
+    _this.onExited = function (maybeNode) {
+      var _this$resolveArgument6 = _this.resolveArguments(maybeNode), node = _this$resolveArgument6[0];
+      _this.removeClasses(node, 'exit');
+      _this.addClass(node, 'exit', 'done');
+      if (_this.props.onExited) {
+        _this.props.onExited(maybeNode);
+      }
+    };
+    _this.resolveArguments = function (maybeNode, maybeAppearing) {
+      return _this.props.nodeRef ? [_this.props.nodeRef.current, maybeNode] : // here `maybeNode` is actually `appearing`
+      [maybeNode, maybeAppearing];
+    };
+    _this.getClassNames = function (type) {
+      var classNames = _this.props.classNames;
+      var isStringClassNames = typeof classNames === 'string';
+      var prefix = isStringClassNames && classNames ? classNames + "-" : '';
+      var baseClassName = isStringClassNames ? "" + prefix + type : classNames[type];
+      var activeClassName = isStringClassNames ? baseClassName + "-active" : classNames[type + "Active"];
+      var doneClassName = isStringClassNames ? baseClassName + "-done" : classNames[type + "Done"];
+      return {
+        baseClassName: baseClassName,
+        activeClassName: activeClassName,
+        doneClassName: doneClassName
+      };
+    };
+    return _this;
+  }
+  var _proto = CSSTransition.prototype;
+  _proto.addClass = function addClass(node, type, phase) {
+    var className = this.getClassNames(type)[phase + "ClassName"];
+    var _this$getClassNames = this.getClassNames('enter'), doneClassName = _this$getClassNames.doneClassName;
+    if (type === 'appear' && phase === 'done' && doneClassName) {
+      className += " " + doneClassName;
+    }
+    // This is for to force a repaint,
+    // which is necessary in order to transition styles when adding a class name.
+    if (phase === 'active') {
+      /*eslint-disable no-unused-expressions*/
+      node && node.scrollTop;
+    }
+    if (className) {
+      this.appliedClasses[type][phase] = className;
+      _addClass(node, className);
+    }
+  };
+  _proto.removeClasses = function removeClasses(node, type) {
+    var _this$appliedClasses$ = this.appliedClasses[type], baseClassName = _this$appliedClasses$.base, activeClassName = _this$appliedClasses$.active, doneClassName = _this$appliedClasses$.done;
+    this.appliedClasses[type] = {};
+    if (baseClassName) {
+      removeClass(node, baseClassName);
+    }
+    if (activeClassName) {
+      removeClass(node, activeClassName);
+    }
+    if (doneClassName) {
+      removeClass(node, doneClassName);
+    }
+  };
+  _proto.render = function render() {
+    var _this$props = this.props, _ = _this$props.classNames, props = _objectWithoutPropertiesLoose(_this$props, ["classNames"]);
+    return (
+      /*#__PURE__*/_react.default.createElement(_Transition.default, _extends({}, props, {
+        onEnter: this.onEnter,
+        onEntered: this.onEntered,
+        onEntering: this.onEntering,
+        onExit: this.onExit,
+        onExiting: this.onExiting,
+        onExited: this.onExited
+      }))
+    );
+  };
+  return CSSTransition;
+})(_react.default.Component);
+CSSTransition.defaultProps = {
+  classNames: ''
+};
+CSSTransition.propTypes = "development" !== "production" ? _extends({}, _Transition.default.propTypes, {
+  /**
+  * The animation classNames applied to the component as it appears, enters,
+  * exits or has finished the transition. A single name can be provided, which
+  * will be suffixed for each stage, e.g. `classNames="fade"` applies:
+  *
+  * - `fade-appear`, `fade-appear-active`, `fade-appear-done`
+  * - `fade-enter`, `fade-enter-active`, `fade-enter-done`
+  * - `fade-exit`, `fade-exit-active`, `fade-exit-done`
+  *
+  * A few details to note about how these classes are applied:
+  *
+  * 1. They are _joined_ with the ones that are already defined on the child
+  *    component, so if you want to add some base styles, you can use
+  *    `className` without worrying that it will be overridden.
+  *
+  * 2. If the transition component mounts with `in={false}`, no classes are
+  *    applied yet. You might be expecting `*-exit-done`, but if you think
+  *    about it, a component cannot finish exiting if it hasn't entered yet.
+  *
+  * 2. `fade-appear-done` and `fade-enter-done` will _both_ be applied. This
+  *    allows you to define different behavior for when appearing is done and
+  *    when regular entering is done, using selectors like
+  *    `.fade-enter-done:not(.fade-appear-done)`. For example, you could apply
+  *    an epic entrance animation when element first appears in the DOM using
+  *    [Animate.css](https://daneden.github.io/animate.css/). Otherwise you can
+  *    simply use `fade-enter-done` for defining both cases.
+  *
+  * Each individual classNames can also be specified independently like:
+  *
+  * ```js
+  * classNames={{
+  *  appear: 'my-appear',
+  *  appearActive: 'my-active-appear',
+  *  appearDone: 'my-done-appear',
+  *  enter: 'my-enter',
+  *  enterActive: 'my-active-enter',
+  *  enterDone: 'my-done-enter',
+  *  exit: 'my-exit',
+  *  exitActive: 'my-active-exit',
+  *  exitDone: 'my-done-exit',
+  * }}
+  * ```
+  *
+  * If you want to set these classes using CSS Modules:
+  *
+  * ```js
+  * import styles from './styles.css';
+  * ```
+  *
+  * you might want to use camelCase in your CSS file, that way could simply
+  * spread them instead of listing them one by one:
+  *
+  * ```js
+  * classNames={{ ...styles }}
+  * ```
+  *
+  * @type {string | {
+  *  appear?: string,
+  *  appearActive?: string,
+  *  appearDone?: string,
+  *  enter?: string,
+  *  enterActive?: string,
+  *  enterDone?: string,
+  *  exit?: string,
+  *  exitActive?: string,
+  *  exitDone?: string,
+  * }}
+  */
+  classNames: _PropTypes.classNamesShape,
+  /**
+  * A `<Transition>` callback fired immediately after the 'enter' or 'appear' class is
+  * applied.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * @type Function(node: HtmlElement, isAppearing: bool)
+  */
+  onEnter: _propTypes.default.func,
+  /**
+  * A `<Transition>` callback fired immediately after the 'enter-active' or
+  * 'appear-active' class is applied.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * @type Function(node: HtmlElement, isAppearing: bool)
+  */
+  onEntering: _propTypes.default.func,
+  /**
+  * A `<Transition>` callback fired immediately after the 'enter' or
+  * 'appear' classes are **removed** and the `done` class is added to the DOM node.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * @type Function(node: HtmlElement, isAppearing: bool)
+  */
+  onEntered: _propTypes.default.func,
+  /**
+  * A `<Transition>` callback fired immediately after the 'exit' class is
+  * applied.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed
+  *
+  * @type Function(node: HtmlElement)
+  */
+  onExit: _propTypes.default.func,
+  /**
+  * A `<Transition>` callback fired immediately after the 'exit-active' is applied.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed
+  *
+  * @type Function(node: HtmlElement)
+  */
+  onExiting: _propTypes.default.func,
+  /**
+  * A `<Transition>` callback fired immediately after the 'exit' classes
+  * are **removed** and the `exit-done` class is added to the DOM node.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed
+  *
+  * @type Function(node: HtmlElement)
+  */
+  onExited: _propTypes.default.func
+}) : {};
+var _default = CSSTransition;
+exports.default = _default;
+module.exports = exports.default;
+
+},{"prop-types":"4dfy5","dom-helpers/addClass":"fPuIg","dom-helpers/removeClass":"2efO8","react":"3b2NM","./Transition":"Z6Vyq","./utils/PropTypes":"3ZiAf"}],"fPuIg":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+exports.__esModule = true;
+exports.default = addClass;
+
+var _hasClass = _interopRequireDefault(require("./hasClass"));
+
+/**
+ * Adds a CSS class to a given element.
+ * 
+ * @param element the element
+ * @param className the CSS class name
+ */
+function addClass(element, className) {
+  if (element.classList) element.classList.add(className);else if (!(0, _hasClass.default)(element, className)) if (typeof element.className === 'string') element.className = element.className + " " + className;else element.setAttribute('class', (element.className && element.className.baseVal || '') + " " + className);
+}
+
+module.exports = exports["default"];
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","./hasClass":"48whN"}],"48whN":[function(require,module,exports) {
+"use strict";
+
+exports.__esModule = true;
+exports.default = hasClass;
+
+/**
+ * Checks if a given element has a CSS class.
+ * 
+ * @param element the element
+ * @param className the CSS class name
+ */
+function hasClass(element, className) {
+  if (element.classList) return !!className && element.classList.contains(className);
+  return (" " + (element.className.baseVal || element.className) + " ").indexOf(" " + className + " ") !== -1;
+}
+
+module.exports = exports["default"];
+},{}],"2efO8":[function(require,module,exports) {
+"use strict";
+
+exports.__esModule = true;
+exports.default = removeClass;
+
+function replaceClassName(origClass, classToRemove) {
+  return origClass.replace(new RegExp("(^|\\s)" + classToRemove + "(?:\\s|$)", 'g'), '$1').replace(/\s+/g, ' ').replace(/^\s*|\s*$/g, '');
+}
+/**
+ * Removes a CSS class from a given element.
+ * 
+ * @param element the element
+ * @param className the CSS class name
+ */
+
+
+function removeClass(element, className) {
+  if (element.classList) {
+    element.classList.remove(className);
+  } else if (typeof element.className === 'string') {
+    element.className = replaceClassName(element.className, className);
+  } else {
+    element.setAttribute('class', replaceClassName(element.className && element.className.baseVal || '', className));
+  }
+}
+
+module.exports = exports["default"];
+},{}],"Z6Vyq":[function(require,module,exports) {
+"use strict";
+exports.__esModule = true;
+exports.default = exports.EXITING = exports.ENTERED = exports.ENTERING = exports.EXITED = exports.UNMOUNTED = void 0;
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _react = _interopRequireDefault(require("react"));
+var _reactDom = _interopRequireDefault(require("react-dom"));
+var _config = _interopRequireDefault(require("./config"));
+var _PropTypes = require("./utils/PropTypes");
+var _TransitionGroupContext = _interopRequireDefault(require("./TransitionGroupContext"));
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+  return target;
+}
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+var UNMOUNTED = 'unmounted';
+exports.UNMOUNTED = UNMOUNTED;
+var EXITED = 'exited';
+exports.EXITED = EXITED;
+var ENTERING = 'entering';
+exports.ENTERING = ENTERING;
+var ENTERED = 'entered';
+exports.ENTERED = ENTERED;
+var EXITING = 'exiting';
+/**
+* The Transition component lets you describe a transition from one component
+* state to another _over time_ with a simple declarative API. Most commonly
+* it's used to animate the mounting and unmounting of a component, but can also
+* be used to describe in-place transition states as well.
+*
+* ---
+*
+* **Note**: `Transition` is a platform-agnostic base component. If you're using
+* transitions in CSS, you'll probably want to use
+* [`CSSTransition`](https://reactcommunity.org/react-transition-group/css-transition)
+* instead. It inherits all the features of `Transition`, but contains
+* additional features necessary to play nice with CSS transitions (hence the
+* name of the component).
+*
+* ---
+*
+* By default the `Transition` component does not alter the behavior of the
+* component it renders, it only tracks "enter" and "exit" states for the
+* components. It's up to you to give meaning and effect to those states. For
+* example we can add styles to a component when it enters or exits:
+*
+* ```jsx
+* import { Transition } from 'react-transition-group';
+*
+* const duration = 300;
+*
+* const defaultStyle = {
+*   transition: `opacity ${duration}ms ease-in-out`,
+*   opacity: 0,
+* }
+*
+* const transitionStyles = {
+*   entering: { opacity: 1 },
+*   entered:  { opacity: 1 },
+*   exiting:  { opacity: 0 },
+*   exited:  { opacity: 0 },
+* };
+*
+* const Fade = ({ in: inProp }) => (
+*   <Transition in={inProp} timeout={duration}>
+*     {state => (
+*       <div style={{
+*         ...defaultStyle,
+*         ...transitionStyles[state]
+*       }}>
+*         I'm a fade Transition!
+*       </div>
+*     )}
+*   </Transition>
+* );
+* ```
+*
+* There are 4 main states a Transition can be in:
+*  - `'entering'`
+*  - `'entered'`
+*  - `'exiting'`
+*  - `'exited'`
+*
+* Transition state is toggled via the `in` prop. When `true` the component
+* begins the "Enter" stage. During this stage, the component will shift from
+* its current transition state, to `'entering'` for the duration of the
+* transition and then to the `'entered'` stage once it's complete. Let's take
+* the following example (we'll use the
+* [useState](https://reactjs.org/docs/hooks-reference.html#usestate) hook):
+*
+* ```jsx
+* function App() {
+*   const [inProp, setInProp] = useState(false);
+*   return (
+*     <div>
+*       <Transition in={inProp} timeout={500}>
+*         {state => (
+*           // ...
+*         )}
+*       </Transition>
+*       <button onClick={() => setInProp(true)}>
+*         Click to Enter
+*       </button>
+*     </div>
+*   );
+* }
+* ```
+*
+* When the button is clicked the component will shift to the `'entering'` state
+* and stay there for 500ms (the value of `timeout`) before it finally switches
+* to `'entered'`.
+*
+* When `in` is `false` the same thing happens except the state moves from
+* `'exiting'` to `'exited'`.
+*/
+exports.EXITING = EXITING;
+var Transition = /*#__PURE__*/(function (_React$Component) {
+  _inheritsLoose(Transition, _React$Component);
+  function Transition(props, context) {
+    var _this;
+    _this = _React$Component.call(this, props, context) || this;
+    var parentGroup = context;
+    // In the context of a TransitionGroup all enters are really appears
+    var appear = parentGroup && !parentGroup.isMounting ? props.enter : props.appear;
+    var initialStatus;
+    _this.appearStatus = null;
+    if (props.in) {
+      if (appear) {
+        initialStatus = EXITED;
+        _this.appearStatus = ENTERING;
+      } else {
+        initialStatus = ENTERED;
+      }
+    } else {
+      if (props.unmountOnExit || props.mountOnEnter) {
+        initialStatus = UNMOUNTED;
+      } else {
+        initialStatus = EXITED;
+      }
+    }
+    _this.state = {
+      status: initialStatus
+    };
+    _this.nextCallback = null;
+    return _this;
+  }
+  Transition.getDerivedStateFromProps = function getDerivedStateFromProps(_ref, prevState) {
+    var nextIn = _ref.in;
+    if (nextIn && prevState.status === UNMOUNTED) {
+      return {
+        status: EXITED
+      };
+    }
+    return null;
+  };
+  var _proto = Transition.prototype;
+  _proto.componentDidMount = function componentDidMount() {
+    this.updateStatus(true, this.appearStatus);
+  };
+  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
+    var nextStatus = null;
+    if (prevProps !== this.props) {
+      var status = this.state.status;
+      if (this.props.in) {
+        if (status !== ENTERING && status !== ENTERED) {
+          nextStatus = ENTERING;
+        }
+      } else {
+        if (status === ENTERING || status === ENTERED) {
+          nextStatus = EXITING;
+        }
+      }
+    }
+    this.updateStatus(false, nextStatus);
+  };
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    this.cancelNextCallback();
+  };
+  _proto.getTimeouts = function getTimeouts() {
+    var timeout = this.props.timeout;
+    var exit, enter, appear;
+    exit = enter = appear = timeout;
+    if (timeout != null && typeof timeout !== 'number') {
+      exit = timeout.exit;
+      enter = timeout.enter;
+      // TODO: remove fallback for next major
+      appear = timeout.appear !== undefined ? timeout.appear : enter;
+    }
+    return {
+      exit: exit,
+      enter: enter,
+      appear: appear
+    };
+  };
+  _proto.updateStatus = function updateStatus(mounting, nextStatus) {
+    if (mounting === void 0) {
+      mounting = false;
+    }
+    if (nextStatus !== null) {
+      // nextStatus will always be ENTERING or EXITING.
+      this.cancelNextCallback();
+      if (nextStatus === ENTERING) {
+        this.performEnter(mounting);
+      } else {
+        this.performExit();
+      }
+    } else if (this.props.unmountOnExit && this.state.status === EXITED) {
+      this.setState({
+        status: UNMOUNTED
+      });
+    }
+  };
+  _proto.performEnter = function performEnter(mounting) {
+    var _this2 = this;
+    var enter = this.props.enter;
+    var appearing = this.context ? this.context.isMounting : mounting;
+    var _ref2 = this.props.nodeRef ? [appearing] : [_reactDom.default.findDOMNode(this), appearing], maybeNode = _ref2[0], maybeAppearing = _ref2[1];
+    var timeouts = this.getTimeouts();
+    var enterTimeout = appearing ? timeouts.appear : timeouts.enter;
+    // no enter animation skip right to ENTERED
+    // if we are mounting and running this it means appear _must_ be set
+    if (!mounting && !enter || _config.default.disabled) {
+      this.safeSetState({
+        status: ENTERED
+      }, function () {
+        _this2.props.onEntered(maybeNode);
+      });
+      return;
+    }
+    this.props.onEnter(maybeNode, maybeAppearing);
+    this.safeSetState({
+      status: ENTERING
+    }, function () {
+      _this2.props.onEntering(maybeNode, maybeAppearing);
+      _this2.onTransitionEnd(enterTimeout, function () {
+        _this2.safeSetState({
+          status: ENTERED
+        }, function () {
+          _this2.props.onEntered(maybeNode, maybeAppearing);
+        });
+      });
+    });
+  };
+  _proto.performExit = function performExit() {
+    var _this3 = this;
+    var exit = this.props.exit;
+    var timeouts = this.getTimeouts();
+    var maybeNode = this.props.nodeRef ? undefined : _reactDom.default.findDOMNode(this);
+    // no exit animation skip right to EXITED
+    if (!exit || _config.default.disabled) {
+      this.safeSetState({
+        status: EXITED
+      }, function () {
+        _this3.props.onExited(maybeNode);
+      });
+      return;
+    }
+    this.props.onExit(maybeNode);
+    this.safeSetState({
+      status: EXITING
+    }, function () {
+      _this3.props.onExiting(maybeNode);
+      _this3.onTransitionEnd(timeouts.exit, function () {
+        _this3.safeSetState({
+          status: EXITED
+        }, function () {
+          _this3.props.onExited(maybeNode);
+        });
+      });
+    });
+  };
+  _proto.cancelNextCallback = function cancelNextCallback() {
+    if (this.nextCallback !== null) {
+      this.nextCallback.cancel();
+      this.nextCallback = null;
+    }
+  };
+  _proto.safeSetState = function safeSetState(nextState, callback) {
+    // This shouldn't be necessary, but there are weird race conditions with
+    // setState callbacks and unmounting in testing, so always make sure that
+    // we can cancel any pending setState callbacks after we unmount.
+    callback = this.setNextCallback(callback);
+    this.setState(nextState, callback);
+  };
+  _proto.setNextCallback = function setNextCallback(callback) {
+    var _this4 = this;
+    var active = true;
+    this.nextCallback = function (event) {
+      if (active) {
+        active = false;
+        _this4.nextCallback = null;
+        callback(event);
+      }
+    };
+    this.nextCallback.cancel = function () {
+      active = false;
+    };
+    return this.nextCallback;
+  };
+  _proto.onTransitionEnd = function onTransitionEnd(timeout, handler) {
+    this.setNextCallback(handler);
+    var node = this.props.nodeRef ? this.props.nodeRef.current : _reactDom.default.findDOMNode(this);
+    var doesNotHaveTimeoutOrListener = timeout == null && !this.props.addEndListener;
+    if (!node || doesNotHaveTimeoutOrListener) {
+      setTimeout(this.nextCallback, 0);
+      return;
+    }
+    if (this.props.addEndListener) {
+      var _ref3 = this.props.nodeRef ? [this.nextCallback] : [node, this.nextCallback], maybeNode = _ref3[0], maybeNextCallback = _ref3[1];
+      this.props.addEndListener(maybeNode, maybeNextCallback);
+    }
+    if (timeout != null) {
+      setTimeout(this.nextCallback, timeout);
+    }
+  };
+  _proto.render = function render() {
+    var status = this.state.status;
+    if (status === UNMOUNTED) {
+      return null;
+    }
+    var _this$props = this.props, children = _this$props.children, _in = _this$props.in, _mountOnEnter = _this$props.mountOnEnter, _unmountOnExit = _this$props.unmountOnExit, _appear = _this$props.appear, _enter = _this$props.enter, _exit = _this$props.exit, _timeout = _this$props.timeout, _addEndListener = _this$props.addEndListener, _onEnter = _this$props.onEnter, _onEntering = _this$props.onEntering, _onEntered = _this$props.onEntered, _onExit = _this$props.onExit, _onExiting = _this$props.onExiting, _onExited = _this$props.onExited, _nodeRef = _this$props.nodeRef, childProps = _objectWithoutPropertiesLoose(_this$props, ["children", "in", "mountOnEnter", "unmountOnExit", "appear", "enter", "exit", "timeout", "addEndListener", "onEnter", "onEntering", "onEntered", "onExit", "onExiting", "onExited", "nodeRef"]);
+    return (
+      /*#__PURE__*/
+      // allows for nested Transitions
+      _react.default.createElement(_TransitionGroupContext.default.Provider, {
+        value: null
+      }, typeof children === 'function' ? children(status, childProps) : _react.default.cloneElement(_react.default.Children.only(children), childProps))
+    );
+  };
+  return Transition;
+})(_react.default.Component);
+Transition.contextType = _TransitionGroupContext.default;
+Transition.propTypes = "development" !== "production" ? {
+  /**
+  * A React reference to DOM element that need to transition:
+  * https://stackoverflow.com/a/51127130/4671932
+  *
+  *   - When `nodeRef` prop is used, `node` is not passed to callback functions
+  *      (e.g. `onEnter`) because user already has direct access to the node.
+  *   - When changing `key` prop of `Transition` in a `TransitionGroup` a new
+  *     `nodeRef` need to be provided to `Transition` with changed `key` prop
+  *     (see
+  *     [test/CSSTransition-test.js](https://github.com/reactjs/react-transition-group/blob/13435f897b3ab71f6e19d724f145596f5910581c/test/CSSTransition-test.js#L362-L437)).
+  */
+  nodeRef: _propTypes.default.shape({
+    current: typeof Element === 'undefined' ? _propTypes.default.any : _propTypes.default.instanceOf(Element)
+  }),
+  /**
+  * A `function` child can be used instead of a React element. This function is
+  * called with the current transition status (`'entering'`, `'entered'`,
+  * `'exiting'`, `'exited'`), which can be used to apply context
+  * specific props to a component.
+  *
+  * ```jsx
+  * <Transition in={this.state.in} timeout={150}>
+  *   {state => (
+  *     <MyComponent className={`fade fade-${state}`} />
+  *   )}
+  * </Transition>
+  * ```
+  */
+  children: _propTypes.default.oneOfType([_propTypes.default.func.isRequired, _propTypes.default.element.isRequired]).isRequired,
+  /**
+  * Show the component; triggers the enter or exit states
+  */
+  in: _propTypes.default.bool,
+  /**
+  * By default the child component is mounted immediately along with
+  * the parent `Transition` component. If you want to "lazy mount" the component on the
+  * first `in={true}` you can set `mountOnEnter`. After the first enter transition the component will stay
+  * mounted, even on "exited", unless you also specify `unmountOnExit`.
+  */
+  mountOnEnter: _propTypes.default.bool,
+  /**
+  * By default the child component stays mounted after it reaches the `'exited'` state.
+  * Set `unmountOnExit` if you'd prefer to unmount the component after it finishes exiting.
+  */
+  unmountOnExit: _propTypes.default.bool,
+  /**
+  * By default the child component does not perform the enter transition when
+  * it first mounts, regardless of the value of `in`. If you want this
+  * behavior, set both `appear` and `in` to `true`.
+  *
+  * > **Note**: there are no special appear states like `appearing`/`appeared`, this prop
+  * > only adds an additional enter transition. However, in the
+  * > `<CSSTransition>` component that first enter transition does result in
+  * > additional `.appear-*` classes, that way you can choose to style it
+  * > differently.
+  */
+  appear: _propTypes.default.bool,
+  /**
+  * Enable or disable enter transitions.
+  */
+  enter: _propTypes.default.bool,
+  /**
+  * Enable or disable exit transitions.
+  */
+  exit: _propTypes.default.bool,
+  /**
+  * The duration of the transition, in milliseconds.
+  * Required unless `addEndListener` is provided.
+  *
+  * You may specify a single timeout for all transitions:
+  *
+  * ```jsx
+  * timeout={500}
+  * ```
+  *
+  * or individually:
+  *
+  * ```jsx
+  * timeout={{
+  *  appear: 500,
+  *  enter: 300,
+  *  exit: 500,
+  * }}
+  * ```
+  *
+  * - `appear` defaults to the value of `enter`
+  * - `enter` defaults to `0`
+  * - `exit` defaults to `0`
+  *
+  * @type {number | { enter?: number, exit?: number, appear?: number }}
+  */
+  timeout: function timeout(props) {
+    var pt = _PropTypes.timeoutsShape;
+    if (!props.addEndListener) pt = pt.isRequired;
+    for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+      args[_key - 1] = arguments[_key];
+    }
+    return pt.apply(void 0, [props].concat(args));
+  },
+  /**
+  * Add a custom transition end trigger. Called with the transitioning
+  * DOM node and a `done` callback. Allows for more fine grained transition end
+  * logic. Timeouts are still used as a fallback if provided.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * ```jsx
+  * addEndListener={(node, done) => {
+  *   // use the css transitionend event to mark the finish of a transition
+  *   node.addEventListener('transitionend', done, false);
+  * }}
+  * ```
+  */
+  addEndListener: _propTypes.default.func,
+  /**
+  * Callback fired before the "entering" status is applied. An extra parameter
+  * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * @type Function(node: HtmlElement, isAppearing: bool) -> void
+  */
+  onEnter: _propTypes.default.func,
+  /**
+  * Callback fired after the "entering" status is applied. An extra parameter
+  * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * @type Function(node: HtmlElement, isAppearing: bool)
+  */
+  onEntering: _propTypes.default.func,
+  /**
+  * Callback fired after the "entered" status is applied. An extra parameter
+  * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * @type Function(node: HtmlElement, isAppearing: bool) -> void
+  */
+  onEntered: _propTypes.default.func,
+  /**
+  * Callback fired before the "exiting" status is applied.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * @type Function(node: HtmlElement) -> void
+  */
+  onExit: _propTypes.default.func,
+  /**
+  * Callback fired after the "exiting" status is applied.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed.
+  *
+  * @type Function(node: HtmlElement) -> void
+  */
+  onExiting: _propTypes.default.func,
+  /**
+  * Callback fired after the "exited" status is applied.
+  *
+  * **Note**: when `nodeRef` prop is passed, `node` is not passed
+  *
+  * @type Function(node: HtmlElement) -> void
+  */
+  onExited: _propTypes.default.func
+} : {};
+// Name the function so it is clearer in the documentation
+function noop() {}
+Transition.defaultProps = {
+  in: false,
+  mountOnEnter: false,
+  unmountOnExit: false,
+  appear: false,
+  enter: true,
+  exit: true,
+  onEnter: noop,
+  onEntering: noop,
+  onEntered: noop,
+  onExit: noop,
+  onExiting: noop,
+  onExited: noop
+};
+Transition.UNMOUNTED = UNMOUNTED;
+Transition.EXITED = EXITED;
+Transition.ENTERING = ENTERING;
+Transition.ENTERED = ENTERED;
+Transition.EXITING = EXITING;
+var _default = Transition;
+exports.default = _default;
+
+},{"prop-types":"4dfy5","react":"3b2NM","react-dom":"2sg1U","./config":"5jPow","./utils/PropTypes":"3ZiAf","./TransitionGroupContext":"2DYW2"}],"5jPow":[function(require,module,exports) {
+"use strict";
+
+exports.__esModule = true;
+exports.default = void 0;
+var _default = {
+  disabled: false
+};
+exports.default = _default;
+module.exports = exports.default;
+},{}],"3ZiAf":[function(require,module,exports) {
+"use strict";
+exports.__esModule = true;
+exports.classNamesShape = exports.timeoutsShape = void 0;
+var _propTypes = _interopRequireDefault(require("prop-types"));
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+var timeoutsShape = "development" !== 'production' ? _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
+  enter: _propTypes.default.number,
+  exit: _propTypes.default.number,
+  appear: _propTypes.default.number
+}).isRequired]) : null;
+exports.timeoutsShape = timeoutsShape;
+var classNamesShape = "development" !== 'production' ? _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.shape({
+  enter: _propTypes.default.string,
+  exit: _propTypes.default.string,
+  active: _propTypes.default.string
+}), _propTypes.default.shape({
+  enter: _propTypes.default.string,
+  enterDone: _propTypes.default.string,
+  enterActive: _propTypes.default.string,
+  exit: _propTypes.default.string,
+  exitDone: _propTypes.default.string,
+  exitActive: _propTypes.default.string
+})]) : null;
+exports.classNamesShape = classNamesShape;
+
+},{"prop-types":"4dfy5"}],"2DYW2":[function(require,module,exports) {
+"use strict";
+
+exports.__esModule = true;
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _react.default.createContext(null);
+
+exports.default = _default;
+module.exports = exports.default;
+},{"react":"3b2NM"}],"1VnDG":[function(require,module,exports) {
+"use strict";
+exports.__esModule = true;
+exports.default = void 0;
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _react = _interopRequireDefault(require("react"));
+var _reactDom = _interopRequireDefault(require("react-dom"));
+var _TransitionGroup = _interopRequireDefault(require("./TransitionGroup"));
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+  return target;
+}
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+/**
+* The `<ReplaceTransition>` component is a specialized `Transition` component
+* that animates between two children.
+*
+* ```jsx
+* <ReplaceTransition in>
+*   <Fade><div>I appear first</div></Fade>
+*   <Fade><div>I replace the above</div></Fade>
+* </ReplaceTransition>
+* ```
+*/
+var ReplaceTransition = /*#__PURE__*/(function (_React$Component) {
+  _inheritsLoose(ReplaceTransition, _React$Component);
+  function ReplaceTransition() {
+    var _this;
+    for (var _len = arguments.length, _args = new Array(_len), _key = 0; _key < _len; _key++) {
+      _args[_key] = arguments[_key];
+    }
+    _this = _React$Component.call.apply(_React$Component, [this].concat(_args)) || this;
+    _this.handleEnter = function () {
+      for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+        args[_key2] = arguments[_key2];
+      }
+      return _this.handleLifecycle('onEnter', 0, args);
+    };
+    _this.handleEntering = function () {
+      for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
+        args[_key3] = arguments[_key3];
+      }
+      return _this.handleLifecycle('onEntering', 0, args);
+    };
+    _this.handleEntered = function () {
+      for (var _len4 = arguments.length, args = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
+        args[_key4] = arguments[_key4];
+      }
+      return _this.handleLifecycle('onEntered', 0, args);
+    };
+    _this.handleExit = function () {
+      for (var _len5 = arguments.length, args = new Array(_len5), _key5 = 0; _key5 < _len5; _key5++) {
+        args[_key5] = arguments[_key5];
+      }
+      return _this.handleLifecycle('onExit', 1, args);
+    };
+    _this.handleExiting = function () {
+      for (var _len6 = arguments.length, args = new Array(_len6), _key6 = 0; _key6 < _len6; _key6++) {
+        args[_key6] = arguments[_key6];
+      }
+      return _this.handleLifecycle('onExiting', 1, args);
+    };
+    _this.handleExited = function () {
+      for (var _len7 = arguments.length, args = new Array(_len7), _key7 = 0; _key7 < _len7; _key7++) {
+        args[_key7] = arguments[_key7];
+      }
+      return _this.handleLifecycle('onExited', 1, args);
+    };
+    return _this;
+  }
+  var _proto = ReplaceTransition.prototype;
+  _proto.handleLifecycle = function handleLifecycle(handler, idx, originalArgs) {
+    var _child$props;
+    var children = this.props.children;
+    var child = _react.default.Children.toArray(children)[idx];
+    if (child.props[handler]) (_child$props = child.props)[handler].apply(_child$props, originalArgs);
+    if (this.props[handler]) {
+      var maybeNode = child.props.nodeRef ? undefined : _reactDom.default.findDOMNode(this);
+      this.props[handler](maybeNode);
+    }
+  };
+  _proto.render = function render() {
+    var _this$props = this.props, children = _this$props.children, inProp = _this$props.in, props = _objectWithoutPropertiesLoose(_this$props, ["children", "in"]);
+    var _React$Children$toArr = _react.default.Children.toArray(children), first = _React$Children$toArr[0], second = _React$Children$toArr[1];
+    delete props.onEnter;
+    delete props.onEntering;
+    delete props.onEntered;
+    delete props.onExit;
+    delete props.onExiting;
+    delete props.onExited;
+    return (
+      /*#__PURE__*/_react.default.createElement(_TransitionGroup.default, props, inProp ? _react.default.cloneElement(first, {
+        key: 'first',
+        onEnter: this.handleEnter,
+        onEntering: this.handleEntering,
+        onEntered: this.handleEntered
+      }) : _react.default.cloneElement(second, {
+        key: 'second',
+        onEnter: this.handleExit,
+        onEntering: this.handleExiting,
+        onEntered: this.handleExited
+      }))
+    );
+  };
+  return ReplaceTransition;
+})(_react.default.Component);
+ReplaceTransition.propTypes = "development" !== "production" ? {
+  in: _propTypes.default.bool.isRequired,
+  children: function children(props, propName) {
+    if (_react.default.Children.count(props[propName]) !== 2) return new Error("\"" + propName + "\" must be exactly two transition components.");
+    return null;
+  }
+} : {};
+var _default = ReplaceTransition;
+exports.default = _default;
+module.exports = exports.default;
+
+},{"prop-types":"4dfy5","react":"3b2NM","react-dom":"2sg1U","./TransitionGroup":"2IFe5"}],"2IFe5":[function(require,module,exports) {
+"use strict";
+exports.__esModule = true;
+exports.default = void 0;
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _react = _interopRequireDefault(require("react"));
+var _TransitionGroupContext = _interopRequireDefault(require("./TransitionGroupContext"));
+var _ChildMapping = require("./utils/ChildMapping");
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+  return target;
+}
+function _extends() {
+  _extends = Object.assign || (function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+    return target;
+  });
+  return _extends.apply(this, arguments);
+}
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+  return self;
+}
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+var values = Object.values || (function (obj) {
+  return Object.keys(obj).map(function (k) {
+    return obj[k];
+  });
+});
+var defaultProps = {
+  component: 'div',
+  childFactory: function childFactory(child) {
+    return child;
+  }
+};
+/**
+* The `<TransitionGroup>` component manages a set of transition components
+* (`<Transition>` and `<CSSTransition>`) in a list. Like with the transition
+* components, `<TransitionGroup>` is a state machine for managing the mounting
+* and unmounting of components over time.
+*
+* Consider the example below. As items are removed or added to the TodoList the
+* `in` prop is toggled automatically by the `<TransitionGroup>`.
+*
+* Note that `<TransitionGroup>`  does not define any animation behavior!
+* Exactly _how_ a list item animates is up to the individual transition
+* component. This means you can mix and match animations across different list
+* items.
+*/
+var TransitionGroup = /*#__PURE__*/(function (_React$Component) {
+  _inheritsLoose(TransitionGroup, _React$Component);
+  function TransitionGroup(props, context) {
+    var _this;
+    _this = _React$Component.call(this, props, context) || this;
+    var handleExited = _this.handleExited.bind(_assertThisInitialized(_this));
+    // Initial children should all be entering, dependent on appear
+    _this.state = {
+      contextValue: {
+        isMounting: true
+      },
+      handleExited: handleExited,
+      firstRender: true
+    };
+    return _this;
+  }
+  var _proto = TransitionGroup.prototype;
+  _proto.componentDidMount = function componentDidMount() {
+    this.mounted = true;
+    this.setState({
+      contextValue: {
+        isMounting: false
+      }
+    });
+  };
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    this.mounted = false;
+  };
+  TransitionGroup.getDerivedStateFromProps = function getDerivedStateFromProps(nextProps, _ref) {
+    var prevChildMapping = _ref.children, handleExited = _ref.handleExited, firstRender = _ref.firstRender;
+    return {
+      children: firstRender ? (0, _ChildMapping.getInitialChildMapping)(nextProps, handleExited) : (0, _ChildMapping.getNextChildMapping)(nextProps, prevChildMapping, handleExited),
+      firstRender: false
+    };
+  };
+  _proto.handleExited = function handleExited(child, node) {
+    var currentChildMapping = (0, _ChildMapping.getChildMapping)(this.props.children);
+    if ((child.key in currentChildMapping)) return;
+    if (child.props.onExited) {
+      child.props.onExited(node);
+    }
+    if (this.mounted) {
+      this.setState(function (state) {
+        var children = _extends({}, state.children);
+        delete children[child.key];
+        return {
+          children: children
+        };
+      });
+    }
+  };
+  _proto.render = function render() {
+    var _this$props = this.props, Component = _this$props.component, childFactory = _this$props.childFactory, props = _objectWithoutPropertiesLoose(_this$props, ["component", "childFactory"]);
+    var contextValue = this.state.contextValue;
+    var children = values(this.state.children).map(childFactory);
+    delete props.appear;
+    delete props.enter;
+    delete props.exit;
+    if (Component === null) {
+      return (
+        /*#__PURE__*/_react.default.createElement(_TransitionGroupContext.default.Provider, {
+          value: contextValue
+        }, children)
+      );
+    }
+    return (
+      /*#__PURE__*/_react.default.createElement(_TransitionGroupContext.default.Provider, {
+        value: contextValue
+      }, /*#__PURE__*/_react.default.createElement(Component, props, children))
+    );
+  };
+  return TransitionGroup;
+})(_react.default.Component);
+TransitionGroup.propTypes = "development" !== "production" ? {
+  /**
+  * `<TransitionGroup>` renders a `<div>` by default. You can change this
+  * behavior by providing a `component` prop.
+  * If you use React v16+ and would like to avoid a wrapping `<div>` element
+  * you can pass in `component={null}`. This is useful if the wrapping div
+  * borks your css styles.
+  */
+  component: _propTypes.default.any,
+  /**
+  * A set of `<Transition>` components, that are toggled `in` and out as they
+  * leave. the `<TransitionGroup>` will inject specific transition props, so
+  * remember to spread them through if you are wrapping the `<Transition>` as
+  * with our `<Fade>` example.
+  *
+  * While this component is meant for multiple `Transition` or `CSSTransition`
+  * children, sometimes you may want to have a single transition child with
+  * content that you want to be transitioned out and in when you change it
+  * (e.g. routes, images etc.) In that case you can change the `key` prop of
+  * the transition child as you change its content, this will cause
+  * `TransitionGroup` to transition the child out and back in.
+  */
+  children: _propTypes.default.node,
+  /**
+  * A convenience prop that enables or disables appear animations
+  * for all children. Note that specifying this will override any defaults set
+  * on individual children Transitions.
+  */
+  appear: _propTypes.default.bool,
+  /**
+  * A convenience prop that enables or disables enter animations
+  * for all children. Note that specifying this will override any defaults set
+  * on individual children Transitions.
+  */
+  enter: _propTypes.default.bool,
+  /**
+  * A convenience prop that enables or disables exit animations
+  * for all children. Note that specifying this will override any defaults set
+  * on individual children Transitions.
+  */
+  exit: _propTypes.default.bool,
+  /**
+  * You may need to apply reactive updates to a child as it is exiting.
+  * This is generally done by using `cloneElement` however in the case of an exiting
+  * child the element has already been removed and not accessible to the consumer.
+  *
+  * If you do need to update a child as it leaves you can provide a `childFactory`
+  * to wrap every child, even the ones that are leaving.
+  *
+  * @type Function(child: ReactElement) -> ReactElement
+  */
+  childFactory: _propTypes.default.func
+} : {};
+TransitionGroup.defaultProps = defaultProps;
+var _default = TransitionGroup;
+exports.default = _default;
+module.exports = exports.default;
+
+},{"prop-types":"4dfy5","react":"3b2NM","./TransitionGroupContext":"2DYW2","./utils/ChildMapping":"W0vVh"}],"W0vVh":[function(require,module,exports) {
+"use strict";
+
+exports.__esModule = true;
+exports.getChildMapping = getChildMapping;
+exports.mergeChildMappings = mergeChildMappings;
+exports.getInitialChildMapping = getInitialChildMapping;
+exports.getNextChildMapping = getNextChildMapping;
+
+var _react = require("react");
+
+/**
+ * Given `this.props.children`, return an object mapping key to child.
+ *
+ * @param {*} children `this.props.children`
+ * @return {object} Mapping of key to child
+ */
+function getChildMapping(children, mapFn) {
+  var mapper = function mapper(child) {
+    return mapFn && (0, _react.isValidElement)(child) ? mapFn(child) : child;
+  };
+
+  var result = Object.create(null);
+  if (children) _react.Children.map(children, function (c) {
+    return c;
+  }).forEach(function (child) {
+    // run the map function here instead so that the key is the computed one
+    result[child.key] = mapper(child);
+  });
+  return result;
+}
+/**
+ * When you're adding or removing children some may be added or removed in the
+ * same render pass. We want to show *both* since we want to simultaneously
+ * animate elements in and out. This function takes a previous set of keys
+ * and a new set of keys and merges them with its best guess of the correct
+ * ordering. In the future we may expose some of the utilities in
+ * ReactMultiChild to make this easy, but for now React itself does not
+ * directly have this concept of the union of prevChildren and nextChildren
+ * so we implement it here.
+ *
+ * @param {object} prev prev children as returned from
+ * `ReactTransitionChildMapping.getChildMapping()`.
+ * @param {object} next next children as returned from
+ * `ReactTransitionChildMapping.getChildMapping()`.
+ * @return {object} a key set that contains all keys in `prev` and all keys
+ * in `next` in a reasonable order.
+ */
+
+
+function mergeChildMappings(prev, next) {
+  prev = prev || {};
+  next = next || {};
+
+  function getValueForKey(key) {
+    return key in next ? next[key] : prev[key];
+  } // For each key of `next`, the list of keys to insert before that key in
+  // the combined list
+
+
+  var nextKeysPending = Object.create(null);
+  var pendingKeys = [];
+
+  for (var prevKey in prev) {
+    if (prevKey in next) {
+      if (pendingKeys.length) {
+        nextKeysPending[prevKey] = pendingKeys;
+        pendingKeys = [];
+      }
+    } else {
+      pendingKeys.push(prevKey);
+    }
+  }
+
+  var i;
+  var childMapping = {};
+
+  for (var nextKey in next) {
+    if (nextKeysPending[nextKey]) {
+      for (i = 0; i < nextKeysPending[nextKey].length; i++) {
+        var pendingNextKey = nextKeysPending[nextKey][i];
+        childMapping[nextKeysPending[nextKey][i]] = getValueForKey(pendingNextKey);
+      }
+    }
+
+    childMapping[nextKey] = getValueForKey(nextKey);
+  } // Finally, add the keys which didn't appear before any key in `next`
+
+
+  for (i = 0; i < pendingKeys.length; i++) {
+    childMapping[pendingKeys[i]] = getValueForKey(pendingKeys[i]);
+  }
+
+  return childMapping;
+}
+
+function getProp(child, prop, props) {
+  return props[prop] != null ? props[prop] : child.props[prop];
+}
+
+function getInitialChildMapping(props, onExited) {
+  return getChildMapping(props.children, function (child) {
+    return (0, _react.cloneElement)(child, {
+      onExited: onExited.bind(null, child),
+      in: true,
+      appear: getProp(child, 'appear', props),
+      enter: getProp(child, 'enter', props),
+      exit: getProp(child, 'exit', props)
+    });
+  });
+}
+
+function getNextChildMapping(nextProps, prevChildMapping, onExited) {
+  var nextChildMapping = getChildMapping(nextProps.children);
+  var children = mergeChildMappings(prevChildMapping, nextChildMapping);
+  Object.keys(children).forEach(function (key) {
+    var child = children[key];
+    if (!(0, _react.isValidElement)(child)) return;
+    var hasPrev = (key in prevChildMapping);
+    var hasNext = (key in nextChildMapping);
+    var prevChild = prevChildMapping[key];
+    var isLeaving = (0, _react.isValidElement)(prevChild) && !prevChild.props.in; // item is new (entering)
+
+    if (hasNext && (!hasPrev || isLeaving)) {
+      // console.log('entering', key)
+      children[key] = (0, _react.cloneElement)(child, {
+        onExited: onExited.bind(null, child),
+        in: true,
+        exit: getProp(child, 'exit', nextProps),
+        enter: getProp(child, 'enter', nextProps)
+      });
+    } else if (!hasNext && hasPrev && !isLeaving) {
+      // item is old (exiting)
+      // console.log('leaving', key)
+      children[key] = (0, _react.cloneElement)(child, {
+        in: false
+      });
+    } else if (hasNext && hasPrev && (0, _react.isValidElement)(prevChild)) {
+      // item hasn't changed transition states
+      // copy over the last transition props;
+      // console.log('unchanged', key)
+      children[key] = (0, _react.cloneElement)(child, {
+        onExited: onExited.bind(null, child),
+        in: prevChild.props.in,
+        exit: getProp(child, 'exit', nextProps),
+        enter: getProp(child, 'enter', nextProps)
+      });
+    }
+  });
+  return children;
+}
+},{"react":"3b2NM"}],"7FEbi":[function(require,module,exports) {
+"use strict";
+exports.__esModule = true;
+exports.default = exports.modes = void 0;
+var _react = _interopRequireDefault(require("react"));
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _Transition = require("./Transition");
+var _TransitionGroupContext = _interopRequireDefault(require("./TransitionGroupContext"));
+var _leaveRenders, _enterRenders;
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+function areChildrenDifferent(oldChildren, newChildren) {
+  if (oldChildren === newChildren) return false;
+  if (_react.default.isValidElement(oldChildren) && _react.default.isValidElement(newChildren) && oldChildren.key != null && oldChildren.key === newChildren.key) {
+    return false;
+  }
+  return true;
+}
+/**
+* Enum of modes for SwitchTransition component
+* @enum { string }
+*/
+var modes = {
+  out: 'out-in',
+  in: 'in-out'
+};
+exports.modes = modes;
+var callHook = function callHook(element, name, cb) {
+  return function () {
+    var _element$props;
+    element.props[name] && (_element$props = element.props)[name].apply(_element$props, arguments);
+    cb();
+  };
+};
+var leaveRenders = (_leaveRenders = {}, _leaveRenders[modes.out] = function (_ref) {
+  var current = _ref.current, changeState = _ref.changeState;
+  return _react.default.cloneElement(current, {
+    in: false,
+    onExited: callHook(current, 'onExited', function () {
+      changeState(_Transition.ENTERING, null);
+    })
+  });
+}, _leaveRenders[modes.in] = function (_ref2) {
+  var current = _ref2.current, changeState = _ref2.changeState, children = _ref2.children;
+  return [current, _react.default.cloneElement(children, {
+    in: true,
+    onEntered: callHook(children, 'onEntered', function () {
+      changeState(_Transition.ENTERING);
+    })
+  })];
+}, _leaveRenders);
+var enterRenders = (_enterRenders = {}, _enterRenders[modes.out] = function (_ref3) {
+  var children = _ref3.children, changeState = _ref3.changeState;
+  return _react.default.cloneElement(children, {
+    in: true,
+    onEntered: callHook(children, 'onEntered', function () {
+      changeState(_Transition.ENTERED, _react.default.cloneElement(children, {
+        in: true
+      }));
+    })
+  });
+}, _enterRenders[modes.in] = function (_ref4) {
+  var current = _ref4.current, children = _ref4.children, changeState = _ref4.changeState;
+  return [_react.default.cloneElement(current, {
+    in: false,
+    onExited: callHook(current, 'onExited', function () {
+      changeState(_Transition.ENTERED, _react.default.cloneElement(children, {
+        in: true
+      }));
+    })
+  }), _react.default.cloneElement(children, {
+    in: true
+  })];
+}, _enterRenders);
+/**
+* A transition component inspired by the [vue transition modes](https://vuejs.org/v2/guide/transitions.html#Transition-Modes).
+* You can use it when you want to control the render between state transitions.
+* Based on the selected mode and the child's key which is the `Transition` or `CSSTransition` component, the `SwitchTransition` makes a consistent transition between them.
+*
+* If the `out-in` mode is selected, the `SwitchTransition` waits until the old child leaves and then inserts a new child.
+* If the `in-out` mode is selected, the `SwitchTransition` inserts a new child first, waits for the new child to enter and then removes the old child.
+*
+* **Note**: If you want the animation to happen simultaneously
+* (that is, to have the old child removed and a new child inserted **at the same time**),
+* you should use
+* [`TransitionGroup`](https://reactcommunity.org/react-transition-group/transition-group)
+* instead.
+*
+* ```jsx
+* function App() {
+*  const [state, setState] = useState(false);
+*  return (
+*    <SwitchTransition>
+*      <CSSTransition
+*        key={state ? "Goodbye, world!" : "Hello, world!"}
+*        addEndListener={(node, done) => node.addEventListener("transitionend", done, false)}
+*        classNames='fade'
+*      >
+*        <button onClick={() => setState(state => !state)}>
+*          {state ? "Goodbye, world!" : "Hello, world!"}
+*        </button>
+*      </CSSTransition>
+*    </SwitchTransition>
+*  );
+* }
+* ```
+*
+* ```css
+* .fade-enter{
+*    opacity: 0;
+* }
+* .fade-exit{
+*    opacity: 1;
+* }
+* .fade-enter-active{
+*    opacity: 1;
+* }
+* .fade-exit-active{
+*    opacity: 0;
+* }
+* .fade-enter-active,
+* .fade-exit-active{
+*    transition: opacity 500ms;
+* }
+* ```
+*/
+var SwitchTransition = /*#__PURE__*/(function (_React$Component) {
+  _inheritsLoose(SwitchTransition, _React$Component);
+  function SwitchTransition() {
+    var _this;
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
+    _this.state = {
+      status: _Transition.ENTERED,
+      current: null
+    };
+    _this.appeared = false;
+    _this.changeState = function (status, current) {
+      if (current === void 0) {
+        current = _this.state.current;
+      }
+      _this.setState({
+        status: status,
+        current: current
+      });
+    };
+    return _this;
+  }
+  var _proto = SwitchTransition.prototype;
+  _proto.componentDidMount = function componentDidMount() {
+    this.appeared = true;
+  };
+  SwitchTransition.getDerivedStateFromProps = function getDerivedStateFromProps(props, state) {
+    if (props.children == null) {
+      return {
+        current: null
+      };
+    }
+    if (state.status === _Transition.ENTERING && props.mode === modes.in) {
+      return {
+        status: _Transition.ENTERING
+      };
+    }
+    if (state.current && areChildrenDifferent(state.current, props.children)) {
+      return {
+        status: _Transition.EXITING
+      };
+    }
+    return {
+      current: _react.default.cloneElement(props.children, {
+        in: true
+      })
+    };
+  };
+  _proto.render = function render() {
+    var _this$props = this.props, children = _this$props.children, mode = _this$props.mode, _this$state = this.state, status = _this$state.status, current = _this$state.current;
+    var data = {
+      children: children,
+      current: current,
+      changeState: this.changeState,
+      status: status
+    };
+    var component;
+    switch (status) {
+      case _Transition.ENTERING:
+        component = enterRenders[mode](data);
+        break;
+      case _Transition.EXITING:
+        component = leaveRenders[mode](data);
+        break;
+      case _Transition.ENTERED:
+        component = current;
+    }
+    return (
+      /*#__PURE__*/_react.default.createElement(_TransitionGroupContext.default.Provider, {
+        value: {
+          isMounting: !this.appeared
+        }
+      }, component)
+    );
+  };
+  return SwitchTransition;
+})(_react.default.Component);
+SwitchTransition.propTypes = "development" !== "production" ? {
+  /**
+  * Transition modes.
+  * `out-in`: Current element transitions out first, then when complete, the new element transitions in.
+  * `in-out`: New element transitions in first, then when complete, the current element transitions out.
+  *
+  * @type {'out-in'|'in-out'}
+  */
+  mode: _propTypes.default.oneOf([modes.in, modes.out]),
+  /**
+  * Any `Transition` or `CSSTransition` component.
+  */
+  children: _propTypes.default.oneOfType([_propTypes.default.element.isRequired])
+} : {};
+SwitchTransition.defaultProps = {
+  mode: modes.out
+};
+var _default = SwitchTransition;
+exports.default = _default;
+
+},{"react":"3b2NM","prop-types":"4dfy5","./Transition":"Z6Vyq","./TransitionGroupContext":"2DYW2"}],"Skig9":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _utilsUseEventCallback = require('../utils/useEventCallback');
+var _utilsUseEventCallbackDefault = _parcelHelpers.interopDefault(_utilsUseEventCallback);
+var useEnhancedEffect = typeof window === 'undefined' ? _react.useEffect : _react.useLayoutEffect;
+/**
+* @ignore - internal component.
+*/
+function Ripple(props) {
+  var classes = props.classes, _props$pulsate = props.pulsate, pulsate = _props$pulsate === void 0 ? false : _props$pulsate, rippleX = props.rippleX, rippleY = props.rippleY, rippleSize = props.rippleSize, inProp = props.in, _props$onExited = props.onExited, onExited = _props$onExited === void 0 ? function () {} : _props$onExited, timeout = props.timeout;
+  var _React$useState = _react.useState(false), leaving = _React$useState[0], setLeaving = _React$useState[1];
+  var rippleClassName = _clsxDefault.default(classes.ripple, classes.rippleVisible, pulsate && classes.ripplePulsate);
+  var rippleStyles = {
+    width: rippleSize,
+    height: rippleSize,
+    top: -(rippleSize / 2) + rippleY,
+    left: -(rippleSize / 2) + rippleX
+  };
+  var childClassName = _clsxDefault.default(classes.child, leaving && classes.childLeaving, pulsate && classes.childPulsate);
+  var handleExited = _utilsUseEventCallbackDefault.default(onExited);
+  // Ripple is used for user feedback (e.g. click or press) so we want to apply styles with the highest priority
+  useEnhancedEffect(function () {
+    if (!inProp) {
+      // react-transition-group#onExit
+      setLeaving(true);
+      // react-transition-group#onExited
+      var timeoutId = setTimeout(handleExited, timeout);
+      return function () {
+        clearTimeout(timeoutId);
+      };
+    }
+    return undefined;
+  }, [handleExited, inProp, timeout]);
+  return (
+    /*#__PURE__*/_react.createElement("span", {
+      className: rippleClassName,
+      style: rippleStyles
+    }, /*#__PURE__*/_react.createElement("span", {
+      className: childClassName
+    }))
+  );
+}
+"development" !== "production" ? Ripple.propTypes = {
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object.isRequired,
+  /**
+  * @ignore - injected from TransitionGroup
+  */
+  in: _propTypesDefault.default.bool,
+  /**
+  * @ignore - injected from TransitionGroup
+  */
+  onExited: _propTypesDefault.default.func,
+  /**
+  * If `true`, the ripple pulsates, typically indicating the keyboard focus state of an element.
+  */
+  pulsate: _propTypesDefault.default.bool,
+  /**
+  * Diameter of the ripple.
+  */
+  rippleSize: _propTypesDefault.default.number,
+  /**
+  * Horizontal position of the ripple center.
+  */
+  rippleX: _propTypesDefault.default.number,
+  /**
+  * Vertical position of the ripple center.
+  */
+  rippleY: _propTypesDefault.default.number,
+  /**
+  * exit delay
+  */
+  timeout: _propTypesDefault.default.number.isRequired
+} : void 0;
+exports.default = Ripple;
+
+},{"react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../utils/useEventCallback":"33awX","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"680yH":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _useScrollTriggerDefault.default;
+});
+var _useScrollTrigger = require('./useScrollTrigger');
+var _useScrollTriggerDefault = _parcelHelpers.interopDefault(_useScrollTrigger);
+
+},{"./useScrollTrigger":"7aOz6","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"7aOz6":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+function defaultTrigger(store, options) {
+  var _options$disableHyste = options.disableHysteresis, disableHysteresis = _options$disableHyste === void 0 ? false : _options$disableHyste, _options$threshold = options.threshold, threshold = _options$threshold === void 0 ? 100 : _options$threshold, target = options.target;
+  var previous = store.current;
+  if (target) {
+    // Get vertical scroll
+    store.current = target.pageYOffset !== undefined ? target.pageYOffset : target.scrollTop;
+  }
+  if (!disableHysteresis && previous !== undefined) {
+    if (store.current < previous) {
+      return false;
+    }
+  }
+  return store.current > threshold;
+}
+var defaultTarget = typeof window !== 'undefined' ? window : null;
+function useScrollTrigger() {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var _options$getTrigger = options.getTrigger, getTrigger = _options$getTrigger === void 0 ? defaultTrigger : _options$getTrigger, _options$target = options.target, target = _options$target === void 0 ? defaultTarget : _options$target, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(options, ["getTrigger", "target"]);
+  var store = _react.useRef();
+  var _React$useState = _react.useState(function () {
+    return getTrigger(store, other);
+  }), trigger = _React$useState[0], setTrigger = _React$useState[1];
+  _react.useEffect(function () {
+    var handleScroll = function handleScroll() {
+      setTrigger(getTrigger(store, _babelRuntimeHelpersEsmExtendsDefault.default({
+        target: target
+      }, other)));
+    };
+    handleScroll();
+    // Re-evaluate trigger when dependencies change
+    target.addEventListener('scroll', handleScroll);
+    return function () {
+      target.removeEventListener('scroll', handleScroll);
+    };
+  }, [target, getTrigger, JSON.stringify(other)]);
+  return trigger;
+}
+exports.default = useScrollTrigger;
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"DcRvB":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _TabsDefault.default;
+});
+var _Tabs = require('./Tabs');
+var _TabsDefault = _parcelHelpers.interopDefault(_Tabs);
+
+},{"./Tabs":"2Og7j","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"2Og7j":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _babelRuntimeHelpersEsmDefineProperty = require("@babel/runtime/helpers/esm/defineProperty");
+var _babelRuntimeHelpersEsmDefinePropertyDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmDefineProperty);
+var _react = require('react');
+var _reactIs = require('react-is');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _materialUiUtils = require('@material-ui/utils');
+var _utilsDebounce = require('../utils/debounce');
+var _utilsDebounceDefault = _parcelHelpers.interopDefault(_utilsDebounce);
+var _utilsOwnerWindow = require('../utils/ownerWindow');
+var _utilsOwnerWindowDefault = _parcelHelpers.interopDefault(_utilsOwnerWindow);
+var _utilsScrollLeft = require('../utils/scrollLeft');
+var _internalAnimate = require('../internal/animate');
+var _internalAnimateDefault = _parcelHelpers.interopDefault(_internalAnimate);
+var _ScrollbarSize = require('./ScrollbarSize');
+var _ScrollbarSizeDefault = _parcelHelpers.interopDefault(_ScrollbarSize);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _TabIndicator = require('./TabIndicator');
+var _TabIndicatorDefault = _parcelHelpers.interopDefault(_TabIndicator);
+var _TabScrollButton = require('../TabScrollButton');
+var _TabScrollButtonDefault = _parcelHelpers.interopDefault(_TabScrollButton);
+var _utilsUseEventCallback = require('../utils/useEventCallback');
+var _utilsUseEventCallbackDefault = _parcelHelpers.interopDefault(_utilsUseEventCallback);
+var _stylesUseTheme = require('../styles/useTheme');
+var _stylesUseThemeDefault = _parcelHelpers.interopDefault(_stylesUseTheme);
+var styles = function styles(theme) {
+  return {
+    /*Styles applied to the root element.*/
+    root: {
+      overflow: 'hidden',
+      minHeight: 48,
+      WebkitOverflowScrolling: 'touch',
+      // Add iOS momentum scrolling.
+      display: 'flex'
+    },
+    /*Styles applied to the root element if `orientation="vertical"`.*/
+    vertical: {
+      flexDirection: 'column'
+    },
+    /*Styles applied to the flex container element.*/
+    flexContainer: {
+      display: 'flex'
+    },
+    /*Styles applied to the flex container element if `orientation="vertical"`.*/
+    flexContainerVertical: {
+      flexDirection: 'column'
+    },
+    /*Styles applied to the flex container element if `centered={true}` & `!variant="scrollable"`.*/
+    centered: {
+      justifyContent: 'center'
+    },
+    /*Styles applied to the tablist element.*/
+    scroller: {
+      position: 'relative',
+      display: 'inline-block',
+      flex: '1 1 auto',
+      whiteSpace: 'nowrap'
+    },
+    /*Styles applied to the tablist element if `!variant="scrollable"`.*/
+    fixed: {
+      overflowX: 'hidden',
+      width: '100%'
+    },
+    /*Styles applied to the tablist element if `variant="scrollable"`.*/
+    scrollable: {
+      overflowX: 'scroll',
+      // Hide dimensionless scrollbar on MacOS
+      scrollbarWidth: 'none',
+      // Firefox
+      '&::-webkit-scrollbar': {
+        display: 'none'
+      }
+    },
+    /*Styles applied to the `ScrollButtonComponent` component.*/
+    scrollButtons: {},
+    /*Styles applied to the `ScrollButtonComponent` component if `scrollButtons="auto"` or scrollButtons="desktop"`.*/
+    scrollButtonsDesktop: _babelRuntimeHelpersEsmDefinePropertyDefault.default({}, theme.breakpoints.down('xs'), {
+      display: 'none'
+    }),
+    /*Styles applied to the `TabIndicator` component.*/
+    indicator: {}
+  };
+};
+var Tabs = /*#__PURE__*/_react.forwardRef(function Tabs(props, ref) {
+  var ariaLabel = props['aria-label'], ariaLabelledBy = props['aria-labelledby'], action = props.action, _props$centered = props.centered, centered = _props$centered === void 0 ? false : _props$centered, childrenProp = props.children, classes = props.classes, className = props.className, _props$component = props.component, Component = _props$component === void 0 ? 'div' : _props$component, _props$indicatorColor = props.indicatorColor, indicatorColor = _props$indicatorColor === void 0 ? 'secondary' : _props$indicatorColor, onChange = props.onChange, _props$orientation = props.orientation, orientation = _props$orientation === void 0 ? 'horizontal' : _props$orientation, _props$ScrollButtonCo = props.ScrollButtonComponent, ScrollButtonComponent = _props$ScrollButtonCo === void 0 ? _TabScrollButtonDefault.default : _props$ScrollButtonCo, _props$scrollButtons = props.scrollButtons, scrollButtons = _props$scrollButtons === void 0 ? 'auto' : _props$scrollButtons, selectionFollowsFocus = props.selectionFollowsFocus, _props$TabIndicatorPr = props.TabIndicatorProps, TabIndicatorProps = _props$TabIndicatorPr === void 0 ? {} : _props$TabIndicatorPr, TabScrollButtonProps = props.TabScrollButtonProps, _props$textColor = props.textColor, textColor = _props$textColor === void 0 ? 'inherit' : _props$textColor, value = props.value, _props$variant = props.variant, variant = _props$variant === void 0 ? 'standard' : _props$variant, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["aria-label", "aria-labelledby", "action", "centered", "children", "classes", "className", "component", "indicatorColor", "onChange", "orientation", "ScrollButtonComponent", "scrollButtons", "selectionFollowsFocus", "TabIndicatorProps", "TabScrollButtonProps", "textColor", "value", "variant"]);
+  var theme = _stylesUseThemeDefault.default();
+  var scrollable = variant === 'scrollable';
+  var isRtl = theme.direction === 'rtl';
+  var vertical = orientation === 'vertical';
+  var scrollStart = vertical ? 'scrollTop' : 'scrollLeft';
+  var start = vertical ? 'top' : 'left';
+  var end = vertical ? 'bottom' : 'right';
+  var clientSize = vertical ? 'clientHeight' : 'clientWidth';
+  var size = vertical ? 'height' : 'width';
+  if ("development" !== 'production') {
+    if (centered && scrollable) {
+      console.error('Material-UI: You can not use the `centered={true}` and `variant="scrollable"` properties ' + 'at the same time on a `Tabs` component.');
+    }
+  }
+  var _React$useState = _react.useState(false), mounted = _React$useState[0], setMounted = _React$useState[1];
+  var _React$useState2 = _react.useState({}), indicatorStyle = _React$useState2[0], setIndicatorStyle = _React$useState2[1];
+  var _React$useState3 = _react.useState({
+    start: false,
+    end: false
+  }), displayScroll = _React$useState3[0], setDisplayScroll = _React$useState3[1];
+  var _React$useState4 = _react.useState({
+    overflow: 'hidden',
+    marginBottom: null
+  }), scrollerStyle = _React$useState4[0], setScrollerStyle = _React$useState4[1];
+  var valueToIndex = new Map();
+  var tabsRef = _react.useRef(null);
+  var tabListRef = _react.useRef(null);
+  var getTabsMeta = function getTabsMeta() {
+    var tabsNode = tabsRef.current;
+    var tabsMeta;
+    if (tabsNode) {
+      var rect = tabsNode.getBoundingClientRect();
+      // create a new object with ClientRect class props + scrollLeft
+      tabsMeta = {
+        clientWidth: tabsNode.clientWidth,
+        scrollLeft: tabsNode.scrollLeft,
+        scrollTop: tabsNode.scrollTop,
+        scrollLeftNormalized: _utilsScrollLeft.getNormalizedScrollLeft(tabsNode, theme.direction),
+        scrollWidth: tabsNode.scrollWidth,
+        top: rect.top,
+        bottom: rect.bottom,
+        left: rect.left,
+        right: rect.right
+      };
+    }
+    var tabMeta;
+    if (tabsNode && value !== false) {
+      var _children = tabListRef.current.children;
+      if (_children.length > 0) {
+        var tab = _children[valueToIndex.get(value)];
+        if ("development" !== 'production') {
+          if (!tab) {
+            console.error(["Material-UI: The value provided to the Tabs component is invalid.", ("None of the Tabs' children match with `").concat(value, "`."), valueToIndex.keys ? ("You can provide one of the following values: ").concat(Array.from(valueToIndex.keys()).join(', '), ".") : null].join('\n'));
+          }
+        }
+        tabMeta = tab ? tab.getBoundingClientRect() : null;
+      }
+    }
+    return {
+      tabsMeta: tabsMeta,
+      tabMeta: tabMeta
+    };
+  };
+  var updateIndicatorState = _utilsUseEventCallbackDefault.default(function () {
+    var _newIndicatorStyle;
+    var _getTabsMeta = getTabsMeta(), tabsMeta = _getTabsMeta.tabsMeta, tabMeta = _getTabsMeta.tabMeta;
+    var startValue = 0;
+    if (tabMeta && tabsMeta) {
+      if (vertical) {
+        startValue = tabMeta.top - tabsMeta.top + tabsMeta.scrollTop;
+      } else {
+        var correction = isRtl ? tabsMeta.scrollLeftNormalized + tabsMeta.clientWidth - tabsMeta.scrollWidth : tabsMeta.scrollLeft;
+        startValue = tabMeta.left - tabsMeta.left + correction;
+      }
+    }
+    var newIndicatorStyle = (_newIndicatorStyle = {}, _babelRuntimeHelpersEsmDefinePropertyDefault.default(_newIndicatorStyle, start, startValue), _babelRuntimeHelpersEsmDefinePropertyDefault.default(_newIndicatorStyle, size, tabMeta ? tabMeta[size] : 0), _newIndicatorStyle);
+    if (isNaN(indicatorStyle[start]) || isNaN(indicatorStyle[size])) {
+      setIndicatorStyle(newIndicatorStyle);
+    } else {
+      var dStart = Math.abs(indicatorStyle[start] - newIndicatorStyle[start]);
+      var dSize = Math.abs(indicatorStyle[size] - newIndicatorStyle[size]);
+      if (dStart >= 1 || dSize >= 1) {
+        setIndicatorStyle(newIndicatorStyle);
+      }
+    }
+  });
+  var scroll = function scroll(scrollValue) {
+    _internalAnimateDefault.default(scrollStart, tabsRef.current, scrollValue);
+  };
+  var moveTabsScroll = function moveTabsScroll(delta) {
+    var scrollValue = tabsRef.current[scrollStart];
+    if (vertical) {
+      scrollValue += delta;
+    } else {
+      scrollValue += delta * (isRtl ? -1 : 1);
+      // Fix for Edge
+      scrollValue *= isRtl && _utilsScrollLeft.detectScrollType() === 'reverse' ? -1 : 1;
+    }
+    scroll(scrollValue);
+  };
+  var handleStartScrollClick = function handleStartScrollClick() {
+    moveTabsScroll(-tabsRef.current[clientSize]);
+  };
+  var handleEndScrollClick = function handleEndScrollClick() {
+    moveTabsScroll(tabsRef.current[clientSize]);
+  };
+  var handleScrollbarSizeChange = _react.useCallback(function (scrollbarHeight) {
+    setScrollerStyle({
+      overflow: null,
+      marginBottom: -scrollbarHeight
+    });
+  }, []);
+  var getConditionalElements = function getConditionalElements() {
+    var conditionalElements = {};
+    conditionalElements.scrollbarSizeListener = scrollable ? /*#__PURE__*/_react.createElement(_ScrollbarSizeDefault.default, {
+      className: classes.scrollable,
+      onChange: handleScrollbarSizeChange
+    }) : null;
+    var scrollButtonsActive = displayScroll.start || displayScroll.end;
+    var showScrollButtons = scrollable && (scrollButtons === 'auto' && scrollButtonsActive || scrollButtons === 'desktop' || scrollButtons === 'on');
+    conditionalElements.scrollButtonStart = showScrollButtons ? /*#__PURE__*/_react.createElement(ScrollButtonComponent, _babelRuntimeHelpersEsmExtendsDefault.default({
+      orientation: orientation,
+      direction: isRtl ? 'right' : 'left',
+      onClick: handleStartScrollClick,
+      disabled: !displayScroll.start,
+      className: _clsxDefault.default(classes.scrollButtons, scrollButtons !== 'on' && classes.scrollButtonsDesktop)
+    }, TabScrollButtonProps)) : null;
+    conditionalElements.scrollButtonEnd = showScrollButtons ? /*#__PURE__*/_react.createElement(ScrollButtonComponent, _babelRuntimeHelpersEsmExtendsDefault.default({
+      orientation: orientation,
+      direction: isRtl ? 'left' : 'right',
+      onClick: handleEndScrollClick,
+      disabled: !displayScroll.end,
+      className: _clsxDefault.default(classes.scrollButtons, scrollButtons !== 'on' && classes.scrollButtonsDesktop)
+    }, TabScrollButtonProps)) : null;
+    return conditionalElements;
+  };
+  var scrollSelectedIntoView = _utilsUseEventCallbackDefault.default(function () {
+    var _getTabsMeta2 = getTabsMeta(), tabsMeta = _getTabsMeta2.tabsMeta, tabMeta = _getTabsMeta2.tabMeta;
+    if (!tabMeta || !tabsMeta) {
+      return;
+    }
+    if (tabMeta[start] < tabsMeta[start]) {
+      // left side of button is out of view
+      var nextScrollStart = tabsMeta[scrollStart] + (tabMeta[start] - tabsMeta[start]);
+      scroll(nextScrollStart);
+    } else if (tabMeta[end] > tabsMeta[end]) {
+      // right side of button is out of view
+      var _nextScrollStart = tabsMeta[scrollStart] + (tabMeta[end] - tabsMeta[end]);
+      scroll(_nextScrollStart);
+    }
+  });
+  var updateScrollButtonState = _utilsUseEventCallbackDefault.default(function () {
+    if (scrollable && scrollButtons !== 'off') {
+      var _tabsRef$current = tabsRef.current, scrollTop = _tabsRef$current.scrollTop, scrollHeight = _tabsRef$current.scrollHeight, clientHeight = _tabsRef$current.clientHeight, scrollWidth = _tabsRef$current.scrollWidth, clientWidth = _tabsRef$current.clientWidth;
+      var showStartScroll;
+      var showEndScroll;
+      if (vertical) {
+        showStartScroll = scrollTop > 1;
+        showEndScroll = scrollTop < scrollHeight - clientHeight - 1;
+      } else {
+        var scrollLeft = _utilsScrollLeft.getNormalizedScrollLeft(tabsRef.current, theme.direction);
+        // use 1 for the potential rounding error with browser zooms.
+        showStartScroll = isRtl ? scrollLeft < scrollWidth - clientWidth - 1 : scrollLeft > 1;
+        showEndScroll = !isRtl ? scrollLeft < scrollWidth - clientWidth - 1 : scrollLeft > 1;
+      }
+      if (showStartScroll !== displayScroll.start || showEndScroll !== displayScroll.end) {
+        setDisplayScroll({
+          start: showStartScroll,
+          end: showEndScroll
+        });
+      }
+    }
+  });
+  _react.useEffect(function () {
+    var handleResize = _utilsDebounceDefault.default(function () {
+      updateIndicatorState();
+      updateScrollButtonState();
+    });
+    var win = _utilsOwnerWindowDefault.default(tabsRef.current);
+    win.addEventListener('resize', handleResize);
+    return function () {
+      handleResize.clear();
+      win.removeEventListener('resize', handleResize);
+    };
+  }, [updateIndicatorState, updateScrollButtonState]);
+  var handleTabsScroll = _react.useCallback(_utilsDebounceDefault.default(function () {
+    updateScrollButtonState();
+  }));
+  _react.useEffect(function () {
+    return function () {
+      handleTabsScroll.clear();
+    };
+  }, [handleTabsScroll]);
+  _react.useEffect(function () {
+    setMounted(true);
+  }, []);
+  _react.useEffect(function () {
+    updateIndicatorState();
+    updateScrollButtonState();
+  });
+  _react.useEffect(function () {
+    scrollSelectedIntoView();
+  }, [scrollSelectedIntoView, indicatorStyle]);
+  _react.useImperativeHandle(action, function () {
+    return {
+      updateIndicator: updateIndicatorState,
+      updateScrollButtons: updateScrollButtonState
+    };
+  }, [updateIndicatorState, updateScrollButtonState]);
+  var indicator = /*#__PURE__*/_react.createElement(_TabIndicatorDefault.default, _babelRuntimeHelpersEsmExtendsDefault.default({
+    className: classes.indicator,
+    orientation: orientation,
+    color: indicatorColor
+  }, TabIndicatorProps, {
+    style: _babelRuntimeHelpersEsmExtendsDefault.default({}, indicatorStyle, TabIndicatorProps.style)
+  }));
+  var childIndex = 0;
+  var children = _react.Children.map(childrenProp, function (child) {
+    if (!/*#__PURE__*/_react.isValidElement(child)) {
+      return null;
+    }
+    if ("development" !== 'production') {
+      if (_reactIs.isFragment(child)) {
+        console.error(["Material-UI: The Tabs component doesn't accept a Fragment as a child.", 'Consider providing an array instead.'].join('\n'));
+      }
+    }
+    var childValue = child.props.value === undefined ? childIndex : child.props.value;
+    valueToIndex.set(childValue, childIndex);
+    var selected = childValue === value;
+    childIndex += 1;
+    return (
+      /*#__PURE__*/_react.cloneElement(child, {
+        fullWidth: variant === 'fullWidth',
+        indicator: selected && !mounted && indicator,
+        selected: selected,
+        selectionFollowsFocus: selectionFollowsFocus,
+        onChange: onChange,
+        textColor: textColor,
+        value: childValue
+      })
+    );
+  });
+  var handleKeyDown = function handleKeyDown(event) {
+    var target = event.target;
+    // Keyboard navigation assumes that [role="tab"] are siblings
+    // though we might warn in the future about nested, interactive elements
+    // as a a11y violation
+    var role = target.getAttribute('role');
+    if (role !== 'tab') {
+      return;
+    }
+    var newFocusTarget = null;
+    var previousItemKey = orientation !== "vertical" ? 'ArrowLeft' : 'ArrowUp';
+    var nextItemKey = orientation !== "vertical" ? 'ArrowRight' : 'ArrowDown';
+    if (orientation !== "vertical" && theme.direction === 'rtl') {
+      // swap previousItemKey with nextItemKey
+      previousItemKey = 'ArrowRight';
+      nextItemKey = 'ArrowLeft';
+    }
+    switch (event.key) {
+      case previousItemKey:
+        newFocusTarget = target.previousElementSibling || tabListRef.current.lastChild;
+        break;
+      case nextItemKey:
+        newFocusTarget = target.nextElementSibling || tabListRef.current.firstChild;
+        break;
+      case 'Home':
+        newFocusTarget = tabListRef.current.firstChild;
+        break;
+      case 'End':
+        newFocusTarget = tabListRef.current.lastChild;
+        break;
+      default:
+        break;
+    }
+    if (newFocusTarget !== null) {
+      newFocusTarget.focus();
+      event.preventDefault();
+    }
+  };
+  var conditionalElements = getConditionalElements();
+  return (
+    /*#__PURE__*/_react.createElement(Component, _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default(classes.root, className, vertical && classes.vertical),
+      ref: ref
+    }, other), conditionalElements.scrollButtonStart, conditionalElements.scrollbarSizeListener, /*#__PURE__*/_react.createElement("div", {
+      className: _clsxDefault.default(classes.scroller, scrollable ? classes.scrollable : classes.fixed),
+      style: scrollerStyle,
+      ref: tabsRef,
+      onScroll: handleTabsScroll
+    }, /*#__PURE__*/_react.createElement("div", {
+      "aria-label": ariaLabel,
+      "aria-labelledby": ariaLabelledBy,
+      className: _clsxDefault.default(classes.flexContainer, vertical && classes.flexContainerVertical, centered && !scrollable && classes.centered),
+      onKeyDown: handleKeyDown,
+      ref: tabListRef,
+      role: "tablist"
+    }, children), mounted && indicator), conditionalElements.scrollButtonEnd)
+  );
+});
+"development" !== "production" ? Tabs.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+  /**
+  * Callback fired when the component mounts.
+  * This is useful when you want to trigger an action programmatically.
+  * It supports two actions: `updateIndicator()` and `updateScrollButtons()`
+  *
+  * @param {object} actions This object contains all possible actions
+  * that can be triggered programmatically.
+  */
+  action: _materialUiUtils.refType,
+  /**
+  * The label for the Tabs as a string.
+  */
+  'aria-label': _propTypesDefault.default.string,
+  /**
+  * An id or list of ids separated by a space that label the Tabs.
+  */
+  'aria-labelledby': _propTypesDefault.default.string,
+  /**
+  * If `true`, the tabs will be centered.
+  * This property is intended for large views.
+  */
+  centered: _propTypesDefault.default.bool,
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The component used for the root node.
+  * Either a string to use a HTML element or a component.
+  */
+  component: _propTypesDefault.default./*@typescript-to-proptypes-ignore*/
+  elementType,
+  /**
+  * Determines the color of the indicator.
+  */
+  indicatorColor: _propTypesDefault.default.oneOf(['primary', 'secondary']),
+  /**
+  * Callback fired when the value changes.
+  *
+  * @param {object} event The event source of the callback
+  * @param {any} value We default to the index of the child (number)
+  */
+  onChange: _propTypesDefault.default.func,
+  /**
+  * The tabs orientation (layout flow direction).
+  */
+  orientation: _propTypesDefault.default.oneOf(['horizontal', 'vertical']),
+  /**
+  * The component used to render the scroll buttons.
+  */
+  ScrollButtonComponent: _propTypesDefault.default.elementType,
+  /**
+  * Determine behavior of scroll buttons when tabs are set to scroll:
+  *
+  * - `auto` will only present them when not all the items are visible.
+  * - `desktop` will only present them on medium and larger viewports.
+  * - `on` will always present them.
+  * - `off` will never present them.
+  */
+  scrollButtons: _propTypesDefault.default.oneOf(['auto', 'desktop', 'off', 'on']),
+  /**
+  * If `true` the selected tab changes on focus. Otherwise it only
+  * changes on activation.
+  */
+  selectionFollowsFocus: _propTypesDefault.default.bool,
+  /**
+  * Props applied to the tab indicator element.
+  */
+  TabIndicatorProps: _propTypesDefault.default.object,
+  /**
+  * Props applied to the [`TabScrollButton`](/api/tab-scroll-button/) element.
+  */
+  TabScrollButtonProps: _propTypesDefault.default.object,
+  /**
+  * Determines the color of the `Tab`.
+  */
+  textColor: _propTypesDefault.default.oneOf(['inherit', 'primary', 'secondary']),
+  /**
+  * The value of the currently selected `Tab`.
+  * If you don't want any selected `Tab`, you can set this property to `false`.
+  */
+  value: _propTypesDefault.default.any,
+  /**
+  * Determines additional display behavior of the tabs:
+  *
+  *  - `scrollable` will invoke scrolling properties and allow for horizontally
+  *  scrolling (or swiping) of the tab bar.
+  *  -`fullWidth` will make the tabs grow to use all the available space,
+  *  which should be used for small views, like on mobile.
+  *  - `standard` will render the default state.
+  */
+  variant: _propTypesDefault.default.oneOf(['fullWidth', 'scrollable', 'standard'])
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiTabs'
+})(Tabs);
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","@babel/runtime/helpers/esm/defineProperty":"1MbJ7","react":"3b2NM","react-is":"68QIU","prop-types":"4dfy5","clsx":"29lTl","@material-ui/utils":"11kc7","../utils/debounce":"5UzsG","../utils/ownerWindow":"3oinN","../utils/scrollLeft":"6nVUk","../internal/animate":"1c6Nh","./ScrollbarSize":"5nUTi","../styles/withStyles":"4q1Sj","./TabIndicator":"1a50p","../TabScrollButton":"1eIsV","../utils/useEventCallback":"33awX","../styles/useTheme":"WDbNZ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5UzsG":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+function debounce(func) {
+  var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 166;
+  var timeout;
+  function debounced() {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+    // eslint-disable-next-line consistent-this
+    var that = this;
+    var later = function later() {
+      func.apply(that, args);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  }
+  debounced.clear = function () {
+    clearTimeout(timeout);
+  };
+  return debounced;
+}
+exports.default = debounce;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3oinN":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _ownerDocument = require('./ownerDocument');
+var _ownerDocumentDefault = _parcelHelpers.interopDefault(_ownerDocument);
+function ownerWindow(node) {
+  var doc = _ownerDocumentDefault.default(node);
+  return doc.defaultView || window;
+}
+exports.default = ownerWindow;
+
+},{"./ownerDocument":"4U0qh","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"4U0qh":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+function ownerDocument(node) {
+  return node && node.ownerDocument || document;
+}
+exports.default = ownerDocument;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6nVUk":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "detectScrollType", function () {
+  return detectScrollType;
+});
+_parcelHelpers.export(exports, "getNormalizedScrollLeft", function () {
+  return getNormalizedScrollLeft;
+});
+// Source from https://github.com/alitaheri/normalize-scroll-left
+var cachedType;
+function detectScrollType() {
+  if (cachedType) {
+    return cachedType;
+  }
+  var dummy = document.createElement('div');
+  var container = document.createElement('div');
+  container.style.width = '10px';
+  container.style.height = '1px';
+  dummy.appendChild(container);
+  dummy.dir = 'rtl';
+  dummy.style.fontSize = '14px';
+  dummy.style.width = '4px';
+  dummy.style.height = '1px';
+  dummy.style.position = 'absolute';
+  dummy.style.top = '-1000px';
+  dummy.style.overflow = 'scroll';
+  document.body.appendChild(dummy);
+  cachedType = 'reverse';
+  if (dummy.scrollLeft > 0) {
+    cachedType = 'default';
+  } else {
+    dummy.scrollLeft = 1;
+    if (dummy.scrollLeft === 0) {
+      cachedType = 'negative';
+    }
+  }
+  document.body.removeChild(dummy);
+  return cachedType;
+}
+function getNormalizedScrollLeft(element, direction) {
+  var scrollLeft = element.scrollLeft;
+  // Perform the calculations only when direction is rtl to avoid messing up the ltr bahavior
+  if (direction !== 'rtl') {
+    return scrollLeft;
+  }
+  var type = detectScrollType();
+  switch (type) {
+    case 'negative':
+      return element.scrollWidth - element.clientWidth + scrollLeft;
+    case 'reverse':
+      return element.scrollWidth - element.clientWidth - scrollLeft;
+    default:
+      return scrollLeft;
+  }
+}
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1c6Nh":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+function easeInOutSin(time) {
+  return (1 + Math.sin(Math.PI * time - Math.PI / 2)) / 2;
+}
+function animate(property, element, to) {
+  var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
+  var cb = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : function () {};
+  var _options$ease = options.ease, ease = _options$ease === void 0 ? easeInOutSin : _options$ease, _options$duration = options.duration, duration = _options$duration === void 0 ? 300 : _options$duration;
+  var start = null;
+  var from = element[property];
+  var cancelled = false;
+  var cancel = function cancel() {
+    cancelled = true;
+  };
+  var step = function step(timestamp) {
+    if (cancelled) {
+      cb(new Error('Animation cancelled'));
+      return;
+    }
+    if (start === null) {
+      start = timestamp;
+    }
+    var time = Math.min(1, (timestamp - start) / duration);
+    element[property] = ease(time) * (to - from) + from;
+    if (time >= 1) {
+      requestAnimationFrame(function () {
+        cb(null);
+      });
+      return;
+    }
+    requestAnimationFrame(step);
+  };
+  if (from === to) {
+    cb(new Error('Element already at target position'));
+    return cancel;
+  }
+  requestAnimationFrame(step);
+  return cancel;
+}
+exports.default = animate;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5nUTi":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _utilsDebounce = require('../utils/debounce');
+var _utilsDebounceDefault = _parcelHelpers.interopDefault(_utilsDebounce);
+var styles = {
+  width: 99,
+  height: 99,
+  position: 'absolute',
+  top: -9999,
+  overflow: 'scroll'
+};
+function ScrollbarSize(props) {
+  var onChange = props.onChange, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["onChange"]);
+  var scrollbarHeight = _react.useRef();
+  var nodeRef = _react.useRef(null);
+  var setMeasurements = function setMeasurements() {
+    scrollbarHeight.current = nodeRef.current.offsetHeight - nodeRef.current.clientHeight;
+  };
+  _react.useEffect(function () {
+    var handleResize = _utilsDebounceDefault.default(function () {
+      var prevHeight = scrollbarHeight.current;
+      setMeasurements();
+      if (prevHeight !== scrollbarHeight.current) {
+        onChange(scrollbarHeight.current);
+      }
+    });
+    window.addEventListener('resize', handleResize);
+    return function () {
+      handleResize.clear();
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [onChange]);
+  _react.useEffect(function () {
+    setMeasurements();
+    onChange(scrollbarHeight.current);
+  }, [onChange]);
+  return (
+    /*#__PURE__*/_react.createElement("div", _babelRuntimeHelpersEsmExtendsDefault.default({
+      style: styles,
+      ref: nodeRef
+    }, other))
+  );
+}
+exports.default = ScrollbarSize;
+"development" !== "production" ? ScrollbarSize.propTypes = {
+  onChange: _propTypesDefault.default.func.isRequired
+} : void 0;
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","../utils/debounce":"5UzsG","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1a50p":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _utilsCapitalize = require('../utils/capitalize');
+var _utilsCapitalizeDefault = _parcelHelpers.interopDefault(_utilsCapitalize);
+var styles = function styles(theme) {
+  return {
+    root: {
+      position: 'absolute',
+      height: 2,
+      bottom: 0,
+      width: '100%',
+      transition: theme.transitions.create()
+    },
+    colorPrimary: {
+      backgroundColor: theme.palette.primary.main
+    },
+    colorSecondary: {
+      backgroundColor: theme.palette.secondary.main
+    },
+    vertical: {
+      height: '100%',
+      width: 2,
+      right: 0
+    }
+  };
+};
+/**
+* @ignore - internal component.
+*/
+var TabIndicator = /*#__PURE__*/_react.forwardRef(function TabIndicator(props, ref) {
+  var classes = props.classes, className = props.className, color = props.color, orientation = props.orientation, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["classes", "className", "color", "orientation"]);
+  return (
+    /*#__PURE__*/_react.createElement("span", _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default(classes.root, classes[("color").concat(_utilsCapitalizeDefault.default(color))], className, orientation === 'vertical' && classes.vertical),
+      ref: ref
+    }, other))
+  );
+});
+"development" !== "production" ? TabIndicator.propTypes = {
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object.isRequired,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * @ignore
+  * The color of the tab indicator.
+  */
+  color: _propTypesDefault.default.oneOf(['primary', 'secondary']).isRequired,
+  /**
+  * The tabs orientation (layout flow direction).
+  */
+  orientation: _propTypesDefault.default.oneOf(['horizontal', 'vertical']).isRequired
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'PrivateTabIndicator'
+})(TabIndicator);
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","../utils/capitalize":"59pJw","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1eIsV":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _TabScrollButtonDefault.default;
+});
+var _TabScrollButton = require('./TabScrollButton');
+var _TabScrollButtonDefault = _parcelHelpers.interopDefault(_TabScrollButton);
+
+},{"./TabScrollButton":"36lLu","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"36lLu":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _internalSvgIconsKeyboardArrowLeft = require('../internal/svg-icons/KeyboardArrowLeft');
+var _internalSvgIconsKeyboardArrowLeftDefault = _parcelHelpers.interopDefault(_internalSvgIconsKeyboardArrowLeft);
+var _internalSvgIconsKeyboardArrowRight = require('../internal/svg-icons/KeyboardArrowRight');
+var _internalSvgIconsKeyboardArrowRightDefault = _parcelHelpers.interopDefault(_internalSvgIconsKeyboardArrowRight);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _ButtonBase = require('../ButtonBase');
+var _ButtonBaseDefault = _parcelHelpers.interopDefault(_ButtonBase);
+var styles = {
+  /*Styles applied to the root element.*/
+  root: {
+    width: 40,
+    flexShrink: 0,
+    opacity: 0.8,
+    '&$disabled': {
+      opacity: 0
+    }
+  },
+  /*Styles applied to the root element if `orientation="vertical"`.*/
+  vertical: {
+    width: '100%',
+    height: 40,
+    '& svg': {
+      transform: 'rotate(90deg)'
+    }
+  },
+  /*Pseudo-class applied to the root element if `disabled={true}`.*/
+  disabled: {}
+};
+var _ref = /*#__PURE__*/_react.createElement(_internalSvgIconsKeyboardArrowLeftDefault.default, {
+  fontSize: "small"
+});
+var _ref2 = /*#__PURE__*/_react.createElement(_internalSvgIconsKeyboardArrowRightDefault.default, {
+  fontSize: "small"
+});
+var TabScrollButton = /*#__PURE__*/_react.forwardRef(function TabScrollButton(props, ref) {
+  var classes = props.classes, classNameProp = props.className, direction = props.direction, orientation = props.orientation, disabled = props.disabled, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["classes", "className", "direction", "orientation", "disabled"]);
+  return (
+    /*#__PURE__*/_react.createElement(_ButtonBaseDefault.default, _babelRuntimeHelpersEsmExtendsDefault.default({
+      component: "div",
+      className: _clsxDefault.default(classes.root, classNameProp, disabled && classes.disabled, orientation === 'vertical' && classes.vertical),
+      ref: ref,
+      role: null,
+      tabIndex: null
+    }, other), direction === 'left' ? _ref : _ref2)
+  );
+});
+"development" !== "production" ? TabScrollButton.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+  /**
+  * The content of the component.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * Which direction should the button indicate?
+  */
+  direction: _propTypesDefault.default.oneOf(['left', 'right']).isRequired,
+  /**
+  * If `true`, the element will be disabled.
+  */
+  disabled: _propTypesDefault.default.bool,
+  /**
+  * The tabs orientation (layout flow direction).
+  */
+  orientation: _propTypesDefault.default.oneOf(['horizontal', 'vertical']).isRequired
+} : void 0;
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiTabScrollButton'
+})(TabScrollButton);
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../internal/svg-icons/KeyboardArrowLeft":"7pcSo","../internal/svg-icons/KeyboardArrowRight":"53OVV","../styles/withStyles":"4q1Sj","../ButtonBase":"6tm0a","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"7pcSo":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _react = require('react');
+var _utilsCreateSvgIcon = require('../../utils/createSvgIcon');
+var _utilsCreateSvgIconDefault = _parcelHelpers.interopDefault(_utilsCreateSvgIcon);
+exports.default = _utilsCreateSvgIconDefault.default(/*#__PURE__*/_react.createElement("path", {
+  d: "M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+}), 'KeyboardArrowLeft');
+
+},{"react":"3b2NM","../../utils/createSvgIcon":"3lXPs","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3lXPs":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _react = require('react');
+var _reactDefault = _parcelHelpers.interopDefault(_react);
+var _SvgIcon = require('../SvgIcon');
+var _SvgIconDefault = _parcelHelpers.interopDefault(_SvgIcon);
+function createSvgIcon(path, displayName) {
+  var Component = function Component(props, ref) {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_SvgIconDefault.default, _babelRuntimeHelpersEsmExtendsDefault.default({
+        ref: ref
+      }, props), path)
+    );
+  };
+  if ("development" !== 'production') {
+    // Need to set `displayName` on the inner component for React.memo.
+    // React prior to 16.14 ignores `displayName` on the wrapper.
+    Component.displayName = ("").concat(displayName, "Icon");
+=======
   function setPrompt(nextPrompt) {
     warning(prompt == null, 'A history supports only one prompt at a time');
     prompt = nextPrompt;
     return function () {
       if (prompt === nextPrompt) prompt = null;
     };
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   }
 
   function confirmTransitionTo(location, action, getUserConfirmation, callback) {
@@ -42051,6 +47088,246 @@ function setRef(ref, value) {
 }
 exports.default = setRef;
 
+<<<<<<< HEAD
+},{"react-refresh/runtime":"592mh"}],"31W7N":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreHidden = require('@material-ui/core/Hidden');
+  var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
+  var _materialUiIconsFacebook = require('@material-ui/icons/Facebook');
+  var _materialUiIconsFacebookDefault = _parcelHelpers.interopDefault(_materialUiIconsFacebook);
+  var _materialUiIconsTwitter = require('@material-ui/icons/Twitter');
+  var _materialUiIconsTwitterDefault = _parcelHelpers.interopDefault(_materialUiIconsTwitter);
+  var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
+  var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
+  require("@material-ui/core/Icon");
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ui\\Footer.js", _s = $RefreshSig$();
+  const Footer = props => {
+    _s();
+    const classes = useStyles();
+    const {value, setValue} = props;
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("footer", {
+        className: classes.footer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreHiddenDefault.default, {
+        mdDown: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        justify: "center",
+        className: classes.mainContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 13
+        }
+      }, "Home"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/downloads",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 15
+        }
+      }, "Downloads"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 15
+        }
+      }, "Services"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 15
+        }
+      }, "Services"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 2,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/keynotes",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 17
+        }
+      }, "Keynotes"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/precentations",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 17
+        }
+      }, "Research Paper Precentations"))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.gridItem,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        spacing: 3,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        className: classes.link,
+        component: _reactRouterDom.Link,
+        to: "/contact-us",
+        onClick: () => setValue(!value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 17
+        }
+      }, "Contact Us"))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        component: _reactRouterDom.Link,
+        to: "/",
+        disableRipple: true,
+        className: classes.footerLogoContainer,
+        onClick: () => setValue(0),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        alt: "I C A F",
+        className: classes.adornment,
+        src: "https://i.ibb.co/7N51p43/logo.png",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 7
+=======
 },{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1Xm5M":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
@@ -42103,6 +47380,7 @@ var styles = function styles(theme) {
         },
         '&$disabled': {
           backgroundColor: 'transparent'
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
         }
       },
       '&$disabled': {
@@ -44034,7 +49312,513 @@ exports.default = _stylesWithStylesDefault.default(styles, {
   name: 'PrivateHiddenCss'
 })(HiddenCss);
 
+<<<<<<< HEAD
+},{"@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","@babel/runtime/helpers/esm/defineProperty":"1MbJ7","react":"3b2NM","prop-types":"4dfy5","../utils/capitalize":"59pJw","../styles/withStyles":"4q1Sj","../styles/useTheme":"WDbNZ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3nVzn":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+}), 'Facebook');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3cGCZ":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+}), 'Twitter');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3NvF5":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+}), 'LinkedIn');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"4x5VY":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _IconDefault.default;
+});
+var _Icon = require('./Icon');
+var _IconDefault = _parcelHelpers.interopDefault(_Icon);
+
+},{"./Icon":"76JGi","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"76JGi":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "styles", function () {
+  return styles;
+});
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _clsx = require('clsx');
+var _clsxDefault = _parcelHelpers.interopDefault(_clsx);
+var _stylesWithStyles = require('../styles/withStyles');
+var _stylesWithStylesDefault = _parcelHelpers.interopDefault(_stylesWithStyles);
+var _utilsCapitalize = require('../utils/capitalize');
+var _utilsCapitalizeDefault = _parcelHelpers.interopDefault(_utilsCapitalize);
+var styles = function styles(theme) {
+  return {
+    /*Styles applied to the root element.*/
+    root: {
+      userSelect: 'none',
+      fontSize: theme.typography.pxToRem(24),
+      width: '1em',
+      height: '1em',
+      // Chrome fix for https://bugs.chromium.org/p/chromium/issues/detail?id=820541
+      // To remove at some point.
+      overflow: 'hidden',
+      flexShrink: 0
+    },
+    /*Styles applied to the root element if `color="primary"`.*/
+    colorPrimary: {
+      color: theme.palette.primary.main
+    },
+    /*Styles applied to the root element if `color="secondary"`.*/
+    colorSecondary: {
+      color: theme.palette.secondary.main
+    },
+    /*Styles applied to the root element if `color="action"`.*/
+    colorAction: {
+      color: theme.palette.action.active
+    },
+    /*Styles applied to the root element if `color="error"`.*/
+    colorError: {
+      color: theme.palette.error.main
+    },
+    /*Styles applied to the root element if `color="disabled"`.*/
+    colorDisabled: {
+      color: theme.palette.action.disabled
+    },
+    /*Styles applied to the root element if `fontSize="inherit"`.*/
+    fontSizeInherit: {
+      fontSize: 'inherit'
+    },
+    /*Styles applied to the root element if `fontSize="small"`.*/
+    fontSizeSmall: {
+      fontSize: theme.typography.pxToRem(20)
+    },
+    /*Styles applied to the root element if `fontSize="large"`.*/
+    fontSizeLarge: {
+      fontSize: theme.typography.pxToRem(36)
+    }
+  };
+};
+var Icon = /*#__PURE__*/_react.forwardRef(function Icon(props, ref) {
+  var classes = props.classes, className = props.className, _props$color = props.color, color = _props$color === void 0 ? 'inherit' : _props$color, _props$component = props.component, Component = _props$component === void 0 ? 'span' : _props$component, _props$fontSize = props.fontSize, fontSize = _props$fontSize === void 0 ? 'default' : _props$fontSize, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["classes", "className", "color", "component", "fontSize"]);
+  return (
+    /*#__PURE__*/_react.createElement(Component, _babelRuntimeHelpersEsmExtendsDefault.default({
+      className: _clsxDefault.default('material-icons', classes.root, className, color !== 'inherit' && classes[("color").concat(_utilsCapitalizeDefault.default(color))], fontSize !== 'default' && classes[("fontSize").concat(_utilsCapitalizeDefault.default(fontSize))]),
+      "aria-hidden": true,
+      ref: ref
+    }, other))
+  );
+});
+"development" !== "production" ? Icon.propTypes = {
+  /**
+  * The name of the icon font ligature.
+  */
+  children: _propTypesDefault.default.node,
+  /**
+  * Override or extend the styles applied to the component.
+  * See [CSS API](#css) below for more details.
+  */
+  classes: _propTypesDefault.default.object.isRequired,
+  /**
+  * @ignore
+  */
+  className: _propTypesDefault.default.string,
+  /**
+  * The color of the component. It supports those theme colors that make sense for this component.
+  */
+  color: _propTypesDefault.default.oneOf(['inherit', 'primary', 'secondary', 'action', 'error', 'disabled']),
+  /**
+  * The component used for the root node.
+  * Either a string to use a HTML element or a component.
+  */
+  component: _propTypesDefault.default./*@typescript-to-proptypes-ignore*/
+  elementType,
+  /**
+  * The fontSize applied to the icon. Defaults to 24px, but can be configure to inherit font size.
+  */
+  fontSize: _propTypesDefault.default.oneOf(['inherit', 'default', 'small', 'large'])
+} : void 0;
+Icon.muiName = 'Icon';
+exports.default = _stylesWithStylesDefault.default(styles, {
+  name: 'MuiIcon'
+})(Icon);
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","clsx":"29lTl","../styles/withStyles":"4q1Sj","../utils/capitalize":"59pJw","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3dV4y":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  require("@material-ui/core/Typography");
+  require("@material-ui/core/Paper");
+  require("@material-ui/core/Grow");
+  require("@material-ui/core/Button");
+  require("@material-ui/core/Hidden");
+  var _LandingPageComponentsBlockOne = require("./LandingPageComponents/BlockOne");
+  var _LandingPageComponentsBlockOneDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockOne);
+  var _LandingPageComponentsBlockTwo = require("./LandingPageComponents/BlockTwo");
+  var _LandingPageComponentsBlockTwoDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockTwo);
+  var _LandingPageComponentsBlockThree = require("./LandingPageComponents/BlockThree");
+  var _LandingPageComponentsBlockThreeDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockThree);
+  var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
+  var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
+  var _LandingPageComponentsBlockFive = require("./LandingPageComponents/BlockFive");
+  var _LandingPageComponentsBlockFiveDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFive);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPage.js";
+  const LandingPage = props => {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        direction: "column",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockOneDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockTwoDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockThreeDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockFourDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_LandingPageComponentsBlockFiveDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 11
+        }
+      })))
+    );
+  };
+  _c = LandingPage;
+  exports.default = LandingPage;
+  var _c;
+  $RefreshReg$(_c, "LandingPage");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","./LandingPageComponents/BlockOne":"GTXmc","./LandingPageComponents/BlockTwo":"7pMA2","./LandingPageComponents/BlockThree":"1hKpH","./LandingPageComponents/BlockFour":"5Ss6p","./LandingPageComponents/BlockFive":"34RP9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"2wLtl":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "default", function () {
+  return _GrowDefault.default;
+});
+var _Grow = require('./Grow');
+var _GrowDefault = _parcelHelpers.interopDefault(_Grow);
+
+},{"./Grow":"7o5Sf","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"7o5Sf":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _babelRuntimeHelpersEsmExtends = require("@babel/runtime/helpers/esm/extends");
+var _babelRuntimeHelpersEsmExtendsDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmExtends);
+var _babelRuntimeHelpersEsmSlicedToArray = require("@babel/runtime/helpers/esm/slicedToArray");
+var _babelRuntimeHelpersEsmSlicedToArrayDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmSlicedToArray);
+var _babelRuntimeHelpersEsmObjectWithoutProperties = require("@babel/runtime/helpers/esm/objectWithoutProperties");
+var _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault = _parcelHelpers.interopDefault(_babelRuntimeHelpersEsmObjectWithoutProperties);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypesDefault = _parcelHelpers.interopDefault(_propTypes);
+var _reactTransitionGroup = require('react-transition-group');
+var _stylesUseTheme = require('../styles/useTheme');
+var _stylesUseThemeDefault = _parcelHelpers.interopDefault(_stylesUseTheme);
+var _transitionsUtils = require('../transitions/utils');
+var _utilsUseForkRef = require('../utils/useForkRef');
+var _utilsUseForkRefDefault = _parcelHelpers.interopDefault(_utilsUseForkRef);
+function getScale(value) {
+  return ("scale(").concat(value, ", ").concat(Math.pow(value, 2), ")");
+}
+var styles = {
+  entering: {
+    opacity: 1,
+    transform: getScale(1)
+  },
+  entered: {
+    opacity: 1,
+    transform: 'none'
+  }
+};
+/**
+* The Grow transition is used by the [Tooltip](/components/tooltips/) and
+* [Popover](/components/popover/) components.
+* It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+*/
+var Grow = /*#__PURE__*/_react.forwardRef(function Grow(props, ref) {
+  var children = props.children, _props$disableStrictM = props.disableStrictModeCompat, disableStrictModeCompat = _props$disableStrictM === void 0 ? false : _props$disableStrictM, inProp = props.in, onEnter = props.onEnter, onEntered = props.onEntered, onEntering = props.onEntering, onExit = props.onExit, onExited = props.onExited, onExiting = props.onExiting, style = props.style, _props$timeout = props.timeout, timeout = _props$timeout === void 0 ? 'auto' : _props$timeout, _props$TransitionComp = props.TransitionComponent, TransitionComponent = _props$TransitionComp === void 0 ? _reactTransitionGroup.Transition : _props$TransitionComp, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["children", "disableStrictModeCompat", "in", "onEnter", "onEntered", "onEntering", "onExit", "onExited", "onExiting", "style", "timeout", "TransitionComponent"]);
+  var timer = _react.useRef();
+  var autoTimeout = _react.useRef();
+  var theme = _stylesUseThemeDefault.default();
+  var enableStrictModeCompat = theme.unstable_strictMode && !disableStrictModeCompat;
+  var nodeRef = _react.useRef(null);
+  var foreignRef = _utilsUseForkRefDefault.default(children.ref, ref);
+  var handleRef = _utilsUseForkRefDefault.default(enableStrictModeCompat ? nodeRef : undefined, foreignRef);
+  var normalizedTransitionCallback = function normalizedTransitionCallback(callback) {
+    return function (nodeOrAppearing, maybeAppearing) {
+      if (callback) {
+        var _ref = enableStrictModeCompat ? [nodeRef.current, nodeOrAppearing] : [nodeOrAppearing, maybeAppearing], _ref2 = _babelRuntimeHelpersEsmSlicedToArrayDefault.default(_ref, 2), node = _ref2[0], isAppearing = _ref2[1];
+        // onEnterXxx and onExitXxx callbacks have a different arguments.length value.
+        if (isAppearing === undefined) {
+          callback(node);
+        } else {
+          callback(node, isAppearing);
+        }
+      }
+    };
+  };
+  var handleEntering = normalizedTransitionCallback(onEntering);
+  var handleEnter = normalizedTransitionCallback(function (node, isAppearing) {
+    _transitionsUtils.reflow(node);
+    // So the animation always start from the start.
+    var _getTransitionProps = _transitionsUtils.getTransitionProps({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'enter'
+    }), transitionDuration = _getTransitionProps.duration, delay = _getTransitionProps.delay;
+    var duration;
+    if (timeout === 'auto') {
+      duration = theme.transitions.getAutoHeightDuration(node.clientHeight);
+      autoTimeout.current = duration;
+    } else {
+      duration = transitionDuration;
+    }
+    node.style.transition = [theme.transitions.create('opacity', {
+      duration: duration,
+      delay: delay
+    }), theme.transitions.create('transform', {
+      duration: duration * 0.666,
+      delay: delay
+    })].join(',');
+    if (onEnter) {
+      onEnter(node, isAppearing);
+    }
+  });
+  var handleEntered = normalizedTransitionCallback(onEntered);
+  var handleExiting = normalizedTransitionCallback(onExiting);
+  var handleExit = normalizedTransitionCallback(function (node) {
+    var _getTransitionProps2 = _transitionsUtils.getTransitionProps({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'exit'
+    }), transitionDuration = _getTransitionProps2.duration, delay = _getTransitionProps2.delay;
+    var duration;
+    if (timeout === 'auto') {
+      duration = theme.transitions.getAutoHeightDuration(node.clientHeight);
+      autoTimeout.current = duration;
+    } else {
+      duration = transitionDuration;
+    }
+    node.style.transition = [theme.transitions.create('opacity', {
+      duration: duration,
+      delay: delay
+    }), theme.transitions.create('transform', {
+      duration: duration * 0.666,
+      delay: delay || duration * 0.333
+    })].join(',');
+    node.style.opacity = '0';
+    node.style.transform = getScale(0.75);
+    if (onExit) {
+      onExit(node);
+    }
+  });
+  var handleExited = normalizedTransitionCallback(onExited);
+  var addEndListener = function addEndListener(nodeOrNext, maybeNext) {
+    var next = enableStrictModeCompat ? nodeOrNext : maybeNext;
+    if (timeout === 'auto') {
+      timer.current = setTimeout(next, autoTimeout.current || 0);
+    }
+  };
+  _react.useEffect(function () {
+    return function () {
+      clearTimeout(timer.current);
+    };
+  }, []);
+  return (
+    /*#__PURE__*/_react.createElement(TransitionComponent, _babelRuntimeHelpersEsmExtendsDefault.default({
+      appear: true,
+      in: inProp,
+      nodeRef: enableStrictModeCompat ? nodeRef : undefined,
+      onEnter: handleEnter,
+      onEntered: handleEntered,
+      onEntering: handleEntering,
+      onExit: handleExit,
+      onExited: handleExited,
+      onExiting: handleExiting,
+      addEndListener: addEndListener,
+      timeout: timeout === 'auto' ? null : timeout
+    }, other), function (state, childProps) {
+      return (
+        /*#__PURE__*/_react.cloneElement(children, _babelRuntimeHelpersEsmExtendsDefault.default({
+          style: _babelRuntimeHelpersEsmExtendsDefault.default({
+            opacity: 0,
+            transform: getScale(0.75),
+            visibility: state === 'exited' && !inProp ? 'hidden' : undefined
+          }, styles[state], style, children.props.style),
+          ref: handleRef
+        }, childProps))
+      );
+    })
+  );
+});
+"development" !== "production" ? Grow.propTypes = {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+  /**
+  * A single child content element.
+  */
+  children: _propTypesDefault.default.element,
+  /**
+  * Enable this prop if you encounter 'Function components cannot be given refs',
+  * use `unstable_createStrictModeTheme`,
+  * and can't forward the ref in the child component.
+  */
+  disableStrictModeCompat: _propTypesDefault.default.bool,
+  /**
+  * If `true`, show the component; triggers the enter or exit animation.
+  */
+  in: _propTypesDefault.default.bool,
+  /**
+  * @ignore
+  */
+  onEnter: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onEntered: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onEntering: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onExit: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onExited: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  onExiting: _propTypesDefault.default.func,
+  /**
+  * @ignore
+  */
+  style: _propTypesDefault.default.object,
+  /**
+  * The duration for the transition, in milliseconds.
+  * You may specify a single timeout for all transitions, or individually with an object.
+  *
+  * Set to 'auto' to automatically calculate transition time based on height.
+  */
+  timeout: _propTypesDefault.default.oneOfType([_propTypesDefault.default.oneOf(['auto']), _propTypesDefault.default.number, _propTypesDefault.default.shape({
+    appear: _propTypesDefault.default.number,
+    enter: _propTypesDefault.default.number,
+    exit: _propTypesDefault.default.number
+  })])
+} : void 0;
+Grow.muiSupportAuto = true;
+exports.default = Grow;
+
+},{"@babel/runtime/helpers/esm/extends":"5qnVv","@babel/runtime/helpers/esm/slicedToArray":"4Qm8F","@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","react":"3b2NM","prop-types":"4dfy5","react-transition-group":"7Iywh","../styles/useTheme":"WDbNZ","../transitions/utils":"5xVFa","../utils/useForkRef":"5XQwt","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"GTXmc":[function(require,module,exports) {
+=======
 },{"@babel/runtime/helpers/esm/objectWithoutProperties":"5UtKX","@babel/runtime/helpers/esm/defineProperty":"1MbJ7","react":"3b2NM","prop-types":"4dfy5","../utils/capitalize":"59pJw","../styles/withStyles":"4q1Sj","../styles/useTheme":"WDbNZ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"GTXmc":[function(require,module,exports) {
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -44057,7 +49841,11 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreHidden = require("@material-ui/core/Hidden");
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockOne.js", _s = $RefreshSig$();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockOne.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const BlockOne = props => {
     _s();
     const classes = useStyles();
@@ -44420,7 +50208,11 @@ try {
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
   var _materialUiCore = require("@material-ui/core");
   var _storeData = require("../../store/data");
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockTwo.js", _s = $RefreshSig$();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockTwo.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   function _extends() {
     _extends = Object.assign || (function (target) {
       for (var i = 1; i < arguments.length; i++) {
@@ -57077,7 +62869,7 @@ var styles = {
 * </FormControl>
 * ```
 *
-* ⚠️Only one input can be used within a FormControl.
+* ���️Only one input can be used within a FormControl.
 */
 var FormControl = /*#__PURE__*/_react.forwardRef(function FormControl(props, ref) {
   var children = props.children, classes = props.classes, className = props.className, _props$color = props.color, color = _props$color === void 0 ? 'primary' : _props$color, _props$component = props.component, Component = _props$component === void 0 ? 'div' : _props$component, _props$disabled = props.disabled, disabled = _props$disabled === void 0 ? false : _props$disabled, _props$error = props.error, error = _props$error === void 0 ? false : _props$error, _props$fullWidth = props.fullWidth, fullWidth = _props$fullWidth === void 0 ? false : _props$fullWidth, visuallyFocused = props.focused, _props$hiddenLabel = props.hiddenLabel, hiddenLabel = _props$hiddenLabel === void 0 ? false : _props$hiddenLabel, _props$margin = props.margin, margin = _props$margin === void 0 ? 'none' : _props$margin, _props$required = props.required, required = _props$required === void 0 ? false : _props$required, size = props.size, _props$variant = props.variant, variant = _props$variant === void 0 ? 'standard' : _props$variant, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["children", "classes", "className", "color", "component", "disabled", "error", "fullWidth", "focused", "hiddenLabel", "margin", "required", "size", "variant"]);
@@ -73301,7 +79093,11 @@ try {
   require("@material-ui/core");
   var _materialUiCoreSlide = require("@material-ui/core/Slide");
   var _materialUiCoreSlideDefault = _parcelHelpers.interopDefault(_materialUiCoreSlide);
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockThree.js", _s = $RefreshSig$();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockThree.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const BlockThree = props => {
     _s();
     const classes = useStyles();
@@ -73496,7 +79292,11 @@ try {
   require("@material-ui/core");
   var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFour.js", _s = $RefreshSig$();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockFour.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const BlockFour = () => {
     _s();
     const classes = useStyles();
@@ -73808,7 +79608,11 @@ try {
   require("@material-ui/core");
   var _storeData = require("../../store/data");
   require("@material-ui/core");
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFive.js", _s = $RefreshSig$();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/LandingPageComponents/BlockFive.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const BlockFive = props => {
     _s();
     const classes = useStyles();
@@ -73953,7 +79757,11 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Keynote.js";
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/Keynote.js";
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const Keynote = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
@@ -74013,7 +79821,11 @@ try {
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _reactRouterDom = require("react-router-dom");
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ContactUs.js", _s = $RefreshSig$();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/ContactUs.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const ContactUs = props => {
     _s();
     const classes = useStyles();
@@ -76876,9 +82688,14 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _storeAuthContext = require("../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\SignIn.js", _s = $RefreshSig$();
+  const SignIn = () => {
+=======
   var _reactRouterDom = require("react-router-dom");
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/signUp/WorkshopConductorRegistration.js", _s = $RefreshSig$();
   const WorkshopConductorRegistration = () => {
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
     _s();
     const [selectedFile, setSelectedFile] = _react.useState();
     const [selectedFileName, setSelectedFileName] = _react.useState();
@@ -77205,8 +83022,83 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 }), 'AssignmentInd');
 
 exports.default = _default;
+<<<<<<< HEAD
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"8Jk2N":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  _parcelHelpers.export(exports, "AuthContextProvider", function () {
+    return AuthContextProvider;
+  });
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\store\\auth-context.js", _s = $RefreshSig$();
+  const AuthContext = /*#__PURE__*/_reactDefault.default.createContext({
+    token: "",
+    role: "",
+    isLoggedIn: false,
+    login: token => {},
+    logout: () => {}
+  });
+  const AuthContextProvider = props => {
+    _s();
+    const initialToken = localStorage.getItem('token');
+    const initialRole = localStorage.getItem('role');
+    const [token, setToken] = _react.useState(initialToken);
+    const [role, setRole] = _react.useState(initialRole);
+    const userIsLoggedIn = !!token;
+    const loginHandler = (token, role) => {
+      setToken(token);
+      setRole(role);
+      localStorage.setItem('token', token);
+      localStorage.setItem('role', role);
+    };
+    const logoutHandler = () => {
+      setToken(null);
+      setRole(null);
+      localStorage.removeItem('token');
+      localStorage.removeItem('role');
+    };
+    const contextValue = {
+      token: token,
+      role,
+      isLoggedIn: userIsLoggedIn,
+      login: loginHandler,
+      logout: logoutHandler
+    };
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(AuthContext.Provider, {
+        value: contextValue,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 12
+        }
+      }, props.children)
+    );
+  };
+  _s(AuthContextProvider, "yQr16QmgNRq6HiwtItyaiRmW2sc=");
+  _c = AuthContextProvider;
+  exports.default = AuthContext;
+  var _c;
+  $RefreshReg$(_c, "AuthContextProvider");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1JS3X":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+=======
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"5ashA":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
 helpers.prelude(module);
@@ -77232,6 +83124,29 @@ try {
   require("@material-ui/icons/LockOutlined");
   var _materialUiCoreTypography = require("@material-ui/core/Typography");
   var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+<<<<<<< HEAD
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
+  var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  require("@material-ui/core/Grow");
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  require("@material-ui/core/Hidden");
+  require("@material-ui/core");
+  var _materialUiCoreListItem = require("@material-ui/core/ListItem");
+  var _materialUiCoreListItemDefault = _parcelHelpers.interopDefault(_materialUiCoreListItem);
+  var _materialUiCoreList = require("@material-ui/core/List");
+  var _materialUiCoreListDefault = _parcelHelpers.interopDefault(_materialUiCoreList);
+  var _materialUiIconsLabel = require("@material-ui/icons/Label");
+  var _materialUiIconsLabelDefault = _parcelHelpers.interopDefault(_materialUiIconsLabel);
+  var _materialUiCoreListItemIcon = require("@material-ui/core/ListItemIcon");
+  var _materialUiCoreListItemIconDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemIcon);
+  var _materialUiCoreListItemText = require("@material-ui/core/ListItemText");
+  var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
+  var _reactRouterDom = require("react-router-dom");
+  var _storeData = require("../store/data");
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Registration.js", _s = $RefreshSig$();
+  const Registration = props => {
+=======
   var _materialUiCoreStyles = require("@material-ui/core/styles");
   var _materialUiCoreContainer = require("@material-ui/core/Container");
   var _materialUiCoreContainerDefault = _parcelHelpers.interopDefault(_materialUiCoreContainer);
@@ -77241,6 +83156,7 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/signUp/ResearchPresenterRegistration.js", _s = $RefreshSig$();
   const ResearchPresenterRegistration = () => {
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
     _s();
     const [selectedFile, setSelectedFile] = _react.useState();
     const [selectedFileName, setSelectedFileName] = _react.useState();
@@ -77591,10 +83507,21 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _storeAuthContext = require("../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
+<<<<<<< HEAD
+  var _reactRouterDom = require("react-router-dom");
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\WorkshopConductorRegistration.js", _s = $RefreshSig$();
+  const WorkshopConductorRegistration = () => {
+    _s();
+    const [selectedFile, setSelectedFile] = _react.useState();
+    const [selectedFileName, setSelectedFileName] = _react.useState();
+    const [isFilePicked, setIsFilePicked] = _react.useState(false);
+    const classes = useStyles();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/signUp/UserRegistration.js", _s2 = $RefreshSig$();
   const UserRegistration = () => {
     _s2();
     var _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
     const history = _reactRouterDom.useHistory();
     const authCtx = _react.useContext(_storeAuthContextDefault.default);
     const classes = useStyles();
@@ -78214,6 +84141,17 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreTypography = require("@material-ui/core/Typography");
   var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+<<<<<<< HEAD
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreContainer = require("@material-ui/core/Container");
+  var _materialUiCoreContainerDefault = _parcelHelpers.interopDefault(_materialUiCoreContainer);
+  var _materialUiIconsAssignmentInd = require("@material-ui/icons/AssignmentInd");
+  var _materialUiIconsAssignmentIndDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignmentInd);
+  var _axios = require('axios');
+  var _axiosDefault = _parcelHelpers.interopDefault(_axios);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\ResearchPresenterRegistration.js", _s = $RefreshSig$();
+  const ResearchPresenterRegistration = () => {
+=======
   var _materialUiCoreUseScrollTrigger = require("@material-ui/core/useScrollTrigger");
   var _materialUiCoreUseScrollTriggerDefault = _parcelHelpers.interopDefault(_materialUiCoreUseScrollTrigger);
   var _materialUiCoreTabs = require("@material-ui/core/Tabs");
@@ -78242,6 +84180,7 @@ try {
   var _storeData = require("../../store/data");
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/ui/Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
     _s();
     const {value, setValue} = props;
     const classes = useStyles();
@@ -78718,6 +84657,27 @@ try {
   var _materialUiCoreStyles = require("@material-ui/core/styles");
   var _materialUiCoreGrid = require("@material-ui/core/Grid");
   var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+<<<<<<< HEAD
+  require("@material-ui/core/Box");
+  require("@material-ui/icons/LockOutlined");
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreContainer = require("@material-ui/core/Container");
+  var _materialUiCoreContainerDefault = _parcelHelpers.interopDefault(_materialUiCoreContainer);
+  var _materialUiIconsAssignmentInd = require("@material-ui/icons/AssignmentInd");
+  var _materialUiIconsAssignmentIndDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignmentInd);
+  var _axios = require('axios');
+  var _axiosDefault = _parcelHelpers.interopDefault(_axios);
+  var _storeAuthContext = require("../../store/auth-context");
+  var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\UserRegistration.js", _s2 = $RefreshSig$();
+  const UserRegistration = () => {
+    _s2();
+    var _s = $RefreshSig$();
+    const history = _reactRouterDom.useHistory();
+    const authCtx = _react.useContext(_storeAuthContextDefault.default);
+=======
   var _materialUiCoreButton = require("@material-ui/core/Button");
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreHidden = require('@material-ui/core/Hidden');
@@ -78732,6 +84692,7 @@ try {
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/ui/Footer.js", _s = $RefreshSig$();
   const Footer = props => {
     _s();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
     const classes = useStyles();
     const {value, setValue} = props;
     return (
@@ -78878,12 +84839,103 @@ try {
           lineNumber: 41,
           columnNumber: 17
         }
+<<<<<<< HEAD
+      }, "Sign Up"))))
+    );
+  };
+  _s2(UserRegistration, "SeoOdYeZz+KZJKoEIxn4ZLP30qE=", false, function () {
+    return [_reactRouterDom.useHistory, useStyles];
+  });
+  _c = UserRegistration;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    paper: {
+      marginTop: theme.spacing(12),
+      marginBottom: theme.spacing(13),
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center"
+    },
+    avatar: {
+      margin: theme.spacing(1),
+      backgroundColor: theme.palette.secondary.main
+    },
+    form: {
+      width: "100%",
+      // Fix IE 11 issue.
+      marginTop: theme.spacing(3)
+    },
+    submit: {
+      margin: theme.spacing(3, 0, 2)
+    }
+  }));
+  exports.default = UserRegistration;
+  var _c;
+  $RefreshReg$(_c, "UserRegistration");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","axios":"7rA65","../../store/auth-context":"8Jk2N","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7cLhj":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  require("@material-ui/core/Paper");
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
+  var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  require("@material-ui/core/Grow");
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  require("@material-ui/core/Hidden");
+  require("@material-ui/core");
+  require("@material-ui/core");
+  require("@material-ui/core/Avatar");
+  require("@material-ui/core/TextField");
+  var _materialUiCoreChip = require("@material-ui/core/Chip");
+  var _materialUiCoreChipDefault = _parcelHelpers.interopDefault(_materialUiCoreChip);
+  var _storeAuthContext = require("../store/auth-context");
+  var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
+  var _axios = require("axios");
+  var _axiosDefault = _parcelHelpers.interopDefault(_axios);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Workshop.js", _s = $RefreshSig$();
+  const Workshop = props => {
+    _s();
+    const classes = useStyles();
+    const history = _reactRouterDom.useHistory();
+    const [workshops, setWorkshops] = _react.useState([]);
+    const authCtx = _react.useContext(_storeAuthContextDefault.default);
+    // useEffect(() =>{
+    // if(authCtx.role){
+    // history.replace('')
+    // }
+    // },[])
+    _react.useEffect(async () => {
+      const response = await _axiosDefault.default.get('http://localhost:9090/api/workshop/workshop-approved');
+      setWorkshops(response.data);
+    }, []);
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+=======
       }, "Keynotes"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
         item: true,
         className: classes.link,
         component: _reactRouterDom.Link,
         to: "/precentations",
         onClick: () => setValue(!value),
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
@@ -80793,9 +86845,13 @@ try {
   var _reactRouterDom = require("react-router-dom");
   var _WorkshopTable = require("./WorkshopTable");
   var _WorkshopTableDefault = _parcelHelpers.interopDefault(_WorkshopTable);
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\admin\\ui\\AdminDashboard.js", _s = $RefreshSig$();
+=======
   var _EditorUI = require("./EditorUI");
   var _EditorUIDefault = _parcelHelpers.interopDefault(_EditorUI);
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/admin/ui/AdminDashboard.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const AdminDashboard = () => {
     _s();
     const classes = useStyles();
@@ -81106,7 +87162,11 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
+<<<<<<< HEAD
+},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@material-ui/icons/ExitToApp":"3MuXQ","../../../store/auth-context":"8Jk2N","@material-ui/core":"6DoV9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","./WorkshopTable":"3uc7a"}],"1IYYX":[function(require,module,exports) {
+=======
 },{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../../../store/auth-context":"8Jk2N","@material-ui/icons/ExitToApp":"3MuXQ","@material-ui/core":"6DoV9","react-router-dom":"1PMSK","./WorkshopTable":"3uc7a","./EditorUI":"3rS8I"}],"1IYYX":[function(require,module,exports) {
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81159,7 +87219,11 @@ try {
   var _materialUiIconsHowToVote = require('@material-ui/icons/HowToVote');
   var _materialUiIconsHowToVoteDefault = _parcelHelpers.interopDefault(_materialUiIconsHowToVote);
   require('@material-ui/icons/Assignment');
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\admin\\ui\\ListItems.js";
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/admin/ui/ListItems.js";
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   const mainListItems = /*#__PURE__*/_reactDefault.default.createElement("div", {
     __self: undefined,
     __source: {
@@ -81285,7 +87349,11 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
+<<<<<<< HEAD
+},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Edit":"6vamI","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","@material-ui/icons/HowToVote":"5rhP0"}],"5Q3Fn":[function(require,module,exports) {
+=======
 },{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/icons/Edit":"6vamI","react-router-dom":"1PMSK","@material-ui/icons/HowToVote":"5rhP0"}],"5Q3Fn":[function(require,module,exports) {
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81327,7 +87395,11 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 }), 'Assignment');
 
 exports.default = _default;
+<<<<<<< HEAD
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3UO7R":[function(require,module,exports) {
+=======
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"6vamI":[function(require,module,exports) {
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81344,8 +87416,13 @@ var React = _interopRequireWildcard(require("react"));
 var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
 
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+<<<<<<< HEAD
+  d: "M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
+}), 'Assignment');
+=======
   d: "M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
 }), 'Edit');
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"5rhP0":[function(require,module,exports) {
@@ -81399,7 +87476,11 @@ try {
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   require('react-router-dom');
+<<<<<<< HEAD
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\admin\\ui\\WorkshopTable.js", _s = $RefreshSig$();
+=======
   var _jsxFileName = "/home/kaveen/Desktop/ICAF/ICAF_Frontend/src/components/admin/ui/WorkshopTable.js", _s = $RefreshSig$();
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   function createData(name, calories, fat, carbs, protein) {
     return {
       name,
@@ -81645,14 +87726,228 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
+<<<<<<< HEAD
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Table":"2hWa6","@material-ui/core/TableBody":"3NuTm","@material-ui/core/TableCell":"5NY9j","@material-ui/core/TableContainer":"7nxDP","@material-ui/core/TableHead":"7r3Ml","@material-ui/core/TableRow":"IN3FY","@material-ui/core/Paper":"5Fj22","@material-ui/core/Button":"1Xm5M","axios":"7rA65","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3VDRg":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+=======
 },{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Table":"2hWa6","@material-ui/core/TableBody":"3NuTm","@material-ui/core/TableCell":"5NY9j","@material-ui/core/TableContainer":"7nxDP","@material-ui/core/TableHead":"7r3Ml","@material-ui/core/TableRow":"IN3FY","@material-ui/core/Paper":"5Fj22","@material-ui/core/Button":"1Xm5M","axios":"7rA65","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3rS8I":[function(require,module,exports) {
 var helpers = require("../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
 helpers.prelude(module);
 try {
   var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
   _parcelHelpers.defineInteropFlag(exports);
+<<<<<<< HEAD
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
+  var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreCard = require('@material-ui/core/Card');
+  var _materialUiCoreCardDefault = _parcelHelpers.interopDefault(_materialUiCoreCard);
+  var _materialUiCoreCardActions = require('@material-ui/core/CardActions');
+  var _materialUiCoreCardActionsDefault = _parcelHelpers.interopDefault(_materialUiCoreCardActions);
+  var _materialUiCoreCardContent = require('@material-ui/core/CardContent');
+  var _materialUiCoreCardContentDefault = _parcelHelpers.interopDefault(_materialUiCoreCardContent);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\presentation\\Presentation.js", _s = $RefreshSig$();
+  const Presentation = props => {
+    _s();
+    const classes = useStyles();
+    const history = _reactRouterDom.useHistory();
+    const bull = /*#__PURE__*/_reactDefault.default.createElement("span", {
+      className: classes.bullet,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 16
+      }
+    }, "•");
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        className: classes.presentationContainer,
+        direction: "column",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        alignItems: "center",
+        direction: "column",
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h4",
+        className: classes.presentationHeader,
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 13
+        }
+      }, "PRESENTATION"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
+        variant: "middle",
+        className: classes.divider,
+        light: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 13
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        justify: "center",
+        className: classes.presentationBodyContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardDefault.default, {
+        className: classes.root,
+        variant: "outlined",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardContentDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        className: classes.title,
+        color: "textSecondary",
+        gutterBottom: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 13
+        }
+      }, "Word of the Day"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h5",
+        component: "h2",
+        className: classes.pos,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 13
+        }
+      }, bull, "Advanced Instrumental Techniques and Future of Advanced Materials"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "body2",
+        component: "p",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 13
+        }
+      }, '"This presentation focuses on advance instrumental techniques and future advance materials. Advanced instrumental techniques, namely; scanning electron microscopy (SEM), transmission electron microscopy (TEM) based instrumental techniques are widely used in experimental research in various streams of science and engineering. The knowledge on the advanced instrumental techniques is crucial for experimental research, failure analysis, and quality assurance. Future advance materials open an avenue for design and development of new devices. The scope of this workshop is firstly to acquaint participants with a fundamental understanding of the theoretical basis as well as the practical applications of these instrumental techniques along with lectures and demonstrations on the techniques. Secondly to rise awareness on future advance materials for cutting-edge research and new developments along with lectures, research guidance, international collaboration, fundraising, and project investigations."')), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardActionsDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        size: "small",
+        variant: "contained",
+        color: "secondary",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 13
+        }
+      }, "Download Presentation"))))))
+    );
+  };
+  _s(Presentation, "cXZz/rbrhPrjL6gJaTc75NCtuak=", false, function () {
+    return [useStyles, _reactRouterDom.useHistory];
+  });
+  _c = Presentation;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    presentationContainer: {
+      marginTop: "6rem",
+      marginBottom: "2rem"
+    },
+    presentationHeader: {
+      fontFamily: "Raleway",
+      fontWeight: 800,
+      color: theme.palette.common.blue
+    },
+    divider: {
+      backgroundColor: theme.palette.common.yellow,
+      height: "0.2rem"
+    },
+    presentationBodyContainer: {
+      marginTop: theme.spacing(8)
+    },
+    workshopContent: {
+      marginTop: theme.spacing(3)
+    },
+    root: {
+      minWidth: 275
+    },
+    bullet: {
+      display: 'inline-block',
+      margin: '0 2px',
+      transform: 'scale(0.8)'
+    },
+    title: {
+      fontSize: 14
+    },
+    pos: {
+      marginBottom: 12
+    }
+  }));
+  exports.default = Presentation;
+  var _c;
+  $RefreshReg$(_c, "Presentation");
+=======
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _materialUiCoreStyles = require('@material-ui/core/styles');
@@ -81818,12 +88113,17 @@ try {
   _c = EditorUI;
   var _c;
   $RefreshReg$(_c, "EditorUI");
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
   helpers.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
 
+<<<<<<< HEAD
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/styles":"1Rdvd","@material-ui/core/Button":"1Xm5M","react-router-dom":"1PMSK","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/Card":"37gLn","@material-ui/core/CardActions":"1bjjB","@material-ui/core/CardContent":"VtMKY"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+=======
 },{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Table":"2hWa6","@material-ui/core/TableBody":"3NuTm","@material-ui/core/TableCell":"5NY9j","@material-ui/core/TableContainer":"7nxDP","@material-ui/core/TableHead":"7r3Ml","@material-ui/core/TableRow":"IN3FY","@material-ui/core/Paper":"5Fj22","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core":"6DoV9"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+>>>>>>> ddbbd94fb0e7dc465d25c9834eec4a354e91cb50
 
 //# sourceMappingURL=index.fd532818.js.map
