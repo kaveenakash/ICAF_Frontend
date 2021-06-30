@@ -740,9 +740,9 @@ if ("development" !== "production") {
   })();
 }
 
-},{}],"4WSGi":[function(require,module,exports) {
+},{}],"A7H4y":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 59823;
+var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "62d5dab885897b04655082d4fd532818";
@@ -81260,21 +81260,34 @@ try {
   var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
   var _materialUiCoreDivider = require("@material-ui/core/Divider");
   var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
-  require("@material-ui/core/Button");
-  require('@material-ui/core/Card');
-  require('@material-ui/core/CardActions');
-  require('@material-ui/core/CardContent');
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreCard = require('@material-ui/core/Card');
+  var _materialUiCoreCardDefault = _parcelHelpers.interopDefault(_materialUiCoreCard);
+  var _materialUiCoreCardActions = require('@material-ui/core/CardActions');
+  var _materialUiCoreCardActionsDefault = _parcelHelpers.interopDefault(_materialUiCoreCardActions);
+  var _materialUiCoreCardContent = require('@material-ui/core/CardContent');
+  var _materialUiCoreCardContentDefault = _parcelHelpers.interopDefault(_materialUiCoreCardContent);
   var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\presentation\\Presentation.js", _s = $RefreshSig$();
   const Presentation = props => {
     _s();
     const classes = useStyles();
     const history = _reactRouterDom.useHistory();
+    const bull = /*#__PURE__*/_reactDefault.default.createElement("span", {
+      className: classes.bullet,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 16
+      }
+    }, "•");
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 21,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -81284,7 +81297,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 22,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -81295,7 +81308,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 23,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -81303,7 +81316,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 24,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -81313,7 +81326,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 25,
           columnNumber: 13
         }
       }, "PRESENTATION"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
@@ -81323,7 +81336,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 32,
           columnNumber: 13
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -81334,10 +81347,72 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 35,
           columnNumber: 9
         }
-      })))
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardDefault.default, {
+        className: classes.root,
+        variant: "outlined",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardContentDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        className: classes.title,
+        color: "textSecondary",
+        gutterBottom: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 13
+        }
+      }, "Word of the Day"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h5",
+        component: "h2",
+        className: classes.pos,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 13
+        }
+      }, bull, "Advanced Instrumental Techniques and Future of Advanced Materials"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "body2",
+        component: "p",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 13
+        }
+      }, '"This presentation focuses on advance instrumental techniques and future advance materials. Advanced instrumental techniques, namely; scanning electron microscopy (SEM), transmission electron microscopy (TEM) based instrumental techniques are widely used in experimental research in various streams of science and engineering. The knowledge on the advanced instrumental techniques is crucial for experimental research, failure analysis, and quality assurance. Future advance materials open an avenue for design and development of new devices. The scope of this workshop is firstly to acquaint participants with a fundamental understanding of the theoretical basis as well as the practical applications of these instrumental techniques along with lectures and demonstrations on the techniques. Secondly to rise awareness on future advance materials for cutting-edge research and new developments along with lectures, research guidance, international collaboration, fundraising, and project investigations."')), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardActionsDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        size: "small",
+        variant: "contained",
+        color: "secondary",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 13
+        }
+      }, "Download Presentation"))))))
     );
   };
   _s(Presentation, "cXZz/rbrhPrjL6gJaTc75NCtuak=", false, function () {
@@ -81363,6 +81438,20 @@ try {
     },
     workshopContent: {
       marginTop: theme.spacing(3)
+    },
+    root: {
+      minWidth: 275
+    },
+    bullet: {
+      display: 'inline-block',
+      margin: '0 2px',
+      transform: 'scale(0.8)'
+    },
+    title: {
+      fontSize: 14
+    },
+    pos: {
+      marginBottom: 12
     }
   }));
   exports.default = Presentation;
@@ -81374,6 +81463,6 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/styles":"1Rdvd","@material-ui/core/Button":"1Xm5M","react-router-dom":"1PMSK","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/Card":"37gLn","@material-ui/core/CardActions":"1bjjB","@material-ui/core/CardContent":"VtMKY"}]},["1j6wU","4WSGi","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/styles":"1Rdvd","@material-ui/core/Button":"1Xm5M","react-router-dom":"1PMSK","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/Card":"37gLn","@material-ui/core/CardActions":"1bjjB","@material-ui/core/CardContent":"VtMKY"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map

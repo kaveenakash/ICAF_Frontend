@@ -13,6 +13,7 @@ import CardContent from '@material-ui/core/CardContent';
 const Presentation = (props) => {
   const classes = useStyles();
   const history = useHistory();
+  const bull = <span className={classes.bullet}>•</span>;
 
 
 
@@ -37,7 +38,28 @@ const Presentation = (props) => {
           justify="center"
           className={classes.presentationBodyContainer}
         >   
+        <Card className={classes.root} variant="outlined">
+          <CardContent>
+            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                Word of the Day
+            </Typography>
+            <Typography variant="h5" component="h2" className={classes.pos} >
+              {bull}Advanced Instrumental Techniques and Future of Advanced Materials
+            </Typography>
+        
+            <Typography variant="body2" component="p">
           
+              {'"This presentation focuses on advance instrumental techniques and future advance materials. Advanced instrumental techniques, namely; scanning electron microscopy (SEM), transmission electron microscopy (TEM) based instrumental techniques are widely used in experimental research in various streams of science and engineering. The knowledge on the advanced instrumental techniques is crucial for experimental research, failure analysis, and quality assurance. Future advance materials open an avenue for design and development of new devices. The scope of this workshop is firstly to acquaint participants with a fundamental understanding of the theoretical basis as well as the practical applications of these instrumental techniques along with lectures and demonstrations on the techniques. Secondly to rise awareness on future advance materials for cutting-edge research and new developments along with lectures, research guidance, international collaboration, fundraising, and project investigations."'}
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small"
+              variant="contained"
+              color="secondary">
+               Download Presentation
+            </Button>
+          </CardActions>
+        </Card>
 
         </Grid>
       </Grid>
@@ -64,6 +86,20 @@ const useStyles = makeStyles((theme) => ({
   },
   workshopContent: {
     marginTop: theme.spacing(3),
+  },
+  root: {
+    minWidth: 275,
+  },
+  bullet: {
+    display: 'inline-block',
+    margin: '0 2px',
+    transform: 'scale(0.8)',
+  },
+  title: {
+    fontSize: 14,
+  },
+  pos: {
+    marginBottom: 12,
   },
   
 }));
