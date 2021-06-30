@@ -17,6 +17,7 @@ import Workshop from "./Workshop";
 import AuthContext from "../store/auth-context";
 import Button from "@material-ui/core/Button/Button";
 import AdminDashboard from "./admin/ui/AdminDashboard";
+import Presentation from "./presentation/Presentation";
 
 const App = () => {
   const [value, setValue] = useState(0);
@@ -47,7 +48,7 @@ const App = () => {
             <Route
               exact
               path="/presentations"
-              component={() => <div>presentation</div>}
+              component={Presentation}
             />
             <Route
               exact

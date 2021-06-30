@@ -1054,7 +1054,7 @@ try {
   var _srcComponentsApp = require('./src/components/App');
   var _srcComponentsAppDefault = _parcelHelpers.interopDefault(_srcComponentsApp);
   var _srcStoreAuthContext = require('./src/store/auth-context');
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\index.js";
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\index.js";
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_srcStoreAuthContext.AuthContextProvider, {
     __self: undefined,
     __source: {
@@ -26311,7 +26311,9 @@ try {
   require("@material-ui/core/Button/Button");
   var _adminUiAdminDashboard = require("./admin/ui/AdminDashboard");
   var _adminUiAdminDashboardDefault = _parcelHelpers.interopDefault(_adminUiAdminDashboard);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\App.js", _s = $RefreshSig$();
+  var _presentationPresentation = require("./presentation/Presentation");
+  var _presentationPresentationDefault = _parcelHelpers.interopDefault(_presentationPresentation);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\App.js", _s = $RefreshSig$();
   const App = () => {
     _s();
     const [value, setValue] = _react.useState(0);
@@ -26332,14 +26334,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 41,
           columnNumber: 5
         }
       }, !selectDashboard ? /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
@@ -26350,14 +26352,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 44,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26367,7 +26369,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 46,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26377,24 +26379,17 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 47,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/presentations",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 50,
-            columnNumber: 32
-          }
-        }, "presentation"),
+        component: _presentationPresentationDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 48,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26404,14 +26399,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 55,
+            lineNumber: 56,
             columnNumber: 32
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 53,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26421,7 +26416,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 58,
           columnNumber: 13
         }
       }), authCtx.token && /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26431,7 +26426,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 59,
           columnNumber: 31
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26441,7 +26436,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 60,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26451,7 +26446,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 62,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26461,7 +26456,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 63,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26471,7 +26466,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 68,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26481,7 +26476,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 73,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26490,7 +26485,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 78,
           columnNumber: 13
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26499,28 +26494,28 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 82,
           columnNumber: 11
         }
       })) : /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 85,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85,
+          lineNumber: 86,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
+          lineNumber: 87,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26529,7 +26524,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 88,
           columnNumber: 15
         }
       })))))
@@ -26546,7 +26541,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r","./signUp/ResearchPresenterRegistration":"5ashA","./signUp/UserRegistration":"4cPF6","./Workshop":"7cLhj","../store/auth-context":"8Jk2N","@material-ui/core/Button/Button":"6bBoQ","./admin/ui/AdminDashboard":"4oa7d","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1PMSK":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r","./signUp/ResearchPresenterRegistration":"5ashA","./signUp/UserRegistration":"4cPF6","./Workshop":"7cLhj","../store/auth-context":"8Jk2N","@material-ui/core/Button/Button":"6bBoQ","./admin/ui/AdminDashboard":"4oa7d","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./presentation/Presentation":"3VDRg"}],"1PMSK":[function(require,module,exports) {
 "use strict";
 if ("development" === "production") {
   module.exports = require("./cjs/react-router-dom.min.js");
@@ -39230,7 +39225,7 @@ try {
   var _materialUiIconsVpnKey = require('@material-ui/icons/VpnKey');
   var _materialUiIconsVpnKeyDefault = _parcelHelpers.interopDefault(_materialUiIconsVpnKey);
   var _storeData = require("../../store/data");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ui\\Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ui\\Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
     _s();
     const {value, setValue} = props;
@@ -48565,7 +48560,7 @@ try {
   var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
   var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
   require("@material-ui/core/Icon");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ui\\Footer.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ui\\Footer.js", _s = $RefreshSig$();
   const Footer = props => {
     _s();
     const classes = useStyles();
@@ -49969,7 +49964,7 @@ try {
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
   var _LandingPageComponentsBlockFive = require("./LandingPageComponents/BlockFive");
   var _LandingPageComponentsBlockFiveDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFive);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPage.js";
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPage.js";
   const LandingPage = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -50284,7 +50279,7 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreHidden = require("@material-ui/core/Hidden");
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockOne.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockOne.js", _s = $RefreshSig$();
   const BlockOne = props => {
     _s();
     const classes = useStyles();
@@ -50647,7 +50642,7 @@ try {
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
   var _materialUiCore = require("@material-ui/core");
   var _storeData = require("../../store/data");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockTwo.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockTwo.js", _s = $RefreshSig$();
   function _extends() {
     _extends = Object.assign || (function (target) {
       for (var i = 1; i < arguments.length; i++) {
@@ -74268,7 +74263,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreSlide = require("@material-ui/core/Slide");
   var _materialUiCoreSlideDefault = _parcelHelpers.interopDefault(_materialUiCoreSlide);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockThree.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockThree.js", _s = $RefreshSig$();
   const BlockThree = props => {
     _s();
     const classes = useStyles();
@@ -74463,7 +74458,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFour.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFour.js", _s = $RefreshSig$();
   const BlockFour = () => {
     _s();
     const classes = useStyles();
@@ -74775,7 +74770,7 @@ try {
   require("@material-ui/core");
   var _storeData = require("../../store/data");
   require("@material-ui/core");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFive.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFive.js", _s = $RefreshSig$();
   const BlockFive = props => {
     _s();
     const classes = useStyles();
@@ -74920,7 +74915,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Keynote.js";
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Keynote.js";
   const Keynote = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
@@ -74977,7 +74972,7 @@ try {
   require("@material-ui/core/Avatar");
   var _materialUiCoreTextField = require("@material-ui/core/TextField");
   var _materialUiCoreTextFieldDefault = _parcelHelpers.interopDefault(_materialUiCoreTextField);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ContactUs.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ContactUs.js", _s = $RefreshSig$();
   const ContactUs = props => {
     _s();
     const classes = useStyles();
@@ -75404,7 +75399,7 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _storeAuthContext = require("../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\SignIn.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\SignIn.js", _s = $RefreshSig$();
   const SignIn = () => {
     _s();
     const classes = useStyles();
@@ -77385,7 +77380,7 @@ try {
   });
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\store\\auth-context.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\store\\auth-context.js", _s = $RefreshSig$();
   const AuthContext = /*#__PURE__*/_reactDefault.default.createContext({
     token: "",
     role: "",
@@ -77476,7 +77471,7 @@ try {
   var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
   var _reactRouterDom = require("react-router-dom");
   var _storeData = require("../store/data");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Registration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Registration.js", _s = $RefreshSig$();
   const Registration = props => {
     _s();
     const classes = useStyles();
@@ -77795,7 +77790,7 @@ try {
   var _storeAuthContext = require("../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
   var _reactRouterDom = require("react-router-dom");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\WorkshopConductorRegistration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\WorkshopConductorRegistration.js", _s = $RefreshSig$();
   const WorkshopConductorRegistration = () => {
     _s();
     const [selectedFile, setSelectedFile] = _react.useState();
@@ -78102,7 +78097,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","axios":"7rA65","react-router-dom":"1PMSK","../../store/auth-context":"8Jk2N"}],"2GTuz":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","axios":"7rA65","../../store/auth-context":"8Jk2N","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"2GTuz":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -78157,7 +78152,7 @@ try {
   var _materialUiIconsAssignmentIndDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignmentInd);
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\ResearchPresenterRegistration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\ResearchPresenterRegistration.js", _s = $RefreshSig$();
   const ResearchPresenterRegistration = () => {
     _s();
     const [selectedFile, setSelectedFile] = _react.useState();
@@ -78473,7 +78468,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","axios":"7rA65"}],"4cPF6":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","axios":"7rA65","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"4cPF6":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -78509,7 +78504,7 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _storeAuthContext = require("../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\UserRegistration.js", _s2 = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\UserRegistration.js", _s2 = $RefreshSig$();
   const UserRegistration = () => {
     _s2();
     var _s = $RefreshSig$();
@@ -78792,7 +78787,7 @@ try {
   var _storeData = require("../store/data");
   var _storeAuthContext = require("../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Workshop.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Workshop.js", _s = $RefreshSig$();
   const Workshop = props => {
     _s();
     const classes = useStyles();
@@ -80751,7 +80746,7 @@ try {
   var _storeAuthContext = require("../../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
   var _materialUiCore = require("@material-ui/core");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\AdminDashboard.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\admin\\ui\\AdminDashboard.js", _s = $RefreshSig$();
   const AdminDashboard = () => {
     _s();
     const classes = useStyles();
@@ -81092,7 +81087,7 @@ try {
   var _materialUiIconsEdit = require('@material-ui/icons/Edit');
   var _materialUiIconsEditDefault = _parcelHelpers.interopDefault(_materialUiIconsEdit);
   require('@material-ui/icons/Assignment');
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\ListItems.js";
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\admin\\ui\\ListItems.js";
   const mainListItems = /*#__PURE__*/_reactDefault.default.createElement("div", {
     __self: undefined,
     __source: {
@@ -81247,6 +81242,80 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 }), 'Assignment');
 
 exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3VDRg":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
+  var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\presentation\\Presentation.js", _s = $RefreshSig$();
+  function Presentation() {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h4",
+        align: "center",
+        className: classes.presentationHeader,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 14
+        }
+      }, "Presentation"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
+        variant: "middle",
+        className: classes.divider,
+        light: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 13
+        }
+      }))
+    );
+  }
+  exports.default = Presentation;
+  _s(Presentation, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c = Presentation;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    presentationHeader: {
+      fontFamily: "Raleway",
+      fontWeight: 800,
+      color: theme.palette.common.blue
+    },
+    divider: {
+      backgroundColor: theme.palette.common.yellow,
+      height: "0.2rem"
+    }
+  }));
+  var _c;
+  $RefreshReg$(_c, "Presentation");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Divider":"4RdAl"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
