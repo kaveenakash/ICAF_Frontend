@@ -24,6 +24,7 @@ const ResearchPresenterRegistration = () => {
 
   const [fname, setFname] = useState("");
   const [lname, setLname] = useState("");
+  const [title, setTitle] = useState("");
   const [email, setEmail] = useState("");
   const [content, setContent] = useState("");
   const [password, setPassword] = useState("");
@@ -55,6 +56,7 @@ const ResearchPresenterRegistration = () => {
       const formData = new FormData();
       formData.append('fname',fname);
       formData.append('lname',lname);
+      formData.append('title',title);
       formData.append('content',content);
       formData.append('email',email);
       formData.append('password',password);
@@ -126,6 +128,16 @@ const ResearchPresenterRegistration = () => {
                 autoComplete="email"
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextField
+                variant="outlined"
+                required
+                fullWidth
+                label="Title"
+                value={title}
+                onChange={(event) => setTitle(event.target.value)}
               />
             </Grid>
 
