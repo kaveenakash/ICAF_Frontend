@@ -1054,7 +1054,7 @@ try {
   var _srcComponentsApp = require('./src/components/App');
   var _srcComponentsAppDefault = _parcelHelpers.interopDefault(_srcComponentsApp);
   var _srcStoreAuthContext = require('./src/store/auth-context');
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\index.js";
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\index.js";
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_srcStoreAuthContext.AuthContextProvider, {
     __self: undefined,
     __source: {
@@ -26311,7 +26311,9 @@ try {
   require("@material-ui/core/Button/Button");
   var _adminUiAdminDashboard = require("./admin/ui/AdminDashboard");
   var _adminUiAdminDashboardDefault = _parcelHelpers.interopDefault(_adminUiAdminDashboard);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\App.js", _s = $RefreshSig$();
+  var _presentationPresentation = require("./presentation/Presentation");
+  var _presentationPresentationDefault = _parcelHelpers.interopDefault(_presentationPresentation);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\App.js", _s = $RefreshSig$();
   const App = () => {
     _s();
     const [value, setValue] = _react.useState(0);
@@ -26332,14 +26334,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 41,
           columnNumber: 5
         }
       }, !selectDashboard ? /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_uiHeaderDefault.default, {
@@ -26350,14 +26352,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 44,
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26367,7 +26369,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 46,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26377,24 +26379,17 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 47,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/presentations",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("div", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 50,
-            columnNumber: 32
-          }
-        }, "presentation"),
+        component: _presentationPresentationDefault.default,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 48,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26404,14 +26399,14 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 55,
+            lineNumber: 56,
             columnNumber: 32
           }
         }, "downloads"),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 53,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26421,7 +26416,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 58,
           columnNumber: 13
         }
       }), authCtx.token && /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26431,7 +26426,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 59,
           columnNumber: 31
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26441,7 +26436,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 60,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26451,7 +26446,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 62,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26461,7 +26456,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 63,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26471,7 +26466,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 68,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26481,7 +26476,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 73,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26490,7 +26485,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 78,
           columnNumber: 13
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_uiFooterDefault.default, {
@@ -26499,35 +26494,35 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 82,
           columnNumber: 11
         }
       })) : /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 85,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85,
+          lineNumber: 86,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 88,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_adminUiAdminDashboardDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 89,
           columnNumber: 15
         }
       })))))
@@ -26544,7 +26539,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r","./signUp/ResearchPresenterRegistration":"5ashA","./signUp/UserRegistration":"4cPF6","./Workshop":"7cLhj","../store/auth-context":"8Jk2N","@material-ui/core/Button/Button":"6bBoQ","./admin/ui/AdminDashboard":"4oa7d","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1PMSK":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/styles":"2EAua","@material-ui/core/Typography":"3wcF9","./ui/Theme":"5FjkA","./ui/Header":"4SLtI","./ui/Footer":"31W7N","./LandingPage":"3dV4y","./Keynote":"cBkAd","./ContactUs":"2HRFF","./SignIn":"4zZDB","./Registration":"1JS3X","./signUp/WorkshopConductorRegistration":"2fx8r","./signUp/ResearchPresenterRegistration":"5ashA","./signUp/UserRegistration":"4cPF6","./Workshop":"7cLhj","../store/auth-context":"8Jk2N","@material-ui/core/Button/Button":"6bBoQ","./admin/ui/AdminDashboard":"4oa7d","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./presentation/Presentation":"3VDRg"}],"1PMSK":[function(require,module,exports) {
 "use strict";
 if ("development" === "production") {
   module.exports = require("./cjs/react-router-dom.min.js");
@@ -39228,7 +39223,7 @@ try {
   var _materialUiIconsVpnKey = require('@material-ui/icons/VpnKey');
   var _materialUiIconsVpnKeyDefault = _parcelHelpers.interopDefault(_materialUiIconsVpnKey);
   var _storeData = require("../../store/data");
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ui\\Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ui\\Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
     _s();
     const {value, setValue} = props;
@@ -48563,7 +48558,7 @@ try {
   var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
   var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
   require("@material-ui/core/Icon");
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ui\\Footer.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ui\\Footer.js", _s = $RefreshSig$();
   const Footer = props => {
     _s();
     const classes = useStyles();
@@ -49967,7 +49962,7 @@ try {
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
   var _LandingPageComponentsBlockFive = require("./LandingPageComponents/BlockFive");
   var _LandingPageComponentsBlockFiveDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFive);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPage.js";
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPage.js";
   const LandingPage = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -50282,7 +50277,7 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreHidden = require("@material-ui/core/Hidden");
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockOne.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockOne.js", _s = $RefreshSig$();
   const BlockOne = props => {
     _s();
     const classes = useStyles();
@@ -50645,7 +50640,7 @@ try {
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
   var _materialUiCore = require("@material-ui/core");
   var _storeData = require("../../store/data");
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockTwo.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockTwo.js", _s = $RefreshSig$();
   function _extends() {
     _extends = Object.assign || (function (target) {
       for (var i = 1; i < arguments.length; i++) {
@@ -60778,7 +60773,7 @@ var styles = {
 * </FormControl>
 * ```
 *
-* ⚠️Only one input can be used within a FormControl.
+* ���️Only one input can be used within a FormControl.
 */
 var FormControl = /*#__PURE__*/_react.forwardRef(function FormControl(props, ref) {
   var children = props.children, classes = props.classes, className = props.className, _props$color = props.color, color = _props$color === void 0 ? 'primary' : _props$color, _props$component = props.component, Component = _props$component === void 0 ? 'div' : _props$component, _props$disabled = props.disabled, disabled = _props$disabled === void 0 ? false : _props$disabled, _props$error = props.error, error = _props$error === void 0 ? false : _props$error, _props$fullWidth = props.fullWidth, fullWidth = _props$fullWidth === void 0 ? false : _props$fullWidth, visuallyFocused = props.focused, _props$hiddenLabel = props.hiddenLabel, hiddenLabel = _props$hiddenLabel === void 0 ? false : _props$hiddenLabel, _props$margin = props.margin, margin = _props$margin === void 0 ? 'none' : _props$margin, _props$required = props.required, required = _props$required === void 0 ? false : _props$required, size = props.size, _props$variant = props.variant, variant = _props$variant === void 0 ? 'standard' : _props$variant, other = _babelRuntimeHelpersEsmObjectWithoutPropertiesDefault.default(props, ["children", "classes", "className", "color", "component", "disabled", "error", "fullWidth", "focused", "hiddenLabel", "margin", "required", "size", "variant"]);
@@ -74266,7 +74261,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreSlide = require("@material-ui/core/Slide");
   var _materialUiCoreSlideDefault = _parcelHelpers.interopDefault(_materialUiCoreSlide);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockThree.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockThree.js", _s = $RefreshSig$();
   const BlockThree = props => {
     _s();
     const classes = useStyles();
@@ -74461,7 +74456,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFour.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFour.js", _s = $RefreshSig$();
   const BlockFour = () => {
     _s();
     const classes = useStyles();
@@ -74773,7 +74768,7 @@ try {
   require("@material-ui/core");
   var _storeData = require("../../store/data");
   require("@material-ui/core");
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFive.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFive.js", _s = $RefreshSig$();
   const BlockFive = props => {
     _s();
     const classes = useStyles();
@@ -74918,7 +74913,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Keynote.js";
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Keynote.js";
   const Keynote = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
@@ -74978,7 +74973,7 @@ try {
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _reactRouterDom = require("react-router-dom");
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ContactUs.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\ContactUs.js", _s = $RefreshSig$();
   const ContactUs = props => {
     _s();
     const classes = useStyles();
@@ -75403,7 +75398,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","axios":"7rA65","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7rA65":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","axios":"7rA65","react-router-dom":"1PMSK"}],"7rA65":[function(require,module,exports) {
 module.exports = require('./lib/axios');
 },{"./lib/axios":"4qfhW"}],"4qfhW":[function(require,module,exports) {
 'use strict';
@@ -77182,7 +77177,7 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _storeAuthContext = require("../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\SignIn.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\SignIn.js", _s = $RefreshSig$();
   const SignIn = () => {
     _s();
     const classes = useStyles();
@@ -77418,7 +77413,7 @@ try {
   });
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\store\\auth-context.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\store\\auth-context.js", _s = $RefreshSig$();
   const AuthContext = /*#__PURE__*/_reactDefault.default.createContext({
     token: "",
     role: "",
@@ -77509,7 +77504,7 @@ try {
   var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
   var _reactRouterDom = require("react-router-dom");
   var _storeData = require("../store/data");
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Registration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Registration.js", _s = $RefreshSig$();
   const Registration = props => {
     _s();
     const classes = useStyles();
@@ -77828,7 +77823,7 @@ try {
   var _storeAuthContext = require("../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
   var _reactRouterDom = require("react-router-dom");
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\WorkshopConductorRegistration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\WorkshopConductorRegistration.js", _s = $RefreshSig$();
   const WorkshopConductorRegistration = () => {
     _s();
     const [selectedFile, setSelectedFile] = _react.useState();
@@ -78190,7 +78185,7 @@ try {
   var _materialUiIconsAssignmentIndDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignmentInd);
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\ResearchPresenterRegistration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\ResearchPresenterRegistration.js", _s = $RefreshSig$();
   const ResearchPresenterRegistration = () => {
     _s();
     const [selectedFile, setSelectedFile] = _react.useState();
@@ -78542,7 +78537,7 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _storeAuthContext = require("../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\UserRegistration.js", _s2 = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\signUp\\UserRegistration.js", _s2 = $RefreshSig$();
   const UserRegistration = () => {
     _s2();
     var _s = $RefreshSig$();
@@ -78826,7 +78821,7 @@ try {
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
   var _axios = require("axios");
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Workshop.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\Workshop.js", _s = $RefreshSig$();
   const Workshop = props => {
     _s();
     const classes = useStyles();
@@ -80793,7 +80788,7 @@ try {
   var _reactRouterDom = require("react-router-dom");
   var _WorkshopTable = require("./WorkshopTable");
   var _WorkshopTableDefault = _parcelHelpers.interopDefault(_WorkshopTable);
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\AdminDashboard.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\admin\\ui\\AdminDashboard.js", _s = $RefreshSig$();
   const AdminDashboard = () => {
     _s();
     const classes = useStyles();
@@ -81094,7 +81089,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@material-ui/icons/ExitToApp":"3MuXQ","../../../store/auth-context":"8Jk2N","@material-ui/core":"6DoV9","react-router-dom":"1PMSK","./WorkshopTable":"3uc7a","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1IYYX":[function(require,module,exports) {
+},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@material-ui/icons/ExitToApp":"3MuXQ","../../../store/auth-context":"8Jk2N","@material-ui/core":"6DoV9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","./WorkshopTable":"3uc7a"}],"1IYYX":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81147,7 +81142,7 @@ try {
   var _materialUiIconsHowToVote = require('@material-ui/icons/HowToVote');
   var _materialUiIconsHowToVoteDefault = _parcelHelpers.interopDefault(_materialUiIconsHowToVote);
   require('@material-ui/icons/Assignment');
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\ListItems.js";
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\admin\\ui\\ListItems.js";
   const mainListItems = /*#__PURE__*/_reactDefault.default.createElement("div", {
     __self: undefined,
     __source: {
@@ -81271,7 +81266,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Edit":"6vamI","react-router-dom":"1PMSK","@material-ui/icons/HowToVote":"5rhP0","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"5Q3Fn":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Edit":"6vamI","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","@material-ui/icons/HowToVote":"5rhP0"}],"5Q3Fn":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81313,27 +81308,6 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 }), 'Edit');
 
 exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"5rhP0":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(require("react"));
-
-var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M18 13h-.68l-2 2h1.91L19 17H5l1.78-2h2.05l-2-2H6l-3 3v4c0 1.1.89 2 1.99 2H19c1.1 0 2-.89 2-2v-4l-3-3zm-1-5.05l-4.95 4.95-3.54-3.54 4.95-4.95L17 7.95zm-4.24-5.66L6.39 8.66c-.39.39-.39 1.02 0 1.41l4.95 4.95c.39.39 1.02.39 1.41 0l6.36-6.36c.39-.39.39-1.02 0-1.41L14.16 2.3c-.38-.4-1.01-.4-1.4-.01z"
-}), 'HowToVote');
-
-exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3UO7R":[function(require,module,exports) {
 "use strict";
 
@@ -81353,6 +81327,27 @@ var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
   d: "M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
 }), 'Assignment');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"5rhP0":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M18 13h-.68l-2 2h1.91L19 17H5l1.78-2h2.05l-2-2H6l-3 3v4c0 1.1.89 2 1.99 2H19c1.1 0 2-.89 2-2v-4l-3-3zm-1-5.05l-4.95 4.95-3.54-3.54 4.95-4.95L17 7.95zm-4.24-5.66L6.39 8.66c-.39.39-.39 1.02 0 1.41l4.95 4.95c.39.39 1.02.39 1.41 0l6.36-6.36c.39-.39.39-1.02 0-1.41L14.16 2.3c-.38-.4-1.01-.4-1.4-.01z"
+}), 'HowToVote');
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3uc7a":[function(require,module,exports) {
@@ -81385,7 +81380,7 @@ try {
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   require('react-router-dom');
-  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\WorkshopTable.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\admin\\ui\\WorkshopTable.js", _s = $RefreshSig$();
   function createData(name, calories, fat, carbs, protein) {
     return {
       name,
@@ -81631,6 +81626,227 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Table":"2hWa6","@material-ui/core/TableBody":"3NuTm","@material-ui/core/TableCell":"5NY9j","@material-ui/core/TableContainer":"7nxDP","@material-ui/core/TableHead":"7r3Ml","@material-ui/core/TableRow":"IN3FY","@material-ui/core/Paper":"5Fj22","@material-ui/core/Button":"1Xm5M","axios":"7rA65","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Table":"2hWa6","@material-ui/core/TableBody":"3NuTm","@material-ui/core/TableCell":"5NY9j","@material-ui/core/TableContainer":"7nxDP","@material-ui/core/TableHead":"7r3Ml","@material-ui/core/TableRow":"IN3FY","@material-ui/core/Paper":"5Fj22","@material-ui/core/Button":"1Xm5M","axios":"7rA65","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3VDRg":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
+  var _materialUiCoreTypography = require("@material-ui/core/Typography");
+  var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
+  var _materialUiCoreDivider = require("@material-ui/core/Divider");
+  var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _materialUiCoreCard = require('@material-ui/core/Card');
+  var _materialUiCoreCardDefault = _parcelHelpers.interopDefault(_materialUiCoreCard);
+  var _materialUiCoreCardActions = require('@material-ui/core/CardActions');
+  var _materialUiCoreCardActionsDefault = _parcelHelpers.interopDefault(_materialUiCoreCardActions);
+  var _materialUiCoreCardContent = require('@material-ui/core/CardContent');
+  var _materialUiCoreCardContentDefault = _parcelHelpers.interopDefault(_materialUiCoreCardContent);
+  var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\presentation\\Presentation.js", _s = $RefreshSig$();
+  const Presentation = props => {
+    _s();
+    const classes = useStyles();
+    const history = _reactRouterDom.useHistory();
+    const bull = /*#__PURE__*/_reactDefault.default.createElement("span", {
+      className: classes.bullet,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 16
+      }
+    }, "•");
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        className: classes.presentationContainer,
+        direction: "column",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        alignItems: "center",
+        direction: "column",
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h4",
+        className: classes.presentationHeader,
+        align: "center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 13
+        }
+      }, "PRESENTATION"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
+        variant: "middle",
+        className: classes.divider,
+        light: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 13
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        justify: "center",
+        className: classes.presentationBodyContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardDefault.default, {
+        className: classes.root,
+        variant: "outlined",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardContentDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        className: classes.title,
+        color: "textSecondary",
+        gutterBottom: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 13
+        }
+      }, "Word of the Day"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "h5",
+        component: "h2",
+        className: classes.pos,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 13
+        }
+      }, bull, "Advanced Instrumental Techniques and Future of Advanced Materials"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
+        variant: "body2",
+        component: "p",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 13
+        }
+      }, '"This presentation focuses on advance instrumental techniques and future advance materials. Advanced instrumental techniques, namely; scanning electron microscopy (SEM), transmission electron microscopy (TEM) based instrumental techniques are widely used in experimental research in various streams of science and engineering. The knowledge on the advanced instrumental techniques is crucial for experimental research, failure analysis, and quality assurance. Future advance materials open an avenue for design and development of new devices. The scope of this workshop is firstly to acquaint participants with a fundamental understanding of the theoretical basis as well as the practical applications of these instrumental techniques along with lectures and demonstrations on the techniques. Secondly to rise awareness on future advance materials for cutting-edge research and new developments along with lectures, research guidance, international collaboration, fundraising, and project investigations."')), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCardActionsDefault.default, {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        size: "small",
+        variant: "contained",
+        color: "secondary",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 13
+        }
+      }, "Download Presentation"))))))
+    );
+  };
+  _s(Presentation, "cXZz/rbrhPrjL6gJaTc75NCtuak=", false, function () {
+    return [useStyles, _reactRouterDom.useHistory];
+  });
+  _c = Presentation;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    presentationContainer: {
+      marginTop: "6rem",
+      marginBottom: "2rem"
+    },
+    presentationHeader: {
+      fontFamily: "Raleway",
+      fontWeight: 800,
+      color: theme.palette.common.blue
+    },
+    divider: {
+      backgroundColor: theme.palette.common.yellow,
+      height: "0.2rem"
+    },
+    presentationBodyContainer: {
+      marginTop: theme.spacing(8)
+    },
+    workshopContent: {
+      marginTop: theme.spacing(3)
+    },
+    root: {
+      minWidth: 275
+    },
+    bullet: {
+      display: 'inline-block',
+      margin: '0 2px',
+      transform: 'scale(0.8)'
+    },
+    title: {
+      fontSize: 14
+    },
+    pos: {
+      marginBottom: 12
+    }
+  }));
+  exports.default = Presentation;
+  var _c;
+  $RefreshReg$(_c, "Presentation");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/styles":"1Rdvd","@material-ui/core/Button":"1Xm5M","react-router-dom":"1PMSK","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/Card":"37gLn","@material-ui/core/CardActions":"1bjjB","@material-ui/core/CardContent":"VtMKY"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
