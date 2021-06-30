@@ -78822,26 +78822,32 @@ try {
   require("@material-ui/core/TextField");
   var _materialUiCoreChip = require("@material-ui/core/Chip");
   var _materialUiCoreChipDefault = _parcelHelpers.interopDefault(_materialUiCoreChip);
-  var _storeData = require("../store/data");
   var _storeAuthContext = require("../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
+  var _axios = require("axios");
+  var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Workshop.js", _s = $RefreshSig$();
   const Workshop = props => {
     _s();
     const classes = useStyles();
     const history = _reactRouterDom.useHistory();
+    const [workshops, setWorkshops] = _react.useState([]);
     const authCtx = _react.useContext(_storeAuthContextDefault.default);
     // useEffect(() =>{
     // if(authCtx.role){
     // history.replace('')
     // }
     // },[])
+    _react.useEffect(async () => {
+      const response = await _axiosDefault.default.get('http://localhost:9090/api/workshop/workshop-approved');
+      setWorkshops(response.data);
+    }, []);
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 39,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -78851,7 +78857,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 40,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -78862,7 +78868,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 41,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -78870,7 +78876,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 42,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -78880,7 +78886,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 43,
           columnNumber: 13
         }
       }, "WORKSHOPS"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
@@ -78890,7 +78896,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 50,
           columnNumber: 13
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -78901,7 +78907,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 53,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -78911,7 +78917,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 59,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -78919,7 +78925,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 60,
           columnNumber: 13
         }
       }, "Following is the list of workshops, which will be organized as a part of ICAF 2021.")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -78928,7 +78934,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 65,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -78936,14 +78942,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 66,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("b", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 67,
           columnNumber: 15
         }
       }, "Regsiter"), " via following link :", " ", /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Link, {
@@ -78951,10 +78957,10 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 68,
           columnNumber: 15
         }
-      }, "Click here"))), _storeData.workshops.map(workshop => {
+      }, "Click here"))), workshops.map((workshop, index) => {
         return (
           /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
             item: true,
@@ -78962,12 +78968,12 @@ try {
             direction: "column",
             xs: 9,
             className: classes.workshopContent,
-            key: workshop.id,
+            key: index + workshop._id,
             alignItems: "center",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 65,
+              lineNumber: 73,
               columnNumber: 15
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -78975,30 +78981,13 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 74,
+              lineNumber: 82,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
             variant: "fullWidth",
             light: true,
             className: classes.workshopDivider,
-            __self: undefined,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 75,
-              columnNumber: 19
-            }
-          })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
-            item: true,
-            __self: undefined,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 82,
-              columnNumber: 17
-            }
-          }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreChipDefault.default, {
-            label: workshop.id,
-            color: "primary",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
@@ -79010,7 +78999,24 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 86,
+              lineNumber: 90,
+              columnNumber: 17
+            }
+          }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreChipDefault.default, {
+            label: index + 1,
+            color: "primary",
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 91,
+              columnNumber: 19
+            }
+          })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+            item: true,
+            __self: undefined,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 94,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -79021,15 +79027,15 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 87,
+              lineNumber: 95,
               columnNumber: 19
             }
-          }, workshop.header)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+          }, workshop.title)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
             item: true,
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 96,
+              lineNumber: 104,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -79040,15 +79046,15 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 97,
+              lineNumber: 105,
               columnNumber: 19
             }
-          }, "Workshop Conductor : ", workshop.resourcePerson)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+          }, "Workshop Conductor : ", workshop.name)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
             item: true,
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 106,
+              lineNumber: 114,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -79059,7 +79065,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 107,
+              lineNumber: 115,
               columnNumber: 19
             }
           }, workshop.content)), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
@@ -79067,24 +79073,24 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 116,
+              lineNumber: 124,
               columnNumber: 17
             }
           }, /*#__PURE__*/_reactDefault.default.createElement("center", {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 117,
+              lineNumber: 125,
               columnNumber: 19
             }
           }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
             variant: "contained",
             color: "secondary",
-            href: workshop.link,
+            href: workshop.document,
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 118,
+              lineNumber: 126,
               columnNumber: 21
             }
           }, "Download Proposal"))))
@@ -79092,7 +79098,7 @@ try {
       }))))
     );
   };
-  _s(Workshop, "Vfy+fnhT99jxJY9IjQ+c6ySrsjM=", false, function () {
+  _s(Workshop, "wIpf5NrAiMB4g2uTVnFEjPMyrEw=", false, function () {
     return [useStyles, _reactRouterDom.useHistory];
   });
   _c = Workshop;
@@ -79140,7 +79146,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","@material-ui/core/Chip":"5xHma","../store/data":"5tk3l","../store/auth-context":"8Jk2N","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"6bBoQ":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","@material-ui/core/Chip":"5xHma","../store/auth-context":"8Jk2N","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","axios":"7rA65"}],"6bBoQ":[function(require,module,exports) {
 "use strict";
 var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");

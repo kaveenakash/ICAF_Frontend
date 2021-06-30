@@ -1,4 +1,4 @@
-import React,{useEffect,useContext} from "react";
+import React,{useEffect,useContext,useState} from "react";
 import {useHistory} from 'react-router-dom'
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
@@ -14,11 +14,13 @@ import Avatar from "@material-ui/core/Avatar";
 import TextField from "@material-ui/core/TextField";
 import { Link } from "react-router-dom";
 import Chip from "@material-ui/core/Chip";
-import { workshops } from "../store/data";
 import AuthContext from "../store/auth-context";
+import axios from "axios";
 const Workshop = (props) => {
   const classes = useStyles();
   const history = useHistory();
+
+  const [workshops,setWorkshops] = useState([])
 
   const authCtx = useContext(AuthContext);
   // useEffect(() =>{
@@ -26,6 +28,12 @@ const Workshop = (props) => {
   //       history.replace('')
   //   }
   // },[])
+
+  useEffect(async() =>{
+    const response = await axios.get('http://localhost:9090/api/workshop/workshop-approved')
+    setWorkshops(response.data)
+
+  },[])
 
   return (
     <React.Fragment>
@@ -60,7 +68,7 @@ const Workshop = (props) => {
               <Link to="/registration/user">Click here</Link>
             </Typography>
           </Grid>
-          {workshops.map((workshop) => {
+          {workshops.map((workshop,index) => {
             return (
               <Grid
                 item
@@ -68,7 +76,7 @@ const Workshop = (props) => {
                 direction="column"
                 xs={9}
                 className={classes.workshopContent}
-                key={workshop.id}
+                key={index + workshop._id}
                 alignItems="center"
               >
                 <Grid item>
@@ -80,7 +88,7 @@ const Workshop = (props) => {
                 </Grid>
 
                 <Grid item>
-                  <Chip label={workshop.id} color="primary"></Chip>
+                  <Chip label={index + 1} color="primary"></Chip>
                 </Grid>
 
                 <Grid item>
@@ -90,7 +98,7 @@ const Workshop = (props) => {
                     className={classes.workshopProposalHeader}
                     color="primary"
                   >
-                    {workshop.header}
+                    {workshop.title}
                   </Typography>
                 </Grid>
                 <Grid item>
@@ -100,7 +108,7 @@ const Workshop = (props) => {
                     className={classes.workshopProposalHeader}
                     color="primary"
                   >
-                    Workshop Conductor : {workshop.resourcePerson}
+                    Workshop Conductor : {workshop.name}
                   </Typography>
                 </Grid>
                 <Grid item>
@@ -118,7 +126,7 @@ const Workshop = (props) => {
                     <Button
                       variant="contained"
                       color="secondary"
-                      href={workshop.link}
+                      href={workshop.document}
                     >
                       Download Proposal
                     </Button>
