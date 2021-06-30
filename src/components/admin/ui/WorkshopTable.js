@@ -28,21 +28,43 @@ const rows = [
 export default function WorkshopTable() {
   const classes = useStyles();
   const [proposalDetails,setProposalDetails] = useState([])
+  const [refresh,setRefresh] = useState(false)
 
   useEffect(async() =>{
     const response = await axios.get('http://localhost:9090/api/workshop/get-workshop-data')
 
     console.log(response)
     setProposalDetails(response.data)
-},[])
+},[refresh])
 
 
-  const declineHandler = (event,id) =>{
+  const declineHandler = async(event,id) =>{
     event.preventDefault()
-
+    console.log(id)
+    try {
+      const response = await axios.delete('http://localhost:9090/api/workshop/workshop-delete', { data: { id: id } })
+      alert('Declien Workshop Proposal Successfully')
+      setRefresh(!refresh)
+      
+    } catch (error) {
+      
+    }
   }
-  const approveHandler = (event,_id) =>{
+  const approveHandler = async(event,id) =>{
     event.preventDefault()
+
+    try {
+      const data = {
+        id
+      }
+      const response = await axios.put(`http://localhost:9090/api/workshop/workshop-approve`,data)
+      console.log(response)
+      alert('Workshop Approved Successfully')
+      setRefresh(!refresh)
+    } catch (error) {
+      alert('Error')
+    }
+    console.log(id)
   }
 
   return (
@@ -70,8 +92,8 @@ export default function WorkshopTable() {
               <TableCell ><Button href={'http://localhost:9090/' + row.document} target="_blank">Download</Button></TableCell>
              
               <TableCell >{row.status}</TableCell>
-              <TableCell ><Button variant="contained" style={{backgroundColor:'#F44336'}} onClick={(event) => declineHandler(event,row._id)}>Decline</Button></TableCell>
-              <TableCell ><Button variant="contained" color="primary" onClick={(event) => approveHandler(event)}>Approve</Button></TableCell>
+              <TableCell ><Button variant="contained" style={{backgroundColor:'#F44336'}} onClick={(event) => declineHandler(event,row._id)}>Decline</Button> <Button variant="contained" color="primary" onClick={(event) => approveHandler(event,row._id)}>Approve</Button> </TableCell>
+             
             </TableRow>
           ))}
         </TableBody>

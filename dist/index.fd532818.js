@@ -1054,7 +1054,7 @@ try {
   var _srcComponentsApp = require('./src/components/App');
   var _srcComponentsAppDefault = _parcelHelpers.interopDefault(_srcComponentsApp);
   var _srcStoreAuthContext = require('./src/store/auth-context');
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\index.js";
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\index.js";
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_srcStoreAuthContext.AuthContextProvider, {
     __self: undefined,
     __source: {
@@ -26311,7 +26311,7 @@ try {
   require("@material-ui/core/Button/Button");
   var _adminUiAdminDashboard = require("./admin/ui/AdminDashboard");
   var _adminUiAdminDashboardDefault = _parcelHelpers.interopDefault(_adminUiAdminDashboard);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\App.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\App.js", _s = $RefreshSig$();
   const App = () => {
     _s();
     const [value, setValue] = _react.useState(0);
@@ -39228,7 +39228,7 @@ try {
   var _materialUiIconsVpnKey = require('@material-ui/icons/VpnKey');
   var _materialUiIconsVpnKeyDefault = _parcelHelpers.interopDefault(_materialUiIconsVpnKey);
   var _storeData = require("../../store/data");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ui\\Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ui\\Header.js", _s = $RefreshSig$(), _s2 = $RefreshSig$();
   const Header = props => {
     _s();
     const {value, setValue} = props;
@@ -48563,7 +48563,7 @@ try {
   var _materialUiIconsLinkedIn = require('@material-ui/icons/LinkedIn');
   var _materialUiIconsLinkedInDefault = _parcelHelpers.interopDefault(_materialUiIconsLinkedIn);
   require("@material-ui/core/Icon");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ui\\Footer.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ui\\Footer.js", _s = $RefreshSig$();
   const Footer = props => {
     _s();
     const classes = useStyles();
@@ -49967,7 +49967,7 @@ try {
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
   var _LandingPageComponentsBlockFive = require("./LandingPageComponents/BlockFive");
   var _LandingPageComponentsBlockFiveDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFive);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPage.js";
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPage.js";
   const LandingPage = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -50282,7 +50282,7 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _materialUiCoreHidden = require("@material-ui/core/Hidden");
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockOne.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockOne.js", _s = $RefreshSig$();
   const BlockOne = props => {
     _s();
     const classes = useStyles();
@@ -50645,7 +50645,7 @@ try {
   var _materialUiCoreHiddenDefault = _parcelHelpers.interopDefault(_materialUiCoreHidden);
   var _materialUiCore = require("@material-ui/core");
   var _storeData = require("../../store/data");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockTwo.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockTwo.js", _s = $RefreshSig$();
   function _extends() {
     _extends = Object.assign || (function (target) {
       for (var i = 1; i < arguments.length; i++) {
@@ -74266,7 +74266,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreSlide = require("@material-ui/core/Slide");
   var _materialUiCoreSlideDefault = _parcelHelpers.interopDefault(_materialUiCoreSlide);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockThree.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockThree.js", _s = $RefreshSig$();
   const BlockThree = props => {
     _s();
     const classes = useStyles();
@@ -74461,7 +74461,7 @@ try {
   require("@material-ui/core");
   var _materialUiCoreAvatar = require("@material-ui/core/Avatar");
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFour.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFour.js", _s = $RefreshSig$();
   const BlockFour = () => {
     _s();
     const classes = useStyles();
@@ -74773,7 +74773,7 @@ try {
   require("@material-ui/core");
   var _storeData = require("../../store/data");
   require("@material-ui/core");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFive.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\LandingPageComponents\\BlockFive.js", _s = $RefreshSig$();
   const BlockFive = props => {
     _s();
     const classes = useStyles();
@@ -74918,7 +74918,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _LandingPageComponentsBlockFour = require('./LandingPageComponents/BlockFour');
   var _LandingPageComponentsBlockFourDefault = _parcelHelpers.interopDefault(_LandingPageComponentsBlockFour);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Keynote.js";
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Keynote.js";
   const Keynote = props => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
@@ -74978,7 +74978,7 @@ try {
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _reactRouterDom = require("react-router-dom");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ContactUs.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\ContactUs.js", _s = $RefreshSig$();
   const ContactUs = props => {
     _s();
     const classes = useStyles();
@@ -75403,7 +75403,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","axios":"7rA65","react-router-dom":"1PMSK"}],"7rA65":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Paper":"5Fj22","@material-ui/core/Divider":"4RdAl","@material-ui/core/Grow":"2wLtl","@material-ui/core/Button":"1Xm5M","@material-ui/core/Hidden":"7CMK2","@material-ui/core":"6DoV9","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/TextField":"2Ywrl","axios":"7rA65","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7rA65":[function(require,module,exports) {
 module.exports = require('./lib/axios');
 },{"./lib/axios":"4qfhW"}],"4qfhW":[function(require,module,exports) {
 'use strict';
@@ -77182,7 +77182,7 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _storeAuthContext = require("../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\SignIn.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\SignIn.js", _s = $RefreshSig$();
   const SignIn = () => {
     _s();
     const classes = useStyles();
@@ -77418,7 +77418,7 @@ try {
   });
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\store\\auth-context.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\store\\auth-context.js", _s = $RefreshSig$();
   const AuthContext = /*#__PURE__*/_reactDefault.default.createContext({
     token: "",
     role: "",
@@ -77509,7 +77509,7 @@ try {
   var _materialUiCoreListItemTextDefault = _parcelHelpers.interopDefault(_materialUiCoreListItemText);
   var _reactRouterDom = require("react-router-dom");
   var _storeData = require("../store/data");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Registration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Registration.js", _s = $RefreshSig$();
   const Registration = props => {
     _s();
     const classes = useStyles();
@@ -77828,7 +77828,7 @@ try {
   var _storeAuthContext = require("../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
   var _reactRouterDom = require("react-router-dom");
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\WorkshopConductorRegistration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\WorkshopConductorRegistration.js", _s = $RefreshSig$();
   const WorkshopConductorRegistration = () => {
     _s();
     const [selectedFile, setSelectedFile] = _react.useState();
@@ -78135,7 +78135,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","axios":"7rA65","react-router-dom":"1PMSK","../../store/auth-context":"8Jk2N"}],"2GTuz":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","axios":"7rA65","../../store/auth-context":"8Jk2N","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"2GTuz":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -78190,7 +78190,7 @@ try {
   var _materialUiIconsAssignmentIndDefault = _parcelHelpers.interopDefault(_materialUiIconsAssignmentInd);
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\ResearchPresenterRegistration.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\ResearchPresenterRegistration.js", _s = $RefreshSig$();
   const ResearchPresenterRegistration = () => {
     _s();
     const [selectedFile, setSelectedFile] = _react.useState();
@@ -78506,7 +78506,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","axios":"7rA65"}],"4cPF6":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","@material-ui/core/Avatar":"OJ7h6","@material-ui/core/Button":"1Xm5M","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/TextField":"2Ywrl","@material-ui/core/FormControlLabel":"4sGMv","@material-ui/core/Checkbox":"3OeYF","@material-ui/core/Link":"7iRxz","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Box":"5C19c","@material-ui/icons/LockOutlined":"2O2pr","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Container":"3NY2X","@material-ui/icons/AssignmentInd":"2GTuz","axios":"7rA65","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"4cPF6":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -78542,7 +78542,7 @@ try {
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   var _storeAuthContext = require("../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\UserRegistration.js", _s2 = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\signUp\\UserRegistration.js", _s2 = $RefreshSig$();
   const UserRegistration = () => {
     _s2();
     var _s = $RefreshSig$();
@@ -78825,7 +78825,7 @@ try {
   var _storeData = require("../store/data");
   var _storeAuthContext = require("../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Workshop.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\Workshop.js", _s = $RefreshSig$();
   const Workshop = props => {
     _s();
     const classes = useStyles();
@@ -80787,7 +80787,7 @@ try {
   var _reactRouterDom = require("react-router-dom");
   var _WorkshopTable = require("./WorkshopTable");
   var _WorkshopTableDefault = _parcelHelpers.interopDefault(_WorkshopTable);
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\AdminDashboard.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\AdminDashboard.js", _s = $RefreshSig$();
   const AdminDashboard = () => {
     _s();
     const classes = useStyles();
@@ -81088,7 +81088,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@material-ui/icons/ExitToApp":"3MuXQ","../../../store/auth-context":"8Jk2N","@material-ui/core":"6DoV9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","./WorkshopTable":"3uc7a"}],"1IYYX":[function(require,module,exports) {
+},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@material-ui/icons/ExitToApp":"3MuXQ","../../../store/auth-context":"8Jk2N","@material-ui/core":"6DoV9","react-router-dom":"1PMSK","./WorkshopTable":"3uc7a","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1IYYX":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81141,7 +81141,7 @@ try {
   var _materialUiIconsHowToVote = require('@material-ui/icons/HowToVote');
   var _materialUiIconsHowToVoteDefault = _parcelHelpers.interopDefault(_materialUiIconsHowToVote);
   require('@material-ui/icons/Assignment');
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\ListItems.js";
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\ListItems.js";
   const mainListItems = /*#__PURE__*/_reactDefault.default.createElement("div", {
     __self: undefined,
     __source: {
@@ -81265,7 +81265,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Edit":"6vamI","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","@material-ui/icons/HowToVote":"5rhP0"}],"5Q3Fn":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Edit":"6vamI","react-router-dom":"1PMSK","@material-ui/icons/HowToVote":"5rhP0","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"5Q3Fn":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81307,27 +81307,6 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 }), 'Edit');
 
 exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3UO7R":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(require("react"));
-
-var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
-}), 'Assignment');
-
-exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"5rhP0":[function(require,module,exports) {
 "use strict";
 
@@ -81347,6 +81326,27 @@ var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
   d: "M18 13h-.68l-2 2h1.91L19 17H5l1.78-2h2.05l-2-2H6l-3 3v4c0 1.1.89 2 1.99 2H19c1.1 0 2-.89 2-2v-4l-3-3zm-1-5.05l-4.95 4.95-3.54-3.54 4.95-4.95L17 7.95zm-4.24-5.66L6.39 8.66c-.39.39-.39 1.02 0 1.41l4.95 4.95c.39.39 1.02.39 1.41 0l6.36-6.36c.39-.39.39-1.02 0-1.41L14.16 2.3c-.38-.4-1.01-.4-1.4-.01z"
 }), 'HowToVote');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3UO7R":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
+}), 'Assignment');
 
 exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3uc7a":[function(require,module,exports) {
@@ -81379,7 +81379,7 @@ try {
   var _axios = require('axios');
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
   require('react-router-dom');
-  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\WorkshopTable.js", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\User\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\WorkshopTable.js", _s = $RefreshSig$();
   function createData(name, calories, fat, carbs, protein) {
     return {
       name,
@@ -81394,16 +81394,39 @@ try {
     _s();
     const classes = useStyles();
     const [proposalDetails, setProposalDetails] = _react.useState([]);
+    const [refresh, setRefresh] = _react.useState(false);
     _react.useEffect(async () => {
       const response = await _axiosDefault.default.get('http://localhost:9090/api/workshop/get-workshop-data');
       console.log(response);
       setProposalDetails(response.data);
-    }, []);
-    const declineHandler = (event, id) => {
+    }, [refresh]);
+    const declineHandler = async (event, id) => {
       event.preventDefault();
+      console.log(id);
+      try {
+        const response = await _axiosDefault.default.delete('http://localhost:9090/api/workshop/workshop-delete', {
+          data: {
+            id: id
+          }
+        });
+        alert('Declien Workshop Proposal Successfully');
+        setRefresh(!refresh);
+      } catch (error) {}
     };
-    const approveHandler = (event, _id) => {
+    const approveHandler = async (event, id) => {
       event.preventDefault();
+      try {
+        const data = {
+          id
+        };
+        const response = await _axiosDefault.default.put(`http://localhost:9090/api/workshop/workshop-approve`, data);
+        console.log(response);
+        alert('Workshop Approved Successfully');
+        setRefresh(!refresh);
+      } catch (error) {
+        alert('Error');
+      }
+      console.log(id);
     };
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableContainerDefault.default, {
@@ -81412,7 +81435,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 71,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableDefault.default, {
@@ -81421,77 +81444,77 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
+          lineNumber: 72,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableHeadDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 73,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableRowDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 74,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 75,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 76,
           columnNumber: 13
         }
       }, "Name"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 77,
           columnNumber: 13
         }
       }, "Title"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 78,
           columnNumber: 13
         }
       }, "Document"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 79,
           columnNumber: 13
         }
       }, "Status"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 80,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 81,
           columnNumber: 13
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableBodyDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 84,
           columnNumber: 9
         }
       }, proposalDetails.map((row, index) => /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableRowDefault.default, {
@@ -81499,7 +81522,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 86,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
@@ -81508,28 +81531,28 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 87,
           columnNumber: 15
         }
       }, index + 1), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68,
+          lineNumber: 90,
           columnNumber: 15
         }
       }, row.name), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 91,
           columnNumber: 15
         }
       }, row.title), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 92,
           columnNumber: 15
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -81538,21 +81561,21 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 92,
           columnNumber: 27
         }
       }, "Download")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 94,
           columnNumber: 15
         }
       }, row.status), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 95,
           columnNumber: 15
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -81564,31 +81587,24 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 95,
           columnNumber: 27
         }
-      }, "Decline")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+      }, "Decline"), " ", /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
         variant: "contained",
         color: "primary",
-        onClick: event => approveHandler(event),
+        onClick: event => approveHandler(event, row._id),
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
-          columnNumber: 27
+          lineNumber: 95,
+          columnNumber: 159
         }
-      }, "Approve")))))))
+      }, "Approve"), " "))))))
     );
   }
   exports.default = WorkshopTable;
-  _s(WorkshopTable, "xAorIrWj/K94Ix62ORe526kU/QQ=", false, function () {
+  _s(WorkshopTable, "CjB/fP4LHmFjKQTSFzZtmIGEWkA=", false, function () {
     return [useStyles];
   });
   _c = WorkshopTable;
@@ -81609,6 +81625,6 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Table":"2hWa6","@material-ui/core/TableBody":"3NuTm","@material-ui/core/TableCell":"5NY9j","@material-ui/core/TableContainer":"7nxDP","@material-ui/core/TableHead":"7r3Ml","@material-ui/core/TableRow":"IN3FY","@material-ui/core/Paper":"5Fj22","@material-ui/core/Button":"1Xm5M","axios":"7rA65","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Table":"2hWa6","@material-ui/core/TableBody":"3NuTm","@material-ui/core/TableCell":"5NY9j","@material-ui/core/TableContainer":"7nxDP","@material-ui/core/TableHead":"7r3Ml","@material-ui/core/TableRow":"IN3FY","@material-ui/core/Paper":"5Fj22","@material-ui/core/Button":"1Xm5M","axios":"7rA65","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
