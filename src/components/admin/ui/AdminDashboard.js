@@ -16,7 +16,8 @@ import { mainListItems, secondaryListItems } from "./ListItems";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import AuthContext from "../../../store/auth-context";
 import { Button } from "@material-ui/core";
-import { Children } from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import WorkshopTable from "./WorkshopTable";
 
 const AdminDashboard = () => {
   const classes = useStyles();
@@ -100,7 +101,12 @@ const AdminDashboard = () => {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
-        {Children}
+
+        <Route
+          exact
+          path="/admin-workshop"
+          component={WorkshopTable}
+        />
       </main>
     </div>
   );

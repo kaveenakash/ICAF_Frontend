@@ -26530,23 +26530,7 @@ try {
           lineNumber: 88,
           columnNumber: 15
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
-        path: "/",
-        component: () => /*#__PURE__*/_reactDefault.default.createElement("h1", {
-          __self: undefined,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 90,
-            columnNumber: 48
-          }
-        }, "Hello"),
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90,
-          columnNumber: 15
-        }
-      }))))))
+      })))))
     );
   };
   _s(App, "zX+81aqW8B/9K/vjzVrY8MPOMvg=");
@@ -80800,7 +80784,9 @@ try {
   var _storeAuthContext = require("../../../store/auth-context");
   var _storeAuthContextDefault = _parcelHelpers.interopDefault(_storeAuthContext);
   var _materialUiCore = require("@material-ui/core");
-  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require("react-router-dom");
+  var _WorkshopTable = require("./WorkshopTable");
+  var _WorkshopTableDefault = _parcelHelpers.interopDefault(_WorkshopTable);
   var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\AdminDashboard.js", _s = $RefreshSig$();
   const AdminDashboard = () => {
     _s();
@@ -80820,7 +80806,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 39,
           columnNumber: 22
         }
       }, _ListItems.secondaryListItems);
@@ -80831,14 +80817,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreCssBaselineDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 44,
           columnNumber: 7
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAppBarDefault.default, {
@@ -80847,7 +80833,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreToolbarDefault.default, {
@@ -80855,7 +80841,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 49,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
@@ -80867,14 +80853,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 50,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsMenuDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 60,
           columnNumber: 13
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
@@ -80886,7 +80872,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 62,
           columnNumber: 11
         }
       }, "ICAF Dashboard"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
@@ -80895,7 +80881,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 71,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreBadgeDefault.default, {
@@ -80904,7 +80890,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71,
+          lineNumber: 72,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCore.Button, {
@@ -80914,7 +80900,7 @@ try {
           __self: undefined,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 75,
+            lineNumber: 76,
             columnNumber: 28
           }
         }),
@@ -80922,7 +80908,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 73,
           columnNumber: 15
         }
       }, "SignOut"))))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDrawerDefault.default, {
@@ -80934,7 +80920,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 85,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -80942,7 +80928,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 92,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreIconButtonDefault.default, {
@@ -80950,35 +80936,35 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 93,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsChevronLeftDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93,
+          lineNumber: 94,
           columnNumber: 13
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96,
+          lineNumber: 97,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97,
+          lineNumber: 98,
           columnNumber: 9
         }
       }, _ListItems.mainListItems), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98,
+          lineNumber: 99,
           columnNumber: 9
         }
       }), extraFunctions), /*#__PURE__*/_reactDefault.default.createElement("main", {
@@ -80986,7 +80972,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 102,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -80994,10 +80980,20 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102,
+          lineNumber: 103,
           columnNumber: 9
         }
-      }), _react.Children))
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/admin-workshop",
+        component: _WorkshopTableDefault.default,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 9
+        }
+      })))
     );
   };
   _s(AdminDashboard, "C4N0MIzP/rw+2ogYlfPa79PFln8=", false, function () {
@@ -81092,7 +81088,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@material-ui/icons/ExitToApp":"3MuXQ","../../../store/auth-context":"8Jk2N","@material-ui/core":"6DoV9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1IYYX":[function(require,module,exports) {
+},{"react":"3b2NM","clsx":"29lTl","@material-ui/core/styles":"1Rdvd","@material-ui/core/CssBaseline":"5UKTZ","@material-ui/core/Drawer":"7l2O8","@material-ui/core/AppBar":"3NZOv","@material-ui/core/Toolbar":"3jiG5","@material-ui/core/List":"5yMsX","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/IconButton":"2ndRy","@material-ui/core/Badge":"5IK52","@material-ui/icons/Menu":"5IEDk","@material-ui/icons/ChevronLeft":"1IYYX","./ListItems":"64DEK","@material-ui/icons/ExitToApp":"3MuXQ","../../../store/auth-context":"8Jk2N","@material-ui/core":"6DoV9","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","./WorkshopTable":"3uc7a"}],"1IYYX":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81141,13 +81137,16 @@ try {
   var _materialUiIconsDashboardDefault = _parcelHelpers.interopDefault(_materialUiIconsDashboard);
   var _materialUiIconsEdit = require('@material-ui/icons/Edit');
   var _materialUiIconsEditDefault = _parcelHelpers.interopDefault(_materialUiIconsEdit);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiIconsHowToVote = require('@material-ui/icons/HowToVote');
+  var _materialUiIconsHowToVoteDefault = _parcelHelpers.interopDefault(_materialUiIconsHowToVote);
   require('@material-ui/icons/Assignment');
   var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\ListItems.js";
   const mainListItems = /*#__PURE__*/_reactDefault.default.createElement("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 13,
       columnNumber: 3
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
@@ -81156,21 +81155,21 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 14,
       columnNumber: 5
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 15,
       columnNumber: 7
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsDashboardDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 16,
       columnNumber: 9
     }
   })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
@@ -81178,7 +81177,39 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
+    button: true,
+    component: _reactRouterDom.Link,
+    to: "/admin-workshop",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsHowToVoteDefault.default, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
+    primary: "Workshop-Details",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
       columnNumber: 7
     }
   })));
@@ -81186,7 +81217,7 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 32,
       columnNumber: 3
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListSubheaderDefault.default, {
@@ -81194,7 +81225,7 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 33,
       columnNumber: 5
     }
   }, "Extra Settings"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemDefault.default, {
@@ -81202,21 +81233,21 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 34,
       columnNumber: 5
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemIconDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 35,
       columnNumber: 7
     }
   }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiIconsEditDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 36,
       columnNumber: 9
     }
   })), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreListItemTextDefault.default, {
@@ -81224,7 +81255,7 @@ try {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 38,
       columnNumber: 7
     }
   })));
@@ -81234,7 +81265,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Edit":"6vamI","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"5Q3Fn":[function(require,module,exports) {
+},{"react":"3b2NM","@material-ui/core/ListItem":"2DNb3","@material-ui/core/ListItemIcon":"5siUZ","@material-ui/core/ListItemText":"7t7nz","@material-ui/core/ListSubheader":"505Dd","@material-ui/icons/Dashboard":"5Q3Fn","@material-ui/icons/Edit":"6vamI","@material-ui/icons/Assignment":"3UO7R","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK","@material-ui/icons/HowToVote":"5rhP0"}],"5Q3Fn":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -81297,6 +81328,287 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 }), 'Assignment');
 
 exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"5rhP0":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M18 13h-.68l-2 2h1.91L19 17H5l1.78-2h2.05l-2-2H6l-3 3v4c0 1.1.89 2 1.99 2H19c1.1 0 2-.89 2-2v-4l-3-3zm-1-5.05l-4.95 4.95-3.54-3.54 4.95-4.95L17 7.95zm-4.24-5.66L6.39 8.66c-.39.39-.39 1.02 0 1.41l4.95 4.95c.39.39 1.02.39 1.41 0l6.36-6.36c.39-.39.39-1.02 0-1.41L14.16 2.3c-.38-.4-1.01-.4-1.4-.01z"
+}), 'HowToVote');
+
+exports.default = _default;
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/interopRequireWildcard":"28En5","react":"3b2NM","./utils/createSvgIcon":"1M7MC"}],"3uc7a":[function(require,module,exports) {
+var helpers = require("../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreStyles = require('@material-ui/core/styles');
+  var _materialUiCoreTable = require('@material-ui/core/Table');
+  var _materialUiCoreTableDefault = _parcelHelpers.interopDefault(_materialUiCoreTable);
+  var _materialUiCoreTableBody = require('@material-ui/core/TableBody');
+  var _materialUiCoreTableBodyDefault = _parcelHelpers.interopDefault(_materialUiCoreTableBody);
+  var _materialUiCoreTableCell = require('@material-ui/core/TableCell');
+  var _materialUiCoreTableCellDefault = _parcelHelpers.interopDefault(_materialUiCoreTableCell);
+  var _materialUiCoreTableContainer = require('@material-ui/core/TableContainer');
+  var _materialUiCoreTableContainerDefault = _parcelHelpers.interopDefault(_materialUiCoreTableContainer);
+  var _materialUiCoreTableHead = require('@material-ui/core/TableHead');
+  var _materialUiCoreTableHeadDefault = _parcelHelpers.interopDefault(_materialUiCoreTableHead);
+  var _materialUiCoreTableRow = require('@material-ui/core/TableRow');
+  var _materialUiCoreTableRowDefault = _parcelHelpers.interopDefault(_materialUiCoreTableRow);
+  var _materialUiCorePaper = require('@material-ui/core/Paper');
+  var _materialUiCorePaperDefault = _parcelHelpers.interopDefault(_materialUiCorePaper);
+  var _materialUiCoreButton = require('@material-ui/core/Button');
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _axios = require('axios');
+  var _axiosDefault = _parcelHelpers.interopDefault(_axios);
+  require('react-router-dom');
+  var _jsxFileName = "C:\\Users\\Bronco\\Desktop\\ICAF\\ICAF_Frontend\\src\\components\\admin\\ui\\WorkshopTable.js", _s = $RefreshSig$();
+  function createData(name, calories, fat, carbs, protein) {
+    return {
+      name,
+      calories,
+      fat,
+      carbs,
+      protein
+    };
+  }
+  const rows = [createData('Frozen yoghurt', 159, 6.0, 24, 4.0), createData('Ice cream sandwich', 237, 9.0, 37, 4.3), createData('Eclair', 262, 16.0, 24, 6.0), createData('Cupcake', 305, 3.7, 67, 4.3), createData('Gingerbread', 356, 16.0, 49, 3.9)];
+  function WorkshopTable() {
+    _s();
+    const classes = useStyles();
+    const [proposalDetails, setProposalDetails] = _react.useState([]);
+    _react.useEffect(async () => {
+      const response = await _axiosDefault.default.get('http://localhost:9090/api/workshop/get-workshop-data');
+      console.log(response);
+      setProposalDetails(response.data);
+    }, []);
+    const declineHandler = (event, id) => {
+      event.preventDefault();
+    };
+    const approveHandler = (event, _id) => {
+      event.preventDefault();
+    };
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableContainerDefault.default, {
+        component: _materialUiCorePaperDefault.default,
+        className: classes.tableContainer,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableDefault.default, {
+        className: classes.table,
+        "aria-label": "simple table",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableHeadDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableRowDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 13
+        }
+      }, "Name"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 13
+        }
+      }, "Title"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 13
+        }
+      }, "Document"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 13
+        }
+      }, "Status"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 13
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableBodyDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 9
+        }
+      }, proposalDetails.map((row, index) => /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableRowDefault.default, {
+        key: row.name,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        component: "th",
+        scope: "row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 15
+        }
+      }, index + 1), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68,
+          columnNumber: 15
+        }
+      }, row.name), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 15
+        }
+      }, row.title), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        href: 'http://localhost:9090/' + row.document,
+        target: "_blank",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 27
+        }
+      }, "Download")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 15
+        }
+      }, row.status), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        style: {
+          backgroundColor: '#F44336'
+        },
+        onClick: event => declineHandler(event, row._id),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 27
+        }
+      }, "Decline")), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTableCellDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "contained",
+        color: "primary",
+        onClick: event => approveHandler(event),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74,
+          columnNumber: 27
+        }
+      }, "Approve")))))))
+    );
+  }
+  exports.default = WorkshopTable;
+  _s(WorkshopTable, "xAorIrWj/K94Ix62ORe526kU/QQ=", false, function () {
+    return [useStyles];
+  });
+  _c = WorkshopTable;
+  const useStyles = _materialUiCoreStyles.makeStyles({
+    table: {
+      minWidth: 650
+    },
+    tableContainer: {
+      marginTop: '3rem',
+      marginLeft: '1rem'
+    }
+  });
+  var _c;
+  $RefreshReg$(_c, "WorkshopTable");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@material-ui/core/styles":"1Rdvd","@material-ui/core/Table":"2hWa6","@material-ui/core/TableBody":"3NuTm","@material-ui/core/TableCell":"5NY9j","@material-ui/core/TableContainer":"7nxDP","@material-ui/core/TableHead":"7r3Ml","@material-ui/core/TableRow":"IN3FY","@material-ui/core/Paper":"5Fj22","@material-ui/core/Button":"1Xm5M","axios":"7rA65","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router-dom":"1PMSK"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
