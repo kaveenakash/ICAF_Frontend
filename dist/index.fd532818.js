@@ -740,9 +740,9 @@ if ("development" !== "production") {
   })();
 }
 
-},{}],"A7H4y":[function(require,module,exports) {
+},{}],"7z73o":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 1234;
+var HMR_PORT = 60152;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "62d5dab885897b04655082d4fd532818";
@@ -81250,54 +81250,105 @@ helpers.prelude(module);
 try {
   var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
   _parcelHelpers.defineInteropFlag(exports);
-  var _react = require('react');
+  var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactRouterDom = require('react-router-dom');
+  var _materialUiCoreStyles = require("@material-ui/core/styles");
+  var _materialUiCoreGrid = require("@material-ui/core/Grid");
+  var _materialUiCoreGridDefault = _parcelHelpers.interopDefault(_materialUiCoreGrid);
   var _materialUiCoreTypography = require("@material-ui/core/Typography");
   var _materialUiCoreTypographyDefault = _parcelHelpers.interopDefault(_materialUiCoreTypography);
-  var _materialUiCoreStyles = require("@material-ui/core/styles");
   var _materialUiCoreDivider = require("@material-ui/core/Divider");
   var _materialUiCoreDividerDefault = _parcelHelpers.interopDefault(_materialUiCoreDivider);
+  require("@material-ui/core/Button");
+  require('@material-ui/core/Card');
+  require('@material-ui/core/CardActions');
+  require('@material-ui/core/CardContent');
   var _jsxFileName = "C:\\Users\\thush\\Desktop\\AF project\\ICAF_Frontend\\src\\components\\presentation\\Presentation.js", _s = $RefreshSig$();
-  function Presentation() {
+  const Presentation = props => {
     _s();
     const classes = useStyles();
+    const history = _reactRouterDom.useHistory();
     return (
-      /*#__PURE__*/_reactDefault.default.createElement("div", {
-        __self: this,
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9,
+          lineNumber: 20,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        className: classes.presentationContainer,
+        direction: "column",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        container: true,
+        alignItems: "center",
+        direction: "column",
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
           columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreTypographyDefault.default, {
         variant: "h4",
-        align: "center",
         className: classes.presentationHeader,
-        __self: this,
+        align: "center",
+        __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10,
-          columnNumber: 14
+          lineNumber: 24,
+          columnNumber: 13
         }
-      }, "Presentation"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
+      }, "PRESENTATION"), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreDividerDefault.default, {
         variant: "middle",
         className: classes.divider,
         light: true,
-        __self: this,
+        __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17,
+          lineNumber: 31,
           columnNumber: 13
         }
-      }))
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreGridDefault.default, {
+        item: true,
+        container: true,
+        justify: "center",
+        className: classes.presentationBodyContainer,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 9
+        }
+      })))
     );
-  }
-  exports.default = Presentation;
-  _s(Presentation, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
-    return [useStyles];
+  };
+  _s(Presentation, "cXZz/rbrhPrjL6gJaTc75NCtuak=", false, function () {
+    return [useStyles, _reactRouterDom.useHistory];
   });
   _c = Presentation;
   const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    presentationContainer: {
+      marginTop: "6rem",
+      marginBottom: "2rem"
+    },
     presentationHeader: {
       fontFamily: "Raleway",
       fontWeight: 800,
@@ -81306,8 +81357,15 @@ try {
     divider: {
       backgroundColor: theme.palette.common.yellow,
       height: "0.2rem"
+    },
+    presentationBodyContainer: {
+      marginTop: theme.spacing(8)
+    },
+    workshopContent: {
+      marginTop: theme.spacing(3)
     }
   }));
+  exports.default = Presentation;
   var _c;
   $RefreshReg$(_c, "Presentation");
   helpers.postlude(module);
@@ -81316,6 +81374,6 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/Typography":"3wcF9","@material-ui/core/styles":"1Rdvd","@material-ui/core/Divider":"4RdAl"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire0de8")
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@material-ui/core/styles":"1Rdvd","@material-ui/core/Button":"1Xm5M","react-router-dom":"1PMSK","@material-ui/core/Grid":"5T6Yd","@material-ui/core/Typography":"3wcF9","@material-ui/core/Divider":"4RdAl","@material-ui/core/Card":"37gLn","@material-ui/core/CardActions":"1bjjB","@material-ui/core/CardContent":"VtMKY"}]},["1j6wU","7z73o","4ee1I"], "4ee1I", "parcelRequire0de8")
 
 //# sourceMappingURL=index.fd532818.js.map
